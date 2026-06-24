@@ -65,10 +65,12 @@ Preserve the original language. Never infer, classify, or invent.
       `section`. Leave `section` blank if the sheet shows no grouping.
 
    c. **Leave everything else blank — do NOT infer.** Never derive a value the sheet
-      doesn't state. In particular, leave `tags` (diet, temperature, weight, season,
-      course, cuisine), `categories`, and `allergens` **blank** unless that exact
-      classification is printed on the sheet — do not deduce "fish dish → fish" or
-      "salad → cold." Likewise leave `cost`, `labor`, `timing`, and `nutrition`
+      doesn't state. In particular, leave the entire `tags` block (temperature,
+      weight, season, course, protein, cooking_method, spice_level, richness, format,
+      cuisine, diet, texture, flavor_profile), `categories`, and `allergens` **blank**
+      unless that exact classification is printed on the sheet — do not deduce "fish
+      dish → fish" or "salad → cold." Those tags are added later by the `recipes-tag`
+      skill, not here. Likewise leave `cost`, `labor`, `timing`, and `nutrition`
       blank unless stated. An empty field is correct; an inferred or fabricated one
       is a bug.
 
@@ -97,19 +99,29 @@ Preserve the original language. Never infer, classify, or invent.
 
 ## Flag format
 
-When `status: flagged`, fill the frontmatter `flag:` field with ONE concise
-paragraph, as a YAML `>-` block scalar, formatted identically every time:
+When `status: flagged`, fill the frontmatter `flag:` field as a YAML `>-` block
+scalar. Write it **to the person who will fix the recipe** — this text is read by a
+human (and may be shown in tools/UI), so make it clear, friendly, and actionable,
+not a terse internal note:
 
-- Plain sentences only — no markdown, no lists, no headings.
-- State each unresolved problem as "`<what is wrong>` — `<what a human must decide
-  or supply>`." Separate multiple problems with a period and a space.
-- Factual and short (1–3 sentences). No fixes, no opinions.
+- Address the reader directly ("you"). Plain language, no jargon.
+- For each issue, say three things: what the sheet shows, why it is unclear or
+  conflicting, and what you would like them to do about it. Where you made a
+  best-effort choice (e.g. transcribed one of several size columns), say so and tell
+  them where the alternatives are (e.g. "the Medium and Grand amounts are in the
+  Notes").
+- State facts, not guesses — describe the problem; do not pick a value for them.
+- Keep it short and concrete. If there are several issues, enumerate them inline
+  ("(1) … (2) …") rather than as one run-on sentence.
 
 ```yaml
 flag: >-
-  Vinaigrette lists Petit/Medium/Grand columns with no marked default, Petit
-  transcribed — confirm the standard size. Salmon teriyaki named in the title is
-  absent from the sheet — source the missing component.
+  A couple of things to confirm before this is good to go. (1) The vinaigrette is
+  given in three sizes (Petit / Medium / Grand) with none marked as the default; I
+  used the Petit column — please confirm that is the right batch size, or switch it
+  (the Medium and Grand amounts are in the Notes). (2) The title says "Saumon
+  Teriyaki," but there is no teriyaki salmon on the sheet — please add the missing
+  component or point me to where its recipe lives.
 ```
 
 ## Rules

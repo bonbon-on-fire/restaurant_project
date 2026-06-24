@@ -13,12 +13,19 @@ barcode:
 
 categories: []
 tags:
-  diet: [gluten-free]
   temperature:
   weight:
   season:
   course: sauce
+  protein:
+  cooking_method:
+  spice_level:
+  richness:
+  format:
   cuisine:
+  diet: [gluten-free]
+  texture: []
+  flavor_profile: []
 
 allergens: [fish]
 

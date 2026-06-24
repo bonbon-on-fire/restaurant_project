@@ -13,12 +13,19 @@ barcode:
 
 categories: []
 tags:
-  diet: []
   temperature:
   weight:
   season:
   course:
+  protein:
+  cooking_method:
+  spice_level:
+  richness:
+  format:
   cuisine:
+  diet: []
+  texture: []
+  flavor_profile: []
 
 allergens: []
 

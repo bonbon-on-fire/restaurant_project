@@ -6,10 +6,12 @@ language: fr
 source: photo
 status: flagged
 flag: >-
-  Bouillon de boeuf végé prints "175 ml" with a handwritten "136 gr" annotation
-  beside it — conflicting quantity and unit, a human must confirm the correct
-  amount. A handwritten "39 Plats" yield note appears at the top — confirm the
-  intended yield.
+  Two things to check before this is good to go. (1) The "Bouillon de boeuf végé"
+  is printed as 175 ml, but there's a handwritten "136 gr" next to it — a different
+  amount and a different unit (millilitres vs grams). Please tell me which is
+  correct and I'll fix the quantity. (2) There's a handwritten "39 Plats" at the
+  top of the sheet that looks like the yield (39 servings) — if that's right,
+  please confirm and I'll add it to the yield.
 created: 2026-06-23
 photo: pot-au-feu.jpg
 item_id: 90056
@@ -17,12 +19,19 @@ barcode:
 
 categories: []
 tags:
-  diet: []
   temperature:
   weight:
   season:
   course:
+  protein:
+  cooking_method:
+  spice_level:
+  richness:
+  format:
   cuisine:
+  diet: []
+  texture: []
+  flavor_profile: []
 
 allergens: []
 

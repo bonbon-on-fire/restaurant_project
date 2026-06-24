@@ -6,11 +6,15 @@ language: fr
 source: photo
 status: flagged
 flag: >-
-  Salmon teriyaki named in the title has no component on the sheet — source the
-  missing teriyaki salmon recipe. Vinaigrette lists Petit/Medium/Grand columns
-  with no marked default, Petit transcribed — confirm the standard size. The sheet
-  holds several components (Chou rouge Marinée, Riz Brun, Vinaigrette, Omelette,
-  Edamame, Mélange de grains) — confirm whether each should be its own file.
+  A few things to sort out before this one is good to go. (1) The title says
+  "Saumon Teriyaki," but there's no teriyaki salmon anywhere on the sheet — please
+  add the missing salmon component or point me to where its recipe lives. (2) The
+  vinaigrette is given in three sizes (Petit / Medium / Grand) with none marked as
+  the default; I used the Petit column — please confirm that's the right batch
+  size, or tell me to switch it (the full Medium and Grand amounts are listed in
+  the Notes). (3) This sheet actually bundles several sub-recipes (marinated red
+  cabbage, brown rice, vinaigrette, omelette, edamame, and a grain mix) — let me
+  know if you'd like each split into its own recipe file.
 created: 2026-06-23
 photo: poke-bol-saumon-teriyaki.jpg
 item_id: 90697
@@ -18,12 +22,19 @@ barcode:
 
 categories: []
 tags:
-  diet: []
   temperature:
   weight:
   season:
   course:
+  protein:
+  cooking_method:
+  spice_level:
+  richness:
+  format:
   cuisine:
+  diet: []
+  texture: []
+  flavor_profile: []
 
 allergens: []
 

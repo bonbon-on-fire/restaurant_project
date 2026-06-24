@@ -6,11 +6,13 @@ language: fr
 source: photo
 status: flagged
 flag: >-
-  Bouillon line prints "Bouillon Végé en poudre Maison" with a handwritten
-  "Poulet" annotation beside it — contradictory, a human must decide whether the
-  stock powder is vegetable or chicken. "Jus des Cannellini" is listed with no
-  quantity (reserved bean liquid) — confirm it is the liquid drained from the
-  Haricots Cannellini.
+  A couple of things to confirm before this is good to go. (1) The stock powder is
+  printed as "Bouillon Végé en poudre Maison," but someone wrote "Poulet" next to
+  it by hand — please tell me which you actually use, the vegetarian powder or
+  chicken, and I'll set the ingredient to match. This also decides whether the soup
+  counts as vegetarian. (2) "Jus des Cannellini" is listed with no amount; it looks
+  like the liquid you drain off the cannellini beans, so please confirm that's what
+  it means and add a quantity if there is one.
 created: 2026-06-23
 photo: soupe-ribollita.jpg
 item_id: 90154
@@ -18,12 +20,19 @@ barcode:
 
 categories: []
 tags:
-  diet: []
   temperature:
   weight:
   season:
   course:
+  protein:
+  cooking_method:
+  spice_level:
+  richness:
+  format:
   cuisine:
+  diet: []
+  texture: []
+  flavor_profile: []
 
 allergens: []
 

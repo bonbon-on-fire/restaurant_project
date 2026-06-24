@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: theme("colors.cream");
+  color: theme("colors.ink");
+}
+
+/* Status pill colors */
+.pill-draft {
+  @apply bg-amber-100 text-amber-800 border border-amber-200;
+}
+.pill-flagged {
+  @apply bg-rose-100 text-rose-800 border border-rose-200;
+}
+.pill-verified {
+  @apply bg-emerald-100 text-emerald-800 border border-emerald-200;
+}
+.pill-archived {
+  @apply bg-stone-200 text-stone-600 border border-stone-300;
+}

@@ -18,20 +18,33 @@ barcode:                  # optional
 # CATEGORIES & TAGS
 #   categories = free-form, the way Zane already labels in Parsley
 #   tags       = our structured taxonomy (powers menu planning + suggestions)
+#   Values are a fixed controlled vocabulary — the recipes-tag skill must pick
+#   from the allowed values below or leave the field blank. The ONE exception is
+#   `cuisine`, which is open: food can come from any cuisine, so pick the closest
+#   listed value or add a new lowercase one if none fit.
 # ============================================================
-categories: []            # e.g. ["Poisson", "Plat principal"]
+categories: []            # free-form, mirror Zane's Parsley labels, e.g. ["Poisson", "Plat principal"]
 tags:
-  diet: []                # veg, vegan, vegetarian, gluten-free, dairy-free, nut-free...
-  temperature:            # warm | cold
-  weight:                 # light | hearty
-  season:                 # spring, summer, fall, winter, all
-  course:                 # appetizer | main | dessert | side | bread | sauce
-  cuisine:                # free text
+  # --- single-value: choose ONE allowed value, or leave blank ---
+  temperature:            # hot | warm | room | cold | frozen
+  weight:                 # light | moderate | hearty
+  season:                 # spring | summer | fall | winter | all
+  course:                 # amuse-bouche | appetizer | soup | salad | main | side | bread | dessert | sauce | snack | beverage
+  protein:                # chicken | turkey | duck | beef | veal | pork | lamb | goat | fish | shellfish | other-seafood | egg | cheese | legume | tofu | tempeh | seitan | plant-substitute | grain | vegetable | mushroom | nut-seed | mixed | none
+  cooking_method:         # raw | cured | marinated | simmered | braised | stewed | boiled | poached | steamed | roasted | baked | grilled | broiled | seared | pan-fried | deep-fried | stir-fried | sauteed | smoked | sous-vide | fermented | pickled | no-cook
+  spice_level:            # none | mild | medium | hot | very-hot
+  richness:               # lean | light | moderate | rich | indulgent
+  format:                 # soup | broth | salad | stew | curry | handheld | plated-main | shareable | side | dip-spread | bowl | skewer | pasta | casserole | baked-good | beverage | sauce-condiment
+  cuisine:                # OPEN list — closest of: french | italian | spanish | greek | mediterranean | middle-eastern | moroccan | north-african | ethiopian | west-african | indian | pakistani | sri-lankan | thai | vietnamese | chinese | japanese | korean | filipino | indonesian | malaysian | mexican | tex-mex | caribbean | brazilian | peruvian | american | southern-us | cajun-creole | british | german | eastern-european | scandinavian | turkish | lebanese | persian | fusion ... or add a new lowercase value
+  # --- multi-value: list zero or more allowed values ---
+  diet: []                # vegan | vegetarian | pescatarian | gluten-free | dairy-free | nut-free | egg-free | soy-free | halal | kosher | low-carb | keto | paleo | high-protein | low-sodium
+  texture: []             # brothy | creamy | smooth | crispy | crunchy | tender | chewy | flaky | chunky | juicy | firm | soft
+  flavor_profile: []      # savory-umami | sweet | sour-acidic | salty | bitter | spicy-hot | smoky | herbaceous | garlicky | nutty | earthy | tangy | buttery | fresh
 
 # ============================================================
 # ALLERGENS  (first-class — safety / liability)
 # ============================================================
-allergens: []             # gluten, dairy, eggs, fish, shellfish, nuts, peanuts, soy, sesame...
+allergens: []             # gluten | wheat | dairy | eggs | fish | shellfish | tree-nuts | peanuts | soy | sesame | mustard | celery | sulphites
 
 # ============================================================
 # SETUP  (Parsley: prep time, shelf life, packout, sub-recipe)
