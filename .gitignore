@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Secrets / env
+.env
+.env.*
+*.local
+
+# Node (for the future web app)
+node_modules/
+dist/
+build/
+*.log
+
+# Python (if used for tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large/binary recipe photos — keep the folders, ignore the images by default.
+# (Comment these out if you want photos version-controlled.)
+data/photos/**/*
+!data/photos/**/.gitkeep
