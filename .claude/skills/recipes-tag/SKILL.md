@@ -1,13 +1,13 @@
 ---
 name: recipes-tag
 description: >-
-  Add structured menu-planning tags to recipe markdown files in data/recipes/.
-  Use when the user wants to tag/classify recipes, fill in the tags block, or
-  "tag the recipes" so the menu planner has data to work with. Reads each recipe's
-  ingredients and instructions and infers controlled-vocabulary tags (protein,
-  course, temperature, spice, richness, diet, allergens, etc.). This is the
-  inference step photos-to-recipes deliberately skips. Does NOT transcribe photos
-  or change a recipe's status folder.
+  Add structured menu-planning tags to the canonical English recipe files in
+  data/recipes/processed/transcribed-en/. Use when the user wants to tag/classify
+  recipes, fill in the tags block, or "tag the recipes" so the menu planner has data
+  to work with. Reads each recipe's ingredients and instructions and infers
+  controlled-vocabulary tags (protein, course, temperature, spice, richness, diet,
+  allergens, etc.). This is the inference step photos-to-recipes/recipes-translate
+  deliberately skip. Does NOT transcribe, translate, or change a recipe's status.
 ---
 
 # Tag recipes for menu planning
@@ -25,20 +25,24 @@ will trust it.
 
 ## Inputs and outputs
 
-- **Input:** existing recipe markdown files in `data/recipes/draft/`,
-  `data/recipes/flagged/`, and `data/recipes/verified/`. **Skip `data/recipes/archived/`.**
+- **Input:** canonical English recipe files in `data/recipes/processed/transcribed-en/`.
+  Process a file only if it has a `status:` field whose value is **not** `archived`.
+  **Skip files with `status: archived`**, and **skip any file with no `status:` field**
+  (an un-promoted husk that `recipes-translate` has not processed yet). Never read or edit
+  the original-language husks in other `transcribed-<lang>/` folders.
 - **Schema:** `data/recipes/_TEMPLATE.md` — the canonical field set and the **allowed
-  values** for every tag. Read it fresh every run; the controlled vocabularies live
-  there and are the source of truth.
-- **Output:** the same files, edited in place. Only ever touch the `tags:` block,
-  `allergens:`, and `categories:`. Never alter `id`, `title`, `status`, ingredients,
-  instructions, or any other field. Never move a file between status folders.
+  values** for every tag. Read it fresh every run; the controlled vocabularies live there
+  and are the source of truth.
+- **Output:** the same `transcribed-en/` files, edited in place. Only ever touch the
+  `tags:` block, `allergens:`, and `categories:`. Never alter `id`, `title`, `status`,
+  ingredients, instructions, or any other field. Never move a file.
 
 ## Procedure
 
-1. **Find work.** List recipe files in `draft/`, `flagged/`, and `verified/`. A recipe
-   "needs tagging" if any tag field is empty. By default process every recipe with
-   empty tag fields; if the user names specific recipes, do only those.
+1. **Find work.** List recipe files in `data/recipes/processed/transcribed-en/`. A recipe
+   "needs tagging" if it has a `status:` field that is not `archived` and any tag field is
+   empty. Skip files without a `status:` field (un-promoted husks). By default process
+   every such recipe; if the user names specific recipes, do only those.
 
 2. **Load the schema.** Read `data/recipes/_TEMPLATE.md` and use the comment after each
    tag field as the **list of allowed values**. You must pick from that list (or leave
@@ -118,8 +122,9 @@ will trust it.
 - **Never overwrite, only fill.** If a tag already has a value (a human may have set
   it), leave it. Fill empty fields only.
 - **Touch tags only.** Never change `id`, `title`, `status`, `created`, ingredients,
-  instructions, or move files between status folders. Tagging never re-files a recipe.
-- **Skip archived.** Only `draft/`, `flagged/`, and `verified/` get tagged.
+  instructions, or move a file. Tagging never re-files a recipe.
+- **Canonical English only.** Tag only files in `transcribed-en/` that have a `status:`
+  field. Skip `status: archived` and skip the original-language husks entirely.
 - **Idempotent.** Re-running only fills still-empty fields, so it is safe to run again
   as new recipes arrive.
 - **Be conservative with safety claims.** Do not assert a restrictive `diet` (vegan,
