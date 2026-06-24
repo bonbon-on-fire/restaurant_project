@@ -5,12 +5,13 @@
 id:                       # kebab-case, unique (e.g. aiglefin-longe-5oz-pesto)
 title:                    # primary recipe name
 description:              # optional
-language:                 # source language (e.g. fr, en, es)
+language: en              # language of THIS canonical file — always en
+original_language:        # source language if translated (e.g. fr); blank/en if originally English
 source: photo             # photo | manual | imported (e.g. from Parsley)
-status: draft             # draft | flagged | verified | archived
+status: draft             # draft | flagged | verified | archived — SOLE record of status (no status folders)
 flag:                     # one-paragraph reason — ONLY when status is flagged
 created:                  # YYYY-MM-DD
-photo:                    # source photo filename in data/photos/
+photo:                    # source photo filename in data/recipes/processed/photos/
 item_id:                  # optional internal item number (Parsley: Item ID)
 barcode:                  # optional
 
