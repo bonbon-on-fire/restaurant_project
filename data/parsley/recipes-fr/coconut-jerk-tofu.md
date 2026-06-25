@@ -1,0 +1,54 @@
+# Tofu Jerk à la noix de coco
+
+- **Parsley recipe ID:** 7802583
+- **Type:** Recipe
+- **Status:** active
+- **Ingredient count:** 45
+
+## Ingredients
+
+- 9 bloc — Tofu (Soyarie) Medium
+- 22 unité — Banane Plantain
+- 220 ml — Huile de Noix de Coco (rawva)
+- 22 ml — Sel de mer fine
+- 11 ml — Poivre noir Organic Connections (moulu)
+- 44 gr — Ail pelé
+- 2 chili — Chili Thaï
+- 135 gr — Huile d'Olive Extra Vierge (Costco) Bluk by cho
+- 90 gr — Crème de palm sauce graine
+- 900 gr — Oignons Jaune (Espagnol)
+- 2.7 kg — Tomates de serre
+- 1.35 kg — Poivrons Jaune
+- 3 chili — Chili Thaï
+- 7.5 ml — Sel de mer fine
+- 800 ml — Lait de noix coco (Earth Choice)
+- 1 tête — Coriandre (feuilles)
+- 180 ml — Jus de Lime
+- 1.5 heure — Temps du Travail Cuisinier
+- 100 ml — Huile d'Olive Extra Vierge (Costco) Bluk by cho
+- 180 ml — Tamari Sans Gluten (San-J)
+- 1 ea — Limes
+- 30 ml — Vinaigre balsamique blanc
+- 60 ml — Ail pelé
+- 38 gr — Gingembre frais (haché)
+- 1.5 sac — Échalotes vert jg
+- 275 gr — Poivrons Orange
+- 18 ml — Sauce Scotch bonnet (Grace)
+- 11 ml — Fumée Liquide
+- 45 ml — Thym  entier sec
+- 22.5 ml — Épices Jamaique moulu
+- 7.5 ml — Muscade moulu
+- 4 ml — Feuilles de Laurier sèches (moulues)
+- 8 ml — Sel de mer fine
+- 4 ml — Poivre noir Organic Connections (moulu)
+- 65 ml — Huile d'Olive Extra Vierge (Costco) Bluk by cho
+- 32.5 ml — Huile de Noix de Coco DÉZODORISÉ
+- 640 gr — Oignons Jaune (Espagnol)
+- 26 gr — Ail pelé
+- 8 ml — Curcuma moulu
+- 16 ml — Sel de mer fine
+- 2 ml — Poivre noir Organic Connections (moulu)
+- 1071 gr — Semoule de Manioc
+- 32.5 ml — Bouillon de Poulet Végé sans gluten (Maison)
+- 1071 gr — Eau
+- 85 gr — Persil Frais

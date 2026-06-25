@@ -1,0 +1,57 @@
+# Tofu Makhani
+
+- **Parsley recipe ID:** 6986501
+- **Type:** Recipe
+- **Status:** active
+- **Ingredient count:** 48
+
+## Ingredients
+
+- 120 gr — Beurre Végé (Earth Balance)
+- 1 ea — Bâton de Cannelle (Cha's)
+- 5 ml — Cardamom Entières
+- 4 ea — Clou de Girofle
+- 855 gr — Oignons Jaune (Espagnol)
+- 30 gr — Ail pelé
+- 15 gr — Gingembre frais (haché)
+- 0.5 piment — Piment fort Scotch Bonnet (frais)
+- 45 ml — Concentré de Tomates /Paste Menu
+- 288 gr — Noix de Cajous rôtis n/s
+- 320 ml — Eau
+- 738 gr — Tomates Broyées 2.84L
+- 21 ml — Garam Massala Maison
+- 21 ml — Chili en poudre (mélange standard)
+- 5 ml — Cardamom (Moulue)
+- 10 ml — Cumin Moulu
+- 5 ml — Curcuma moulu
+- 2.5 ml — Feuilles de Laurier sèches (moulues)
+- 1.25 ml — Anise Étoiles
+- 4 ml — Poivre noir Organic Connections (moulu)
+- 15 ml — Feuilles de Fenugrec (séchées)
+- 15 ml — Sel de mer fine
+- 43 gr — Sucre de canne
+- 680 ml — Lait de noix coco (Earth Choice)
+- 342 ml — Crème de noix de Coco (Earth's Choice)
+- 641 gr — Yogourt Végane Nature (Riviera)
+- 1.735 kg — Riz basmati
+- 30 ml — Sel de mer fine
+- 100 gr — Raisin Corinthe
+- 1 ea — Bâton de Cannelle (Cha's)
+- 3.375 liter — Eau
+- 1 tête — Coriandre (feuilles)
+- 10 bloc — Tofu (Horium 454 gr)
+- 80.96 gr — Bouillon de Poulet Végé sans gluten (Maison)
+- 7.5 ml — Fumée Liquide
+- 1.25 ml — Sel de mer fine
+- 26 gr — Levure Alimentaire (poudre)
+- 340 gr — Flocons Maïs (Natures Path)
+- 400 gr — Chapelure Sans Gluten
+- 25 ml — Sel de mer fine
+- 25 ml — Poudre d'oignon
+- 25 ml — Poudre d'ail
+- 12.5 ml — Poivre blanc moulu
+- 3 ml — Paprika Fumée
+- 13 ml — Épices Rub de Montréal (Épices de Cru)
+- 6.25 ml — Piments Chipotle secs
+- 45 ml — Substitue Oeufs (Bobs Redmill)
+- 1.3 heure — Temps du Travail Cuisinier

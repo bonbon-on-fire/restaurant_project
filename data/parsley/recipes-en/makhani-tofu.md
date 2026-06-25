@@ -1,0 +1,57 @@
+# Makhani Tofu
+
+- **Parsley recipe ID:** 6986501
+- **Type:** Recipe
+- **Status:** active
+- **Ingredient count:** 48
+
+## Ingredients
+
+- 120 gr — Vegan butter (Earth Balance)
+- 1 ea — Cinnamon stick (Cha's)
+- 5 ml — Whole cardamom
+- 4 ea — Cloves
+- 855 gr — Yellow onions (Spanish)
+- 30 gr — Peeled garlic
+- 15 gr — Fresh Ginger (minced)
+- 0.5 pepper — Hot Scotch Bonnet pepper (fresh)
+- 45 ml — Tomato concentrate / Paste Menu
+- 288 gr — Roasted cashews n/s
+- 320 ml — Water
+- 738 gr — Crushed Tomatoes 2.84L
+- 21 ml — Homemade Garam Massala
+- 21 ml — Chili powder (standard blend)
+- 5 ml — Cardamom (ground)
+- 10 ml — Ground cumin
+- 5 ml — Ground turmeric
+- 2.5 ml — Dried Bay Leaves (ground)
+- 1.25 ml — Star anise
+- 4 ml — Black pepper Organic Connections (ground)
+- 15 ml — Fenugreek Leaves (dried)
+- 15 ml — Fine Sea Salt
+- 43 gr — Cane Sugar
+- 680 ml — Coconut Milk (Earth Choice)
+- 342 ml — Coconut cream (Earth's Choice)
+- 641 gr — Plain Vegan Yogurt (Riviera)
+- 1.735 kg — Basmati Rice
+- 30 ml — Fine Sea Salt
+- 100 gr — Currants
+- 1 ea — Cinnamon stick (Cha's)
+- 3.375 liter — Water
+- 1 head — Coriander (leaves)
+- 10 block — Tofu (Horium 454 gr)
+- 80.96 gr — Vegan chicken broth gluten-free (homemade)
+- 7.5 ml — Liquid Smoke
+- 1.25 ml — Fine Sea Salt
+- 26 gr — Nutritional Yeast (powder)
+- 340 gr — Corn Flakes (Natures Path)
+- 400 gr — Gluten-free breadcrumbs
+- 25 ml — Fine Sea Salt
+- 25 ml — Onion powder
+- 25 ml — Garlic powder
+- 12.5 ml — Ground white pepper
+- 3 ml — Smoked paprika
+- 13 ml — Montreal Rub Spices (Épices de Cru)
+- 6.25 ml — Dried chipotle peppers
+- 45 ml — Egg Substitute (Bobs Redmill)
+- 1.3 hour — Cook Labor Time

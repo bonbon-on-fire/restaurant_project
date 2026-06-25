@@ -1,0 +1,56 @@
+# Poké bol au saumon Teryiaki
+
+- **Parsley recipe ID:** 5737370
+- **Type:** Recipe
+- **Status:** active
+- **Ingredient count:** 47
+
+## Ingredients
+
+- 1 kg — Chou Rouge
+- 22 gr — Gingembre frais (haché)
+- 10 gr — Piments Finger long
+- 6 gr — Chili Thaï
+- 5 gr — Kombu
+- 275 ml — Vinaigre de Riz
+- 85 gr — Sucre de canne
+- 15 gr — Sel de mer fine
+- 44 gr — Huile de Sésame (Orphé)
+- 25 gr — Tamari Sans Gluten (San-J)
+- 1.6 kg — Riz Brune court (Calrose)
+- 200 ml — Vinaigre de Riz
+- 80 ml — Sucre de canne
+- 20 ml — Sel de mer fine
+- 18 ea — Oeufs
+- 50 ml — Mirin
+- 2 ml — Sel de mer fine
+- 15 ml — Graine de Sésame Noir décortiquées
+- 5 sheets — Nori en feuilles
+- 227 ml — Huile de Sésame (Orphé)
+- 133 ml — Huile de Pépins Raisin
+- 17 ml — Huile de Sésame Grillé (Orphé)
+- 90 ml — Tamari Sans Gluten (San-J)
+- 116 ml — Mayonnaise
+- 100 ml — Vinaigre de Riz
+- 60 ml — Mirin
+- 17 ml — Sucre de palme liquide (por kwan)
+- 1 sheets — Nori en feuilles
+- 13 ml — Wasabi en poudre
+- 12 gr — Échalotes verts l'EV
+- 2.5 ml — Épices Shichimi Togarashi
+- 600 gr — Edamame
+- 103 ml — Graines de citrouille (chine)
+- 60 ml — Graine de Sésame Noir décortiquées
+- 40 ml — Flocon Nori
+- 26 filet — Saumon 4oz Portion 113gr  (highliner)
+- 60 ml — Tamari Sans Gluten (San-J)
+- 60 ml — Mirin
+- 45 ml — Miel Jardins d'abeilles (Trefle)
+- 50 ml — Huile de Sésame (Orphé)
+- 585 ml — Sake
+- 260 ml — Tamari Sans Gluten (San-J)
+- 156 ml — Mirin
+- 156 ml — Miel Jardins d'abeilles (Trefle)
+- 33 gr — Gingembre frais (haché)
+- 5 ml — Poivre blanc moulu
+- 4 heure — Temps du Travail Cuisinier

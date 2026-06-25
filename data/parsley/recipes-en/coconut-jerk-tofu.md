@@ -1,0 +1,54 @@
+# Coconut Jerk Tofu
+
+- **Parsley recipe ID:** 7802583
+- **Type:** Recipe
+- **Status:** active
+- **Ingredient count:** 45
+
+## Ingredients
+
+- 9 block — Tofu (Soyarie) Medium
+- 22 unit — Plantain banana
+- 220 ml — Coconut Oil (rawva)
+- 22 ml — Fine Sea Salt
+- 11 ml — Black pepper Organic Connections (ground)
+- 44 gr — Peeled garlic
+- 2 chili — Thai chili
+- 135 gr — Extra Virgin Olive Oil (Costco) Bluk by cho
+- 90 gr — Palm cream seed sauce
+- 900 gr — Yellow onions (Spanish)
+- 2.7 kg — Greenhouse Tomatoes
+- 1.35 kg — Yellow bell peppers
+- 3 chili — Thai chili
+- 7.5 ml — Fine Sea Salt
+- 800 ml — Coconut Milk (Earth Choice)
+- 1 head — Coriander (leaves)
+- 180 ml — Lime Juice
+- 1.5 hour — Cook Labor Time
+- 100 ml — Extra Virgin Olive Oil (Costco) Bluk by cho
+- 180 ml — Tamari Gluten-Free (San-J)
+- 1 ea — Limes
+- 30 ml — White Balsamic Vinegar
+- 60 ml — Peeled garlic
+- 38 gr — Fresh Ginger (minced)
+- 1.5 bag — Green Onions jg
+- 275 gr — Orange bell peppers
+- 18 ml — Scotch Bonnet Sauce (Grace)
+- 11 ml — Liquid Smoke
+- 45 ml — Whole Dried Thyme
+- 22.5 ml — Ground Jamaican Spices
+- 7.5 ml — Ground nutmeg
+- 4 ml — Dried Bay Leaves (ground)
+- 8 ml — Fine Sea Salt
+- 4 ml — Black pepper Organic Connections (ground)
+- 65 ml — Extra Virgin Olive Oil (Costco) Bluk by cho
+- 32.5 ml — Deodorized Coconut Oil
+- 640 gr — Yellow onions (Spanish)
+- 26 gr — Peeled garlic
+- 8 ml — Ground turmeric
+- 16 ml — Fine Sea Salt
+- 2 ml — Black pepper Organic Connections (ground)
+- 1071 gr — Cassava Semolina
+- 32.5 ml — Vegan chicken broth gluten-free (homemade)
+- 1071 gr — Water
+- 85 gr — Fresh parsley
