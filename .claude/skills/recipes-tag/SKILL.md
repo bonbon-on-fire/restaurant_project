@@ -6,7 +6,7 @@ description: >-
   recipes, fill in the tags block, or "tag the recipes" so the menu planner has data
   to work with. Reads each recipe's ingredients and instructions and infers
   controlled-vocabulary tags (protein, course, temperature, spice, richness, diet,
-  allergens, etc.). This is the inference step photos-to-recipes/recipes-translate
+  allergens, etc.). This is the inference step recipes-digitize/recipes-translate
   deliberately skip. Does NOT transcribe, translate, or change a recipe's status.
 ---
 
@@ -14,11 +14,11 @@ description: >-
 
 Fill the `tags`, `allergens`, and `categories` fields of existing recipe files by
 **reasoning from the recipe's own content** — its ingredients and instructions. The
-`photos-to-recipes` skill transcribes recipes but leaves every classification blank
+`recipes-digitize` skill transcribes recipes but leaves every classification blank
 on purpose; this skill is the later step that adds them, so a menu planner can later
 build balanced menus (no three creamy braises in a row, no all-chicken meal).
 
-Unlike `photos-to-recipes`, this skill **must infer** — that is its whole job. But it
+Unlike `recipes-digitize`, this skill **must infer** — that is its whole job. But it
 infers carefully: **tag only what you are confident about, and leave the rest blank.**
 A blank field is correct; a wrong tag is worse than no tag because the menu planner
 will trust it.

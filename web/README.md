@@ -2,7 +2,7 @@
 
 A small Next.js app to **browse**, **create**, and **digitize** the kitchen's recipes.
 It reads and writes the markdown files in the repo's top-level `../data/` folder — the
-same files the `photos-to-recipes` skill produces — so the website and the skills share
+same files the `recipes-digitize` skill produces — so the website and the skills share
 one source of truth.
 
 ## What it does

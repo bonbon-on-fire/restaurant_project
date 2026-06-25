@@ -33,7 +33,7 @@ Platform: web app. Keep costs low everywhere except OCR accuracy.
 
 | Path | What |
 |------|------|
-| `.claude/skills/` | Claude skills (starting with `photos-to-recipes`) |
+| `.claude/skills/` | Claude skills (starting with `recipes-digitize`) |
 | `data/photos/inbox/` | Recipe photos waiting to be digitized |
 | `data/photos/done/` | Photos successfully turned into a recipe |
 | `data/photos/flagged/` | Photos the skill wasn't confident about — need a human |

@@ -1,8 +1,8 @@
 ---
 name: recipe-pipeline
 description: >-
-  End-to-end pipeline for a single recipe photo. Runs the photos-rename,
-  photos-to-recipes, recipes-translate, and recipes-tag skills in succession on one
+  End-to-end pipeline for a single recipe photo. Runs the recipes-photos-rename,
+  recipes-digitize, recipes-translate, and recipes-tag skills in succession on one
   selected photo so a raw inbox image becomes a fully named, transcribed, translated, and
   tagged recipe in one call. Use when the user points at a specific photo (or "the photo")
   and wants it taken all the way from inbox to a tagged English recipe without invoking the
@@ -16,10 +16,10 @@ You take **one selected recipe photo** from raw inbox image to a fully named, tr
 translated, and tagged recipe by running four existing skills back-to-back, in this exact
 order, in a single invocation:
 
-1. **`photos-rename`** — give the photo a kebab-case **English** filename derived from its
+1. **`recipes-photos-rename`** — give the photo a kebab-case **English** filename derived from its
    recipe title (translating the title when the dish name is not English), in place in
    `data/recipes/inbox/`.
-2. **`photos-to-recipes`** — transcribe the (now correctly named) photo into an
+2. **`recipes-digitize`** — transcribe the (now correctly named) photo into an
    original-language **husk** markdown file under
    `data/recipes/processed/transcribed-<lang>/`, and move the photo to
    `data/recipes/processed/photos/`.
@@ -54,12 +54,12 @@ that the photo's **filename changes** after step 1 and the photo **moves out of 
 during step 2 — track the current name/location as you go. The recipe id is the English
 filename stem from step 1.
 
-1. **Rename.** Invoke the `photos-rename` skill, scoped to the target photo. Record the new
+1. **Rename.** Invoke the `recipes-photos-rename` skill, scoped to the target photo. Record the new
    English filename (the kebab-case stem becomes the recipe's id). If rename **skips** the
    photo (illegible/blurry/no readable title), the downstream steps will also struggle —
    report that and stop; do not push a bad photo through transcription.
 
-2. **Transcribe.** Invoke the `photos-to-recipes` skill on the renamed photo. Note the husk
+2. **Transcribe.** Invoke the `recipes-digitize` skill on the renamed photo. Note the husk
    it produced and its `transcribed-<lang>/<id>.md` location (the `<lang>` tells you the
    source language), and that the photo moved to `data/recipes/processed/photos/`. Carry the
    husk path and id forward.
@@ -86,7 +86,7 @@ filename stem from step 1.
   four skills. Do not fan out across the whole inbox.
 - **Strict order, no skipping.** Always rename → transcribe → translate → tag. Each step's
   output is the next step's input.
-- **Stop on a hard block.** If `photos-rename` can't read a title, or `photos-to-recipes`
+- **Stop on a hard block.** If `recipes-photos-rename` can't read a title, or `recipes-digitize`
   can't transcribe at all, stop and report — don't fabricate a name or a recipe to keep the
   chain going. A `flagged` recipe is fine to continue through translation and tagging; a
   total failure is not.

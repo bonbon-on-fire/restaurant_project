@@ -4,7 +4,7 @@
 
 **Goal:** Rework the recipe-digitization skills so photos flow `inbox → processed/photos` with English names, recipes are transcribed as original-language "husks" then translated into a canonical English file, and lifecycle status lives in a frontmatter field instead of a folder.
 
-**Architecture:** Two templates (`_TEMPLATE.md` full + new `_TEMPLATE_HUSK.md` content-only) and four skills chained by the `recipe-pipeline` agent: `photos-rename → photos-to-recipes → recipes-translate → recipes-tag`. Folders become language-based (`transcribed-en/`, `transcribed-<lang>/`); status (`draft|flagged|verified|archived`) is a field on the canonical English file only.
+**Architecture:** Two templates (`_TEMPLATE.md` full + new `_TEMPLATE_HUSK.md` content-only) and four skills chained by the `recipe-pipeline` agent: `recipes-photos-rename → recipes-digitize → recipes-translate → recipes-tag`. Folders become language-based (`transcribed-en/`, `transcribed-<lang>/`); status (`draft|flagged|verified|archived`) is a field on the canonical English file only.
 
 **Tech Stack:** Markdown skill/agent files with YAML frontmatter (Claude Code skills under `.claude/skills/`, agent under `.claude/agents/`) and recipe template files under `data/recipes/`. No code, no test runner — each task is verified by inspection plus `rg` (ripgrep) checks that old paths are gone and new ones are present.
 
@@ -13,10 +13,10 @@
 - Spec: `docs/superpowers/specs/2026-06-24-recipe-pipeline-restructure-design.md` — the source of truth; copy its decisions verbatim.
 - Canonical folder names (exact spelling): `data/recipes/inbox/`, `data/recipes/processed/photos/`, `data/recipes/processed/transcribed-en/`, `data/recipes/processed/transcribed-<lang>/`. Never write the typo `transcibed`.
 - Status values exactly: `draft | flagged | verified | archived`. Status lives ONLY on the canonical `transcribed-en/` file's `status:` field. No folder encodes status.
-- The original-language husk is a pure reference: minimal frontmatter (`id`, `language`) + recipe content only. No `status`, no `tags`, no operational metadata. The one exception is a temporary `flag:` set by `photos-to-recipes` and removed by `recipes-translate`.
+- The original-language husk is a pure reference: minimal frontmatter (`id`, `language`) + recipe content only. No `status`, no `tags`, no operational metadata. The one exception is a temporary `flag:` set by `recipes-digitize` and removed by `recipes-translate`.
 - Tags are written ONLY on the `transcribed-en/` file. `recipes-tag` never touches a husk.
 - Out of scope: migrating existing photos/recipes, deleting old `data/photos/` and old status folders, renaming the pre-existing `transcibed-en` typo folder. Skills/agent/templates only.
-- Pipeline order is fixed: `photos-rename → photos-to-recipes → recipes-translate → recipes-tag`.
+- Pipeline order is fixed: `recipes-photos-rename → recipes-digitize → recipes-translate → recipes-tag`.
 
 ---
 
@@ -27,7 +27,7 @@
 
 **Interfaces:**
 - Consumes: nothing.
-- Produces: the husk schema referenced by `photos-to-recipes` (writes it) and `recipes-translate` (reads it). Husk frontmatter keys: `id`, `title`, `language`, `flag` (optional), `yield` (`portions`/`batches`/`portion_size`), `ingredients[]` (`name`/`section`/`qty`/`unit`/`preparation`). Body sections: `## Ingredients`, `## Instructions`, `## Notes`.
+- Produces: the husk schema referenced by `recipes-digitize` (writes it) and `recipes-translate` (reads it). Husk frontmatter keys: `id`, `title`, `language`, `flag` (optional), `yield` (`portions`/`batches`/`portion_size`), `ingredients[]` (`name`/`section`/`qty`/`unit`/`preparation`). Body sections: `## Ingredients`, `## Instructions`, `## Notes`.
 
 - [ ] **Step 1: Write the husk template file**
 
@@ -37,7 +37,7 @@ Create `data/recipes/_TEMPLATE_HUSK.md` with exactly this content:
 ---
 # ============================================================
 # HUSK — pure transcription, original language, recipe content ONLY.
-# Produced by photos-to-recipes. Promoted to the full _TEMPLATE.md
+# Produced by recipes-digitize. Promoted to the full _TEMPLATE.md
 # (English, with status + tags) by recipes-translate.
 # NO status, tags, categories, allergens, cost, labor, timing, or
 # nutrition fields belong here. `flag` is temporary (set on an
@@ -156,10 +156,10 @@ git commit -m "feat: add original_language to full recipe template; status is so
 
 ---
 
-### Task 3: Update the `photos-rename` skill (English names, new inbox path)
+### Task 3: Update the `recipes-photos-rename` skill (English names, new inbox path)
 
 **Files:**
-- Modify: `.claude/skills/photos-rename/SKILL.md` (whole file)
+- Modify: `.claude/skills/recipes-photos-rename/SKILL.md` (whole file)
 
 **Interfaces:**
 - Consumes: photos in `data/recipes/inbox/`.
@@ -167,18 +167,18 @@ git commit -m "feat: add original_language to full recipe template; status is so
 
 - [ ] **Step 1: Replace the skill file**
 
-Overwrite `.claude/skills/photos-rename/SKILL.md` with exactly this content:
+Overwrite `.claude/skills/recipes-photos-rename/SKILL.md` with exactly this content:
 
 ```markdown
 ---
-name: photos-rename
+name: recipes-photos-rename
 description: >-
   Rename recipe photos in data/recipes/inbox/ to match the recipe on each sheet, using
   an English name. Use when the user wants to rename/clean up photo filenames, or asks
   to "rename the photos" / "name the photos by recipe". Reads each image, derives a
   kebab-case English name from the recipe title (translating the title to English when
   needed), and renames the file in place. Does NOT create recipe files (that is the
-  photos-to-recipes skill).
+  recipes-digitize skill).
 ---
 
 # Rename photos by recipe (English names)
@@ -191,7 +191,7 @@ recipe database or move photos out of `inbox/`.
 ## Naming convention
 
 `<kebab-case English recipe title><original extension>` — the same id form
-`photos-to-recipes` uses, so a photo and its future recipe file share a stem.
+`recipes-digitize` uses, so a photo and its future recipe file share a stem.
 
 To build the name from the title:
 - start from the dish title printed on the sheet,
@@ -240,7 +240,7 @@ Examples: "Sauce au Pétoncles et Crevettes" → `scallop-shrimp-sauce.jpg`;
   move photos out of `inbox/`.
 - **English names.** Always express the filename in English, translating the dish title
   when the sheet is in another language. The original-language title is preserved later
-  by `photos-to-recipes` in the husk transcription, not here.
+  by `recipes-digitize` in the husk transcription, not here.
 - **Never overwrite.** If two photos resolve to the same name, de-duplicate with a
   numeric suffix — never clobber an existing file.
 - **Title comes from the photo.** Derive the name only from the recipe title printed on
@@ -250,27 +250,27 @@ Examples: "Sauce au Pétoncles et Crevettes" → `scallop-shrimp-sauce.jpg`;
 
 - [ ] **Step 2: Verify the new inbox path and English-naming language are present**
 
-Run: `rg -n 'data/recipes/inbox/|translate it to English|English names' .claude/skills/photos-rename/SKILL.md`
+Run: `rg -n 'data/recipes/inbox/|translate it to English|English names' .claude/skills/recipes-photos-rename/SKILL.md`
 Expected: multiple matches (at least the inbox path, the translation bullet, and the rule).
 
 - [ ] **Step 3: Verify no stale `data/photos/` path remains**
 
-Run: `rg -n 'data/photos/' .claude/skills/photos-rename/SKILL.md`
+Run: `rg -n 'data/photos/' .claude/skills/recipes-photos-rename/SKILL.md`
 Expected: no matches (exit code 1).
 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add .claude/skills/photos-rename/SKILL.md
-git commit -m "feat!: photos-rename uses data/recipes/inbox and English names"
+git add .claude/skills/recipes-photos-rename/SKILL.md
+git commit -m "feat!: recipes-photos-rename uses data/recipes/inbox and English names"
 ```
 
 ---
 
-### Task 4: Update the `photos-to-recipes` skill (husk output, new paths)
+### Task 4: Update the `recipes-digitize` skill (husk output, new paths)
 
 **Files:**
-- Modify: `.claude/skills/photos-to-recipes/SKILL.md` (whole file)
+- Modify: `.claude/skills/recipes-digitize/SKILL.md` (whole file)
 
 **Interfaces:**
 - Consumes: English-named photos in `data/recipes/inbox/`; the husk schema `data/recipes/_TEMPLATE_HUSK.md` (Task 1).
@@ -278,11 +278,11 @@ git commit -m "feat!: photos-rename uses data/recipes/inbox and English names"
 
 - [ ] **Step 1: Replace the skill file**
 
-Overwrite `.claude/skills/photos-to-recipes/SKILL.md` with exactly this content:
+Overwrite `.claude/skills/recipes-digitize/SKILL.md` with exactly this content:
 
 ```markdown
 ---
-name: photos-to-recipes
+name: recipes-digitize
 description: >-
   Transcribe photos of paper recipes into structured "husk" markdown files in their
   original language. Use when the user wants to digitize recipe photos, process the
@@ -304,7 +304,7 @@ classification happen later (`recipes-translate`, then `recipes-tag`).
 ## Inputs and outputs
 
 - **Input:** image files in `data/recipes/inbox/` (jpg, jpeg, png, heic, webp). These
-  should already be named in English by the `photos-rename` skill; the filename stem is
+  should already be named in English by the `recipes-photos-rename` skill; the filename stem is
   the recipe id.
 - **Recipe format:** `data/recipes/_TEMPLATE_HUSK.md` — the husk schema (recipe content
   only). Read it fresh every run so output stays in sync if the template changes.
@@ -335,7 +335,7 @@ classification happen later (`recipes-translate`, then `recipes-tag`).
       husk's `language` field and the `transcribed-<lang>/` output folder.
 
    c. **Map onto the husk template — transcription only.** Set:
-      - `id`: the filename stem (kebab-case English name from `photos-rename`). The id
+      - `id`: the filename stem (kebab-case English name from `recipes-photos-rename`). The id
         must be unique across **all** `transcribed-*` folders — if `<id>.md` already
         exists in any of them for a different recipe, append `-2`, `-3`, … so nothing is
         overwritten.
@@ -423,19 +423,19 @@ flag: >-
 
 - [ ] **Step 2: Verify new paths, husk template reference, and absence of status**
 
-Run: `rg -n '_TEMPLATE_HUSK.md|transcribed-<lang>/|processed/photos/|data/recipes/inbox/' .claude/skills/photos-to-recipes/SKILL.md`
+Run: `rg -n '_TEMPLATE_HUSK.md|transcribed-<lang>/|processed/photos/|data/recipes/inbox/' .claude/skills/recipes-digitize/SKILL.md`
 Expected: multiple matches covering the husk template, the output folder pattern, the photo destination, and the inbox.
 
 - [ ] **Step 3: Verify no stale paths or status-folder language remain**
 
-Run: `rg -n 'data/photos/|data/recipes/draft/|data/recipes/flagged/|status: draft' .claude/skills/photos-to-recipes/SKILL.md`
+Run: `rg -n 'data/photos/|data/recipes/draft/|data/recipes/flagged/|status: draft' .claude/skills/recipes-digitize/SKILL.md`
 Expected: no matches (exit code 1). The skill must not reference old photo folders, old recipe status folders, or set a status.
 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add .claude/skills/photos-to-recipes/SKILL.md
-git commit -m "feat!: photos-to-recipes writes original-language husks, no status/tags"
+git add .claude/skills/recipes-digitize/SKILL.md
+git commit -m "feat!: recipes-digitize writes original-language husks, no status/tags"
 ```
 
 ---
@@ -468,7 +468,7 @@ description: >-
 # Translate husks → canonical English recipes
 
 Turn each original-language husk into the project's canonical English recipe file. The
-`photos-to-recipes` skill produces husks (pure transcription, original language); this
+`recipes-digitize` skill produces husks (pure transcription, original language); this
 skill translates them to English and promotes them to the full recipe schema, adding the
 metadata scaffolding (status, plus blank tag/cost/etc. fields) that later steps fill.
 
@@ -592,7 +592,7 @@ description: >-
   "tag the recipes" so the menu planner has data to work with. Reads each recipe's
   ingredients and instructions and infers controlled-vocabulary tags (protein,
   course, temperature, spice, richness, diet, allergens, etc.). This is the
-  inference step photos-to-recipes deliberately skips. Does NOT transcribe photos
+  inference step recipes-digitize deliberately skips. Does NOT transcribe photos
   or change a recipe's status folder.
 ```
 
@@ -605,7 +605,7 @@ description: >-
   recipes, fill in the tags block, or "tag the recipes" so the menu planner has data
   to work with. Reads each recipe's ingredients and instructions and infers
   controlled-vocabulary tags (protein, course, temperature, spice, richness, diet,
-  allergens, etc.). This is the inference step photos-to-recipes/recipes-translate
+  allergens, etc.). This is the inference step recipes-digitize/recipes-translate
   deliberately skip. Does NOT transcribe, translate, or change a recipe's status.
 ```
 
@@ -704,7 +704,7 @@ git commit -m "feat!: recipes-tag reads transcribed-en and filters by status fie
 
 **Interfaces:**
 - Consumes: a single photo in `data/recipes/inbox/`.
-- Produces: orchestrates `photos-rename → photos-to-recipes → recipes-translate → recipes-tag` on that one photo, threading the result of each into the next.
+- Produces: orchestrates `recipes-photos-rename → recipes-digitize → recipes-translate → recipes-tag` on that one photo, threading the result of each into the next.
 
 - [ ] **Step 1: Replace the agent file**
 
@@ -714,8 +714,8 @@ Overwrite `.claude/agents/recipe-pipeline.md` with exactly this content:
 ---
 name: recipe-pipeline
 description: >-
-  End-to-end pipeline for a single recipe photo. Runs the photos-rename,
-  photos-to-recipes, recipes-translate, and recipes-tag skills in succession on one
+  End-to-end pipeline for a single recipe photo. Runs the recipes-photos-rename,
+  recipes-digitize, recipes-translate, and recipes-tag skills in succession on one
   selected photo so a raw inbox image becomes a fully named, transcribed, translated, and
   tagged recipe in one call. Use when the user points at a specific photo (or "the photo")
   and wants it taken all the way from inbox to a tagged English recipe without invoking the
@@ -729,10 +729,10 @@ You take **one selected recipe photo** from raw inbox image to a fully named, tr
 translated, and tagged recipe by running four existing skills back-to-back, in this exact
 order, in a single invocation:
 
-1. **`photos-rename`** — give the photo a kebab-case **English** filename derived from its
+1. **`recipes-photos-rename`** — give the photo a kebab-case **English** filename derived from its
    recipe title (translating the title when the dish name is not English), in place in
    `data/recipes/inbox/`.
-2. **`photos-to-recipes`** — transcribe the (now correctly named) photo into an
+2. **`recipes-digitize`** — transcribe the (now correctly named) photo into an
    original-language **husk** markdown file under
    `data/recipes/processed/transcribed-<lang>/`, and move the photo to
    `data/recipes/processed/photos/`.
@@ -767,12 +767,12 @@ that the photo's **filename changes** after step 1 and the photo **moves out of 
 during step 2 — track the current name/location as you go. The recipe id is the English
 filename stem from step 1.
 
-1. **Rename.** Invoke the `photos-rename` skill, scoped to the target photo. Record the new
+1. **Rename.** Invoke the `recipes-photos-rename` skill, scoped to the target photo. Record the new
    English filename (the kebab-case stem becomes the recipe's id). If rename **skips** the
    photo (illegible/blurry/no readable title), the downstream steps will also struggle —
    report that and stop; do not push a bad photo through transcription.
 
-2. **Transcribe.** Invoke the `photos-to-recipes` skill on the renamed photo. Note the husk
+2. **Transcribe.** Invoke the `recipes-digitize` skill on the renamed photo. Note the husk
    it produced and its `transcribed-<lang>/<id>.md` location (the `<lang>` tells you the
    source language), and that the photo moved to `data/recipes/processed/photos/`. Carry the
    husk path and id forward.
@@ -799,7 +799,7 @@ filename stem from step 1.
   four skills. Do not fan out across the whole inbox.
 - **Strict order, no skipping.** Always rename → transcribe → translate → tag. Each step's
   output is the next step's input.
-- **Stop on a hard block.** If `photos-rename` can't read a title, or `photos-to-recipes`
+- **Stop on a hard block.** If `recipes-photos-rename` can't read a title, or `recipes-digitize`
   can't transcribe at all, stop and report — don't fabricate a name or a recipe to keep the
   chain going. A `flagged` recipe is fine to continue through translation and tagging; a
   total failure is not.
@@ -847,11 +847,11 @@ Expected: no matches (exit code 1). (Note the deliberate `transcibed` typo check
 - [ ] **Step 2: Confirm the new pipeline vocabulary is present everywhere it should be**
 
 Run: `rg -ln 'transcribed-en' .claude/skills .claude/agents data/recipes/_TEMPLATE.md`
-Expected: at least `photos-to-recipes/SKILL.md` (via `transcribed-<lang>`), `recipes-translate/SKILL.md`, `recipes-tag/SKILL.md`, and `recipe-pipeline.md`.
+Expected: at least `recipes-digitize/SKILL.md` (via `transcribed-<lang>`), `recipes-translate/SKILL.md`, `recipes-tag/SKILL.md`, and `recipe-pipeline.md`.
 
 - [ ] **Step 3: Confirm the four skill files and both templates exist**
 
-Run: `ls .claude/skills/photos-rename/SKILL.md .claude/skills/photos-to-recipes/SKILL.md .claude/skills/recipes-translate/SKILL.md .claude/skills/recipes-tag/SKILL.md data/recipes/_TEMPLATE.md data/recipes/_TEMPLATE_HUSK.md`
+Run: `ls .claude/skills/recipes-photos-rename/SKILL.md .claude/skills/recipes-digitize/SKILL.md .claude/skills/recipes-translate/SKILL.md .claude/skills/recipes-tag/SKILL.md data/recipes/_TEMPLATE.md data/recipes/_TEMPLATE_HUSK.md`
 Expected: all six paths listed, no "No such file" errors.
 
 - [ ] **Step 4: Final commit (if the sweep prompted any fixes; otherwise skip)**

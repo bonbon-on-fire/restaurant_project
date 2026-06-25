@@ -12,7 +12,7 @@ description: >-
 # Translate husks → canonical English recipes
 
 Turn each original-language husk into the project's canonical English recipe file. The
-`photos-to-recipes` skill produces husks (pure transcription, original language); this
+`recipes-digitize` skill produces husks (pure transcription, original language); this
 skill translates them to English and promotes them to the full recipe schema, adding the
 metadata scaffolding (status, plus blank tag/cost/etc. fields) that later steps fill.
 

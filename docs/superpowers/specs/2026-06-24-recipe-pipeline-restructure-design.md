@@ -75,7 +75,7 @@ A stripped copy of the full template containing only what pertains to the recipe
 
 The `flag:` field is the single piece of process metadata the husk may carry, because it
 is about the trustworthiness of the transcription itself. It is filled by
-`photos-to-recipes` and removed by `recipes-translate` (see below), so a finished husk
+`recipes-digitize` and removed by `recipes-translate` (see below), so a finished husk
 ends as pure content + minimal frontmatter.
 
 ## The pipeline
@@ -83,10 +83,10 @@ ends as pure content + minimal frontmatter.
 Four skills, chained in order by the `recipe-pipeline` agent:
 
 ```
-photos-rename → photos-to-recipes → recipes-translate → recipes-tag
+recipes-photos-rename → recipes-digitize → recipes-translate → recipes-tag
 ```
 
-### 1. photos-rename (updated)
+### 1. recipes-photos-rename (updated)
 
 - **Input:** image files in `data/recipes/inbox/` (was `data/photos/inbox/`).
 - Read each photo, derive an **English** kebab-case stem from the dish title —
@@ -98,7 +98,7 @@ photos-rename → photos-to-recipes → recipes-translate → recipes-tag
 - Examples updated to show translation, e.g. *"Sauce au Pétoncles et Crevettes"* →
   `scallop-shrimp-sauce`, *"Poulet à la Cardamome"* → `cardamom-chicken`.
 
-### 2. photos-to-recipes (updated)
+### 2. recipes-digitize (updated)
 
 - **Input:** renamed photos in `data/recipes/inbox/`.
 - **Schema:** read `_TEMPLATE_HUSK.md` fresh each run.
@@ -171,7 +171,7 @@ photos-rename → photos-to-recipes → recipes-translate → recipes-tag
 ### recipe-pipeline agent (updated)
 
 - Chain the **four** skills in order:
-  `photos-rename → photos-to-recipes → recipes-translate → recipes-tag`.
+  `recipes-photos-rename → recipes-digitize → recipes-translate → recipes-tag`.
 - Update all folder references: inbox is `data/recipes/inbox/`; the photo moves to
   `data/recipes/processed/photos/` during transcription; the recipe lands as a husk in
   `transcribed-<lang>/` then a canonical file in `transcribed-en/`.

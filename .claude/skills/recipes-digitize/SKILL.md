@@ -1,5 +1,5 @@
 ---
-name: photos-to-recipes
+name: recipes-digitize
 description: >-
   Transcribe photos of paper recipes into structured "husk" markdown files in their
   original language. Use when the user wants to digitize recipe photos, process the
@@ -21,7 +21,7 @@ classification happen later (`recipes-translate`, then `recipes-tag`).
 ## Inputs and outputs
 
 - **Input:** image files in `data/recipes/inbox/` (jpg, jpeg, png, heic, webp). These
-  should already be named in English by the `photos-rename` skill; the filename stem is
+  should already be named in English by the `recipes-photos-rename` skill; the filename stem is
   the recipe id.
 - **Recipe format:** `data/recipes/_TEMPLATE_HUSK.md` — the husk schema (recipe content
   only). Read it fresh every run so output stays in sync if the template changes.
@@ -52,7 +52,7 @@ classification happen later (`recipes-translate`, then `recipes-tag`).
       husk's `language` field and the `transcribed-<lang>/` output folder.
 
    c. **Map onto the husk template — transcription only.** Set:
-      - `id`: the filename stem (kebab-case English name from `photos-rename`). The id
+      - `id`: the filename stem (kebab-case English name from `recipes-photos-rename`). The id
         must be unique across **all** `transcribed-*` folders — if `<id>.md` already
         exists in any of them for a different recipe, append `-2`, `-3`, … so nothing is
         overwritten.

@@ -1,12 +1,12 @@
 ---
-name: photos-rename
+name: recipes-photos-rename
 description: >-
   Rename recipe photos in data/recipes/inbox/ to match the recipe on each sheet, using
   an English name. Use when the user wants to rename/clean up photo filenames, or asks
   to "rename the photos" / "name the photos by recipe". Reads each image, derives a
   kebab-case English name from the recipe title (translating the title to English when
   needed), and renames the file in place. Does NOT create recipe files (that is the
-  photos-to-recipes skill).
+  recipes-digitize skill).
 ---
 
 # Rename photos by recipe (English names)
@@ -19,7 +19,7 @@ recipe database or move photos out of `inbox/`.
 ## Naming convention
 
 `<kebab-case English recipe title><original extension>` — the same id form
-`photos-to-recipes` uses, so a photo and its future recipe file share a stem.
+`recipes-digitize` uses, so a photo and its future recipe file share a stem.
 
 To build the name from the title:
 - start from the dish title printed on the sheet,
@@ -68,7 +68,7 @@ Examples: "Sauce au Pétoncles et Crevettes" → `scallop-shrimp-sauce.jpg`;
   move photos out of `inbox/`.
 - **English names.** Always express the filename in English, translating the dish title
   when the sheet is in another language. The original-language title is preserved later
-  by `photos-to-recipes` in the husk transcription, not here.
+  by `recipes-digitize` in the husk transcription, not here.
 - **Never overwrite.** If two photos resolve to the same name, de-duplicate with a
   numeric suffix — never clobber an existing file.
 - **Title comes from the photo.** Derive the name only from the recipe title printed on

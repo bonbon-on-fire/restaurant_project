@@ -1,7 +1,7 @@
 ---
 # ============================================================
 # HUSK — pure transcription, original language, recipe content ONLY.
-# Produced by photos-to-recipes. Promoted to the full _TEMPLATE.md
+# Produced by recipes-digitize. Promoted to the full _TEMPLATE.md
 # (English, with status + tags) by recipes-translate.
 # NO status, tags, categories, allergens, cost, labor, timing, or
 # nutrition fields belong here. `flag` is temporary (set on an

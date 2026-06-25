@@ -21,7 +21,7 @@ the job of the separate, later `menus-analyze` skill.
 ## Context (why this shape)
 
 - The recipe pipeline already separates concerns into single-purpose skills:
-  `photos-rename` → `photos-to-recipes` → `recipes-translate` → `recipes-tag`.
+  `recipes-photos-rename` → `recipes-digitize` → `recipes-translate` → `recipes-tag`.
   `menus-tag` follows the same convention for menus.
 - Canonical menus already exist in `data/menus/processed/transcribed-en/` as a
   `pool` (dishes by category) + per-day `schedule` (dishes, `temp_c`,
