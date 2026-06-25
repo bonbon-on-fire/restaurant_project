@@ -71,7 +71,13 @@ referencing dishes by their plain name, and a future tool joins on `name`.
 # Tags use the controlled vocabulary from recipes/_TEMPLATE.md.
 # ============================================================
 dishes:
-  - name: "Haddock mango coconut"     # exact string as in pool/schedule, markers stripped
+  - name: "Kale mango cabbage (KM)"   # canonical name (normally the fuller pool form), markers stripped
+    aka: ["KM", "KM BBQ"]             # other pool/schedule surface strings for this dish
+    recipe_id: salade-kale-mangue-chou
+    recipe_source: parsley
+    tag_source: inferred
+  - name: "Haddock mango coconut"     # canonical name, markers stripped
+    aka: []                           # written identically everywhere → no aliases
     recipe_id: aiglefin-mangue-coco   # tagged recipe id | parsley match | null
     recipe_source: transcribed-en     # transcribed-en | parsley | none
     tag_source: linked                # linked = copied from a tagged recipe | inferred
@@ -97,9 +103,16 @@ dishes:
 
 ### Field meanings
 
-- `name` — the normalized dish name; must match the string used in
-  `pool`/`schedule` so the two can be joined. A dish appearing on multiple days
-  gets exactly one entry.
+- `name` — the canonical dish name (normally the fuller `pool` form), markers
+  stripped. A dish appearing on multiple days gets exactly one entry.
+- `aka` — a list of every **other** surface string (from `pool` or `schedule`)
+  that refers to this dish. The source sheets are inconsistent: the `schedule`
+  uses short forms while the `pool` uses fuller names (e.g. schedule `KM` vs pool
+  `Kale mango cabbage (KM)`; `Poutine` vs `Poutine (vegan)`; `Salmon pesto art.`
+  vs `Salmon pesto artichoke`). A consumer joins a day's dishes to this entry by
+  matching `name` **OR** any `aka`, which is what enables per-day analysis
+  (weather/holiday correlations). `aka: []` when the dish is written identically
+  everywhere. Dropped non-dish tokens never go in `aka`.
 - `recipe_id` — id of the matched recipe, or `null` when no confident match.
 - `recipe_source` — `transcribed-en` (our tagged canonical recipe), `parsley`
   (repertoire identity match), or `none`. Distinguishes a trustworthy

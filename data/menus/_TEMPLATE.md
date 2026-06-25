@@ -66,7 +66,9 @@ comment:                  # the "Comments and Weather" footer line, English
 # "Dish tags" table — never pool/schedule/status.
 # ============================================================
 dishes: []
-#   - name:                 # exact dish string as in pool/schedule, markers stripped
+#   - name:                 # canonical dish name (normally the fuller pool form), markers stripped
+#     aka: []               # other pool/schedule surface strings for this dish (schedule
+#                           #   abbreviations / variant spellings), so a day can join by name OR aka
 #     recipe_id:            # tagged recipe id | parsley match | blank if none
 #     recipe_source:        # transcribed-en | parsley | none
 #     tag_source:           # linked (copied from a tagged recipe) | inferred

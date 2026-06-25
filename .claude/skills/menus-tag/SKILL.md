@@ -86,15 +86,21 @@ they are intentionally out of scope for menu tagging.
 3. **For each menu, in turn:**
 
    a. **Collect dishes.** Take the union of every dish string across `pool`
-      (all categories) and `schedule[].dishes`.
+      (all categories) and `schedule[].dishes`, **keeping track of the exact
+      surface string each came from.** The same dish is often written
+      differently in `pool` vs `schedule` (e.g. pool `Kale mango cabbage (KM)`
+      vs schedule `KM`; pool `Poutine (vegan)` vs schedule `Poutine`;
+      `Salmon pesto artichoke` vs `Salmon pesto art.`).
 
-   b. **Normalize & filter.** Strip status/uncertainty markers to get the clean
-      dish name: trailing `?`, parentheticals like `(struck out)` / `(struck)`,
-      and quantity notes. **Drop pure non-dish tokens** — e.g. `x3`, `Yes`,
-      `Yes ? — if cheap`, `MDF ?`, bare category placeholders. Dedup to unique
-      clean names (a dish appearing on several days gets ONE entry). Whether a
-      dish was struck out or uncertain is a scheduling fact for the later
-      `menus-analyze` skill — it is **not** a tag here.
+   b. **Normalize, group & filter.** Strip status/uncertainty markers to get the
+      clean dish name: trailing `?`, parentheticals like `(struck out)` /
+      `(struck)`, and quantity notes. **Drop pure non-dish tokens** — e.g. `x3`,
+      `Yes`, `Yes ? — if cheap`, `MDF ?`, bare category placeholders. Then
+      **group the remaining surface strings by the dish they refer to** — a dish
+      appearing on several days, and under both a full pool name and a schedule
+      abbreviation, becomes ONE entry. Whether a dish was struck out or uncertain
+      is a scheduling fact for the later `menus-analyze` skill — it is **not** a
+      tag here.
 
    c. **Two-tier match (per unique dish):**
       - **Tier 1 — tagged canonical recipe.** If the dish confidently matches a
@@ -119,9 +125,15 @@ they are intentionally out of scope for menu tagging.
       auto-inferred values, never human edits) when a Tier-1 match now exists.
 
    e. **Write the block.** Write/extend the `dishes:` block: one entry per unique
-      dish, with `name`, `recipe_id`, `recipe_source`, `tag_source`, and the core
-      tags. Keep YAML consistent with `data/menus/_TEMPLATE.md` (scalars for
-      single-value fields, lists for `diet`).
+      dish, with `name`, `aka`, `recipe_id`, `recipe_source`, `tag_source`, and
+      the core tags. Set `name` to the fullest/clearest form (normally the pool
+      name). Set `aka` to a list of **every other surface string** from `pool` or
+      `schedule` that refers to this dish — the schedule abbreviations and any
+      variant spellings — so a consumer can join a day's dishes to this entry by
+      matching `name` OR any `aka`. Leave `aka: []` when the dish is written
+      identically everywhere. Do NOT put dropped non-dish tokens in `aka`. Keep
+      YAML consistent with `data/menus/_TEMPLATE.md` (scalars for single-value
+      fields, lists for `aka` and `diet`).
 
    f. **Regenerate the body table.** Replace (or create) the `## Dish tags`
       section with a table built **from the `dishes:` block** — one row per dish,
