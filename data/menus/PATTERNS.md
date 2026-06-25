@@ -165,6 +165,12 @@ rotation:
     support: "3/6 [2026-05-25, 2026-06-15; also 2026-06-15 plated variant]"
     confidence: medium
     source: inferred
+  - dish: "Paella (veggie)"
+    weeks_present: 3
+    role: rotating
+    support: "3/6 [2026-05-25, 2026-06-01, 2026-06-15]"
+    confidence: medium
+    source: inferred
   - dish: "Cream of tomato (soup)"
     weeks_present: 2
     role: rotating
@@ -242,12 +248,6 @@ rotation:
     role: rotating
     support: "2/6 [2026-05-11, 2026-06-08]"
     confidence: low
-    source: inferred
-  - dish: "Paella (veggie)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-25, 2026-06-01, 2026-06-15]"
-    confidence: medium
     source: inferred
 
 per_day_balance:
