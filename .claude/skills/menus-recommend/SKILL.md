@@ -158,3 +158,10 @@ is a fresh artifact.
   overwrite a prior mock.
 - **Degrade gracefully.** If `PATTERNS.md` is missing or thin, generate with an
   explicit "limited pattern basis" caveat rather than fabricating confident rules.
+- **Each pool category holds distinct dishes.** Do not assign the same dish to two
+  categories (e.g. Pico de Gallo belongs only in `pico-de-gallo`; `sauces` must
+  hold an actual sauce such as Sauce Satay or Sauce Marinara, not Pico de Gallo).
+- **Apply chef-stated weather patterns in their stated direction.** If PATTERNS.md
+  records "cold soups for rainy/cold weekend", feature cold soup(s) on cool/rainy
+  days — do not invert or suppress them. Inversion is a separate inference and must
+  be explicitly flagged as such with a low/speculative confidence label.

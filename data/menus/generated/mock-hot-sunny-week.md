@@ -52,7 +52,7 @@ pool:
     - "Hummus à l'aneth"
     - "Hummus Verts lime"
   sauces:
-    - "Pico de Gallo"
+    - "Sauce Satay"
   quiche:
     - "Quiche Forestier"
   pico-de-gallo:
@@ -120,7 +120,7 @@ schedule:
       - "Mousse Choco Praliné"
     temp_c: 27
     weather: "partly cloudy"
-    notes: "Mid-week service; rotating soups Mushroom tarragon + Tulum; broad cuisine mix (Caribbean via Jerk + French via Tulum + Fusion)"
+    notes: "Mid-week service; rotating soups Mushroom tarragon + Tulum; broad cuisine mix (Mexican-fusion via Tulum + Québécois via Poutine + South-Asian via Bandhu + Fusion via Tropical sandwich); Mousse Choco Praliné as the week's dessert"
 
   - day: friday
     date:
@@ -538,6 +538,18 @@ dishes:
     spice_level: mild
     diet: [vegan, gluten-free, dairy-free]
 
+  - name: "Sauce Satay"
+    recipe_id: "sauce-satay"
+    recipe_source: parsley
+    tag_source: inferred
+    protein: none
+    temperature: room
+    richness: moderate
+    format: sauce-condiment
+    cuisine: southeast-asian
+    spice_level: mild
+    diet: [vegan, gluten-free, dairy-free]
+
   - name: "Quiche Forestier"
     recipe_id: "quiche-forestier"
     recipe_source: parsley
@@ -621,7 +633,7 @@ dishes:
 - Hummus Verts lime
 
 ### Sauces / condiments
-- Pico de Gallo
+- Sauce Satay
 
 ### Quiche
 - Quiche Forestier
@@ -650,7 +662,7 @@ dishes:
 
 ### Strategy
 
-A hot, sunny week in the high-20s to low-30s°C range calls for a service line that leans light and cold. With only four working days (Tuesday closed for a statutory holiday), each service day carries the full pool across all categories. The scenario maps directly onto the `weather_temp` pattern from PATTERNS.md ("Hot, sunny weeks lean salad/sandwich-heavy with more composed salads and cold dips"; low confidence, inferred from 2 of 4 weather-noted weeks), so the salad counts are pushed toward the upper range (6 salades + 4 salade-comp = 10 cold formats), and cold formats dominate the non-main slots. The pool is built to the `menu_skeleton` medians: 5 soupe, 5 potage (including the cold Mélonccio as the hot-weather anchor), 6 salades, 3 vege, 3 poisson, 4 salade-comp, 2 sandwichs, 2 texture, 2 hummus, 1 sauces, 1 quiche, 1 pico-de-gallo, 1 mousse.
+A hot, sunny week in the high-20s to low-30s°C range calls for a service line that leans light and cold. With only four working days (Tuesday closed for a statutory holiday), each service day carries the full pool across all categories. The scenario maps directly onto the `weather_temp` pattern from PATTERNS.md ("Hot, sunny weeks lean salad/sandwich-heavy with more composed salads and cold dips"; low confidence, inferred from 2 of 4 weather-noted weeks), so the salad counts lean toward the higher end: 6 salades (mid-range; median is 6, max is 8) + 4 salade-comp = 10 cold formats, and cold formats dominate the non-main slots. The pool is built to the `menu_skeleton` medians: 5 soupe, 5 potage (including the cold Mélonccio as the hot-weather anchor), 6 salades, 3 vege, 3 poisson, 4 salade-comp, 2 sandwichs, 2 texture, 2 hummus, 1 sauces (Sauce Satay), 1 quiche, 1 pico-de-gallo, 1 mousse.
 
 ### Per-day notes
 
@@ -668,7 +680,7 @@ A hot, sunny week in the high-20s to low-30s°C range calls for a service line t
 
 1. **Rotation staples every week** — Poutine (vegan), Kale mango cabbage, Pico de Gallo, Quiche Forestier, and Jerk chicken (veggie) all appear in the pool. `rotation` dimension, confidence: high (6/6 weeks for each staple).
 
-2. **Salad-heavy hot weeks** — 6 salades + 4 salade-comp = 10 cold salad formats, at the upper range of the `menu_skeleton` salades (max: 8) and composed salads (median: 4, max: 5). This is the `weather_temp` pattern "hot weeks lean salad/sandwich-heavy", confidence: low (2/4 weather-noted weeks, inferred).
+2. **Salad-heavy hot weeks** — 6 salades + 4 salade-comp = 10 cold salad formats; salades sits at mid-range (median: 6, max: 8) and composed salads at median (4, max: 5). This is the `weather_temp` pattern "hot weeks lean salad/sandwich-heavy", confidence: low (2/4 weather-noted weeks, inferred).
 
 3. **Cold Mélonccio on hot days** — the `weather_temp` dimension notes that the cold Potage Froid Mélonccio was pooled even in the hot week 2026-06-08 (pre-emptively) and that the chef stated "cold soups for rainy/cold weekend" in 2026-06-15. The confidence is low/stated but the chef's own framing is used here. Mélonccio appears on Monday and Friday (the two sunniest days).
 

@@ -52,7 +52,7 @@ pool:
     - "Hummus de Brocoli et Pistache"
     - "Hummus de Panais"
   sauces:
-    - "Pico de Gallo"
+    - "Sauce Satay"
   quiche:
     - "Quiche de jambon et légumes"
   pico-de-gallo:
@@ -122,6 +122,7 @@ schedule:
       - "Kale mango cabbage (KM)"
       - "Mushroom tarragon"
       - "Tom Yum"
+      - "Potage Froid Mélonccio"
       - "Potage Panais Poires Pecan"
       - "Ribollita"
       - "Mini Galettes de Saumon"
@@ -131,7 +132,7 @@ schedule:
       - "Pico de Gallo"
     temp_c: 18
     weather: "rainy"
-    notes: "Cold rainy day — warm soups front-and-centre; cold Mélonccio dropped; two hot thick soups (Panais Poires Pecan + Ribollita); broad warm brothy soups (Tom Yum + Mushroom tarragon)"
+    notes: "First cold rainy day — chef-stated 'cold soups for rainy/cold weekend' (2026-06-15): cold Mélonccio featured alongside hot thick soups (Panais Poires Pecan + Ribollita); warm brothy soups (Tom Yum + Mushroom tarragon) for warmth balance"
 
   - day: friday
     date:
@@ -140,6 +141,7 @@ schedule:
       - "Kale mango cabbage (KM)"
       - "Korean soup"
       - "Soupe Légumes Lentilles Chipotle"
+      - "Potage Froid Mélonccio"
       - "Chili d'Orge"
       - "Ribollita"
       - "Moqueca"
@@ -150,7 +152,7 @@ schedule:
       - "Falafels"
     temp_c: 17
     weather: "rainy"
-    notes: "Coolest rainiest day — cold Mélonccio absent; double hot thick soups; Korean + Chipotle brothy soups for the rainy weekend; per chef-stated cold-soups-for-cool-rainy-weekend pattern in reverse"
+    notes: "Coolest rainiest day — cold Mélonccio featured per chef-stated 'cold soups for rainy/cold weekend' (2026-06-15); double hot thick soups (Chili d'Orge + Ribollita) for warmth; Korean + Chipotle brothy soups for the rainy weekend"
 
 dishes:
   - name: "Poutine (vegan)"
@@ -549,6 +551,18 @@ dishes:
     spice_level: mild
     diet: [vegan, gluten-free, dairy-free]
 
+  - name: "Sauce Satay"
+    recipe_id: "sauce-satay"
+    recipe_source: parsley
+    tag_source: inferred
+    protein: none
+    temperature: room
+    richness: moderate
+    format: sauce-condiment
+    cuisine: southeast-asian
+    spice_level: mild
+    diet: [vegan, gluten-free, dairy-free]
+
   - name: "Quiche de jambon et légumes"
     recipe_id: "quiche-de-jambon-et-legumes"
     recipe_source: parsley
@@ -600,7 +614,7 @@ dishes:
 
 ### Potage (thick soups)
 - Potage Crème de tomates
-- Potage Froid Mélonccio *(early-week only — pulled when cool/rainy arrives)*
+- Potage Froid Mélonccio *(cold soup — featured on rainy/cool days per chef-stated pattern)*
 - Chili d'Orge
 - Potage Panais Poires Pecan
 - Ribollita
@@ -632,7 +646,7 @@ dishes:
 - Hummus de Panais
 
 ### Sauces / condiments
-- Pico de Gallo
+- Sauce Satay
 
 ### Quiche
 - Quiche de jambon et légumes
@@ -652,8 +666,8 @@ dishes:
 | Monday | 26°C | sunny | Poutine · Quiche (jambon) · KM · Hummus Brocoli · Mushroom tarragon · Crème tomates · Salmon pesto · Betterave Tofu · Pico · Falafels |
 | Tuesday | 24°C | partly cloudy | Jerk chicken · Thai peanut · KM · Korean soup · Mélonccio · Salmon pesto · Chicken salad · Tabbouleh · Orange Fenouil · Hummus Panais · Saumon Cajun sandwich · Croquettes |
 | Wednesday | 22°C | overcast | Poutine · Jerk chicken · KM · Pho · Chili d'Orge · Moqueca · Hilairoise · Dolique · Brocoli Crémeuse · Banh Mi · Mousse |
-| Thursday | 18°C | rainy | Thai peanut · KM · Mushroom tarragon · Tom Yum · Panais Poires Pecan · Ribollita · Galettes Saumon · Bandhu · Tabbouleh · Crumble Pois Chiches · Pico |
-| Friday | 17°C | rainy | Jerk chicken · KM · Korean soup · Chipotle Lentilles · Chili d'Orge · Ribollita · Moqueca · Hilairoise · Orange Fenouil · Betterave Tofu · Pico · Falafels |
+| Thursday | 18°C | rainy | Thai peanut · KM · Mushroom tarragon · Tom Yum · **Mélonccio** · Panais Poires Pecan · Ribollita · Galettes Saumon · Bandhu · Tabbouleh · Crumble Pois Chiches · Pico |
+| Friday | 17°C | rainy | Jerk chicken · KM · Korean soup · Chipotle Lentilles · **Mélonccio** · Chili d'Orge · Ribollita · Moqueca · Hilairoise · Orange Fenouil · Betterave Tofu · Pico · Falafels |
 
 ---
 
@@ -661,9 +675,9 @@ dishes:
 
 ### Strategy
 
-No scenario was provided by the user — the scenario above was invented by the `menus-recommend` skill. The date-basis is 2026-06-25 (late June), which falls within the late-spring/early-summer window of the PATTERNS.md sample (May 11 – June 15, 2026). A late-June week in Montréal often opens mild and sunny before a rainy trough moves through mid-to-end week, so the invented scenario gives: two warm-to-mild early days (Mon 26°, Tue 24°), a transitional overcast Wednesday (22°), then two cold rainy days (Thu 18°, Fri 17°). This trajectory lets the menu demonstrate the chef's stated cold-soup/warm-soup weather behavior across a single week: cold Mélonccio in the warm early days, dropped entirely by Thursday/Friday in favour of hearty hot soups.
+No scenario was provided by the user — the scenario above was invented by the `menus-recommend` skill. The date-basis is 2026-06-25 (late June), which falls within the late-spring/early-summer window of the PATTERNS.md sample (May 11 – June 15, 2026). A late-June week in Montréal often opens mild and sunny before a rainy trough moves through mid-to-end week, so the invented scenario gives: two warm-to-mild early days (Mon 26°, Tue 24°), a transitional overcast Wednesday (22°), then two cold rainy days (Thu 18°, Fri 17°). This trajectory lets the menu demonstrate the chef's stated cold-soup weather behavior across a single week: on the cool/rainy days (Thu/Fri) the cold Mélonccio is featured per the chef-stated pattern ("cold soups for rainy/cold weekend"), while the warm early days (Mon) lead with the hot-soup anchor (Crème de tomates).
 
-The pool is built to skeleton medians: 5 soupe, 5 potage, 6 salades, 3 vege, 3 poisson, 4 salade-comp, 2 sandwichs, 2 texture, 2 hummus, 1 sauces, 1 quiche, 1 pico-de-gallo, 1 mousse. Salad counts are at median (not upper range) because this is not a pure hot week — the weather_temp "hot weeks lean salad-heavy" pattern (low confidence) does not apply to the cool end of the week.
+The pool is built to skeleton medians: 5 soupe, 5 potage, 6 salades, 3 vege, 3 poisson, 4 salade-comp, 2 sandwichs, 2 texture, 2 hummus, 1 sauces (Sauce Satay), 1 quiche, 1 pico-de-gallo, 1 mousse. Salad counts are at median (not upper range) because this is not a pure hot week — the weather_temp "hot weeks lean salad-heavy" pattern (low confidence) does not apply to the cool end of the week.
 
 ### Per-day notes
 
@@ -673,9 +687,9 @@ The pool is built to skeleton medians: 5 soupe, 5 potage, 6 salades, 3 vege, 3 p
 
 **Wednesday** (22°C, overcast) is the transition day. The cold Mélonccio is dropped from Wednesday service — overcast signals the coming rain. The thick soup slot defaults to Chili d'Orge (warm, hearty). Moqueca (Brazilian fish stew, hot, rich) suits the heavier feel. Pho covers the brothy soup; the composed salads (Hilairoise, Dolique) and Mousse D'autre Foie give mid-week variety.
 
-**Thursday** (18°C, rainy) is the first cold rainy day. This is the strongest weather trigger in the PATTERNS.md sample — chef-stated "cold soups for rainy / cold weekend" (2026-06-15, low confidence, stated). Here the cold Mélonccio is entirely absent; the potage slots shift to two hot thick soups (Potage Panais Poires Pecan + Ribollita). Tom Yum and Mushroom tarragon provide hot brothy cover. Mini Galettes de Saumon are the fish entry — a lighter, warm format suited to an indoor rainy day. No sandwiches on Thursday (pushing cold handheld formats back on cold/rainy days is an improvisation — no direct pattern support).
+**Thursday** (18°C, rainy) is the first cold rainy day. This is the strongest weather trigger in the PATTERNS.md sample — chef-stated "cold soups for rainy / cold weekend" (2026-06-15, low confidence, stated). Per that stated direction, the cold Potage Froid Mélonccio is featured on Thursday alongside the hot thick soups (Potage Panais Poires Pecan + Ribollita). Tom Yum and Mushroom tarragon provide hot brothy cover. Mini Galettes de Saumon are the fish entry — a lighter, warm format suited to an indoor rainy day. No sandwiches on Thursday (reducing cold handheld formats on cold/rainy days is an improvisation — no direct pattern support).
 
-**Friday** (17°C, rainy) is the coldest wettest day. Following the `weather_temp` stated pattern ("cold soups for rainy/cold weekend"), the cold Mélonccio remains absent. Double hot thick soups (Chili d'Orge + Ribollita) dominate the potage slots. Brothy soups (Korean + Chipotle Lentilles) are warming and spiced. Moqueca returns for the fish slot — its hot/rich Brazilian profile suits cold weather. Falafels return as the texture entry for the week-end service.
+**Friday** (17°C, rainy) is the coldest wettest day. Following the `weather_temp` stated pattern ("cold soups for rainy/cold weekend"), the cold Potage Froid Mélonccio is again featured. Double hot thick soups (Chili d'Orge + Ribollita) accompany it in the potage slots, giving customers the choice of cold or hot. Brothy soups (Korean + Chipotle Lentilles) are warming and spiced. Moqueca returns for the fish slot — its hot/rich Brazilian profile suits cold weather. Falafels return as the texture entry for the week-end service.
 
 ### Pattern citations
 
@@ -691,13 +705,13 @@ The pool is built to skeleton medians: 5 soupe, 5 potage, 6 salades, 3 vege, 3 p
 
 6. **Mixed cuisine per day** — every service day spans at least four cuisines (e.g. Thursday: Thai via Tom Yum, French via Mushroom tarragon + Panais Poires Pecan, Italian via Ribollita, Brazilian via Moqueca, South-Asian via Bandhu, Middle-Eastern via Crumble Pois Chiches). `per_day_balance` broad-cuisine rule, confidence: medium (5/6 weeks).
 
-7. **Cool/rainy days → warm soups forward, cold Mélonccio dropped** — the chef's stated "cold soups for rainy/cold weekend" (2026-06-15) is applied in the inverse: on cool/rainy days (Thu/Fri ≤ 18°C) the cold potage is removed and hot thick soups double up. `weather_temp`, confidence: low (1/4 weather-noted weeks, stated). The *inverse* application (suppressing cold soup on cold days) is an inference, not a direct chef statement.
+7. **Cool/rainy days → cold soup featured** — the chef's stated "cold soups for rainy/cold weekend" (2026-06-15) is applied in its stated direction: on cool/rainy days (Thu/Fri ≤ 18°C) the cold Potage Froid Mélonccio is featured on the service line. Hot thick soups (Panais Poires Pecan, Ribollita, Chili d'Orge) run alongside to give warm-weather balance. `weather_temp`, confidence: low (1/4 weather-noted weeks, stated). This follows the single chef-stated data point; extrapolating it to two consecutive rainy days is this model's extension of a thin signal.
 
 ### Improvisation and honesty flags
 
 - **Invented scenario — no user input** — the entire scenario (dates, temperatures, weather, trajectory) was fabricated by the skill based on plausible late-June Montréal weather patterns. The PATTERNS.md sample covers May 11 – June 15 only; late-June behaviour is extrapolated. Flag: scenario invented; seasonal extrapolation.
 
-- **Cold Mélonccio dropped Thursday/Friday** — the chef stated "cold soups for rainy/cold weekend" but the direct evidence is one instance (2026-06-15, Friday). Extrapolating to a two-day rainy block and explicitly *removing* the cold potage is this model's inference, not a confirmed rule. Flag: weather_temp pattern extended, low confidence.
+- **Cold Mélonccio on Thursday/Friday** — the chef stated "cold soups for rainy/cold weekend" but the direct evidence is one instance (2026-06-15, Friday). Featuring the cold Mélonccio on two consecutive rainy days follows the stated direction but extends it beyond the single data point. Flag: weather_temp pattern extended to two days, low confidence.
 
 - **No sandwiches on Thursday/Friday** — the skill reduced sandwich representation on the two cold/rainy days as a weather-response improvisation. There is no explicit pattern in PATTERNS.md supporting reduced sandwiches in cool weather; this is an aesthetic guess. Flag: improvised, no pattern support.
 
