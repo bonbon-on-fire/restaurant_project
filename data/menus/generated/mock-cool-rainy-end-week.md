@@ -159,7 +159,7 @@ dishes:
     recipe_id: "vegan-poutine-medium"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: moderate
     format: plated-main
@@ -171,7 +171,7 @@ dishes:
     recipe_id: "veggie-jerk-chicken-with-orange-remoulade"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: moderate
     format: plated-main
@@ -183,7 +183,7 @@ dishes:
     recipe_id: "veggie-thai-chicken"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: moderate
     format: plated-main
@@ -231,7 +231,7 @@ dishes:
     recipe_id: "mushroom-tarragon-soup"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: light
     format: broth
@@ -243,7 +243,7 @@ dishes:
     recipe_id: "korean-soup"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: light
     format: broth
@@ -255,7 +255,7 @@ dishes:
     recipe_id: "vegan-pho-soup"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: light
     format: broth
@@ -267,7 +267,7 @@ dishes:
     recipe_id: "green-tom-yum-soup"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: light
     format: broth
@@ -279,7 +279,7 @@ dishes:
     recipe_id: "chipotle-lentil-vegetable-soup"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: moderate
     format: soup
@@ -315,7 +315,7 @@ dishes:
     recipe_id: "barley-chili"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: moderate
     format: stew
@@ -339,7 +339,7 @@ dishes:
     recipe_id:
     recipe_source: none
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: hot
     richness: moderate
     format: stew
@@ -387,7 +387,7 @@ dishes:
     recipe_id: "black-eyed-pea-salad"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: cold
     richness: lean
     format: salad
@@ -423,7 +423,7 @@ dishes:
     recipe_id: "croissant-with-veggie-chicken-salad"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: cold
     richness: light
     format: salad
@@ -447,7 +447,7 @@ dishes:
     recipe_id: "bandhu-salad"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: cold
     richness: lean
     format: salad
@@ -459,7 +459,7 @@ dishes:
     recipe_id: "chickpea-crumble-salad"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: cold
     richness: lean
     format: salad
@@ -483,7 +483,7 @@ dishes:
     recipe_id: "satay-veggie-chicken-banh-mi-sandwich"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: room
     richness: moderate
     format: handheld
@@ -495,7 +495,7 @@ dishes:
     recipe_id: "falafels-8"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: warm
     richness: moderate
     format: shareable
@@ -507,7 +507,7 @@ dishes:
     recipe_id: "zucchini-potato-and-spinach-croquettes"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: warm
     richness: moderate
     format: shareable
@@ -519,7 +519,7 @@ dishes:
     recipe_id: "broccoli-and-pistachio-hummus"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: cold
     richness: lean
     format: dip-spread
@@ -531,7 +531,7 @@ dishes:
     recipe_id: "parsnip-hummus"
     recipe_source: parsley
     tag_source: inferred
-    protein: plant-based
+    protein: plant-substitute
     temperature: cold
     richness: lean
     format: dip-spread
