@@ -156,7 +156,7 @@ schedule:
 
 dishes:
   - name: "Poutine (vegan)"
-    recipe_id: "poutine-vegane-medium"
+    recipe_id: "vegan-poutine-medium"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -168,7 +168,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Jerk chicken (veggie)"
-    recipe_id: "tofu-jerk-a-la-noix-de-coco"
+    recipe_id: "veggie-jerk-chicken-with-orange-remoulade"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -180,7 +180,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Thai peanut chicken (Poulet Végé Thai)"
-    recipe_id: "poulet-vege-thai"
+    recipe_id: "veggie-thai-chicken"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -192,7 +192,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Salmon pesto"
-    recipe_id: "saumon-au-pesto-poivrons-rotis"
+    recipe_id: "salmon-with-roasted-pepper-pesto"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -216,7 +216,7 @@ dishes:
     diet: [pescatarian, gluten-free, dairy-free]
 
   - name: "Mini Galettes de Saumon"
-    recipe_id: "mini-galettes-de-saumon"
+    recipe_id: "mini-salmon-cakes"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -228,7 +228,7 @@ dishes:
     diet: [pescatarian, gluten-free]
 
   - name: "Mushroom tarragon"
-    recipe_id: "soupe-champignon-estragon"
+    recipe_id: "mushroom-tarragon-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -240,7 +240,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Korean soup"
-    recipe_id: "soupe-coreenne"
+    recipe_id: "korean-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -252,7 +252,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Pho"
-    recipe_id: "soup-pho-vegane"
+    recipe_id: "vegan-pho-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -264,7 +264,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Tom Yum"
-    recipe_id: "soupe-tom-mium-vert"
+    recipe_id: "green-tom-yum-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -276,7 +276,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Soupe Légumes Lentilles Chipotle"
-    recipe_id: "soupe-legumes-lentilles-chipotle"
+    recipe_id: "chipotle-lentil-vegetable-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -288,7 +288,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Potage Crème de tomates"
-    recipe_id: "potage-creme-de-tomates"
+    recipe_id: "cream-of-tomato-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -300,7 +300,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Potage Froid Mélonccio"
-    recipe_id: "potage-froid-melonccio"
+    recipe_id: "cold-melonccio-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -312,7 +312,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Chili d'Orge"
-    recipe_id: "chili-d-orge"
+    recipe_id: "barley-chili"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -324,7 +324,7 @@ dishes:
     diet: [vegan]
 
   - name: "Potage Panais Poires Pecan"
-    recipe_id: "potage-panais-poires-pecan"
+    recipe_id: "parsnip-pear-pecan-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -348,7 +348,7 @@ dishes:
     diet: [vegan, dairy-free]
 
   - name: "Kale mango cabbage (KM)"
-    recipe_id: "salade-kale-mangue-chou"
+    recipe_id: "kale-mango-cabbage-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -360,7 +360,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Betterave Pommes Tofu"
-    recipe_id: "salade-betterave-pommes-tofu"
+    recipe_id: "beet-apple-tofu-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: tofu
@@ -372,7 +372,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Tabbouleh"
-    recipe_id: "salade-tabole-de-manioc"
+    recipe_id: "cassava-tabbouleh-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -384,7 +384,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Dolique à l'oeil noir"
-    recipe_id: "salade-dolique-a-l-oeil-noir"
+    recipe_id: "black-eyed-pea-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -396,7 +396,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Orange Fenouil"
-    recipe_id: "salade-orange-fenouil"
+    recipe_id: "orange-fennel-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -408,7 +408,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade de Brocoli Crémeuse"
-    recipe_id: "salade-de-brocoli-cremeuse"
+    recipe_id: "creamy-broccoli-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -420,7 +420,7 @@ dishes:
     diet: [vegetarian, gluten-free]
 
   - name: "Chicken salad (veggie)"
-    recipe_id: "croissant-aux-salade-de-poulet-vege"
+    recipe_id: "croissant-with-veggie-chicken-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -432,7 +432,7 @@ dishes:
     diet: [vegetarian]
 
   - name: "Salade Hilairoise"
-    recipe_id: "salade-hilairoise"
+    recipe_id: "hilairoise-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -444,7 +444,7 @@ dishes:
     diet: [pescatarian, gluten-free]
 
   - name: "Salade Bandhu"
-    recipe_id: "salade-bandhu"
+    recipe_id: "bandhu-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -456,7 +456,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Crumble Pois Chiches"
-    recipe_id: "salade-crumble-pois-chiches"
+    recipe_id: "chickpea-crumble-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -468,7 +468,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Sandwich Saumon Cajun"
-    recipe_id: "sandwich-saumon-cajun"
+    recipe_id: "cajun-salmon-sandwich"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -480,7 +480,7 @@ dishes:
     diet: [pescatarian]
 
   - name: "Sandwich Banh Mi Poulet Végé Satay"
-    recipe_id: "sandwich-banh-mi-poulet-vege-satay"
+    recipe_id: "satay-veggie-chicken-banh-mi-sandwich"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -504,7 +504,7 @@ dishes:
     diet: [vegan, dairy-free]
 
   - name: "Croquettes de Courgette Patate Épinards"
-    recipe_id: "croquettes-de-courgette-patate-et-epinards"
+    recipe_id: "zucchini-potato-and-spinach-croquettes"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -516,7 +516,7 @@ dishes:
     diet: [vegetarian, gluten-free]
 
   - name: "Hummus de Brocoli et Pistache"
-    recipe_id: "hummus-de-brocoli-et-pistache"
+    recipe_id: "broccoli-and-pistachio-hummus"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -528,7 +528,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Hummus de Panais"
-    recipe_id: "hummus-de-panais"
+    recipe_id: "parsnip-hummus"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -552,7 +552,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Sauce Satay"
-    recipe_id: "sauce-satay"
+    recipe_id: "satay-sauce"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -564,7 +564,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Quiche de jambon et légumes"
-    recipe_id: "quiche-de-jambon-et-legumes"
+    recipe_id: "ham-and-vegetable-quiche"
     recipe_source: parsley
     tag_source: inferred
     protein: pork
@@ -576,7 +576,7 @@ dishes:
     diet: [gluten-free]
 
   - name: "Mousse D'autre Foie"
-    recipe_id: "mousse-d-autre-foie"
+    recipe_id: "faux-foie-mousse"
     recipe_source: parsley
     tag_source: inferred
     protein: none

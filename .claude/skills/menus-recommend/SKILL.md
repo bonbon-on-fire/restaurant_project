@@ -77,8 +77,8 @@ schedule:
   # ... tuesday..friday; a closed day has dishes: [] and a notes reason
 dishes:
   - name: "..."                    # each unique chosen dish, like menus-tag's block
-    recipe_id:                     # parsley slug if matched, else blank
-    recipe_source: parsley         # parsley | none
+    recipe_id: vegan-poutine-medium  # MUST be an exact filename (no .md) from data/parsley/recipes-en/; leave blank if no confident match
+    recipe_source: parsley         # parsley | none  (use "none" + blank recipe_id when no confident match exists)
     tag_source: inferred
     protein: ...
     temperature: ...
@@ -165,3 +165,8 @@ is a fresh artifact.
   records "cold soups for rainy/cold weekend", feature cold soup(s) on cool/rainy
   days — do not invert or suppress them. Inversion is a separate inference and must
   be explicitly flagged as such with a low/speculative confidence label.
+- **Verify every `recipe_id` against `data/parsley/recipes-en/`.** When setting
+  `recipe_source: parsley`, the `recipe_id` value MUST be an exact existing filename
+  in `data/parsley/recipes-en/` (without the `.md` extension). List the directory to
+  confirm before writing. If no confident match exists, set `recipe_source: none` and
+  leave `recipe_id` blank — never invent or guess a slug.

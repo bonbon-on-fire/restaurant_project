@@ -143,7 +143,7 @@ schedule:
 
 dishes:
   - name: "Poutine (vegan)"
-    recipe_id: "poutine-vegane-medium"
+    recipe_id: "vegan-poutine-medium"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -155,7 +155,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Jerk chicken (veggie)"
-    recipe_id: "tofu-jerk-a-la-noix-de-coco"
+    recipe_id: "veggie-jerk-chicken-with-orange-remoulade"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -167,7 +167,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Paella (veggie)"
-    recipe_id: "paella-vege"
+    recipe_id: "veggie-paella"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -179,7 +179,7 @@ dishes:
     diet: [vegan]
 
   - name: "Salmon pesto"
-    recipe_id: "saumon-au-pesto-poivrons-rotis"
+    recipe_id: "salmon-with-roasted-pepper-pesto"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -203,7 +203,7 @@ dishes:
     diet: [pescatarian, gluten-free, dairy-free]
 
   - name: "Salmon Cajun sandwich"
-    recipe_id: "sandwich-saumon-cajun"
+    recipe_id: "cajun-salmon-sandwich"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -215,7 +215,7 @@ dishes:
     diet: [pescatarian]
 
   - name: "Korean soup"
-    recipe_id: "soupe-coreenne"
+    recipe_id: "korean-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -227,7 +227,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Tom Yum"
-    recipe_id: "soupe-tom-mium-vert"
+    recipe_id: "green-tom-yum-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -239,7 +239,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Mushroom tarragon"
-    recipe_id: "soupe-champignon-estragon"
+    recipe_id: "mushroom-tarragon-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -251,7 +251,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Pho"
-    recipe_id: "soup-pho-vegane"
+    recipe_id: "vegan-pho-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -263,7 +263,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Soupe Mole Verde"
-    recipe_id: "soupe-mole-verde"
+    recipe_id: "mole-verde-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -275,7 +275,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Potage Froid Mélonccio"
-    recipe_id: "potage-froid-melonccio"
+    recipe_id: "cold-melonccio-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -287,7 +287,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Potage Crème de tomates"
-    recipe_id: "potage-creme-de-tomates"
+    recipe_id: "cream-of-tomato-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -299,7 +299,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Tulum"
-    recipe_id: "soupe-tulum"
+    recipe_id: "tulum-soup"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -323,7 +323,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Chili d'Orge"
-    recipe_id: "chili-d-orge"
+    recipe_id: "barley-chili"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -335,7 +335,7 @@ dishes:
     diet: [vegan]
 
   - name: "Kale mango cabbage (KM)"
-    recipe_id: "salade-kale-mangue-chou"
+    recipe_id: "kale-mango-cabbage-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -347,7 +347,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Betterave Pommes Tofu"
-    recipe_id: "salade-betterave-pommes-tofu"
+    recipe_id: "beet-apple-tofu-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: tofu
@@ -359,7 +359,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Carrot celeriac"
-    recipe_id: "salade-de-carottes-celeri-rave-amandes"
+    recipe_id: "carrot-celeriac-and-almond-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -371,7 +371,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Tabbouleh"
-    recipe_id: "salade-tabole-de-manioc"
+    recipe_id: "cassava-tabbouleh-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -383,7 +383,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Chou poivrons à la menthe"
-    recipe_id: "salade-chou-poivrons-a-la-menthe"
+    recipe_id: "cabbage-pepper-salad-with-mint"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -395,7 +395,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Provençal"
-    recipe_id: "salade-provencal"
+    recipe_id: "provencal-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -407,7 +407,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Salade Hilairoise"
-    recipe_id: "salade-hilairoise"
+    recipe_id: "hilairoise-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -419,7 +419,7 @@ dishes:
     diet: [pescatarian, gluten-free]
 
   - name: "Salade Bandhu"
-    recipe_id: "salade-bandhu"
+    recipe_id: "bandhu-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -431,7 +431,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Chicken salad (veggie)"
-    recipe_id: "croissant-aux-salade-de-poulet-vege"
+    recipe_id: "croissant-with-veggie-chicken-salad"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -443,7 +443,7 @@ dishes:
     diet: [vegetarian]
 
   - name: "Poké bol au poulet végé sauce coréenne"
-    recipe_id: "poke-bol-au-poulet-vege-sauce-coreenne"
+    recipe_id: "veggie-chicken-poke-bowl-with-korean-sauce"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -455,7 +455,7 @@ dishes:
     diet: [vegan, gluten-free]
 
   - name: "Sandwich Saumon Pesto Artichaut"
-    recipe_id: "sandwich-saumon-pesto-artichaut"
+    recipe_id: "salmon-pesto-artichoke-sandwich"
     recipe_source: parsley
     tag_source: inferred
     protein: fish
@@ -467,7 +467,7 @@ dishes:
     diet: [pescatarian]
 
   - name: "Sandwich Poulet végé Tropical"
-    recipe_id: "sandwich-poulet-vege-tropical"
+    recipe_id: "tropical-veggie-chicken-sandwich"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -491,7 +491,7 @@ dishes:
     diet: [vegan, dairy-free]
 
   - name: "Croquettes de Courgette Patate Épinards"
-    recipe_id: "croquettes-de-courgette-patate-et-epinards"
+    recipe_id: "zucchini-potato-and-spinach-croquettes"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -503,7 +503,7 @@ dishes:
     diet: [vegetarian, gluten-free]
 
   - name: "Hummus à l'aneth"
-    recipe_id: "hummus-a-l-aneth"
+    recipe_id: "dill-hummus"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -515,7 +515,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Hummus Verts lime"
-    recipe_id: "hummus-verts-lime"
+    recipe_id: "green-lime-hummus"
     recipe_source: parsley
     tag_source: inferred
     protein: plant-based
@@ -539,7 +539,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Sauce Satay"
-    recipe_id: "sauce-satay"
+    recipe_id: "satay-sauce"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -551,7 +551,7 @@ dishes:
     diet: [vegan, gluten-free, dairy-free]
 
   - name: "Quiche Forestier"
-    recipe_id: "quiche-forestier"
+    recipe_id: "forestiere-quiche"
     recipe_source: parsley
     tag_source: inferred
     protein: dairy
@@ -563,7 +563,7 @@ dishes:
     diet: [vegetarian]
 
   - name: "Mousse Choco Praliné"
-    recipe_id: "mousse-choco-praline"
+    recipe_id: "chocolate-praline-mousse"
     recipe_source: parsley
     tag_source: inferred
     protein: none
@@ -670,11 +670,11 @@ A hot, sunny week in the high-20s to low-30s°C range calls for a service line t
 
 **Tuesday** is closed. The calendar pattern "Statutory holiday → closed that day" (low confidence, stated; from Victoria Day 2026-05-18) is the single direct precedent in the sample. The notes field records the reason explicitly.
 
-**Wednesday** is the hottest mid-week day (30°C, sunny). The line skews toward cold and medium-weight dishes: the composed salads (Hilairoise + Tabbouleh + Carrot celeriac) expand alongside the Saumon Pesto Artichaut sandwich, with Crème de tomates as the potage and Tom Yum the brothy soup. Moqueca (fish stew, Brazilian) delivers the fish main; Jerk chicken (veggie) and Paella (veggie) cover the two plant-substitute slots. Cuisine spread covers Thai (Tom Yum), French (Crème tomates, Salmon pesto), Brazilian (Moqueca), and Caribbean (Jerk) per the `per_day_balance` broad-cuisine rule (medium confidence, 5/6 weeks).
+**Wednesday** is the hottest mid-week day (30°C, sunny). The line skews toward cold and medium-weight dishes: the composed salads (Hilairoise + Tabbouleh + Carrot celeriac) expand alongside the Saumon Pesto Artichaut sandwich, with Crème de tomates as the potage and Tom Yum the brothy soup. Moqueca (fish stew, Brazilian) delivers the fish main; Jerk chicken (veggie) and Paella (veggie) cover the two plant-substitute slots. Cuisine spread covers Thai (Tom Yum), French (Crème de tomates), Brazilian (Moqueca), and Caribbean (Jerk) per the `per_day_balance` broad-cuisine rule (medium confidence, 5/6 weeks). The Saumon Pesto Artichaut sandwich adds a French-Mediterranean handheld to the line.
 
 **Thursday** is the coolest day of the service week (27°C, partly cloudy). Rotating soups Mushroom tarragon and Tulum appear here as the slightly lower temperature supports heavier brothy options. Chicken salad (veggie) and Salade Bandhu (south-Asian fusion) add cuisine variety. The Mousse Choco Praliné is placed on Thursday as the one-per-week dessert.
 
-**Friday** is the hottest day (31°C, sunny). Following the `weather_temp` stated pattern "cold soups for hot/rainy periods" (low, stated, 2026-06-15), the cold Mélonccio is doubled onto the Friday line. The Poké bol au poulet végé sauce coréenne (composed bowl, cold, Korean-fusion) adds a light lunch option. Pho and Soupe Mole Verde cover the brothy soup slots; Chili d'Orge provides the thick hearty alternative for customers who want something warming. Two plant-substitute mains (Jerk chicken + Paella) balance against Salmon pesto for the fish slot.
+**Friday** is the hottest day (31°C, sunny). The cold Potage Froid Mélonccio was already pooled pre-emptively in the hot week 2026-06-08, establishing a precedent for cold soups in hot weeks. Following that `weather_temp` pattern (low confidence, inferred), the cold Mélonccio is doubled onto the Friday line. The Poké bol au poulet végé sauce coréenne (composed bowl, cold, Korean-fusion) adds a light lunch option. Pho and Soupe Mole Verde cover the brothy soup slots; Chili d'Orge provides the thick hearty alternative for customers who want something warming. Two plant-substitute mains (Jerk chicken + Paella) balance against Salmon pesto for the fish slot.
 
 ### Pattern citations
 
@@ -682,7 +682,7 @@ A hot, sunny week in the high-20s to low-30s°C range calls for a service line t
 
 2. **Salad-heavy hot weeks** — 6 salades + 4 salade-comp = 10 cold salad formats; salades sits at mid-range (median: 6, max: 8) and composed salads at median (4, max: 5). This is the `weather_temp` pattern "hot weeks lean salad/sandwich-heavy", confidence: low (2/4 weather-noted weeks, inferred).
 
-3. **Cold Mélonccio on hot days** — the `weather_temp` dimension notes that the cold Potage Froid Mélonccio was pooled even in the hot week 2026-06-08 (pre-emptively) and that the chef stated "cold soups for rainy/cold weekend" in 2026-06-15. The confidence is low/stated but the chef's own framing is used here. Mélonccio appears on Monday and Friday (the two sunniest days).
+3. **Cold Mélonccio on hot days** — the `weather_temp` dimension notes that the cold Potage Froid Mélonccio was pooled pre-emptively in the hot week 2026-06-08, establishing a hot-week cold-soup precedent. (The chef's verbatim stated quote is "Cold soups for rainy / cold weekend" [2026-06-15], which applies to cool/rainy days; its presence in hot weeks is an observed behavior, not a stated direction.) The confidence is low/inferred. Mélonccio appears on Monday and Friday (the two sunniest days).
 
 4. **Monday staple-core opening** — Poutine + Quiche + KM + Hummus all on Monday. `per_day_balance` Monday rule, confidence: medium (4/6 weeks).
 
