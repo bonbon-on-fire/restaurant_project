@@ -76,8 +76,15 @@ will trust it.
         cayenne → `medium`/`hot`. If unsure, leave blank.
       - `richness` — cream, butter, cheese, frying, fatty cuts push toward `rich`;
         broths, lean proteins, vegetables toward `light`.
-      - `season` — only tag when the dish strongly signals it (a chilled summer
-        gazpacho, a winter braise). Most dishes are fine left blank or `all`.
+      - `season` — **time of year** the dish belongs to. Only tag when the dish
+        strongly signals it (a chilled summer gazpacho, a winter braise). Most
+        dishes are fine left blank or `all`.
+      - `weather` — the **outdoor weather** the dish best suits, distinct from
+        `temperature` (how it is served) and from `season` (time of year). Infer
+        from serving temperature + richness + format: a hot, hearty soup/stew or
+        heavy braise → `cold`/`cool`; a chilled, light salad or gazpacho →
+        `hot`/`warm`; comfort/rich dishes lean cold-weather, fresh/light dishes
+        lean hot-weather. Most versatile dishes are fine left blank or `any`.
       - `cuisine` — from the dish's culinary tradition (spices, technique, name).
         Open list; add a new lowercase value if needed.
       - `diet` (multi) — list every claim the ingredients **clearly support**:

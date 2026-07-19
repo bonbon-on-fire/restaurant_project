@@ -30,6 +30,7 @@ tags:
   temperature:            # hot | warm | room | cold | frozen
   weight:                 # light | moderate | hearty
   season:                 # spring | summer | fall | winter | all
+  weather:                # hot | warm | mild | cool | cold | any — outdoor weather this dish best suits (vs `temperature` = how it's served)
   course:                 # amuse-bouche | appetizer | soup | salad | main | side | bread | dessert | sauce | snack | beverage
   protein:                # chicken | turkey | duck | beef | veal | pork | lamb | goat | fish | shellfish | other-seafood | egg | cheese | legume | tofu | tempeh | seitan | plant-substitute | grain | vegetable | mushroom | nut-seed | mixed | none
   cooking_method:         # raw | cured | marinated | simmered | braised | stewed | boiled | poached | steamed | roasted | baked | grilled | broiled | seared | pan-fried | deep-fried | stir-fried | sauteed | smoked | sous-vide | fermented | pickled | no-cook

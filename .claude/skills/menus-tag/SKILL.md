@@ -7,7 +7,7 @@ description: >-
   menus". For each unique dish in a week's pool/schedule it anchors the dish to a
   recipe (the tagged transcribed-en recipe if one exists, else the Parsley
   repertoire) and infers a core controlled-vocabulary tag set (protein,
-  temperature, richness, format, cuisine, spice_level, diet). This is the menu
+  temperature, weather, richness, format, cuisine, spice_level, diet). This is the menu
   analogue of recipes-tag. Does NOT transcribe, translate, change status, or
   interpret the chef's reasoning — that is the later menus-analyze skill.
 ---
@@ -54,8 +54,12 @@ Per dish, fill only these (allowed values in `data/recipes/_TEMPLATE.md`):
 - `protein` — the dish's main component. Watch for meat substitutes (vege
   chicken / TVP / pulled mushroom → `plant-substitute`), mixed mains (`mixed`),
   and meatless dishes (`vegetable`/`legume`/`grain`/`cheese`/`none`).
-- `temperature` — `hot` | `warm` | `room` | `cold` | `frozen`. A simmered soup
-  is `hot`; a composed salad or gazpacho is `cold`.
+- `temperature` — `hot` | `warm` | `room` | `cold` | `frozen`, how the dish is
+  **served**. A simmered soup is `hot`; a composed salad or gazpacho is `cold`.
+- `weather` — `hot` | `warm` | `mild` | `cool` | `cold` | `any`, the **outdoor
+  weather** the dish best suits (distinct from `temperature`). A hot, hearty
+  soup/stew or heavy braise → `cold`/`cool`; a chilled, light salad → `hot`/`warm`;
+  most versatile dishes → `any` or blank. Infer from temperature + richness + format.
 - `richness` — cream/butter/cheese/frying/fatty cuts push `rich`/`indulgent`;
   broths, lean proteins, vegetables push `light`/`lean`.
 - `format` — `soup` | `salad` | `handheld` | `plated-main` | `dip-spread` |
@@ -137,8 +141,8 @@ they are intentionally out of scope for menu tagging.
 
    f. **Regenerate the body table.** Replace (or create) the `## Dish tags`
       section with a table built **from the `dishes:` block** — one row per dish,
-      columns: Dish | Protein | Temp | Richness | Format | Cuisine | Spice |
-      Diet | Recipe. Use `—` for blank cells. The table is a derived view: always
+      columns: Dish | Protein | Temp | Weather | Richness | Format | Cuisine |
+      Spice | Diet | Recipe. Use `—` for blank cells. The table is a derived view: always
       regenerate it from the block so the two cannot drift.
 
 4. **Report.** Per menu, summarize: how many dishes tagged, links found broken

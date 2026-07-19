@@ -73,7 +73,8 @@ dishes: []
 #     recipe_source:        # transcribed-en | parsley | none
 #     tag_source:           # linked (copied from a tagged recipe) | inferred
 #     protein:              # see allowed values in data/recipes/_TEMPLATE.md
-#     temperature:          # hot | warm | room | cold | frozen
+#     temperature:          # hot | warm | room | cold | frozen (how it's served)
+#     weather:              # hot | warm | mild | cool | cold | any — outdoor weather the dish best suits
 #     richness:             # lean | light | moderate | rich | indulgent
 #     format:               # soup | broth | salad | stew | curry | handheld | plated-main | shareable | side | dip-spread | bowl | skewer | pasta | casserole | baked-good | beverage | sauce-condiment
 #     cuisine:              # OPEN list — see data/recipes/_TEMPLATE.md
