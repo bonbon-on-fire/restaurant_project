@@ -5,7 +5,7 @@ meta:
   weeks: [2026-05-11, 2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]
   excluded_untagged: []
   generated: 2026-06-25
-  chef_notes_folded: [2026-07-24]
+  chef_notes_folded: [2026-07-24, 2026-07-24-production-themes]
   sample_caveat: >-
     Only 6 consecutive weeks (May 11 – June 15 2026), all status=flagged from
     hard-to-read handwritten photos with many "?" dish names; temperature/weather
@@ -301,6 +301,16 @@ weather_temp:
     confidence: high
     source: stated
     evidence: "Chef note 2026-07-24. Refines the inferred Mélonccio rotation."
+  - pattern: "Hot summer weather shifts demand to lighter food — salads, cold soups, fresh dishes; hearty dishes (ragoût, curries, cooked vegetables with a starch) become harder to sell"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+    evidence: "Chef note 2026-07-24 (themes affecting production). Reinforces the ≥24°C cold-soup rule and the hot-week salad/sandwich lean, and adds that hearty dishes sell poorly in heat."
+  - pattern: "Cool weather sells soups and hearty dishes well, and salads still sell — cool days broaden what moves rather than narrowing it"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+    evidence: "Chef note 2026-07-24 (themes affecting production)."
   - pattern: "Hot, sunny weeks (high-20s to 30°) lean salad/sandwich-heavy with more composed salads and cold dips"
     support: "2/4 weeks with weather noted [2026-06-01, 2026-06-08]"
     confidence: low
@@ -343,6 +353,11 @@ calendar:
     confidence: high
     source: stated
     evidence: "Chef note 2026-07-24. Paired taxonomy fix: Chili d'Orge is a végé dish, not a soupe."
+  - pattern: "Pre-Christmas weeks run heavy on desserts, ragoût dishes, composed salads, and soups — scale these up in the lead-up to Christmas"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+    evidence: "Chef note 2026-07-24 (themes affecting production). Demand-volume aspects (the pre-Christmas rush, the 22–23 Dec sales dip, and storm-day busyness swings) are recorded in the chef-note but not modelled here — PATTERNS has no demand/volume dimension."
 
 stated_intent:
   - quote: "Cold soups for rainy / cold weekend"
@@ -466,6 +481,8 @@ Denominator is "weeks with weather/temp noted" = 4 (2026-05-25, 2026-06-01, 2026
 - Chilled cold soups appear only on days ≥ 24 °C (hot days) — a "cold soup" is served cold and suits hot weather, not cold. (chef-stated 2026-07-24; high; stated)
 - Exception — Potage Vert L'été may appear any season on broccoli/zucchini surplus; it fills the prêt-à-manger fridge, not the hot line (browns if held hot; won't sell in the restaurant in cold months). (chef-stated 2026-07-24; high; stated)
 - Mélonccio (cold soup) limited to once per week, 1–2 weeks apart, hottest-summer only. (chef-stated 2026-07-24; high; stated)
+- Hot summer weather shifts demand to lighter food — salads, cold soups, fresh dishes; hearty dishes (ragoût, curries, cooked vegetables + a starch) become harder to sell. (chef-stated 2026-07-24; high; stated)
+- Cool weather sells soups and hearty dishes well, and salads still sell — cool days broaden what moves rather than narrowing it. (chef-stated 2026-07-24; high; stated)
 - Hot, sunny weeks (high-20s to 30°) lean salad/sandwich-heavy with more composed salads and cold dips. (2/4 weeks with weather noted [2026-06-01, 2026-06-08]; low; inferred)
 - Temperature swings widely within a single week with no clear day-to-day re-plan beyond the stated cold-soup move. (1/4 weeks with weather noted [2026-06-15]; speculative; inferred)
 
@@ -477,6 +494,7 @@ Denominator is "weeks with weather/temp noted" = 4 (2026-05-25, 2026-06-01, 2026
 - Themed calendar weeks are noted in the header but do not visibly reshape the menu (Father's Day runs an ordinary mixed menu). (1/6 [2026-06-15]; speculative; stated)
 - New dishes are trialled and judged before entering rotation (test-then-adopt). (1/6 [2026-06-01]; low; stated)
 - Chili d'Orge (a végé dish for cold days, not a soupe) appears Oct–Apr only. (chef-stated 2026-07-24; high; stated)
+- Pre-Christmas weeks run heavy on desserts, ragoût dishes, composed salads, and soups — scale these up in the lead-up to Christmas. (chef-stated 2026-07-24; high; stated) Demand-volume aspects (pre-Christmas rush, the 22–23 Dec sales dip, storm-day swings) are captured in the chef-note, not modelled here — PATTERNS has no demand dimension.
 
 ## Stated intent log (verbatim chef reasoning)
 
