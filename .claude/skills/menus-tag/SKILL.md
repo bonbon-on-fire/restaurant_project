@@ -35,6 +35,13 @@ correct; a wrong tag is worse than no tag because downstream tools trust it.
 - **Vocabulary (schema):** `data/recipes/_TEMPLATE.md` — the controlled
   vocabularies and **allowed values** for every tag. Read it fresh every run; it
   is the source of truth. Use only the core subset (below).
+- **Chef-notes taxonomy (read-only, authoritative):** the `taxonomy:` section of
+  every `data/menus/chef-notes/*.md`. Each entry names a `dish` and forces
+  classification fields (`pool_category`, `format`, `protein`, `weather`, …).
+  When a dish you are tagging matches a `taxonomy:` entry (match by
+  normalized name/aka), **use the stated values instead of inferring** — this is
+  chef ground truth and overrides content inference. (The `corrections:` section
+  of the same files is for `menus-analyze`, not this skill — ignore it here.)
 - **Link targets:**
   - `data/recipes/processed/transcribed-en/` — our canonical **tagged** recipes.
     When a dish matches one, its tags can be **copied** verbatim.
@@ -54,6 +61,9 @@ Per dish, fill only these (allowed values in `data/recipes/_TEMPLATE.md`):
 - `protein` — the dish's main component. Watch for meat substitutes (vege
   chicken / TVP / pulled mushroom → `plant-substitute`), mixed mains (`mixed`),
   and meatless dishes (`vegetable`/`legume`/`grain`/`cheese`/`none`).
+  A **texture** dish (the menu's `texture` pool category) is one whose principal
+  ingredient is **végé chicken or végé beef** (both soy + shiitake based) → its
+  `protein` is `plant-substitute`.
 - `temperature` — `hot` | `warm` | `room` | `cold` | `frozen`, how the dish is
   **served**. A simmered soup is `hot`; a composed salad or gazpacho is `cold`.
 - `weather` — `hot` | `warm` | `mild` | `cool` | `cold` | `any`, the **outdoor
@@ -107,6 +117,12 @@ they are intentionally out of scope for menu tagging.
       tag here.
 
    c. **Two-tier match (per unique dish):**
+      - **Tier 0 — chef-notes taxonomy override.** If the dish matches a
+        `taxonomy:` entry in `data/menus/chef-notes/*.md`, set the fields that
+        entry states (e.g. Chili d'Orge → not a soup, `weather: cold`; falafels →
+        végé) and mark `tag_source: stated`. Chef-stated values take precedence
+        over Tier-1/2/3 inference for those fields; infer the remaining fields
+        normally.
       - **Tier 1 — tagged canonical recipe.** If the dish confidently matches a
         recipe in `data/recipes/processed/transcribed-en/` (by title/name,
         across FR↔EN), set `recipe_id` to that file's `id`,
@@ -158,6 +174,9 @@ they are intentionally out of scope for menu tagging.
   tools trust these tags.
 - **Controlled vocabulary only.** Every value comes from the allowed list in
   `data/recipes/_TEMPLATE.md`; `cuisine` is the one open field.
+- **Chef-notes taxonomy overrides inference.** A dish named in a chef-notes
+  `taxonomy:` entry takes the chef-stated classification (e.g. Chili d'Orge is a
+  végé dish, not a soupe; falafels is végé), not an inferred one.
 - **Mark trust.** Every dish carries `recipe_source` and `tag_source`.
 - **Never overwrite, only fill.** Re-running fills still-blank fields and adds
   entries for new dishes. Idempotent and safe to re-run.

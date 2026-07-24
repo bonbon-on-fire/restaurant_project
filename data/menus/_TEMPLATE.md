@@ -25,7 +25,7 @@ photo:                    # source spread photo filename in data/menus/processed
 pool:
   vege: []
   poisson: []
-  texture: []
+  texture: []             # principal ingredient is végé chicken OR végé beef (both soy + shiitake based) → protein: plant-substitute
   soupe: []
   potage: []
   sandwichs: []
