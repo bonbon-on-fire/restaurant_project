@@ -37,6 +37,13 @@ evidence; a flagged-as-weak pattern is correct, an overconfident one is harmful.
   `comment` footer, and the `pool` category counts. Do **not** read the
   `transcribed-fr/` husks and do **not** read recipe files — the tags are the
   abstraction layer.
+- **Chef-notes (read-only):** every file in `data/menus/chef-notes/*.md`. Each has
+  a `corrections:` list of chef-**stated** pattern rules, each with a `dimension`
+  (`per_day_balance` | `weather_temp` | `rotation` | `calendar`), `source: stated`,
+  a `date`, and an optional `overrides` string naming an inferred pattern it
+  supersedes. These are ground truth and **outrank** anything inferred from the
+  weeks. (The `taxonomy:` section of the same files is for `menus-tag`, not for
+  this skill — ignore it here.)
 - **Excluded:** menus with no `dishes:` block (untagged) are NOT analyzed; list
   them in `meta.excluded_untagged` with a reminder to run `menus-tag`. Archived
   menus are skipped silently.
@@ -88,6 +95,7 @@ meta:
   weeks: [2026-05-11, 2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]
   excluded_untagged: []
   generated: <YYYY-MM-DD>
+  chef_notes_folded: []   # dates of chef-notes files whose corrections were folded in, e.g. [2026-07-24]
   sample_caveat: "6 weeks; temp/weather present on 4. Treat low/speculative patterns as hypotheses."
 menu_skeleton:
   - category: poisson
@@ -160,16 +168,29 @@ cannot drift.
    composition (proteins, formats, temperatures, cuisines, diet coverage), the
    week skeleton, and its events.
 4. **Derive each dimension** across weeks (the six above).
-5. **Score every pattern** — compute `support` (count + week list), assign
+5. **Fold in chef-notes (stated beats inferred).** Load every
+   `data/menus/chef-notes/*.md`. For each `corrections:` entry, add it to the
+   dimension named by its `dimension` field with `source: stated`, a `support`
+   of `"chef-stated <date>"`, and `confidence` per the rubric (an explicit chef
+   rule scores `high`). If the entry has an `overrides` value, find the inferred
+   pattern in that dimension whose text matches it and **remove it** (or, if it
+   carries independent evidence worth keeping, annotate its `evidence` with
+   "superseded by chef note <date>"). **Never** delete or alter any
+   `stated_intent` verbatim quote — correct only the inference built on it.
+6. **Score every pattern** — compute `support` (count + week list), assign
    `confidence` per the rubric, set `source`.
-6. **Write `PATTERNS.md` wholesale** — frontmatter + rendered body; overwrite.
-7. **Report** — weeks analyzed, pattern counts per dimension, the
+7. **Write `PATTERNS.md` wholesale** — frontmatter + rendered body; overwrite.
+8. **Report** — weeks analyzed, pattern counts per dimension, the
    highest-confidence findings, and the explicit small-sample caveat.
 
 ## Rules
 
 - **Confident or flagged.** Never assert beyond the evidence. Prefer `stated`
   over `inferred`. Keep the small-sample caveat prominent in `meta` and body.
+- **Chef-notes are authoritative.** Corrections in `data/menus/chef-notes/*.md`
+  are `source: stated` and outrank inferred patterns; where they conflict, the
+  chef-note wins and the inferred pattern is dropped or annotated as superseded.
+  Verbatim `stated_intent` quotes are never removed.
 - **Read-only on menus; writes only `PATTERNS.md`.** Never edit/reorder/move a
   menu file.
 - **Wholesale regeneration.** The document is fully generated each run from all
