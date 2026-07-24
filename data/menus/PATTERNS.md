@@ -5,6 +5,7 @@ meta:
   weeks: [2026-05-11, 2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]
   excluded_untagged: []
   generated: 2026-06-25
+  chef_notes_folded: [2026-07-24]
   sample_caveat: >-
     Only 6 consecutive weeks (May 11 – June 15 2026), all status=flagged from
     hard-to-read handwritten photos with many "?" dish names; temperature/weather
@@ -271,13 +272,35 @@ per_day_balance:
     support: "5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]"
     confidence: medium
     source: inferred
+  - rule: "Pico de Gallo is served on Thursday; never on Monday"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+  - rule: "Kale mango cabbage (KM) is made on Monday (occasionally Thursday), not every day"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+  - rule: "Végé-chicken / texture dishes run Tuesday and Thursday, spaced a day apart; a third (Wednesday) only under high demand"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
 
 weather_temp:
-  - pattern: "Cool/rainy days drive cold soups onto the menu (chef-stated for the rainy weekend); cold soups (Mélonccio) also appear pre-emptively in hot weeks"
-    support: "1/4 weeks with weather noted, chef-stated [2026-06-15]"
-    confidence: low
+  - pattern: "Chilled cold soups appear only on days ≥24°C (hot days) — a 'cold soup' is served cold and suits hot weather, not cold weather"
+    support: "chef-stated 2026-07-24"
+    confidence: high
     source: stated
-    evidence: "2026-06-15 Friday note 'Cold soups for rainy / cold weekend' (Thu/Fri 18-19°, rain). Cold Mélonccio soup also pooled in hot week 2026-06-08, so the cold→cold-soup link is not exclusive."
+    evidence: "Chef note 2026-07-24. Supersedes the earlier inference that cool/rainy days drive cold soups, which misread 'cold soup' (chilled format) as a cold-weather dish. The verbatim 2026-06-15 note 'Cold soups for rainy / cold weekend' meant hot/hearty soups (or Chili d'orge), not the chilled format."
+  - pattern: "Exception — Potage Vert L'été may appear in any season when broccoli/zucchini surplus can't be sold; it fills the prêt-à-manger fridge (no reheating), not the hot line (it browns if held hot and won't sell in the restaurant in cold months)"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+    evidence: "Chef note 2026-07-24."
+  - pattern: "Mélonccio (cold soup) limited to once per week, 1–2 weeks apart, hottest-summer only"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+    evidence: "Chef note 2026-07-24. Refines the inferred Mélonccio rotation."
   - pattern: "Hot, sunny weeks (high-20s to 30°) lean salad/sandwich-heavy with more composed salads and cold dips"
     support: "2/4 weeks with weather noted [2026-06-01, 2026-06-08]"
     confidence: low
@@ -315,6 +338,11 @@ calendar:
     confidence: low
     source: stated
     evidence: "2026-06-01 Friday note 'Hilairoise test with salmon cake — very good'; Hilairoise then recurs 2026-06-15."
+  - pattern: "Chili d'Orge (a végé dish for cold days, not a soupe) appears Oct–Apr only"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+    evidence: "Chef note 2026-07-24. Paired taxonomy fix: Chili d'Orge is a végé dish, not a soupe."
 
 stated_intent:
   - quote: "Cold soups for rainy / cold weekend"
@@ -427,12 +455,17 @@ additional dishes appear only once (one-offs) and are omitted here for brevity.
 - Each service day carries multiple cold salads alongside the hot mains; cold salad/dip formats dominate the non-main slots. (6/6 [all weeks]; high; inferred)
 - Most service days run both a brothy soup and a thick soup in parallel. (5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; medium; inferred)
 - Cuisine spread within a day is broad and mixed (Caribbean + Thai + Indian + French on one line) rather than single-cuisine themed. (5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; medium; inferred)
+- Pico de Gallo is served on Thursday; never on Monday. (chef-stated 2026-07-24; high; stated)
+- Kale mango cabbage (KM) is made on Monday (occasionally Thursday), not every day. (chef-stated 2026-07-24; high; stated)
+- Végé-chicken / texture dishes run Tuesday and Thursday, spaced a day apart; a third (Wednesday) only under high demand. (chef-stated 2026-07-24; high; stated)
 
 ## Weather / temperature tendencies
 
 Denominator is "weeks with weather/temp noted" = 4 (2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15). May 11 and May 18 had no legible temp.
 
-- Cool/rainy days drive cold soups onto the menu (chef-stated for the rainy weekend); cold soups (Mélonccio) also appear pre-emptively in hot weeks, so the link is not exclusive. (1/4 weeks with weather noted [2026-06-15]; low; stated)
+- Chilled cold soups appear only on days ≥ 24 °C (hot days) — a "cold soup" is served cold and suits hot weather, not cold. (chef-stated 2026-07-24; high; stated)
+- Exception — Potage Vert L'été may appear any season on broccoli/zucchini surplus; it fills the prêt-à-manger fridge, not the hot line (browns if held hot; won't sell in the restaurant in cold months). (chef-stated 2026-07-24; high; stated)
+- Mélonccio (cold soup) limited to once per week, 1–2 weeks apart, hottest-summer only. (chef-stated 2026-07-24; high; stated)
 - Hot, sunny weeks (high-20s to 30°) lean salad/sandwich-heavy with more composed salads and cold dips. (2/4 weeks with weather noted [2026-06-01, 2026-06-08]; low; inferred)
 - Temperature swings widely within a single week with no clear day-to-day re-plan beyond the stated cold-soup move. (1/4 weeks with weather noted [2026-06-15]; speculative; inferred)
 
@@ -443,6 +476,7 @@ Denominator is "weeks with weather/temp noted" = 4 (2026-05-25, 2026-06-01, 2026
 - Summer-vacation production prep begins mid-June (scaling soups, pre-production). (1/6 [2026-06-08]; low; stated)
 - Themed calendar weeks are noted in the header but do not visibly reshape the menu (Father's Day runs an ordinary mixed menu). (1/6 [2026-06-15]; speculative; stated)
 - New dishes are trialled and judged before entering rotation (test-then-adopt). (1/6 [2026-06-01]; low; stated)
+- Chili d'Orge (a végé dish for cold days, not a soupe) appears Oct–Apr only. (chef-stated 2026-07-24; high; stated)
 
 ## Stated intent log (verbatim chef reasoning)
 
