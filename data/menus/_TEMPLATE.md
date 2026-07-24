@@ -25,7 +25,7 @@ photo:                    # source spread photo filename in data/menus/processed
 pool:
   vege: []
   poisson: []
-  texture: []
+  texture: []             # principal ingredient is végé chicken OR végé beef (both soy + shiitake based) → protein: plant-substitute
   soupe: []
   potage: []
   sandwichs: []
@@ -71,7 +71,7 @@ dishes: []
 #                           #   abbreviations / variant spellings), so a day can join by name OR aka
 #     recipe_id:            # tagged recipe id | parsley match | blank if none
 #     recipe_source:        # transcribed-en | parsley | none
-#     tag_source:           # linked (copied from a tagged recipe) | inferred
+#     tag_source:           # linked (copied from a tagged recipe) | inferred | stated (chef-notes taxonomy override)
 #     protein:              # see allowed values in data/recipes/_TEMPLATE.md
 #     temperature:          # hot | warm | room | cold | frozen (how it's served)
 #     weather:              # hot | warm | mild | cool | cold | any — outdoor weather the dish best suits

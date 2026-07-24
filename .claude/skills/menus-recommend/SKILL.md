@@ -109,9 +109,9 @@ is a fresh artifact.
 2. **Per-day notes** — what each service day emphasizes and why (weather/event
    driven), including any closure.
 3. **Pattern citations** — key choices cite the specific `PATTERNS` dimension and
-   its confidence, e.g. "Kale mango cabbage every day — rotation staple, high";
-   "cold soups Friday — weather_temp, chef-stated"; "soup + potage daily —
-   per_day_balance, medium".
+   its confidence, e.g. "Kale mango cabbage on Monday — per_day_balance, chef-stated";
+   "chilled cold soup on the 26 °C day — weather_temp, chef-stated"; "soup + potage
+   daily — per_day_balance, medium".
 4. **Improvisation / honesty flags** — explicitly call out where you improvised
    (no governing pattern), leaned on a `low`/`speculative` pattern, or used an
    approximate *inferred* tag for a repertoire dish whose real tags are unknown.
@@ -132,8 +132,9 @@ is a fresh artifact.
    `weather_temp`, diet coverage, and cuisine variety.
 5. **Lay out Mon–Fri.** Assign pool dishes to days honoring within-day balance
    (≥1 fish/pescatarian main + ≥1 plant-substitute main; a brothy soup and a
-   thick potage in parallel; multiple cold salads; mixed cuisines) and each day's
-   weather (cold/rainy → push soups; hot → salad-lean). Close holiday days
+   thick potage in parallel; multiple cold salads; mixed cuisines) and each
+   day's weather (cold/rainy → push hot/hearty soupes; hot days ≥24°C →
+   salad-lean and where chilled cold soups belong). Close holiday days
    (`dishes: []` + a `notes` reason).
 6. **Write the file.** Canonical structure (`pool` + `schedule` + `dishes:` tag
    block) with the mock flags, plus the `## Why this menu` rationale. Use a fresh,
@@ -161,10 +162,12 @@ is a fresh artifact.
 - **Each pool category holds distinct dishes.** Do not assign the same dish to two
   categories (e.g. Pico de Gallo belongs only in `pico-de-gallo`; `sauces` must
   hold an actual sauce such as Sauce Satay or Sauce Marinara, not Pico de Gallo).
-- **Apply chef-stated weather patterns in their stated direction.** If PATTERNS.md
-  records "cold soups for rainy/cold weekend", feature cold soup(s) on cool/rainy
-  days — do not invert or suppress them. Inversion is a separate inference and must
-  be explicitly flagged as such with a low/speculative confidence label.
+- **Apply chef-stated weather patterns in their stated direction.** Honor
+  PATTERNS.md as written: chilled **cold soups** belong on **hot days (≥24°C)**,
+  while hot/hearty **soupes** suit cold/rainy days. Do not put a chilled cold soup
+  on a cold day. If a specific PATTERNS entry ever states a direction explicitly,
+  follow that entry; never silently invert a stated pattern, and flag any
+  deviation with a low/speculative confidence label.
 - **Verify every `recipe_id` against `data/parsley/recipes-en/`.** When setting
   `recipe_source: parsley`, the `recipe_id` value MUST be an exact existing filename
   in `data/parsley/recipes-en/` (without the `.md` extension). List the directory to
