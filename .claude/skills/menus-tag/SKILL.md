@@ -123,6 +123,9 @@ they are intentionally out of scope for menu tagging.
         végé) and mark `tag_source: stated`. Chef-stated values take precedence
         over Tier-1/2/3 inference for those fields; infer the remaining fields
         normally.
+        (A stated `pool_category` is advisory context only — it informs the tag
+        fields like `format`/`protein`/`weather`; never write the `pool` block,
+        which this skill does not own.)
       - **Tier 1 — tagged canonical recipe.** If the dish confidently matches a
         recipe in `data/recipes/processed/transcribed-en/` (by title/name,
         across FR↔EN), set `recipe_id` to that file's `id`,

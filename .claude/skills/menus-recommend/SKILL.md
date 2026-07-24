@@ -109,9 +109,9 @@ is a fresh artifact.
 2. **Per-day notes** — what each service day emphasizes and why (weather/event
    driven), including any closure.
 3. **Pattern citations** — key choices cite the specific `PATTERNS` dimension and
-   its confidence, e.g. "Kale mango cabbage every day — rotation staple, high";
-   "cold soups Friday — weather_temp, chef-stated"; "soup + potage daily —
-   per_day_balance, medium".
+   its confidence, e.g. "Kale mango cabbage on Monday — per_day_balance, chef-stated";
+   "chilled cold soup on the 26 °C day — weather_temp, chef-stated"; "soup + potage
+   daily — per_day_balance, medium".
 4. **Improvisation / honesty flags** — explicitly call out where you improvised
    (no governing pattern), leaned on a `low`/`speculative` pattern, or used an
    approximate *inferred* tag for a repertoire dish whose real tags are unknown.
