@@ -1,508 +1,531 @@
 ---
+# ============================================================
+# PATTERNS.md — living synthesis of how this chef plans menus.
+# REGENERATED WHOLESALE by the menus-analyze skill from ALL
+# currently tagged weekly menus + every data/menus/chef-notes/*.md.
+# Do NOT hand-edit: re-run menus-analyze after new weeks are tagged.
+# Frontmatter is the machine-readable source of truth; the body
+# below is a derived render of the same content.
+# ============================================================
 meta:
-  weeks_analyzed: 6
-  week_range: "2026-05-11 .. 2026-06-15"
-  weeks: [2026-05-11, 2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]
+  weeks_analyzed: 47
+  week_range: "2024-12-16 .. 2026-06-15"
+  weeks: [2024-12-16, 2025-01-06, 2025-01-13, 2025-01-20, 2025-01-27, 2025-02-03,
+          2025-02-10, 2025-02-17, 2025-02-24, 2025-03-03, 2025-03-10, 2025-03-17,
+          2025-03-24, 2025-03-30, 2025-04-07, 2025-04-14, 2025-04-21, 2025-04-28,
+          2025-05-05, 2025-05-12, 2025-05-19, 2025-05-26, 2025-06-02, 2025-06-09,
+          2025-06-16, 2025-06-23, 2025-06-30, 2025-07-07, 2025-07-14, 2025-08-11,
+          2025-08-18, 2025-08-25, 2025-09-01, 2025-09-08, 2025-09-22, 2025-10-06,
+          2025-10-13, 2025-10-20, 2025-10-27, 2025-11-10, 2026-01-19, 2026-05-11,
+          2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]
   excluded_untagged: []
-  generated: 2026-06-25
-  chef_notes_folded: [2026-07-24, 2026-07-24-production-themes]
+  archived_skipped: []
+  generated: 2026-07-24
+  chef_notes_folded: [2026-07-24]   # both 2026-07-24.md and 2026-07-24-production-themes.md
+  service_days: 188
+  weeks_with_weather_or_temp: 36    # denominator for weather_temp patterns
   sample_caveat: >-
-    Only 6 consecutive weeks (May 11 – June 15 2026), all status=flagged from
-    hard-to-read handwritten photos with many "?" dish names; temperature/weather
-    is legible on only 4 of 6 weeks (none in May 11 or May 18); most tags are
-    tag_source=inferred, not chef-stated. Treat low/speculative patterns as
-    hypotheses, not facts. The window is late-spring/early-summer only, so seasonal
-    inferences do not generalize to other seasons.
+    47 weeks span 18 months but are NOT contiguous (large gaps: no weeks between
+    2025-07-14 and 2025-08-11, none 2025-11-10 .. 2026-01-19, none 2026-01-19 ..
+    2026-05-11). Temperature is noted on only 95/188 service days and weather on
+    70/188, together covering 36/47 weeks — winter 2024/25 and spring 2025 are
+    weather-rich, most of autumn is bare. Only ONE December week (2024-12-16) is
+    in the set, so pre-Christmas patterns rest almost entirely on the chef note,
+    not on data. Almost all dish tags are INFERRED (tier-2/3), so protein/format
+    counts carry inference error. Treat low/speculative rows as hypotheses; trust
+    source:stated rows as documented chef intent even where n is small.
 
+# ------------------------------------------------------------
+# 1. MENU SKELETON — per-week count distribution per pool category.
+# ------------------------------------------------------------
 menu_skeleton:
-  - category: soupe
-    per_week_count: {min: 5, median: 5, max: 5}
-    support: "6/6 [all weeks]"
+  - category: salades
+    per_week_count: {min: 5, median: 6, max: 8}
+    support: "47/47"
     confidence: high
     source: inferred
   - category: potage
-    per_week_count: {min: 5, median: 5, max: 6}
-    support: "6/6 [all weeks]"
+    per_week_count: {min: 4, median: 5, max: 8}
+    support: "47/47"
     confidence: high
     source: inferred
-  - category: salades
-    per_week_count: {min: 5, median: 6, max: 8}
-    support: "6/6 [all weeks]"
+  - category: soupe
+    per_week_count: {min: 4, median: 5, max: 7}
+    support: "47/47"
     confidence: high
     source: inferred
   - category: vege
-    per_week_count: {min: 3, median: 3, max: 4}
-    support: "6/6 [all weeks]"
+    per_week_count: {min: 3, median: 4, max: 8}
+    support: "47/47"
     confidence: high
     source: inferred
   - category: poisson
-    per_week_count: {min: 2, median: 3, max: 3}
-    support: "6/6 [all weeks]"
+    per_week_count: {min: 2, median: 3, max: 6}
+    support: "47/47"
     confidence: high
     source: inferred
   - category: salade-comp
-    per_week_count: {min: 3, median: 4, max: 5}
-    support: "6/6 [all weeks]"
+    per_week_count: {min: 2, median: 3, max: 6}
+    support: "47/47"
+    confidence: high
+    source: inferred
+  - category: hummus
+    per_week_count: {min: 1, median: 2, max: 4}
+    support: "47/47"
+    confidence: high
+    source: inferred
+  - category: texture
+    per_week_count: {min: 1, median: 2, max: 4}
+    support: "47/47"
     confidence: high
     source: inferred
   - category: sandwichs
     per_week_count: {min: 2, median: 2, max: 3}
-    support: "6/6 [all weeks]"
-    confidence: high
-    source: inferred
-  - category: texture
-    per_week_count: {min: 2, median: 2, max: 3}
-    support: "6/6 [all weeks]"
-    confidence: high
-    source: inferred
-  - category: hummus
-    per_week_count: {min: 1, median: 2, max: 3}
-    support: "6/6 [all weeks]"
+    support: "47/47"
     confidence: high
     source: inferred
   - category: sauces
-    per_week_count: {min: 1, median: 1, max: 2}
-    support: "6/6 [all weeks]"
+    per_week_count: {min: 1, median: 1, max: 3}
+    support: "47/47"
     confidence: high
     source: inferred
   - category: quiche
-    per_week_count: {min: 1, median: 1, max: 1}
-    support: "6/6 [all weeks]"
+    per_week_count: {min: 1, median: 1, max: 2}
+    support: "47/47"
     confidence: high
     source: inferred
+  - category: wraps
+    per_week_count: {min: 0, median: 1, max: 3}
+    support: "30/47 weeks present"
+    confidence: medium
+    source: inferred
+  - category: burgers
+    per_week_count: {min: 0, median: 1, max: 2}
+    support: "24/47 weeks present"
+    confidence: medium
+    source: inferred
+    evidence: "Concentrated in warm months (see weather_temp / calendar)."
+  - category: vinaigrettes
+    per_week_count: {min: 0, median: 0, max: 3}
+    support: "23/47 weeks present"
+    confidence: low
+    source: inferred
+    evidence: "Often left blank on the sheet; may be under-transcribed rather than absent."
   - category: pico-de-gallo
-    per_week_count: {min: 1, median: 1, max: 1}
-    support: "6/6 [all weeks]"
-    confidence: high
+    per_week_count: {min: 0, median: 0, max: 1}
+    support: "1/47 as its own pool row; the dish itself recurs 14/47 (see rotation)"
+    confidence: low
     source: inferred
-  - category: mousse
-    per_week_count: {min: 0, median: 1, max: 1}
-    support: "5/6 [2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]"
-    confidence: medium
+    evidence: "Pico is usually written into another row, not the pico-de-gallo row."
+  - category: quenelles-morue
+    per_week_count: {min: 0, median: 0, max: 1}
+    support: "1/47"
+    confidence: speculative
+    source: inferred
+  - category: croquettes
+    per_week_count: {min: 0, median: 0, max: 1}
+    support: "1/47"
+    confidence: speculative
+    source: inferred
+  - category: feves-lard
+    per_week_count: {min: 0, median: 0, max: 1}
+    support: "1/47 as its own row"
+    confidence: speculative
+    source: inferred
+    evidence: "Chef note (2025-05-05): 'Fève sans lard takes a break until winter' — a seasonal item, mostly folded into other rows."
+  - category: popee-lentilles
+    per_week_count: {min: 0, median: 0, max: 1}
+    support: "1/47"
+    confidence: speculative
     source: inferred
 
+# ------------------------------------------------------------
+# 2. ROTATION — dish frequency across weeks (name+aka identity).
+# 513 distinct dishes: 6 staple, 206 rotating (>=2 weeks), 301 one-off.
+# Listed: all staples + rotating dishes present in >=8 weeks.
+# The 301 one-off dishes and the long rotating tail are omitted here.
+# ------------------------------------------------------------
 rotation:
-  - dish: "Poutine (vegan)"
-    weeks_present: 6
-    role: staple
-    support: "6/6 [all weeks]"
-    confidence: high
-    source: inferred
-  - dish: "Kale mango cabbage (KM)"
-    weeks_present: 6
-    role: staple
-    support: "6/6 [all weeks]"
-    confidence: high
-    source: inferred
-  - dish: "Pico de Gallo"
-    weeks_present: 6
-    role: staple
-    support: "6/6 [all weeks]"
-    confidence: high
-    source: inferred
-  - dish: "Quiche (Forestier / Ham / Vegetable)"
-    weeks_present: 6
-    role: staple
-    support: "6/6 [all weeks]"
-    confidence: high
-    source: inferred
-  - dish: "Jerk chicken (veggie)"
-    weeks_present: 6
-    role: staple
-    support: "6/6 [all weeks; struck out 2026-05-18, as Jerk rémoulade 2026-06-01]"
-    confidence: high
-    source: inferred
-  - dish: "Mushroom tarragon (soup)"
-    weeks_present: 4
-    role: rotating
-    support: "4/6 [2026-05-18, 2026-06-01, 2026-06-08, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - dish: "Korean (soup)"
-    weeks_present: 4
-    role: rotating
-    support: "4/6 [2026-05-11, 2026-05-25, 2026-06-08, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - dish: "Salmon pesto (main/sandwich variants)"
-    weeks_present: 4
-    role: rotating
-    support: "4/6 [2026-05-11, 2026-05-18, 2026-06-01, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - dish: "Tom Yum (soup)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-18, 2026-05-25, 2026-06-08]"
-    confidence: medium
-    source: inferred
-  - dish: "Pho (soup)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-11, 2026-06-01, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - dish: "Moqueca (fish stew)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-25, 2026-06-01, 2026-06-08]"
-    confidence: medium
-    source: inferred
-  - dish: "Goat cheese & cabbage"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-11, 2026-06-01, 2026-06-08]"
-    confidence: medium
-    source: inferred
-  - dish: "Chicken salad (veggie)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-18, 2026-06-01, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - dish: "Thai peanut chicken (Poulet Végé Thai)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-25, 2026-06-15; also 2026-06-15 plated variant]"
-    confidence: medium
-    source: inferred
-  - dish: "Paella (veggie)"
-    weeks_present: 3
-    role: rotating
-    support: "3/6 [2026-05-25, 2026-06-01, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - dish: "Cream of tomato (soup)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-06-08, 2026-06-15]"
-    confidence: low
-    source: inferred
-  - dish: "Tulum (soup)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-11, 2026-06-15]"
-    confidence: low
-    source: inferred
-  - dish: "Mulligatawny (soup)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-11, 2026-06-01]"
-    confidence: low
-    source: inferred
-  - dish: "Ribollita (soup)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-18, 2026-06-01]"
-    confidence: low
-    source: inferred
-  - dish: "Carrot celeriac (salad)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-18, 2026-06-01]"
-    confidence: low
-    source: inferred
-  - dish: "Provençal (salad)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-25, 2026-06-01]"
-    confidence: low
-    source: inferred
-  - dish: "Bandhu salad"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-11, 2026-06-01]"
-    confidence: low
-    source: inferred
-  - dish: "Tabbouleh (salad)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-06-01, 2026-06-15]"
-    confidence: low
-    source: inferred
-  - dish: "Beet apple tofu (salad)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-25, 2026-06-15]"
-    confidence: low
-    source: inferred
-  - dish: "Black-eyed pea (Dolique)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-18, 2026-06-15]"
-    confidence: low
-    source: inferred
-  - dish: "Hilairoise (salad)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-06-01, 2026-06-15]"
-    confidence: low
-    source: inferred
-  - dish: "Falafels"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-06-01, 2026-06-08]"
-    confidence: low
-    source: inferred
-  - dish: "Salmon crumble (croustade)"
-    weeks_present: 2
-    role: rotating
-    support: "2/6 [2026-05-11, 2026-06-08]"
-    confidence: low
-    source: inferred
+  - {dish: "Ham", weeks_present: 47, role: staple, support: "47/47 [all weeks]", confidence: high, source: inferred}
+  - {dish: "Poutine", weeks_present: 47, role: staple, support: "47/47 [all weeks]", confidence: high, source: inferred}
+  - {dish: "Kale mango cabbage (KM)", weeks_present: 41, role: staple, support: "41/47", confidence: high, source: inferred}
+  - {dish: "Salmon pesto artichoke", weeks_present: 41, role: staple, support: "41/47", confidence: high, source: inferred}
+  - {dish: "Korean", weeks_present: 35, role: staple, support: "35/47", confidence: high, source: inferred}
+  - {dish: "Creamy broccoli", weeks_present: 28, role: staple, support: "28/47", confidence: high, source: inferred}
+  - {dish: "Beet goat cheese", weeks_present: 26, role: rotating, support: "26/47", confidence: high, source: inferred}
+  - {dish: "Mushroom tarragon", weeks_present: 25, role: rotating, support: "25/47", confidence: high, source: inferred}
+  - {dish: "Provençal", weeks_present: 24, role: rotating, support: "24/47", confidence: high, source: inferred}
+  - {dish: "Ratatouille", weeks_present: 22, role: rotating, support: "22/47", confidence: medium, source: inferred}
+  - {dish: "Goat cheese cabbage", weeks_present: 21, role: rotating, support: "21/47", confidence: medium, source: inferred}
+  - {dish: "Tuna salad", weeks_present: 21, role: rotating, support: "21/47", confidence: medium, source: inferred}
+  - {dish: "Jerk chicken", weeks_present: 20, role: rotating, support: "20/47", confidence: medium, source: inferred}
+  - {dish: "Rémoulade", weeks_present: 20, role: rotating, support: "20/47", confidence: medium, source: inferred}
+  - {dish: "Carrot celeriac", weeks_present: 19, role: rotating, support: "19/47", confidence: medium, source: inferred}
+  - {dish: "Bandhu", weeks_present: 18, role: rotating, support: "18/47", confidence: medium, source: inferred}
+  - {dish: "Broccoli pistachio", weeks_present: 18, role: rotating, support: "18/47", confidence: medium, source: inferred}
+  - {dish: "Veg almond coconut", weeks_present: 18, role: rotating, support: "18/47", confidence: medium, source: inferred}
+  - {dish: "Asian", weeks_present: 17, role: rotating, support: "17/47", confidence: medium, source: inferred}
+  - {dish: "Moroccan", weeks_present: 17, role: rotating, support: "17/47", confidence: medium, source: inferred}
+  - {dish: "Mulligatawny", weeks_present: 17, role: rotating, support: "17/47", confidence: medium, source: inferred}
+  - {dish: "Salmon crumble (croustade)", weeks_present: 17, role: rotating, support: "17/47", confidence: medium, source: inferred}
+  - {dish: "Cauliflower shiitake", weeks_present: 16, role: rotating, support: "16/47", confidence: medium, source: inferred}
+  - {dish: "Celeriac apple", weeks_present: 16, role: rotating, support: "16/47", confidence: medium, source: inferred}
+  - {dish: "Falafels", weeks_present: 16, role: rotating, support: "16/47", confidence: medium, source: inferred}
+  - {dish: "Root trio", weeks_present: 16, role: rotating, support: "16/47", confidence: medium, source: inferred}
+  - {dish: "Tom yum", weeks_present: 16, role: rotating, support: "16/47", confidence: medium, source: inferred}
+  - {dish: "Paella", weeks_present: 15, role: rotating, support: "15/47", confidence: medium, source: inferred}
+  - {dish: "Lasagna", weeks_present: 14, role: rotating, support: "14/47", confidence: medium, source: inferred}
+  - {dish: "Pico de gallo", weeks_present: 14, role: rotating, support: "14/47 [warm-month weeks only]", confidence: medium, source: inferred, evidence: "All 14 weeks fall May–Aug or late spring; see calendar seasonal."}
+  - {dish: "Classic", weeks_present: 13, role: rotating, support: "13/47", confidence: medium, source: inferred}
+  - {dish: "Tabbouleh", weeks_present: 13, role: rotating, support: "13/47", confidence: medium, source: inferred}
+  - {dish: "Banh mi", weeks_present: 12, role: rotating, support: "12/47", confidence: low, source: inferred}
+  - {dish: "Carrot kale quinoa", weeks_present: 12, role: rotating, support: "12/47", confidence: low, source: inferred}
+  - {dish: "Carrot madras curry", weeks_present: 12, role: rotating, support: "12/47", confidence: low, source: inferred}
+  - {dish: "Salmon ginger", weeks_present: 12, role: rotating, support: "12/47", confidence: low, source: inferred}
+  - {dish: "Thai peanut", weeks_present: 12, role: rotating, support: "12/47", confidence: low, source: inferred}
+  - {dish: "Cod curry", weeks_present: 11, role: rotating, support: "11/47", confidence: low, source: inferred}
+  - {dish: "Harira", weeks_present: 11, role: rotating, support: "11/47", confidence: low, source: inferred}
+  - {dish: "Indian lentils", weeks_present: 11, role: rotating, support: "11/47", confidence: low, source: inferred}
+  - {dish: "Risotto", weeks_present: 11, role: rotating, support: "11/47", confidence: low, source: inferred}
+  - {dish: "Roasted peppers", weeks_present: 11, role: rotating, support: "11/47", confidence: low, source: inferred}
+  - {dish: "Tomato zucchini", weeks_present: 11, role: rotating, support: "11/47", confidence: low, source: inferred}
+  - {dish: "Braised vegetables", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Chicken makhani", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Cod quenelle", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Greek", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Haddock mango coconut", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Krokante", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Old-fashioned potato", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Romesco", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Rosée", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Satay chicken", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Thai chicken", weeks_present: 10, role: rotating, support: "10/47", confidence: low, source: inferred}
+  - {dish: "Chili d'Orge", weeks_present: null, role: rotating, support: "chef-stated 2026-07-24", confidence: high, source: stated, evidence: "Seasonal (Oct–Apr) — see calendar. A végé stew, not a soupe; weather: cold."}
+rotation_summary:
+  distinct_dishes: 513
+  staples: 6
+  rotating: 206
+  one_offs: 301
+  note: >-
+    "One-off" (single-week) dishes dominate the catalogue (301/513): the menu is
+    a small stable spine of staples/heavy-rotation dishes plus a wide, mostly
+    single-appearance long tail. Cross-week identity is normalized name+aka, so a
+    spelling variant not captured as `aka` would over-count one-offs.
 
+# ------------------------------------------------------------
+# 3. PER-DAY BALANCE — within-day composition tendencies.
+# Denominator = 188 service days (days with >=1 dish). Tags inferred.
+# ------------------------------------------------------------
 per_day_balance:
-  - rule: "Monday opens the week with the staple core present together — Poutine, a quiche, KM and a hummus/dip appear on the Monday service line"
-    support: "4/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08]"
-    confidence: medium
-    source: inferred
-  - rule: "Every service day fields at least one fish/pescatarian main and at least one plant-substitute (or tofu) main"
-    support: "5/6 weeks consistent across their service days [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; 2026-05-18 partly inferred"
-    confidence: medium
-    source: inferred
-  - rule: "Each service day carries multiple cold salads alongside the hot mains — cold-temperature salad/dip formats dominate the non-main slots"
-    support: "6/6 [all weeks]"
+  - rule: "Almost every service day fields at least one soup (soupe/potage)"
+    support: "181/188 days (96%); every day covered in 40/47 weeks"
     confidence: high
     source: inferred
-  - rule: "Most service days field both a brothy soup (soupe) and a thick soup (potage); the two soup categories run in parallel daily"
-    support: "5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]"
+  - rule: "Almost every service day fields at least one salad"
+    support: "181/188 days (96%); every day covered in 40/47 weeks"
+    confidence: high
+    source: inferred
+  - rule: "Most service days field at least one fish main"
+    support: "163/188 days (87%); every day covered in 25/47 weeks"
+    confidence: high
+    source: inferred
+  - rule: "Most service days field at least one plant-substitute (texture) main"
+    support: "136/188 days (72%); every day covered in 8/47 weeks"
     confidence: medium
     source: inferred
-  - rule: "Cuisine spread within a day is broad and mixed (e.g. Caribbean + Thai + Indian + French on one line) rather than themed to a single cuisine"
-    support: "5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]"
-    confidence: medium
-    source: inferred
-  - rule: "Pico de Gallo is served on Thursday; never on Monday"
+    evidence: "Present most days but rarely on ALL five days of a week — texture mains are spaced, matching the chef's Tue/Thu placement rule below."
+  - rule: "Végé-chicken / texture dishes run Tuesday and Thursday, spaced a day apart; a third texture dish appears on Wednesday only under high demand"
     support: "chef-stated 2026-07-24"
     confidence: high
     source: stated
-  - rule: "Kale mango cabbage (KM) is made on Monday (occasionally Thursday), not every day"
+  - rule: "Kale mango cabbage (KM) is placed on Monday (occasionally Thursday), not every day"
     support: "chef-stated 2026-07-24"
     confidence: high
     source: stated
-  - rule: "Végé-chicken / texture dishes run Tuesday and Thursday, spaced a day apart; a third (Wednesday) only under high demand"
+    evidence: "Corrects the inferred read of KM (staple, 41/47 weeks) as an everyday dish — it recurs weekly but sits on Monday within the week."
+  - rule: "Pico de Gallo is served on Thursday and is never made on a Monday"
     support: "chef-stated 2026-07-24"
     confidence: high
     source: stated
 
+# ------------------------------------------------------------
+# 4. WEATHER / TEMP — temperature/weather buckets → dish tendencies.
+# Denominator = 36 weeks with weather/temp noted. Range -25°C .. +33°C.
+# ------------------------------------------------------------
 weather_temp:
-  - pattern: "Chilled cold soups appear only on days ≥24°C (hot days) — a 'cold soup' is served cold and suits hot weather, not cold weather"
-    support: "chef-stated 2026-07-24"
+  - pattern: "Hot summer weather → lighter menu: salads, cold soups, fresh dishes; hearty dishes (ragoût, curries, cooked-veg-plus-starch) get harder to sell"
+    support: "chef-stated 2026-07-24; corroborated by warm-month weeks"
     confidence: high
     source: stated
-    evidence: "Chef note 2026-07-24. Supersedes the earlier inference that cool/rainy days drive cold soups, which misread 'cold soup' (chilled format) as a cold-weather dish. The verbatim 2026-06-15 note 'Cold soups for rainy / cold weekend' meant hot/hearty soups (or Chili d'orge), not the chilled format."
-  - pattern: "Exception — Potage Vert L'été may appear in any season when broccoli/zucchini surplus can't be sold; it fills the prêt-à-manger fridge (no reheating), not the hot line (it browns if held hot and won't sell in the restaurant in cold months)"
+    evidence: "Burgers/falafels and Pico de gallo cluster in 20–33°C weeks (May–Jul 2025, May–Jun 2026); margin notes add burgers/falafels on hot days."
+  - pattern: "Cool weather → soups sell well AND hearty dishes sell well AND salads still sell (cool days broaden demand rather than narrowing it)"
     support: "chef-stated 2026-07-24"
-    confidence: high
-    source: stated
-    evidence: "Chef note 2026-07-24."
-  - pattern: "Mélonccio (cold soup) limited to once per week, 1–2 weeks apart, hottest-summer only"
-    support: "chef-stated 2026-07-24"
-    confidence: high
-    source: stated
-    evidence: "Chef note 2026-07-24. Refines the inferred Mélonccio rotation."
-  - pattern: "Hot summer weather shifts demand to lighter food — salads, cold soups, fresh dishes; hearty dishes (ragoût, curries, cooked vegetables with a starch) become harder to sell"
-    support: "chef-stated 2026-07-24"
-    confidence: high
-    source: stated
-    evidence: "Chef note 2026-07-24 (themes affecting production). Reinforces the ≥24°C cold-soup rule and the hot-week salad/sandwich lean, and adds that hearty dishes sell poorly in heat."
-  - pattern: "Cool weather sells soups and hearty dishes well, and salads still sell — cool days broaden what moves rather than narrowing it"
-    support: "chef-stated 2026-07-24"
-    confidence: high
-    source: stated
-    evidence: "Chef note 2026-07-24 (themes affecting production)."
-  - pattern: "Hot, sunny weeks (high-20s to 30°) lean salad/sandwich-heavy with more composed salads and cold dips"
-    support: "2/4 weeks with weather noted [2026-06-01, 2026-06-08]"
-    confidence: low
-    source: inferred
-    evidence: "2026-06-01 (29-30° sunny) and 2026-06-08 (28-31° sunny) carry the largest salades + salade-comp counts (8 and 7 salads) of the sample."
-  - pattern: "Temperature within a single week swings widely (e.g. 28° → 19° → 23° → 19°/18° rain in 2026-06-15) with no clear day-to-day menu re-plan beyond the stated cold-soup move"
-    support: "1/4 weeks with weather noted [2026-06-15]"
-    confidence: speculative
-    source: inferred
-    evidence: "2026-06-15 margin temps 28/19/23/19/18; menu composition stable across the swing except the Friday cold-soup note."
-
-calendar:
-  - pattern: "Statutory holiday -> closed that day"
-    support: "1/6 [2026-05-18 Victoria Day, Monday CLOSED]"
-    confidence: low
-    source: stated
-    evidence: "2026-05-18 Monday schedule = ['CLOSED'], note 'Closed — Victoria Day (holiday)'."
-  - pattern: "Recurring circled 'MDF' marker appears as a weekly event/prep cue (meaning not fully resolved; tied to hummus demand and burgers in notes)"
-    support: "5/6 [2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]"
     confidence: medium
     source: stated
-    evidence: "2026-05-18 'Hummus MDF, make more'; 2026-05-25 'MDF Burgers'; 2026-06-01 'MDF ✓; Burgers'; 2026-06-08 'MDF (circled)' + 'Start prod for MDF summer vacation'; 2026-06-15 'MDF ?'."
-  - pattern: "Summer-vacation production prep begins in mid-June (scaling soups, pre-production)"
-    support: "1/6 [2026-06-08]"
-    confidence: low
-    source: stated
-    evidence: "2026-06-08 Friday note '* Start prod for MDF summer vacation; * Soup start scaling ?'."
-  - pattern: "Themed calendar weeks are acknowledged in the header but do not visibly reshape the menu (Father's Day week runs an ordinary mixed menu)"
-    support: "1/6 [2026-06-15 Father's Day]"
-    confidence: speculative
-    source: stated
-    evidence: "2026-06-15 header 'Father's Day'; service menu is a standard mix with no distinct festive line."
-  - pattern: "New dishes are trialled and judged before entering rotation (test-then-adopt behavior)"
-    support: "1/6 [2026-06-01]"
-    confidence: low
-    source: stated
-    evidence: "2026-06-01 Friday note 'Hilairoise test with salmon cake — very good'; Hilairoise then recurs 2026-06-15."
-  - pattern: "Chili d'Orge (a végé dish for cold days, not a soupe) appears Oct–Apr only"
+  - pattern: "Cold-served 'cold soups' appear in the rotation ONLY on days that are 24°C and above (a cold soup suits hot weather, not cold)"
     support: "chef-stated 2026-07-24"
     confidence: high
     source: stated
-    evidence: "Chef note 2026-07-24. Paired taxonomy fix: Chili d'Orge is a végé dish, not a soupe."
-  - pattern: "Pre-Christmas weeks run heavy on desserts, ragoût dishes, composed salads, and soups — scale these up in the lead-up to Christmas"
-    support: "chef-stated 2026-07-24"
-    confidence: high
-    source: stated
-    evidence: "Chef note 2026-07-24 (themes affecting production). Demand-volume aspects (the pre-Christmas rush, the 22–23 Dec sales dip, and storm-day busyness swings) are recorded in the chef-note but not modelled here — PATTERNS has no demand/volume dimension."
+    supersedes: "inferred 'cool/rainy days drive cold soups onto the menu'"
+    evidence: >-
+      Exceptions, both chef-stated: (a) Potage Vert L'été may appear any season on a
+      broccoli/zucchini surplus — it fills the prêt-à-manger fridge, not the hot line;
+      (b) Mélonccio (Potage Froid Mélonccio) runs at most once a week, 1–2 weeks apart,
+      in the hottest part of summer only. The verbatim 2026-06-15 note 'cold soups for
+      rainy/cold weekend' is retained in stated_intent but no longer read as a rule.
+  - pattern: "Very cold winter days (roughly ≤0°C) → chef reduces production; soups sell, salads/composed dishes slow"
+    support: "3/36 weeks with weather noted [2025-01-13, 2025-01-20, 2025-01-27]"
+    confidence: medium
+    source: inferred
+    evidence: "Jan 2025 Friday notes: 'cold — reduce production, soups are selling', 'Cold — reduce production', 'Slow, cold, people not spending after Xmas'. This is a demand/volume effect as much as a dish-placement one (see stated_intent)."
 
+# ------------------------------------------------------------
+# 5. CALENDAR — holiday / event / seasonal behaviors.
+# ------------------------------------------------------------
+calendar:
+  - pattern: "Statutory holidays that fall on a Monday → closed that day (no Monday service)"
+    support: "5/47 [2025-04-21 Easter, 2025-05-19 Victoria Day, 2025-09-01 Labour Day, 2025-10-13 Thanksgiving, 2026-05-18 Victoria Day]"
+    confidence: high
+    source: stated
+    evidence: "Header notes flag the closure a week ahead ('no plate Monday', 'Closed next Monday'). Reduced Monday plate production the week before a Monday closure (2025-08-25, 2025-04-14)."
+  - pattern: "Occasional summer Tuesday closures (single days, reason not stated on the sheet)"
+    support: "2/47 [2025-06-23, 2025-06-30]"
+    confidence: low
+    source: inferred
+  - pattern: "Chili d'Orge appears in the rotation only in the colder months, October–April"
+    support: "chef-stated 2026-07-24"
+    confidence: high
+    source: stated
+  - pattern: "Pico de gallo is a warm-season dish — appears only in late-spring/summer weeks"
+    support: "14/14 of its weeks fall May–Aug or late spring"
+    confidence: medium
+    source: inferred
+  - pattern: "Pre-Christmas weeks → clients buy heavily from desserts, ragoût, composed salads, and soups; scale these up"
+    support: "chef-stated 2026-07-24"
+    confidence: medium
+    source: stated
+    evidence: "Fact is documented chef intent; generality is only low-corroborated in the data because just ONE December week (2024-12-16) is tagged."
+  - pattern: "Easter dessert taper — no chocolate desserts after Easter; slow desserts the week after"
+    support: "chef-stated, 2/47 [2025-04-14, 2025-04-21]"
+    confidence: low
+    source: stated
+  - pattern: "No fish soup ('soupe de poisson') scheduled immediately before a vacation week"
+    support: "chef-stated, 1/47 [2025-02-24]"
+    confidence: low
+    source: stated
+  - pattern: "'Fève sans lard' (pork-free beans) pauses over summer, returns in winter"
+    support: "chef-stated, 1/47 [2025-05-05]"
+    confidence: low
+    source: stated
+  - pattern: "Recurring 'MDF' marker appears in most weeks' margins (a production/'make-more' shorthand, exact meaning unresolved)"
+    support: "~present across the majority of weeks"
+    confidence: low
+    source: inferred
+    evidence: "Frequently written '?' or 'to confirm'. Not a dish; treated as a scheduling marker until the chef clarifies it. Do not model as a dish or event yet."
+
+# ------------------------------------------------------------
+# 6. STATED INTENT — verbatim chef reasoning (highest-confidence signal).
+# NEVER edited or removed by a correction; only inferences built on them change.
+# ------------------------------------------------------------
 stated_intent:
-  - quote: "Cold soups for rainy / cold weekend"
-    week: 2026-06-15
-    source: stated
-  - quote: "Start prod for MDF summer vacation; Soup start scaling ?"
-    week: 2026-06-08
-    source: stated
-  - quote: "Hilairoise test with salmon cake — very good"
-    week: 2026-06-01
-    source: stated
-  - quote: "Order salmon / cod"
-    week: 2026-06-01
-    source: stated
-  - quote: "Salads selling well — Hummus MDF, make more; Plates selling OK; Poutine stalling; Soup still selling well; Tomato price normal"
-    week: 2026-05-18
-    source: stated
-  - quote: "Closed — Victoria Day (holiday)"
-    week: 2026-05-18
-    source: stated
-  - quote: "Less on Monday (reduced)"
-    week: 2026-05-11
-    source: stated
-  - quote: "MDF Burgers; Soup scaling; Poutine not selling, make more; 2nd new burger ?"
-    week: 2026-05-25
-    source: stated
+  - {quote: "Slow, cold, people not spending after Xmas, too cold to leave home", week: 2025-01-13, where: notes, source: stated}
+  - {quote: "cold — reduce production. Soups are selling. Salade comp light", week: 2025-01-20, where: notes, source: stated}
+  - {quote: "Cold — reduce production. Soup Tulem? — does not sell in cold", week: 2025-01-27, where: notes, source: stated}
+  - {quote: "Snow storm — less people. Chaudrée (chowder) sold well (6 days). Salade quinoa amandes stalling.", week: 2025-02-10, where: notes, source: stated}
+  - {quote: "No soupe de poisson before a vacation week!!", week: 2025-02-24, where: notes, source: stated}
+  - {quote: "no chocolate desserts after easter", week: 2025-04-14, where: notes, source: stated}
+  - {quote: "week after easter — slow down on desserts", week: 2025-04-21, where: notes, source: stated}
+  - {quote: "too much salmon pesto from last week, pushed to next week, 20 dishes left", week: 2025-04-21, where: notes, source: stated}
+  - {quote: "Fève sans lard takes a break until winter — or try a new summer white-bean recipe?", week: 2025-05-05, where: notes, source: stated}
+  - {quote: "Soups & Salads sell out !!! MDF — sold out one week", week: 2025-05-12, where: notes, source: stated}
+  - {quote: "first hot Sunday + Monday fermé — weekend production of burgers and falafels complete, selling well", week: 2025-05-19, where: notes, source: stated}
+  - {quote: "Monday: full fridge — stacked plates on the weekend", week: 2025-05-26, where: notes, source: stated}
+  - {quote: "busy days in the restaurant, people stayed in QC for vacation", week: 2025-08-11, where: notes, source: stated}
+  - {quote: "last nice weekend of summer, people are gone to their cottages, everything is selling less", week: 2025-09-08, where: notes, source: stated}
+  - {quote: "Soups starting to sell out — increase production", week: 2025-10-06, where: notes, source: stated}
+  - {quote: "Slow until Wednesday. Soupe … / Salades sold out", week: 2026-01-19, where: notes, source: stated}
+  - {quote: "Salads selling well — Hummus MDF, make more; Plates selling OK; Poutine stalling", week: 2026-05-18, where: notes, source: stated}
+  - {quote: "Start prod for MDF summer vacation; Soup start scaling", week: 2026-06-08, where: notes, source: stated}
+  - {quote: "Cold soups for rainy / cold weekend", week: 2026-06-15, where: notes, source: stated, note: "Verbatim retained; the inferred cool/rainy→cold-soup rule it seeded is superseded by the chef's ≥24°C cold-soup rule (2026-07-24)."}
+
+# ------------------------------------------------------------
+# DEMAND-VOLUME THEMES — NOT modeled as patterns (no volume dimension yet).
+# Captured verbatim per chef note 2026-07-24-production-themes. See body.
+# ------------------------------------------------------------
+demand_volume_notes:
+  - "Day before a storm → clients buy more, restaurant busier; day of (and maybe after) → clients stay home."
+  - "Very busy leading up to Christmas; on Dec 22–23 a significant dip in clients and sales."
+  - "Demand shaped by holidays, back-to-school, pedagogical days, summer & winter vacation."
 ---
 
-# Menu patterns — living document
+# Menu patterns — living synthesis
 
-**Meta.** 6 weeks analyzed (2026-05-11 .. 2026-06-15); excluded as untagged: none.
-Generated 2026-06-25.
-**Sample caveat:** Only 6 consecutive late-spring/early-summer weeks, all
-status=flagged from hard-to-read handwritten photos with many "?" dish names;
-temperature/weather is legible on only 4 of 6 weeks (absent in 05-11 and 05-18),
-and most tags are *inferred* rather than chef-stated. Treat every low/speculative
-pattern below as a hypothesis, not a fact, and do not generalize the seasonal
-observations beyond late spring / early summer.
+**47 weeks analyzed** (2024-12-16 .. 2026-06-15), 0 untagged, 0 archived,
+188 service days. Regenerated 2026-07-24, folding chef notes dated **2026-07-24**
+(`2026-07-24.md` + `2026-07-24-production-themes.md`). Chef-**stated** rules
+outrank inferred ones and are marked `stated`.
 
-These are **patterns, not recommendations**. Frontmatter above is the source of
-truth; this body renders it.
+> **Small-sample caveat.** The 47 weeks span 18 months but are **not contiguous**
+> — there are large gaps (nothing between 2025-07-14 and 2025-08-11, nothing
+> 2025-11-10 → 2026-01-19, nothing 2026-01-19 → 2026-05-11). Temperature is noted
+> on only 95/188 service days and weather on 70/188, together covering **36/47
+> weeks**; autumn is mostly bare. Only **one December week** is tagged, so
+> pre-Christmas behavior rests on the chef note, not on data. Nearly all dish tags
+> are **inferred**, so protein/format counts carry inference error. Treat
+> `low`/`speculative` rows as hypotheses; trust `stated` rows as documented intent.
 
-## Menu skeleton (structural template)
+## Menu skeleton (per-week count per pool category)
 
-Per-week count per `pool` category across the 6 weeks.
+| Category | Min | Median | Max | Weeks present | Confidence |
+|---|---|---|---|---|---|
+| salades | 5 | 6 | 8 | 47/47 | high |
+| potage | 4 | 5 | 8 | 47/47 | high |
+| soupe | 4 | 5 | 7 | 47/47 | high |
+| vege | 3 | 4 | 8 | 47/47 | high |
+| poisson | 2 | 3 | 6 | 47/47 | high |
+| salade-comp | 2 | 3 | 6 | 47/47 | high |
+| hummus | 1 | 2 | 4 | 47/47 | high |
+| texture | 1 | 2 | 4 | 47/47 | high |
+| sandwichs | 2 | 2 | 3 | 47/47 | high |
+| sauces | 1 | 1 | 3 | 47/47 | high |
+| quiche | 1 | 1 | 2 | 47/47 | high |
+| wraps | 0 | 1 | 3 | 30/47 | medium |
+| burgers | 0 | 1 | 2 | 24/47 | medium (warm-season) |
+| vinaigrettes | 0 | 0 | 3 | 23/47 | low (maybe under-transcribed) |
+| pico-de-gallo | 0 | 0 | 1 | 1/47 row (dish recurs 14/47) | low |
+| quenelles-morue | 0 | 0 | 1 | 1/47 | speculative |
+| croquettes | 0 | 0 | 1 | 1/47 | speculative |
+| feves-lard | 0 | 0 | 1 | 1/47 (seasonal) | speculative |
+| popee-lentilles | 0 | 0 | 1 | 1/47 | speculative |
 
-| Category | Min | Median | Max | Confidence |
-|----------|-----|--------|-----|------------|
-| soupe (brothy soup) | 5 | 5 | 5 | high |
-| potage (thick soup) | 5 | 5 | 6 | high |
-| salades | 5 | 6 | 8 | high |
-| vege (vegetarian mains) | 3 | 3 | 4 | high |
-| poisson (fish) | 2 | 3 | 3 | high |
-| salade-comp (composed salad) | 3 | 4 | 5 | high |
-| sandwichs | 2 | 2 | 3 | high |
-| texture | 2 | 2 | 3 | high |
-| hummus | 1 | 2 | 3 | high |
-| sauces | 1 | 1 | 2 | high |
-| quiche | 1 | 1 | 1 | high |
-| pico-de-gallo | 1 | 1 | 1 | high |
-| mousse | 0 | 1 | 1 | medium |
+**Read:** the weekly spine is salads (5–6), soups + potages (~5 each), a handful
+of végé (4) and fish (3) mains, 2–3 composed salads, and singles of sauce/quiche.
+Wraps, burgers, and vinaigrettes are optional/seasonal add-ons.
 
-The skeleton is remarkably stable: ~5 brothy soups + ~5 thick soups + a large
-salad bank (salades + composed) + 3 veg mains + ~3 fish mains, plus exactly one
-quiche and a standing pico de gallo every week.
+## Rotation (dish frequency)
 
-## Dish rotation
-
-Sorted by weeks present (desc).
+513 distinct dishes: **6 staple**, **206 rotating** (≥2 weeks), **301 one-off**.
+The menu is a small stable spine plus a wide single-appearance long tail. Table
+lists all staples + rotating dishes in ≥8 weeks (long tail and one-offs omitted).
 
 | Dish | Weeks | Role | Confidence |
-|------|-------|------|------------|
-| Poutine (vegan) | 6 | staple | high |
-| Kale mango cabbage (KM) | 6 | staple | high |
-| Pico de Gallo | 6 | staple | high |
-| Quiche (Forestier / Ham / Vegetable) | 6 | staple | high |
-| Jerk chicken (veggie) | 6 | staple | high |
-| Mushroom tarragon (soup) | 4 | rotating | medium |
-| Korean (soup) | 4 | rotating | medium |
-| Salmon pesto (main/sandwich variants) | 4 | rotating | medium |
-| Tom Yum (soup) | 3 | rotating | medium |
-| Pho (soup) | 3 | rotating | medium |
-| Moqueca (fish stew) | 3 | rotating | medium |
-| Goat cheese & cabbage | 3 | rotating | medium |
-| Chicken salad (veggie) | 3 | rotating | medium |
-| Thai peanut chicken (Poulet Végé Thai) | 3 | rotating | medium |
-| Paella (veggie) | 3 | rotating | medium |
-| Cream of tomato (soup) | 2 | rotating | low |
-| Tulum (soup) | 2 | rotating | low |
-| Mulligatawny (soup) | 2 | rotating | low |
-| Ribollita (soup) | 2 | rotating | low |
-| Carrot celeriac (salad) | 2 | rotating | low |
-| Provençal (salad) | 2 | rotating | low |
-| Bandhu salad | 2 | rotating | low |
-| Tabbouleh (salad) | 2 | rotating | low |
-| Beet apple tofu (salad) | 2 | rotating | low |
-| Black-eyed pea (Dolique) | 2 | rotating | low |
-| Hilairoise (salad) | 2 | rotating | low |
-| Falafels | 2 | rotating | low |
-| Salmon crumble (croustade) | 2 | rotating | low |
-
-Five dishes anchor every week (Poutine, KM, Pico, a quiche, veggie Jerk chicken).
-Soups rotate fastest; the salad bank is deep with many 2-week visitors. Dozens of
-additional dishes appear only once (one-offs) and are omitted here for brevity.
+|---|---|---|---|
+| Ham | 47/47 | staple | high |
+| Poutine | 47/47 | staple | high |
+| Kale mango cabbage (KM) | 41/47 | staple | high |
+| Salmon pesto artichoke | 41/47 | staple | high |
+| Korean | 35/47 | staple | high |
+| Creamy broccoli | 28/47 | staple | high |
+| Beet goat cheese | 26/47 | rotating | high |
+| Mushroom tarragon | 25/47 | rotating | high |
+| Provençal | 24/47 | rotating | high |
+| Ratatouille | 22/47 | rotating | medium |
+| Goat cheese cabbage | 21/47 | rotating | medium |
+| Tuna salad | 21/47 | rotating | medium |
+| Jerk chicken | 20/47 | rotating | medium |
+| Rémoulade | 20/47 | rotating | medium |
+| Carrot celeriac | 19/47 | rotating | medium |
+| Bandhu | 18/47 | rotating | medium |
+| Broccoli pistachio | 18/47 | rotating | medium |
+| Veg almond coconut | 18/47 | rotating | medium |
+| Asian | 17/47 | rotating | medium |
+| Moroccan | 17/47 | rotating | medium |
+| Mulligatawny | 17/47 | rotating | medium |
+| Salmon crumble (croustade) | 17/47 | rotating | medium |
+| Cauliflower shiitake | 16/47 | rotating | medium |
+| Celeriac apple | 16/47 | rotating | medium |
+| Falafels | 16/47 | rotating | medium |
+| Root trio | 16/47 | rotating | medium |
+| Tom yum | 16/47 | rotating | medium |
+| Paella | 15/47 | rotating | medium |
+| Lasagna | 14/47 | rotating | medium |
+| Pico de gallo | 14/47 | rotating (warm-season) | medium |
+| Classic | 13/47 | rotating | medium |
+| Tabbouleh | 13/47 | rotating | medium |
+| Banh mi | 12/47 | rotating | low |
+| Carrot kale quinoa | 12/47 | rotating | low |
+| Carrot madras curry | 12/47 | rotating | low |
+| Salmon ginger | 12/47 | rotating | low |
+| Thai peanut | 12/47 | rotating | low |
+| Cod curry | 11/47 | rotating | low |
+| Harira | 11/47 | rotating | low |
+| Indian lentils | 11/47 | rotating | low |
+| Risotto | 11/47 | rotating | low |
+| Roasted peppers | 11/47 | rotating | low |
+| Tomato zucchini | 11/47 | rotating | low |
+| Braised vegetables | 10/47 | rotating | low |
+| Chicken makhani | 10/47 | rotating | low |
+| Cod quenelle | 10/47 | rotating | low |
+| Greek | 10/47 | rotating | low |
+| Haddock mango coconut | 10/47 | rotating | low |
+| Krokante | 10/47 | rotating | low |
+| Old-fashioned potato | 10/47 | rotating | low |
+| Romesco | 10/47 | rotating | low |
+| Rosée | 10/47 | rotating | low |
+| Satay chicken | 10/47 | rotating | low |
+| Thai chicken | 10/47 | rotating | low |
+| Chili d'Orge | seasonal (Oct–Apr) | rotating | high (stated) |
 
 ## Per-day balance
 
-- Monday opens the week with the staple core present together — Poutine, a quiche, KM and a hummus/dip on the Monday line. (4/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08]; medium; inferred)
-- Every service day fields at least one fish/pescatarian main and at least one plant-substitute (or tofu) main. (5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; medium; inferred)
-- Each service day carries multiple cold salads alongside the hot mains; cold salad/dip formats dominate the non-main slots. (6/6 [all weeks]; high; inferred)
-- Most service days run both a brothy soup and a thick soup in parallel. (5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; medium; inferred)
-- Cuisine spread within a day is broad and mixed (Caribbean + Thai + Indian + French on one line) rather than single-cuisine themed. (5/6 [2026-05-11, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; medium; inferred)
-- Pico de Gallo is served on Thursday; never on Monday. (chef-stated 2026-07-24; high; stated)
-- Kale mango cabbage (KM) is made on Monday (occasionally Thursday), not every day. (chef-stated 2026-07-24; high; stated)
-- Végé-chicken / texture dishes run Tuesday and Thursday, spaced a day apart; a third (Wednesday) only under high demand. (chef-stated 2026-07-24; high; stated)
+- Almost every service day fields **at least one soup** (181/188 days, 96%; all days in 40/47 weeks). *(high; inferred)*
+- Almost every service day fields **at least one salad** (181/188 days, 96%; all days in 40/47 weeks). *(high; inferred)*
+- Most service days field **at least one fish main** (163/188 days, 87%; all days in 25/47 weeks). *(high; inferred)*
+- Most service days field **at least one plant-substitute (texture) main** (136/188 days, 72%; all-days only 8/47 weeks — spaced, not daily). *(medium; inferred)*
+- **Végé-chicken / texture → Tuesday + Thursday**, spaced a day apart; a third texture dish on Wednesday only under high demand. *(chef-stated 2026-07-24; stated)*
+- **Kale mango cabbage (KM) → Monday** (occasionally Thursday), not every day — recurs weekly but sits on Monday within the week. *(chef-stated 2026-07-24; stated)*
+- **Pico de Gallo → Thursday, never Monday.** *(chef-stated 2026-07-24; stated)*
 
-## Weather / temperature tendencies
+## Weather / temperature
 
-Denominator is "weeks with weather/temp noted" = 4 (2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15). May 11 and May 18 had no legible temp.
+*(Denominator: 36 weeks with weather/temp noted; observed range −25 °C to +33 °C.)*
 
-- Chilled cold soups appear only on days ≥ 24 °C (hot days) — a "cold soup" is served cold and suits hot weather, not cold. (chef-stated 2026-07-24; high; stated)
-- Exception — Potage Vert L'été may appear any season on broccoli/zucchini surplus; it fills the prêt-à-manger fridge, not the hot line (browns if held hot; won't sell in the restaurant in cold months). (chef-stated 2026-07-24; high; stated)
-- Mélonccio (cold soup) limited to once per week, 1–2 weeks apart, hottest-summer only. (chef-stated 2026-07-24; high; stated)
-- Hot summer weather shifts demand to lighter food — salads, cold soups, fresh dishes; hearty dishes (ragoût, curries, cooked vegetables + a starch) become harder to sell. (chef-stated 2026-07-24; high; stated)
-- Cool weather sells soups and hearty dishes well, and salads still sell — cool days broaden what moves rather than narrowing it. (chef-stated 2026-07-24; high; stated)
-- Hot, sunny weeks (high-20s to 30°) lean salad/sandwich-heavy with more composed salads and cold dips. (2/4 weeks with weather noted [2026-06-01, 2026-06-08]; low; inferred)
-- Temperature swings widely within a single week with no clear day-to-day re-plan beyond the stated cold-soup move. (1/4 weeks with weather noted [2026-06-15]; speculative; inferred)
+- **Hot summer → lighter menu:** salads, cold soups, fresh dishes; hearty dishes (ragoût, curries, cooked-veg-plus-starch) get harder to sell. Burgers/falafels and Pico cluster in the 20–33 °C weeks. *(chef-stated 2026-07-24, corroborated; high; stated)*
+- **Cool weather → soups + hearty + salads all sell** (cool days broaden demand rather than narrow it). *(chef-stated 2026-07-24; medium; stated)*
+- **Cold-served "cold soups" only appear on days ≥ 24 °C** — a cold soup suits hot weather. *(chef-stated 2026-07-24; high; stated)* — **supersedes** the earlier inferred "cool/rainy → cold soups." Exceptions (both stated): *Potage Vert L'été* may appear any season on a broccoli/zucchini surplus (goes to the prêt-à-manger fridge, not the hot line); *Mélonccio* runs ≤ once/week, 1–2 weeks apart, hottest summer only.
+- **Very cold winter days (≈ ≤ 0 °C) → chef cuts production; soups sell, salads/composed dishes slow.** Support 3/36 weeks [2025-01-13, 2025-01-20, 2025-01-27]; partly a demand-volume effect. *(medium; inferred)*
 
-## Calendar / holiday / seasonal behaviors
+## Calendar
 
-- Statutory holiday -> closed that day. (1/6 [2026-05-18 Victoria Day]; low; stated)
-- Recurring circled "MDF" weekly event/prep marker (tied to hummus demand and burgers in notes; full meaning unresolved). (5/6 [2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]; medium; stated)
-- Summer-vacation production prep begins mid-June (scaling soups, pre-production). (1/6 [2026-06-08]; low; stated)
-- Themed calendar weeks are noted in the header but do not visibly reshape the menu (Father's Day runs an ordinary mixed menu). (1/6 [2026-06-15]; speculative; stated)
-- New dishes are trialled and judged before entering rotation (test-then-adopt). (1/6 [2026-06-01]; low; stated)
-- Chili d'Orge (a végé dish for cold days, not a soupe) appears Oct–Apr only. (chef-stated 2026-07-24; high; stated)
-- Pre-Christmas weeks run heavy on desserts, ragoût dishes, composed salads, and soups — scale these up in the lead-up to Christmas. (chef-stated 2026-07-24; high; stated) Demand-volume aspects (pre-Christmas rush, the 22–23 Dec sales dip, storm-day swings) are captured in the chef-note, not modelled here — PATTERNS has no demand dimension.
+- **Monday statutory holidays → closed that day.** 5/47 [Easter 2025-04-21, Victoria Day 2025-05-19, Labour Day 2025-09-01, Thanksgiving 2025-10-13, Victoria Day 2026-05-18]. Closures are flagged a week ahead and Monday plate production is cut the week before. *(high; stated)*
+- **Occasional summer Tuesday closures** (reason not on the sheet). 2/47 [2025-06-23, 2025-06-30]. *(low; inferred)*
+- **Chili d'Orge → October–April only.** *(chef-stated 2026-07-24; high; stated)*
+- **Pico de gallo → warm season only** (all 14 of its weeks fall May–Aug/late spring). *(medium; inferred)*
+- **Pre-Christmas → scale up desserts, ragoût, composed salads, soups.** *(chef-stated 2026-07-24; medium; stated — generality low because only one December week is tagged)*
+- **Easter dessert taper** — no chocolate desserts after Easter; slow desserts the week after. 2/47 [2025-04-14, 2025-04-21]. *(low; stated)*
+- **No fish soup immediately before a vacation week.** 1/47 [2025-02-24]. *(low; stated)*
+- **"Fève sans lard" pauses over summer, returns in winter.** 1/47 [2025-05-05]. *(low; stated)*
+- **Recurring "MDF" margin marker** in most weeks — a production/"make-more" shorthand, exact meaning unresolved; treated as a scheduling marker, not a dish or event. *(low; inferred)*
 
-## Stated intent log (verbatim chef reasoning)
+## Stated intent (verbatim chef reasoning)
 
-- "Cold soups for rainy / cold weekend" — 2026-06-15
-- "Start prod for MDF summer vacation; Soup start scaling ?" — 2026-06-08
-- "Hilairoise test with salmon cake — very good" — 2026-06-01
-- "Order salmon / cod" — 2026-06-01
-- "Salads selling well — Hummus MDF, make more; Plates selling OK; Poutine stalling; Soup still selling well; Tomato price normal" — 2026-05-18
-- "Closed — Victoria Day (holiday)" — 2026-05-18
-- "Less on Monday (reduced)" — 2026-05-11
-- "MDF Burgers; Soup scaling; Poutine not selling, make more; 2nd new burger ?" — 2026-05-25
+The highest-confidence signal — the chef's own words. Never edited by a correction.
+
+- **2025-01-13:** "Slow, cold, people not spending after Xmas, too cold to leave home"
+- **2025-01-20:** "cold — reduce production. Soups are selling. Salade comp light"
+- **2025-01-27:** "Cold — reduce production. Soup Tulem? — does not sell in cold"
+- **2025-02-10:** "Snow storm — less people. Chaudrée (chowder) sold well (6 days). Salade quinoa amandes stalling."
+- **2025-02-24:** "No soupe de poisson before a vacation week!!"
+- **2025-04-14:** "no chocolate desserts after easter"
+- **2025-04-21:** "week after easter — slow down on desserts"; "too much salmon pesto from last week, pushed to next week, 20 dishes left"
+- **2025-05-05:** "Fève sans lard takes a break until winter — or try a new summer white-bean recipe?"
+- **2025-05-12:** "Soups & Salads sell out !!! MDF — sold out one week"
+- **2025-05-19:** "first hot Sunday + Monday fermé — weekend production of burgers and falafels complete, selling well"
+- **2025-05-26:** "Monday: full fridge — stacked plates on the weekend"
+- **2025-08-11:** "busy days in the restaurant, people stayed in QC for vacation"
+- **2025-09-08:** "last nice weekend of summer, people are gone to their cottages, everything is selling less"
+- **2025-10-06:** "Soups starting to sell out — increase production"
+- **2026-01-19:** "Slow until Wednesday. Soupe … / Salades sold out"
+- **2026-05-18:** "Salads selling well — Hummus MDF, make more; Plates selling OK; Poutine stalling"
+- **2026-06-08:** "Start prod for MDF summer vacation; Soup start scaling"
+- **2026-06-15:** "Cold soups for rainy / cold weekend" *(retained verbatim; the cool/rainy→cold-soup rule it seeded is superseded by the chef's ≥24 °C rule)*
+
+## Demand-volume themes (captured, not modeled)
+
+`PATTERNS.md` tracks **what dish goes where**, not **how much sells**. These
+chef-stated themes (from `2026-07-24-production-themes.md`) are recorded until a
+demand/volume dimension exists:
+
+- **Storms:** the day before a storm clients buy more and the restaurant is busier; the day of (and maybe after) clients stay home.
+- **Christmas:** very busy in the lead-up; on **Dec 22–23** a significant dip in clients and sales.
+- **Social calendar:** demand is shaped by holidays, back-to-school, pedagogical days, and summer/winter vacation.
