@@ -25,6 +25,7 @@ tags:
   temperature: cold
   weight: moderate
   season: all
+  weather: warm
   course: salad
   protein: plant-substitute
   cooking_method: grilled

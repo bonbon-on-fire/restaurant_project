@@ -21,6 +21,7 @@ tags:
   temperature: hot
   weight: hearty
   season: all
+  weather: cool
   course: sauce
   protein: mixed
   cooking_method: simmered

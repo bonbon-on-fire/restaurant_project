@@ -24,6 +24,7 @@ tags:
   temperature: hot
   weight: hearty
   season: all
+  weather: cool
   course: soup
   protein: legume
   cooking_method: simmered

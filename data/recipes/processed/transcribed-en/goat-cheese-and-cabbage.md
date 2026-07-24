@@ -17,6 +17,7 @@ tags:
   temperature: warm
   weight: moderate
   season:
+  weather: cool
   course: main
   protein: cheese
   cooking_method: roasted

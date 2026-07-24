@@ -28,6 +28,7 @@ tags:
   temperature: hot
   weight: hearty
   season:
+  weather: cold
   course: main
   protein: plant-substitute
   cooking_method: simmered

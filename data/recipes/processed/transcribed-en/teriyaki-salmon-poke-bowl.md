@@ -24,6 +24,7 @@ tags:
   temperature: cold
   weight: moderate
   season:
+  weather: warm
   course: main
   protein:
   cooking_method: marinated
