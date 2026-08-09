@@ -3,7 +3,7 @@ name: menus-recommend
 description: >-
   Generate a mock weekly menu in the chef's style from a scenario (weather,
   temperatures, day-of-week, holidays/events — given by the user or invented),
-  drawing dishes from the Parsley repertoire and guided by the chef-pattern
+  drawing dishes from the recipe repertoire and guided by the chef-pattern
   document data/menus/PATTERNS.md, then explain why it composed the week that
   way. Use when the user wants to mock up / draft / recommend a menu, see a
   "what-if" week for some weather or event, or test the chef's patterns against
@@ -15,7 +15,7 @@ description: >-
 # Recommend a mock weekly menu in the chef's style
 
 Generate a **mock weekly menu** for a given or invented scenario by drawing
-dishes from the Parsley repertoire, shaped by the chef's patterns in
+dishes from the recipe repertoire, shaped by the chef's patterns in
 `data/menus/PATTERNS.md`, and **explain why** the week looks the way it does.
 
 The output is a fictional exploration artifact — a "what-if" week — NOT a real
@@ -34,8 +34,8 @@ you improvised or guessed.
   `weather_temp`, `calendar`, `stated_intent`) with `support`/`confidence`/
   `source`. This is your only source of chef knowledge. If it is missing or thin,
   say so and generate with an explicit "limited pattern basis" caveat.
-- **Parsley repertoire (read-only).** `data/parsley/INDEX.md` +
-  `data/parsley/recipes-en/` (210 recipes). Pick dishes from here; **infer** a
+- **Recipe repertoire (read-only).** `data/repertoire/INDEX.md` +
+  `data/repertoire/recipes-en/` (210 recipes). Pick dishes from here; **infer** a
   candidate's tags (protein/temperature/format/cuisine/diet/spice) from its name
   + ingredients when you need them for balance/weather decisions. Never modify a
   recipe file.
@@ -77,8 +77,8 @@ schedule:
   # ... tuesday..friday; a closed day has dishes: [] and a notes reason
 dishes:
   - name: "..."                    # each unique chosen dish, like menus-tag's block
-    recipe_id: vegan-poutine-medium  # MUST be an exact filename (no .md) from data/parsley/recipes-en/; leave blank if no confident match
-    recipe_source: parsley         # parsley | none  (use "none" + blank recipe_id when no confident match exists)
+    recipe_id: vegan-poutine-medium  # MUST be an exact filename (no .md) from data/repertoire/recipes-en/; leave blank if no confident match
+    recipe_source: repertoire      # repertoire | none  (use "none" + blank recipe_id when no confident match exists)
     tag_source: inferred
     protein: ...
     temperature: ...
@@ -123,11 +123,11 @@ is a fresh artifact.
    season-appropriate values for anything unspecified. Record `given` and
    `invented` in the `scenario:` block.
 2. **Load patterns + repertoire.** Read `PATTERNS.md` (all six dimensions) and the
-   Parsley `INDEX.md`.
+   repertoire `INDEX.md`.
 3. **Build the weekly skeleton.** Set per-category counts from `menu_skeleton`
    (use `median`, bounded by `min`/`max`).
-4. **Assemble the dish pool from Parsley.** Anchor the high-confidence `rotation`
-   staples (map each to a Parsley recipe). Fill remaining category slots from the
+4. **Assemble the dish pool from the repertoire.** Anchor the high-confidence `rotation`
+   staples (map each to a repertoire recipe). Fill remaining category slots from the
    repertoire, inferring each candidate's tags and honoring `per_day_balance`,
    `weather_temp`, diet coverage, and cuisine variety.
 5. **Lay out Mon–Fri.** Assign pool dishes to days honoring within-day balance
@@ -144,7 +144,7 @@ is a fresh artifact.
 
 ## Rules
 
-- **Read-only on real data.** Never edit `PATTERNS.md`, Parsley recipes, or any
+- **Read-only on real data.** Never edit `PATTERNS.md`, repertoire recipes, or any
   real menu. Write only into `data/menus/generated/`.
 - **Always flagged mock.** Every file carries `source: generated` + `status:
   mock`. Never write into `processed/transcribed-en/`, never use a real-menu
@@ -168,8 +168,8 @@ is a fresh artifact.
   on a cold day. If a specific PATTERNS entry ever states a direction explicitly,
   follow that entry; never silently invert a stated pattern, and flag any
   deviation with a low/speculative confidence label.
-- **Verify every `recipe_id` against `data/parsley/recipes-en/`.** When setting
-  `recipe_source: parsley`, the `recipe_id` value MUST be an exact existing filename
-  in `data/parsley/recipes-en/` (without the `.md` extension). List the directory to
+- **Verify every `recipe_id` against `data/repertoire/recipes-en/`.** When setting
+  `recipe_source: repertoire`, the `recipe_id` value MUST be an exact existing filename
+  in `data/repertoire/recipes-en/` (without the `.md` extension). List the directory to
   confirm before writing. If no confident match exists, set `recipe_source: none` and
   leave `recipe_id` blank — never invent or guess a slug.
