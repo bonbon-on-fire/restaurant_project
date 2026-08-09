@@ -1,9 +1,21 @@
-# Salmon Pesto Zucchini Sandwich
+---
+title: Salmon Pesto Zucchini Sandwich
+source: parsley
+status: active
+parsley_id: 6980393
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6980393
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Salmon Pesto Zucchini Sandwich
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 700 ml — Zucchini pesto
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

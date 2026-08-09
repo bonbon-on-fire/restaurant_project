@@ -1,11 +1,27 @@
-# Tofu and Tomato Sauce with Pasta
+---
+title: Tofu and Tomato Sauce with Pasta
+source: parsley
+status: active
+parsley_id: 7179896
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7179896
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 2
+# Tofu and Tomato Sauce with Pasta
 
 ## Ingredients
 
 - 64 oz — Tofu Tomato Vegetable Sauce
 - 5 can (cooked) — Gluten-free Fettucce pasta (Le Veneziane)
+
+## Instructions
+
+_Not recorded (Parsley export)._

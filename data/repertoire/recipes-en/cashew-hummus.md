@@ -1,9 +1,21 @@
-# Cashew Hummus
+---
+title: Cashew Hummus
+source: parsley
+status: active
+parsley_id: 6192741
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6192741
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Cashew Hummus
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 64.479 gr — Jardins d'abeilles honey (Trefle)
 - 2 head — Coriander (leaves)
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

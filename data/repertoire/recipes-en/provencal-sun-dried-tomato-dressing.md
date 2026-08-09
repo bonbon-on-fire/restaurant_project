@@ -1,9 +1,21 @@
-# Provençal Sun-Dried Tomato Dressing
+---
+title: Provençal Sun-Dried Tomato Dressing
+source: parsley
+status: active
+parsley_id: 6201457
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6201457
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Provençal Sun-Dried Tomato Dressing
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 25 ml — Fine Sea Salt
 - 12.5 ml — Black pepper Organic Connections (ground)
 - 20 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

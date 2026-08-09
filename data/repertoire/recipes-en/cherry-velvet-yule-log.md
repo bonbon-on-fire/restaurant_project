@@ -1,9 +1,21 @@
-# Cherry Velvet Yule Log
+---
+title: Cherry Velvet Yule Log
+source: parsley
+status: active
+parsley_id: 4384572
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4384572
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 25
+# Cherry Velvet Yule Log
 
 ## Ingredients
 
@@ -32,3 +44,7 @@
 - 280 gr — Apricot jam (St Dalfour)
 - 150 gr — Chocolate 64% Barry Callebaut
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

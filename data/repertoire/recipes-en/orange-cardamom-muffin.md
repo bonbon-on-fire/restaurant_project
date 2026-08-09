@@ -1,9 +1,21 @@
-# Orange Cardamom Muffin
+---
+title: Orange Cardamom Muffin
+source: parsley
+status: active
+parsley_id: 4472279
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4472279
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Orange Cardamom Muffin
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 60 ml — Orange Juice (Fairlee)
 - 30 ml — Turbinado Sugar (large crystals)
 - 10 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

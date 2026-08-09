@@ -1,9 +1,21 @@
-# Sweet and Salty Coconut Chocolate
+---
+title: Sweet and Salty Coconut Chocolate
+source: parsley
+status: active
+parsley_id: 6821622
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6821622
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Sweet and Salty Coconut Chocolate
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 320 gr — Crumbled pecans
 - 980 gr — Chocolate 64% Barry Callebaut
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

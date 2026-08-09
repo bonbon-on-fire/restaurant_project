@@ -1,9 +1,21 @@
-# Stuffed Mushrooms
+---
+title: Stuffed Mushrooms
+source: parsley
+status: active
+parsley_id: 5504945
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5504945
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 31
+# Stuffed Mushrooms
 
 ## Ingredients
 
@@ -38,3 +50,7 @@
 - 30 ml — Vegan chicken broth gluten-free (homemade)
 - 2.5 ml — Espelette pepper
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Pistachio Almond Chocolate Cookie Vegan
+---
+title: Pistachio Almond Chocolate Cookie Vegan
+source: parsley
+status: active
+parsley_id: 4493808
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4493808
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Pistachio Almond Chocolate Cookie Vegan
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 90 ml — Vanilla ( Pure Vanille Costco)
 - 1350 gr — Chocolate 64% Barry Callebaut
 - 60 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

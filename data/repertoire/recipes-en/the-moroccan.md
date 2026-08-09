@@ -2,6 +2,7 @@
 title: The Moroccan
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 7
 tags:
   protein: vegetable
@@ -15,19 +16,6 @@ tags:
 ---
 
 # The Moroccan
-
-- **Source:** menu-derived — observed on 7 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** vegetable
-- **Format:** soup
-- **Cuisine:** moroccan
-- **Temperature:** hot
-- **Weather:** cool
-- **Richness:** moderate
-- **Spice:** mild
 
 ## Ingredients
 

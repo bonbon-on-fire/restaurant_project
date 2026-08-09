@@ -1,9 +1,21 @@
-# Veggie Paella
+---
+title: Veggie Paella
+source: parsley
+status: active
+parsley_id: 5913243
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5913243
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 31
+# Veggie Paella
 
 ## Ingredients
 
@@ -38,3 +50,7 @@
 - 500 gr — King oyster mushroom
 - 5 ea — Lemons
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

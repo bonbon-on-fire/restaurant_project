@@ -1,9 +1,21 @@
-# Zucchini, Potato and Spinach Croquettes
+---
+title: Zucchini, Potato and Spinach Croquettes
+source: parsley
+status: active
+parsley_id: 5663725
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5663725
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Zucchini, Potato and Spinach Croquettes
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 4 ml — Black pepper Organic Connections (ground)
 - 4 ml — Fine Sea Salt
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

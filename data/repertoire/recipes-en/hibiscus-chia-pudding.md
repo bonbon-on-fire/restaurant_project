@@ -1,9 +1,21 @@
-# Hibiscus Chia Pudding
+---
+title: Hibiscus Chia Pudding
+source: parsley
+status: active
+parsley_id: 6822417
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6822417
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 9
+# Hibiscus Chia Pudding
 
 ## Ingredients
 
@@ -16,3 +28,7 @@
 - 946 ml — Almond Milk (Natura) N/S
 - 125 ml — Maple Syrup
 - 270 gr — Black Chia Seeds
+
+## Instructions
+
+_Not recorded (Parsley export)._

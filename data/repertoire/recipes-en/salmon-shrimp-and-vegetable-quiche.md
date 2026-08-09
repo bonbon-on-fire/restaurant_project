@@ -1,9 +1,21 @@
-# Salmon, Shrimp and Vegetable Quiche
+---
+title: Salmon, Shrimp and Vegetable Quiche
+source: parsley
+status: active
+parsley_id: 4715010
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4715010
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 25
+# Salmon, Shrimp and Vegetable Quiche
 
 ## Ingredients
 
@@ -32,3 +44,7 @@
 - 5 ml — Black pepper Organic Connections (ground)
 - 1 hour — Cook Labor Time
 - 15 ml — Miso BBQ Sauce
+
+## Instructions
+
+_Not recorded (Parsley export)._

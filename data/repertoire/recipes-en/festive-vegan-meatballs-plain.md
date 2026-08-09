@@ -1,9 +1,21 @@
-# Festive Vegan Meatballs Plain
+---
+title: Festive Vegan Meatballs Plain
+source: parsley
+status: active
+parsley_id: 4396944
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4396944
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 26
+# Festive Vegan Meatballs Plain
 
 ## Ingredients
 
@@ -33,3 +45,7 @@
 - 9.03 kg — Confit garlic potato puree
 - 2.84 kg — Forestière Sauce (Poutine Sauce)
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

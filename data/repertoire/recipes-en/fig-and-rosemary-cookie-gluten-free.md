@@ -1,9 +1,21 @@
-# Fig and Rosemary Cookie Gluten-Free
+---
+title: Fig and Rosemary Cookie Gluten-Free
+source: parsley
+status: active
+parsley_id: 8324798
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8324798
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Fig and Rosemary Cookie Gluten-Free
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 2500 gr — Angélique Gluten-Free Flour
 - 350 gr — Organic Figs (Sunny Fruit)
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Mole Verde Soup
+---
+title: Mole Verde Soup
+source: parsley
+status: active
+parsley_id: 5737252
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5737252
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 20
+# Mole Verde Soup
 
 ## Ingredients
 
@@ -27,3 +39,7 @@
 - 1 head — Coriander (leaves)
 - 45 ml — Lime Juice
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

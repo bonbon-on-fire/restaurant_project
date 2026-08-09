@@ -1,9 +1,21 @@
-# Bowtie Broccoli Caesar Salad
+---
+title: Bowtie Broccoli Caesar Salad
+source: parsley
+status: active
+parsley_id: 6216145
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6216145
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 18
+# Bowtie Broccoli Caesar Salad
 
 ## Ingredients
 
@@ -25,3 +37,7 @@
 - 9 gr — Capers
 - 534 gr — Mayonnaise
 - 50 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

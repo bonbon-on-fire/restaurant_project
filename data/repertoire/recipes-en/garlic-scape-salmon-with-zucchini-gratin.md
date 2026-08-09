@@ -1,9 +1,21 @@
-# Garlic Scape Salmon with Zucchini Gratin
+---
+title: Garlic Scape Salmon with Zucchini Gratin
+source: parsley
+status: active
+parsley_id: 6262971
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6262971
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Garlic Scape Salmon with Zucchini Gratin
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 225 gr — Brown slivered almonds
 - 150 gr — Gluten-free breadcrumbs
 - 36 fillet — Salmon 4oz Portion 113gr (highliner)
+
+## Instructions
+
+_Not recorded (Parsley export)._

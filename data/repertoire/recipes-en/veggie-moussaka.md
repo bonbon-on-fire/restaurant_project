@@ -1,9 +1,21 @@
-# Veggie Moussaka
+---
+title: Veggie Moussaka
+source: parsley
+status: active
+parsley_id: 5483791
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5483791
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Veggie Moussaka
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 500 gr — Parmesan - grated
 - 2.5 ml — Ground nutmeg
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

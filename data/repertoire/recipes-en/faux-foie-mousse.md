@@ -1,9 +1,21 @@
-# Faux Foie Mousse
+---
+title: Faux Foie Mousse
+source: parsley
+status: active
+parsley_id: 5357890
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5357890
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Faux Foie Mousse
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 720 gr — Deodorized Coconut Oil
 - 67.5 ml — Agar Agar
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Veggie Thai Chicken
+---
+title: Veggie Thai Chicken
+source: parsley
+status: active
+parsley_id: 6834802
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6834802
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 33
+# Veggie Thai Chicken
 
 ## Ingredients
 
@@ -40,3 +52,7 @@
 - 15 ml — Sriracha Sauce (Huy Fong)
 - 250 ml — Raw organic peanuts
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

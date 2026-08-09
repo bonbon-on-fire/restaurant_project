@@ -1,9 +1,21 @@
-# Crunchy Cabbage Salad
+---
+title: Crunchy Cabbage Salad
+source: parsley
+status: active
+parsley_id: 8142839
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8142839
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Crunchy Cabbage Salad
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 15 ml — Fine Sea Salt
 - 7.5 ml — Black pepper Organic Connections (ground)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

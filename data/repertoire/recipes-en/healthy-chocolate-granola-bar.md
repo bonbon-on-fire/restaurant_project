@@ -1,9 +1,21 @@
-# Healthy Chocolate Granola Bar
+---
+title: Healthy Chocolate Granola Bar
+source: parsley
+status: active
+parsley_id: 4965381
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4965381
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Healthy Chocolate Granola Bar
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 60 gr — Pumpkin Seeds (china)
 - 20 ml — Vanilla ( Pure Vanille Costco)
 - 25 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

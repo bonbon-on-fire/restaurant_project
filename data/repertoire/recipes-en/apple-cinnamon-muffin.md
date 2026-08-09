@@ -1,9 +1,21 @@
-# Apple Cinnamon Muffin
+---
+title: Apple Cinnamon Muffin
+source: parsley
+status: active
+parsley_id: 5251748
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5251748
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Apple Cinnamon Muffin
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 16 gr — Brown sugar (golden)
 - 16 gr — Maple Syrup
 - 2.5 ml — Cinnamon (ground) Cha's
+
+## Instructions
+
+_Not recorded (Parsley export)._

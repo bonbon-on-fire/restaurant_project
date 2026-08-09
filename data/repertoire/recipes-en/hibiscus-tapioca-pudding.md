@@ -1,9 +1,21 @@
-# Hibiscus Tapioca Pudding
+---
+title: Hibiscus Tapioca Pudding
+source: parsley
+status: active
+parsley_id: 6729650
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6729650
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# Hibiscus Tapioca Pudding
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 552 ml — Neutral glaze (concentrated)
 - 45 mins — Pastry Labor Time
 - 2.8 kg — Fruit Salad
+
+## Instructions
+
+_Not recorded (Parsley export)._

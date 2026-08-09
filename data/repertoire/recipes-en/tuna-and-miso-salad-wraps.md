@@ -1,9 +1,21 @@
-# Tuna and Miso Salad Wraps
+---
+title: Tuna and Miso Salad Wraps
+source: parsley
+status: active
+parsley_id: 8217982
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8217982
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 4
+# Tuna and Miso Salad Wraps
 
 ## Ingredients
 
@@ -11,3 +23,7 @@
 - 20 Tortilla — Wheat Tortillas ( PC, 10)
 - 50 ml — Vegan butter (Earth Balance)
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

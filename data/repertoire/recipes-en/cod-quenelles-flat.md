@@ -1,9 +1,21 @@
-# Cod Quenelles (flat)
+---
+title: Cod Quenelles (flat)
+source: parsley
+status: active
+parsley_id: 7229148
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7229148
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 40
+# Cod Quenelles (flat)
 
 ## Ingredients
 
@@ -47,3 +59,7 @@
 - 11.25 ml — Fine Sea Salt
 - 10 ml — Black pepper Organic Connections (ground)
 - 3.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

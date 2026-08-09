@@ -2,6 +2,7 @@
 title: Parsnip lentil
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 3
 tags:
   protein: legume
@@ -9,24 +10,12 @@ tags:
   weather: cool
   richness: moderate
   format: soup
-  cuisine: 
+  cuisine:
   spice_level: mild
   diet: []
 ---
 
 # Parsnip lentil
-
-- **Source:** menu-derived — observed on 3 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** legume
-- **Format:** soup
-- **Temperature:** hot
-- **Weather:** cool
-- **Richness:** moderate
-- **Spice:** mild
 
 ## Ingredients
 

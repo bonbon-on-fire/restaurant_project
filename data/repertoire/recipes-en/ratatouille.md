@@ -1,9 +1,21 @@
-# Ratatouille
+---
+title: Ratatouille
+source: parsley
+status: active
+parsley_id: 8031882
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8031882
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 25
+# Ratatouille
 
 ## Ingredients
 
@@ -32,3 +44,7 @@
 - 2.3 kg — Yellow bell peppers
 - 2.3 kg — Greenhouse Tomatoes
 - 2.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

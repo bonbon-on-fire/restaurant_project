@@ -1,9 +1,21 @@
-# Zucchini Doughnuts with Maple Glaze
+---
+title: Zucchini Doughnuts with Maple Glaze
+source: parsley
+status: active
+parsley_id: 6793757
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6793757
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Zucchini Doughnuts with Maple Glaze
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 796 gr — Maple Syrup
 - 38 ml — Arrowroot Starch (Bobs red mill)
 - 796 gr — Coconut cream (Earth's Choice)
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Makhani Chicken Sandwich
+---
+title: Makhani Chicken Sandwich
+source: parsley
+status: active
+parsley_id: 6895743
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6895743
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 39
+# Makhani Chicken Sandwich
 
 ## Ingredients
 
@@ -46,3 +58,7 @@
 - 1 kg — Vegan veggie chicken (P,V.Chi Ming)
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

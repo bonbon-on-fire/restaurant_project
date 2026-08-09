@@ -1,9 +1,21 @@
-# Falafels (8)
+---
+title: Falafels (8)
+source: parsley
+status: active
+parsley_id: 4828536
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4828536
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Falafels (8)
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 50 ml — Baking powder
 - 1 kg — Gluten-free breadcrumbs
 - 70 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

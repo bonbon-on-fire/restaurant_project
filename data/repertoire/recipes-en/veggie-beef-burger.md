@@ -1,9 +1,21 @@
-# Veggie Beef Burger
+---
+title: Veggie Beef Burger
+source: parsley
+status: active
+parsley_id: 5792756
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5792756
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 26
+# Veggie Beef Burger
 
 ## Ingredients
 
@@ -33,3 +45,7 @@
 - 98 gr — White all-purpose flour
 - 24 ea — Eggs
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

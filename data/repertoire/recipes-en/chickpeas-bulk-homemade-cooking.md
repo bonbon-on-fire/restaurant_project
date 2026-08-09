@@ -1,9 +1,21 @@
-# Chickpeas (bulk, homemade cooking)
+---
+title: Chickpeas (bulk, homemade cooking)
+source: parsley
+status: active
+parsley_id: 5388229
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5388229
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 4
+# Chickpeas (bulk, homemade cooking)
 
 ## Ingredients
 
@@ -11,3 +23,7 @@
 - 15 mins — Cook Labor Time
 - 24 cup — Water
 - 7.5 ml — Fine Sea Salt
+
+## Instructions
+
+_Not recorded (Parsley export)._

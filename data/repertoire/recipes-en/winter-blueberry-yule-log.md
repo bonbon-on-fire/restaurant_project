@@ -1,9 +1,21 @@
-# Winter Blueberry Yule Log
+---
+title: Winter Blueberry Yule Log
+source: parsley
+status: active
+parsley_id: 7693236
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7693236
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 24
+# Winter Blueberry Yule Log
 
 ## Ingredients
 
@@ -31,3 +43,7 @@
 - 7704 gr — Unsalted butter
 - 7164 gr — Cane Sugar
 - 4.145 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

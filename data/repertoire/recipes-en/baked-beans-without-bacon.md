@@ -1,9 +1,21 @@
-# Baked Beans Without Bacon
+---
+title: Baked Beans Without Bacon
+source: parsley
+status: active
+parsley_id: 7735813
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7735813
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 18
+# Baked Beans Without Bacon
 
 ## Ingredients
 
@@ -25,3 +37,7 @@
 - 82 gr — Aka miso (Amano)
 - 168 gr — Maple Syrup
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Chickpea Chocolate Cookies Vegan GF
+---
+title: Chickpea Chocolate Cookies Vegan GF
+source: parsley
+status: active
+parsley_id: 5827077
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5827077
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Chickpea Chocolate Cookies Vegan GF
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 20 ml — Fine Sea Salt
 - 580 gr — Chocolate 64% Barry Callebaut
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

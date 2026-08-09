@@ -2,6 +2,7 @@
 title: Celeriac apple
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 14
 tags:
   protein: vegetable
@@ -9,24 +10,12 @@ tags:
   weather: warm
   richness: moderate
   format: salad
-  cuisine: 
+  cuisine:
   spice_level: none
   diet: []
 ---
 
 # Celeriac apple
-
-- **Source:** menu-derived — observed on 14 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** vegetable
-- **Format:** salad
-- **Temperature:** cold
-- **Weather:** warm
-- **Richness:** moderate
-- **Spice:** none
 
 ## Ingredients
 

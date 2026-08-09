@@ -1,9 +1,21 @@
-# Vanilla Cake
+---
+title: Vanilla Cake
+source: parsley
+status: active
+parsley_id: 5888452
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5888452
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Vanilla Cake
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 25 mins — Pastry Labor Time
 - 1540 gr — Vegan pastry cream
 - 2492 gr — Ganache Torta
+
+## Instructions
+
+_Not recorded (Parsley export)._

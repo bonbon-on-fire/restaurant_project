@@ -1,9 +1,21 @@
-# Blackened Haddock Sandwich
+---
+title: Blackened Haddock Sandwich
+source: parsley
+status: active
+parsley_id: 5528286
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5528286
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 26
+# Blackened Haddock Sandwich
 
 ## Ingredients
 
@@ -33,3 +45,7 @@
 - 5 ml — Whole Coriander Seeds
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 35 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

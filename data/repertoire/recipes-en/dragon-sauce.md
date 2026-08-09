@@ -1,9 +1,21 @@
-# Dragon Sauce
+---
+title: Dragon Sauce
+source: parsley
+status: active
+parsley_id: 6674085
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6674085
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# Dragon Sauce
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 240 gr — Water
 - 50 gr — Peeled garlic
 - 15 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

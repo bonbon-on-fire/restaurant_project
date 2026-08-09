@@ -1,9 +1,21 @@
-# Gluten-Free Vegetable Lasagna
+---
+title: Gluten-Free Vegetable Lasagna
+source: parsley
+status: active
+parsley_id: 5400352
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5400352
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Gluten-Free Vegetable Lasagna
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 250 ml — Parmesan - grated
 - 240 ml — Parmesan - grated
 - 1.8 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

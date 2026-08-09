@@ -1,9 +1,21 @@
-# Chocolate Cake Vegan Gluten-Free
+---
+title: Chocolate Cake Vegan Gluten-Free
+source: parsley
+status: active
+parsley_id: 4516420
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4516420
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Chocolate Cake Vegan Gluten-Free
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 30 ml — Vanilla ( Pure Vanille Costco)
 - 2520 gr — Icing Sugar
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

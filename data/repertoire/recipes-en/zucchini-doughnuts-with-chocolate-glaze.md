@@ -1,9 +1,21 @@
-# Zucchini Doughnuts with Chocolate Glaze
+---
+title: Zucchini Doughnuts with Chocolate Glaze
+source: parsley
+status: active
+parsley_id: 6787431
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6787431
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Zucchini Doughnuts with Chocolate Glaze
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 365 gr — Chocolate 64% Barry Callebaut
 - 122 gr — Maple Syrup
 - 243 gr — Coconut cream (Bridge)
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -2,6 +2,7 @@
 title: Cauliflower shiitake
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 8
 tags:
   protein: vegetable
@@ -9,24 +10,12 @@ tags:
   weather: cool
   richness: moderate
   format: soup
-  cuisine: 
+  cuisine:
   spice_level: mild
   diet: []
 ---
 
 # Cauliflower shiitake
-
-- **Source:** menu-derived — observed on 8 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** vegetable
-- **Format:** soup
-- **Temperature:** hot
-- **Weather:** cool
-- **Richness:** moderate
-- **Spice:** mild
 
 ## Ingredients
 

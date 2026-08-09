@@ -1,9 +1,21 @@
-# Coconut Cookies
+---
+title: Coconut Cookies
+source: parsley
+status: active
+parsley_id: 4963158
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4963158
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Coconut Cookies
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 4 ea — Eggs
 - 30 mins — Pastry Labor Time
 - 300 gr — Applesauce n/S
+
+## Instructions
+
+_Not recorded (Parsley export)._

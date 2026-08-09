@@ -1,9 +1,21 @@
-# Eggplant Caviar
+---
+title: Eggplant Caviar
+source: parsley
+status: active
+parsley_id: 7135505
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7135505
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Eggplant Caviar
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 2 head — Fresh parsley
 - 660 gr — Homemade Ludonnaise
 - 1.3 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

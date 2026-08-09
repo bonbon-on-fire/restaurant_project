@@ -1,9 +1,21 @@
-# Vegan Tarragon Mushroom Sauce
+---
+title: Vegan Tarragon Mushroom Sauce
+source: parsley
+status: active
+parsley_id: 8396134
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8396134
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 24
+# Vegan Tarragon Mushroom Sauce
 
 ## Ingredients
 
@@ -31,3 +43,7 @@
 - 10 ml — Psyllium powder organic (bulk)
 - 180 ml — Water
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Italian Dressing
+---
+title: Italian Dressing
+source: parsley
+status: active
+parsley_id: 6995526
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6995526
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Italian Dressing
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 1.141 gr — Cayenne pepper
 - 22.825 gr — Fine Sea Salt
 - 20 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

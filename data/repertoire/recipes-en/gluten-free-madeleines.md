@@ -1,9 +1,21 @@
-# Gluten-Free Madeleines
+---
+title: Gluten-Free Madeleines
+source: parsley
+status: active
+parsley_id: 5238177
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5238177
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 7
+# Gluten-Free Madeleines
 
 ## Ingredients
 
@@ -14,3 +26,7 @@
 - 3 ea — Lemons
 - 270 gr — Salted butter
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

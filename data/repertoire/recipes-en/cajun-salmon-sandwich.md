@@ -1,9 +1,21 @@
-# Cajun Salmon Sandwich
+---
+title: Cajun Salmon Sandwich
+source: parsley
+status: active
+parsley_id: 7098844
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7098844
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Cajun Salmon Sandwich
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 18 fillet — Salmon 4oz Portion 113gr (highliner)
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

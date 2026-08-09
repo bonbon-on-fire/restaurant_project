@@ -1,9 +1,21 @@
-# Matcha Cookies Gluten-Free
+---
+title: Matcha Cookies Gluten-Free
+source: parsley
+status: active
+parsley_id: 8324759
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8324759
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Matcha Cookies Gluten-Free
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 75 ml — Vanilla ( Pure Vanille Costco)
 - 30 mins — Pastry Labor Time
 - 31 ml — Matcha (Ecoideas)
+
+## Instructions
+
+_Not recorded (Parsley export)._

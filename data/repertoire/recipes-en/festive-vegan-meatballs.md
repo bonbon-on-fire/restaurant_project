@@ -1,9 +1,21 @@
-# Festive Vegan Meatballs
+---
+title: Festive Vegan Meatballs
+source: parsley
+status: active
+parsley_id: 5418221
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5418221
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 23
+# Festive Vegan Meatballs
 
 ## Ingredients
 
@@ -30,3 +42,7 @@
 - 300 gr — Textured vegetable protein (soy)
 - 190 gr — Dried cranberries
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

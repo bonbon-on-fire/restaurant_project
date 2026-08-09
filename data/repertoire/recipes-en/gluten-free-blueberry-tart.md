@@ -1,9 +1,21 @@
-# Gluten-Free Blueberry Tart
+---
+title: Gluten-Free Blueberry Tart
+source: parsley
+status: active
+parsley_id: 5223660
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5223660
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Gluten-Free Blueberry Tart
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 140 ml — Arrowroot
 - 48 gr — Turbinado Sugar (large crystals)
 - 1.5 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

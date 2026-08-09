@@ -1,9 +1,21 @@
-# Chocolate Raspberry Muffin
+---
+title: Chocolate Raspberry Muffin
+source: parsley
+status: active
+parsley_id: 4493752
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4493752
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 4
+# Chocolate Raspberry Muffin
 
 ## Ingredients
 
@@ -11,3 +23,7 @@
 - 276 gr — Raspberry (frozen)
 - 188 gr — Chocolate 64% Barry Callebaut
 - 20 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

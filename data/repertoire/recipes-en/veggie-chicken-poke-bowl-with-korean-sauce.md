@@ -1,9 +1,21 @@
-# Veggie Chicken Poke Bowl with Korean Sauce
+---
+title: Veggie Chicken Poke Bowl with Korean Sauce
+source: parsley
+status: active
+parsley_id: 4963307
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4963307
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 38
+# Veggie Chicken Poke Bowl with Korean Sauce
 
 ## Ingredients
 
@@ -45,3 +57,7 @@
 - 2.8 kg — Vegan veggie chicken (P,V.Chi Ming)
 - 155 gr — Homemade Gochujang Sauce
 - 3 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

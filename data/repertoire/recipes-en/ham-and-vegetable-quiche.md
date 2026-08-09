@@ -1,9 +1,21 @@
-# Ham and Vegetable Quiche
+---
+title: Ham and Vegetable Quiche
+source: parsley
+status: active
+parsley_id: 4715331
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4715331
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 27
+# Ham and Vegetable Quiche
 
 ## Ingredients
 
@@ -34,3 +46,7 @@
 - 10 ml — Fine Sea Salt
 - 5 ml — Black pepper Organic Connections (ground)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

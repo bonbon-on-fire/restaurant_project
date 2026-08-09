@@ -1,9 +1,21 @@
-# Date Chocolate Cookies
+---
+title: Date Chocolate Cookies
+source: parsley
+status: active
+parsley_id: 4956759
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4956759
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Date Chocolate Cookies
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 24 ea — Eggs
 - 1200 gr — Greek Yogurt 0% lactose-free
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

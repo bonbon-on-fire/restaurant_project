@@ -1,9 +1,21 @@
-# Broccoli and Pistachio Hummus
+---
+title: Broccoli and Pistachio Hummus
+source: parsley
+status: active
+parsley_id: 6656408
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6656408
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Broccoli and Pistachio Hummus
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 30 ml — Fine Sea Salt
 - 12.5 ml — Ground white pepper
 - 35 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Dill Gravlax Salmon over Potato and Fennel Salad
+---
+title: Dill Gravlax Salmon over Potato and Fennel Salad
+source: parsley
+status: active
+parsley_id: 4841348
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4841348
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Dill Gravlax Salmon over Potato and Fennel Salad
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 500 gr — Celery
 - 1.3 kg — Fresh Fennel
 - Green Onions jg
+
+## Instructions
+
+_Not recorded (Parsley export)._

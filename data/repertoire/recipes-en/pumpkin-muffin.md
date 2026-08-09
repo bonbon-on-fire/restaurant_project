@@ -1,9 +1,21 @@
-# Pumpkin Muffin
+---
+title: Pumpkin Muffin
+source: parsley
+status: active
+parsley_id: 7748028
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7748028
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 4
+# Pumpkin Muffin
 
 ## Ingredients
 
@@ -11,3 +23,7 @@
 - 20 ml — Baking powder
 - 5 ml — Baking soda (soda)
 - 5 ml — Fine Sea Salt
+
+## Instructions
+
+_Not recorded (Parsley export)._

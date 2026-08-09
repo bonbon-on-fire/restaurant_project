@@ -1,9 +1,21 @@
-# Coffee Hazelnut Yule Log Vegan
+---
+title: Coffee Hazelnut Yule Log Vegan
+source: parsley
+status: active
+parsley_id: 4386906
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4386906
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 30
+# Coffee Hazelnut Yule Log Vegan
 
 ## Ingredients
 
@@ -37,3 +49,7 @@
 - 40 gr — Oat cream (Bridge)
 - 16 gr — Hazelnuts
 - 2 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

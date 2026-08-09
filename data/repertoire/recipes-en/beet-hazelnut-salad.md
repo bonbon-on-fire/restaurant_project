@@ -1,9 +1,21 @@
-# Beet Hazelnut Salad
+---
+title: Beet Hazelnut Salad
+source: parsley
+status: active
+parsley_id: 4854786
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4854786
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Beet Hazelnut Salad
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 66 ml — White Balsamic Vinegar
 - 10 ml — Fine Sea Salt
 - 1.4 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

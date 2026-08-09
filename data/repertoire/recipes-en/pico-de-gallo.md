@@ -1,9 +1,21 @@
-# Pico de Gallo
+---
+title: Pico de Gallo
+source: parsley
+status: active
+parsley_id: 7510849
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7510849
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Pico de Gallo
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 15 gr — Long finger peppers
 - 15 gr — Peeled garlic
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

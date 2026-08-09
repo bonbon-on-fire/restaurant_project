@@ -1,9 +1,21 @@
-# Veggie Chicken Satay with Almonds
+---
+title: Veggie Chicken Satay with Almonds
+source: parsley
+status: active
+parsley_id: 5502681
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5502681
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Veggie Chicken Satay with Almonds
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 40 ml — Liquid Palm Sugar (por kwan)
 - 10 ml — Fine Sea Salt
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Satay Veggie Chicken Banh-Mi Wrap
+---
+title: Satay Veggie Chicken Banh-Mi Wrap
+source: parsley
+status: active
+parsley_id: 7483853
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7483853
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 6
+# Satay Veggie Chicken Banh-Mi Wrap
 
 ## Ingredients
 
@@ -13,3 +25,7 @@
 - 45 mins — Cook Labor Time
 - 18 Tortilla — Wheat Tortillas ( PC, 10)
 - 135 gr — Almond Satay Sauce
+
+## Instructions
+
+_Not recorded (Parsley export)._

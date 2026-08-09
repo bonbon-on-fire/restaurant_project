@@ -1,9 +1,21 @@
-# Chipotle Lentil Vegetable Soup
+---
+title: Chipotle Lentil Vegetable Soup
+source: parsley
+status: active
+parsley_id: 6689741
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6689741
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 23
+# Chipotle Lentil Vegetable Soup
 
 ## Ingredients
 
@@ -30,3 +42,7 @@
 - 1 head — Coriander (leaves)
 - 80 ml — Bottled Lime Juice (Lime Tree)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Spanish Soup
+---
+title: Spanish Soup
+source: parsley
+status: active
+parsley_id: 5246576
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5246576
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Spanish Soup
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 1 head — Fresh parsley
 - 2 kg — Zucchini
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

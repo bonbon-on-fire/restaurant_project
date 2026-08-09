@@ -1,9 +1,21 @@
-# Cabbage Pepper Salad with Mint
+---
+title: Cabbage Pepper Salad with Mint
+source: parsley
+status: active
+parsley_id: 6239650
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6239650
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Cabbage Pepper Salad with Mint
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 1 bunch — Fresh mint
 - 1 head — Fresh parsley
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

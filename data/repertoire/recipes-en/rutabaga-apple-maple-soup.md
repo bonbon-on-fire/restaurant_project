@@ -1,9 +1,21 @@
-# Rutabaga Apple Maple Soup
+---
+title: Rutabaga Apple Maple Soup
+source: parsley
+status: active
+parsley_id: 6238534
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6238534
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Rutabaga Apple Maple Soup
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 48 ml — Maple Syrup
 - 200 ml — Fresh parsley
 - 48 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

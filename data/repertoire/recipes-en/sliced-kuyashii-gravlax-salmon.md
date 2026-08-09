@@ -1,9 +1,21 @@
-# Sliced Kuyashii Gravlax Salmon
+---
+title: Sliced Kuyashii Gravlax Salmon
+source: parsley
+status: active
+parsley_id: 4916848
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4916848
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# Sliced Kuyashii Gravlax Salmon
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 2 ea — Lemons
 - 60 ml — Sake
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

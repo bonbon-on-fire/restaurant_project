@@ -1,9 +1,21 @@
-# Teriyaki Salmon Poke Bowl
+---
+title: Teriyaki Salmon Poke Bowl
+source: parsley
+status: active
+parsley_id: 5737370
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5737370
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 47
+# Teriyaki Salmon Poke Bowl
 
 ## Ingredients
 
@@ -54,3 +66,7 @@
 - 33 gr — Fresh Ginger (minced)
 - 5 ml — Ground white pepper
 - 4 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

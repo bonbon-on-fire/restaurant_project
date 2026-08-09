@@ -1,9 +1,21 @@
-# Le Bonheur Cookie Gluten-Free
+---
+title: Le Bonheur Cookie Gluten-Free
+source: parsley
+status: active
+parsley_id: 6895739
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6895739
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Le Bonheur Cookie Gluten-Free
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 160 ml — Applesauce L'eau Vive
 - 600 ml — Strawberry jam (Crofter's)
 - 1 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Northern Dawn Yule Log Vegan, GF
+---
+title: Northern Dawn Yule Log Vegan, GF
+source: parsley
+status: active
+parsley_id: 7736077
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7736077
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 23
+# Northern Dawn Yule Log Vegan, GF
 
 ## Ingredients
 
@@ -30,3 +42,7 @@
 - 15 ml — Vanilla ( Pure Vanille Costco)
 - 300 gr — Pitaya puree (Pitaya Foods)
 - 4.5 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

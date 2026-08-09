@@ -1,9 +1,21 @@
-# Vegan Poutine (Medium)
+---
+title: Vegan Poutine (Medium)
+source: parsley
+status: active
+parsley_id: 5502679
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5502679
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 25
+# Vegan Poutine (Medium)
 
 ## Ingredients
 
@@ -32,3 +44,7 @@
 - 40 gr — Potato Starch (Bobs Redmil)
 - 2 pack — Green Onions l'EV
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

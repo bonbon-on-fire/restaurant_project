@@ -1,9 +1,21 @@
-# Veggie Chicken Makhani
+---
+title: Veggie Chicken Makhani
+source: parsley
+status: active
+parsley_id: 6892701
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6892701
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 34
+# Veggie Chicken Makhani
 
 ## Ingredients
 
@@ -41,3 +53,7 @@
 - 3.2 liter — Water
 - 1 head — Coriander (leaves)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Orange and Date Muffins (no added sugar)
+---
+title: Orange and Date Muffins (no added sugar)
+source: parsley
+status: active
+parsley_id: 4803673
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4803673
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Orange and Date Muffins (no added sugar)
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 5 ml — Baking powder
 - 60 ml — Almond Milk (Natura) N/S
 - 20 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Makhani Veggie Chicken Wrap
+---
+title: Makhani Veggie Chicken Wrap
+source: parsley
+status: active
+parsley_id: 7511017
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7511017
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 39
+# Makhani Veggie Chicken Wrap
 
 ## Ingredients
 
@@ -46,3 +58,7 @@
 - 12.5 ml — Tamari Gluten-Free (San-J)
 - 20 Tortilla — Wheat Tortillas ( PC, 10)
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

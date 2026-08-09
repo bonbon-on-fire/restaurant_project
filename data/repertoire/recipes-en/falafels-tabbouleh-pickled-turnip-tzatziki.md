@@ -1,9 +1,21 @@
-# Falafels, Tabbouleh, Pickled Turnip, Tzatziki
+---
+title: Falafels, Tabbouleh, Pickled Turnip, Tzatziki
+source: parsley
+status: active
+parsley_id: 3993089
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 3993089
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 37
+# Falafels, Tabbouleh, Pickled Turnip, Tzatziki
 
 ## Ingredients
 
@@ -44,3 +56,7 @@
 - 7.5 ml — Ground mustard
 - 15 ml — Sumac
 - 80 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

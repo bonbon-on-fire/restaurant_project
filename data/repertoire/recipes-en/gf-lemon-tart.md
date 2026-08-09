@@ -1,9 +1,21 @@
-# GF Lemon Tart
+---
+title: GF Lemon Tart
+source: parsley
+status: active
+parsley_id: 4907879
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4907879
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 7
+# GF Lemon Tart
 
 ## Ingredients
 
@@ -14,3 +26,7 @@
 - 18 ea — Lemons
 - 1 ea — Gluten-free Corn Pie Crust
 - 40 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

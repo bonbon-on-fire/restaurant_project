@@ -1,9 +1,21 @@
-# GF Lime Tart
+---
+title: GF Lime Tart
+source: parsley
+status: active
+parsley_id: 4907871
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4907871
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# GF Lime Tart
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 15 ml — Natural Green Food Coloring (Colour Garden)
 - 1 ea — Gluten-free Corn Pie Crust
 - 40 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

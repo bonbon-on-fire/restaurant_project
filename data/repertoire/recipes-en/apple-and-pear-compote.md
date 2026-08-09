@@ -1,9 +1,21 @@
-# Apple and Pear Compote
+---
+title: Apple and Pear Compote
+source: parsley
+status: active
+parsley_id: 4591718
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4591718
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 5
+# Apple and Pear Compote
 
 ## Ingredients
 
@@ -12,3 +24,7 @@
 - 1.25 ml — Ground fenugreek
 - 1 ea — Cinnamon stick (Cha's)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

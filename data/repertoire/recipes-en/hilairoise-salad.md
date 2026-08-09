@@ -1,9 +1,21 @@
-# Hilairoise Salad
+---
+title: Hilairoise Salad
+source: parsley
+status: active
+parsley_id: 7098810
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7098810
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 24
+# Hilairoise Salad
 
 ## Ingredients
 
@@ -31,3 +43,7 @@
 - 3 can — Cherry Tomatoes (Medley)
 - 0.5 head — Fresh parsley
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

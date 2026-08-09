@@ -2,6 +2,7 @@
 title: Pepper ginger
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 3
 tags:
   protein: legume
@@ -15,20 +16,6 @@ tags:
 ---
 
 # Pepper ginger
-
-- **Source:** menu-derived — observed on 3 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** legume
-- **Format:** dip-spread
-- **Cuisine:** middle-eastern
-- **Temperature:** cold
-- **Weather:** warm
-- **Richness:** moderate
-- **Spice:** mild
-- **Diet:** vegan, dairy-free
 
 ## Ingredients
 

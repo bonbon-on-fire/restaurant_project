@@ -1,9 +1,21 @@
-# Potato Apple Fennel Salad
+---
+title: Potato Apple Fennel Salad
+source: parsley
+status: active
+parsley_id: 5737291
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5737291
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Potato Apple Fennel Salad
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 5 ml — Black pepper Organic Connections (ground)
 - 40 ml — Capers
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

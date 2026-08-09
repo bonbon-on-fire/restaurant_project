@@ -1,9 +1,21 @@
-# L'Épous-tou-flan Tart
+---
+title: L'Épous-tou-flan Tart
+source: parsley
+status: active
+parsley_id: 7020948
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7020948
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 20
+# L'Épous-tou-flan Tart
 
 ## Ingredients
 
@@ -27,3 +39,7 @@
 - 200 gr — Water
 - 1 ea — Fresh pineapple
 - 1 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

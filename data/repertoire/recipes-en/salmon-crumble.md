@@ -1,9 +1,21 @@
-# Salmon Crumble
+---
+title: Salmon Crumble
+source: parsley
+status: active
+parsley_id: 5683057
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5683057
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 31
+# Salmon Crumble
 
 ## Ingredients
 
@@ -38,3 +50,7 @@
 - 3 ml — Fine Sea Salt
 - 3 ml — Black pepper Organic Connections (ground)
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

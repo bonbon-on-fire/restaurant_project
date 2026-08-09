@@ -2,6 +2,7 @@
 title: Mint tabbouleh
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 4
 tags:
   protein: grain
@@ -15,20 +16,6 @@ tags:
 ---
 
 # Mint tabbouleh
-
-- **Source:** menu-derived — observed on 4 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** grain
-- **Format:** salad
-- **Cuisine:** lebanese
-- **Temperature:** cold
-- **Weather:** warm
-- **Richness:** light
-- **Spice:** none
-- **Diet:** vegan, dairy-free
 
 ## Ingredients
 

@@ -1,9 +1,21 @@
-# Asian Cabbage Salad
+---
+title: Asian Cabbage Salad
+source: parsley
+status: active
+parsley_id: 8327864
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8327864
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Asian Cabbage Salad
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 7.5 ml — Korean chili (Gochugaru)
 - 7.5 ml — Hungarian paprika
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

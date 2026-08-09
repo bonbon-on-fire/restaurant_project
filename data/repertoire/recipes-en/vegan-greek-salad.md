@@ -1,9 +1,21 @@
-# Vegan Greek Salad
+---
+title: Vegan Greek Salad
+source: parsley
+status: active
+parsley_id: 6995566
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6995566
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 25
+# Vegan Greek Salad
 
 ## Ingredients
 
@@ -32,3 +44,7 @@
 - 600 gr — Kalamata olives (bulk)
 - 1.2 kg — Cherry Tomatoes (Assortment)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

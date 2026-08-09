@@ -2,6 +2,7 @@
 title: Beet goat cheese
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 19
 tags:
   protein: vegetable
@@ -15,20 +16,6 @@ tags:
 ---
 
 # Beet goat cheese
-
-- **Source:** menu-derived — observed on 19 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** vegetable
-- **Format:** salad
-- **Cuisine:** french
-- **Temperature:** cold
-- **Weather:** warm
-- **Richness:** moderate
-- **Spice:** none
-- **Diet:** vegetarian
 
 ## Ingredients
 

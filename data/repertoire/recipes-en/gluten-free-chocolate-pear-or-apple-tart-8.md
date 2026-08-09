@@ -1,9 +1,21 @@
-# Gluten-Free Chocolate Pear or Apple Tart 8"
+---
+title: Gluten-Free Chocolate Pear or Apple Tart 8"
+source: parsley
+status: active
+parsley_id: 4498993
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4498993
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Gluten-Free Chocolate Pear or Apple Tart 8"
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 300 ml — Maple Syrup
 - 1250 ml — Cooking cream 15%
 - 1 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Pistachio Cheesecake Gluten-Free
+---
+title: Pistachio Cheesecake Gluten-Free
+source: parsley
+status: active
+parsley_id: 6634962
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6634962
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Pistachio Cheesecake Gluten-Free
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 6 ea — Eggs
 - 2 ea — Egg Yolks
 - 0.5 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

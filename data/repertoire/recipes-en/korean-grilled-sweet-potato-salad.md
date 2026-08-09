@@ -1,9 +1,21 @@
-# Korean Grilled Sweet Potato Salad
+---
+title: Korean Grilled Sweet Potato Salad
+source: parsley
+status: active
+parsley_id: 8332907
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8332907
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 26
+# Korean Grilled Sweet Potato Salad
 
 ## Ingredients
 
@@ -33,3 +45,7 @@
 - 15 ml — Shiro miso (Amano)
 - 20 ml — Homemade red curry paste
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

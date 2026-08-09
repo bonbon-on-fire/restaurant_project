@@ -1,9 +1,21 @@
-# Green Lime Hummus
+---
+title: Green Lime Hummus
+source: parsley
+status: active
+parsley_id: 7131090
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7131090
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Green Lime Hummus
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 45 mins — Cook Labor Time
 - 7 ml — Kaffir Lime Leaves (Ground)
 - 15 ml — Jardins d'abeilles honey (Trefle)
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Mushroom Sauce with Tofu and Sun-Dried Tomatoes
+---
+title: Mushroom Sauce with Tofu and Sun-Dried Tomatoes
+source: parsley
+status: active
+parsley_id: 8396190
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8396190
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 23
+# Mushroom Sauce with Tofu and Sun-Dried Tomatoes
 
 ## Ingredients
 
@@ -30,3 +42,7 @@
 - 15 ml — Tamari Gluten-Free (San-J)
 - 2.5 ml — Fine Sea Salt
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

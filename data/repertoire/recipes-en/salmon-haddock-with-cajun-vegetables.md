@@ -1,9 +1,21 @@
-# Salmon / Haddock with Cajun Vegetables
+---
+title: Salmon / Haddock with Cajun Vegetables
+source: parsley
+status: active
+parsley_id: 5147720
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5147720
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 23
+# Salmon / Haddock with Cajun Vegetables
 
 ## Ingredients
 
@@ -30,3 +42,7 @@
 - 15 ml — Cajun spice blend (Épices de Cru)
 - 30 ml — Fine Sea Salt
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

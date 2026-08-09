@@ -1,9 +1,21 @@
-# Dill Hummus
+---
+title: Dill Hummus
+source: parsley
+status: active
+parsley_id: 7483675
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7483675
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Dill Hummus
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 15 ml — Ground white pepper
 - 300 ml — Fresh dill
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Creamy Broccoli Salad
+---
+title: Creamy Broccoli Salad
+source: parsley
+status: active
+parsley_id: 5602422
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5602422
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Creamy Broccoli Salad
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 18.75 ml — Fine Sea Salt
 - 7.5 ml — Black pepper Organic Connections (ground)
 - 40 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

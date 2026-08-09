@@ -1,9 +1,21 @@
-# Pistachio Maple Syrup Cheesecake
+---
+title: Pistachio Maple Syrup Cheesecake
+source: parsley
+status: active
+parsley_id: 6881248
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6881248
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 18
+# Pistachio Maple Syrup Cheesecake
 
 ## Ingredients
 
@@ -25,3 +37,7 @@
 - 500 ml — Cooking cream 15%
 - 20 ml — Arrowroot Starch (Bobs red mill)
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

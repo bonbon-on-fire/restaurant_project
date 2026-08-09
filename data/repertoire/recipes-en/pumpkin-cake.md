@@ -1,9 +1,21 @@
-# Pumpkin Cake
+---
+title: Pumpkin Cake
+source: parsley
+status: active
+parsley_id: 5341626
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5341626
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Pumpkin Cake
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 224 ml — Apricot jam (St Dalfour)
 - 30 ml — Vanilla ( Pure Vanille Costco)
 - 1 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

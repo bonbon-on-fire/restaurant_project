@@ -1,9 +1,21 @@
-# Salmon with Zucchini Pesto
+---
+title: Salmon with Zucchini Pesto
+source: parsley
+status: active
+parsley_id: 4568157
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4568157
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Salmon with Zucchini Pesto
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 2.5 ml — Black pepper Organic Connections (ground)
 - 3 ml — Ground nutmeg
 - 70 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Pear and Cheddar Bread
+---
+title: Pear and Cheddar Bread
+source: parsley
+status: active
+parsley_id: 5555635
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5555635
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Pear and Cheddar Bread
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 5.625 cup — Sunflower Seeds
 - 45 ml — Pumpkin Seeds (china)
 - 26.25 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Copy of Gluten-Free Vegan Burger
+---
+title: Copy of Gluten-Free Vegan Burger
+source: parsley
+status: active
+parsley_id: 4848372
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4848372
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 34
+# Copy of Gluten-Free Vegan Burger
 
 ## Ingredients
 
@@ -41,3 +53,7 @@
 - 168 gr — Nutritional Yeast (powder)
 - 850 ml — Water
 - 2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

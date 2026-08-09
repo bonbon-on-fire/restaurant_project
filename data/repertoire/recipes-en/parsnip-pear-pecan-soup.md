@@ -1,9 +1,21 @@
-# Parsnip Pear Pecan Soup
+---
+title: Parsnip Pear Pecan Soup
+source: parsley
+status: active
+parsley_id: 7442861
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7442861
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 20
+# Parsnip Pear Pecan Soup
 
 ## Ingredients
 
@@ -27,3 +39,7 @@
 - 53 gr — Maple Syrup
 - 1 head — Fresh parsley
 - 50 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Carrot Muffin
+---
+title: Carrot Muffin
+source: parsley
+status: active
+parsley_id: 4472288
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4472288
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Carrot Muffin
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 74 gr — Walnuts
 - 110 ml — Almond Milk (Natura) N/S
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

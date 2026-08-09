@@ -1,9 +1,21 @@
-# Marbled Madeleine
+---
+title: Marbled Madeleine
+source: parsley
+status: active
+parsley_id: 5515490
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5515490
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# Marbled Madeleine
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 200 gr — Chocolate 64% Barry Callebaut
 - 10 ml — Vanilla ( Pure Vanille Costco)
 - 25 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

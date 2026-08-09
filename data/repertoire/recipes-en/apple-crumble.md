@@ -1,9 +1,21 @@
-# Apple Crumble
+---
+title: Apple Crumble
+source: parsley
+status: active
+parsley_id: 5263460
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5263460
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Apple Crumble
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 90 ml — Maple Syrup
 - 11.25 ml — Cinnamon (ground) Cha's
 - 35 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Veggie Jerk Chicken with Orange Remoulade
+---
+title: Veggie Jerk Chicken with Orange Remoulade
+source: parsley
+status: active
+parsley_id: 5431108
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5431108
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 30
+# Veggie Jerk Chicken with Orange Remoulade
 
 ## Ingredients
 
@@ -37,3 +49,7 @@
 - 2.5 ml — Fine Sea Salt
 - 3 ml — Black pepper Organic Connections (ground)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Wild Blueberry Cupcake with Purple Sweet Potato and Hibiscus Frosting
+---
+title: Wild Blueberry Cupcake with Purple Sweet Potato and Hibiscus Frosting
+source: parsley
+status: active
+parsley_id: 7587695
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7587695
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Wild Blueberry Cupcake with Purple Sweet Potato and Hibiscus Frosting
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 500 ml — Deodorized Organic Sunflower Oil Terra (Costco)
 - 50 mins — Pastry Labor Time
 - 1920 gr — Purple sugar Potato Frosting
+
+## Instructions
+
+_Not recorded (Parsley export)._

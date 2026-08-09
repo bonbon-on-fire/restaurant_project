@@ -1,9 +1,21 @@
-# Mediterranean-Style Haddock
+---
+title: Mediterranean-Style Haddock
+source: parsley
+status: active
+parsley_id: 4854962
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4854962
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 26
+# Mediterranean-Style Haddock
 
 ## Ingredients
 
@@ -33,3 +45,7 @@
 - 3.25 ml — Black pepper Organic Connections (ground)
 - 2 hour — Cook Labor Time
 - 500 ml — White Wine (Don Simon)
+
+## Instructions
+
+_Not recorded (Parsley export)._

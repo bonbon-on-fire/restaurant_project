@@ -1,9 +1,21 @@
-# Banana Bread
+---
+title: Banana Bread
+source: parsley
+status: active
+parsley_id: 4592755
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4592755
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Banana Bread
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 16 gr — Quick-cooking Gluten-free Oat Flakes
 - 16 gr — Brown sugar (golden)
 - 16 gr — Maple Syrup
+
+## Instructions
+
+_Not recorded (Parsley export)._

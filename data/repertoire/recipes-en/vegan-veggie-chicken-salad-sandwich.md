@@ -1,12 +1,28 @@
-# Vegan Veggie Chicken Salad Sandwich
+---
+title: Vegan Veggie Chicken Salad Sandwich
+source: parsley
+status: active
+parsley_id: 7723572
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7723572
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 3
+# Vegan Veggie Chicken Salad Sandwich
 
 ## Ingredients
 
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 3.24 kg — Veggie Chicken Salad
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

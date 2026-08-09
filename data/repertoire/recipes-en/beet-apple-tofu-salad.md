@@ -1,9 +1,21 @@
-# Beet Apple Tofu Salad
+---
+title: Beet Apple Tofu Salad
+source: parsley
+status: active
+parsley_id: 5560891
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5560891
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Beet Apple Tofu Salad
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 7.5 ml — Chinese 5-spice
 - 6 ml — Fine Sea Salt
 - 50 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

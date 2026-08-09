@@ -1,9 +1,21 @@
-# Raw Blueberry Tartlet
+---
+title: Raw Blueberry Tartlet
+source: parsley
+status: active
+parsley_id: 7483260
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7483260
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Raw Blueberry Tartlet
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 15 ml — Agar Agar
 - 360 ml — Blueberry Juice (Patience fruit & co)
 - 1 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

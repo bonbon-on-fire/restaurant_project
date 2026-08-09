@@ -1,9 +1,21 @@
-# Pumpkin Roll Cake Gluten-Free Lactose-Free
+---
+title: Pumpkin Roll Cake Gluten-Free Lactose-Free
+source: parsley
+status: active
+parsley_id: 4516219
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4516219
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 19
+# Pumpkin Roll Cake Gluten-Free Lactose-Free
 
 ## Ingredients
 
@@ -26,3 +38,7 @@
 - 225 ml — Apricot jam (St Dalfour)
 - 22.5 ml — Vanilla ( Pure Vanille Costco)
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

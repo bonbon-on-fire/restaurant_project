@@ -1,9 +1,21 @@
-# Goat Cheese and Cabbage
+---
+title: Goat Cheese and Cabbage
+source: parsley
+status: active
+parsley_id: 5499877
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5499877
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 33
+# Goat Cheese and Cabbage
 
 ## Ingredients
 
@@ -40,3 +52,7 @@
 - 1 bunch — Fresh parsley
 - 1 kg — Feta Cheese
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

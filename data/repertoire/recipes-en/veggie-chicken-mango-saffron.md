@@ -1,9 +1,21 @@
-# Veggie Chicken Mango Saffron
+---
+title: Veggie Chicken Mango Saffron
+source: parsley
+status: active
+parsley_id: 6725073
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6725073
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Veggie Chicken Mango Saffron
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 28.16 gr — Vegan chicken broth gluten-free (homemade)
 - 1.775 kg — Couscous
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

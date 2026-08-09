@@ -1,9 +1,21 @@
-# Satay Sauce
+---
+title: Satay Sauce
+source: parsley
+status: active
+parsley_id: 6976532
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6976532
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Satay Sauce
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 35 ml — Vegan chicken broth gluten-free (homemade)
 - 80 gr — Homemade Gochujang Sauce
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

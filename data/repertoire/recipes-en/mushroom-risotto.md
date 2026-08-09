@@ -1,9 +1,21 @@
-# Mushroom Risotto
+---
+title: Mushroom Risotto
+source: parsley
+status: active
+parsley_id: 4558542
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4558542
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Mushroom Risotto
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 1 head — Fresh parsley
 - 62 gr — Parmesan - grated
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

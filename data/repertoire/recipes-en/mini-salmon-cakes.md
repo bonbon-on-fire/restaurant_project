@@ -1,9 +1,21 @@
-# Mini Salmon Cakes
+---
+title: Mini Salmon Cakes
+source: parsley
+status: active
+parsley_id: 8541354
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8541354
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Mini Salmon Cakes
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 75 ml — White Balsamic Vinegar
 - 13.695 gr — Extra Virgin Olive Oil (Costco) Bluk by cho
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

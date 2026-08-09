@@ -1,9 +1,21 @@
-# Tulum Soup
+---
+title: Tulum Soup
+source: parsley
+status: active
+parsley_id: 5391177
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5391177
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 28
+# Tulum Soup
 
 ## Ingredients
 
@@ -35,3 +47,7 @@
 - 1 head — Coriander (leaves)
 - 25 ml — Spicy Jalapeno and Garlic Scape Sauce (mi corazon)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

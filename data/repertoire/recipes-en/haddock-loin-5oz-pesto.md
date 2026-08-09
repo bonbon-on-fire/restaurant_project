@@ -1,9 +1,21 @@
-# Haddock Loin 5oz Pesto
+---
+title: Haddock Loin 5oz Pesto
+source: parsley
+status: active
+parsley_id: 8578557
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8578557
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 4
+# Haddock Loin 5oz Pesto
 
 ## Ingredients
 
@@ -11,3 +23,7 @@
 - 1.32 kg — Zucchini pesto
 - 10 ml — Extra Virgin Olive Oil (Costco) Bluk by cho
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

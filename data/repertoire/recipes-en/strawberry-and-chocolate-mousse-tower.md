@@ -1,9 +1,21 @@
-# Strawberry and Chocolate Mousse Tower
+---
+title: Strawberry and Chocolate Mousse Tower
+source: parsley
+status: active
+parsley_id: 5528400
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5528400
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Strawberry and Chocolate Mousse Tower
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 69 gr — Oat cream (Bridge)
 - 2 hour — Pastry Labor Time
 - 360 gr — Chocolate 64% Barry Callebaut
+
+## Instructions
+
+_Not recorded (Parsley export)._

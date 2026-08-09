@@ -1,9 +1,21 @@
-# Green Tom Yum Soup
+---
+title: Green Tom Yum Soup
+source: parsley
+status: active
+parsley_id: 5357859
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5357859
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 36
+# Green Tom Yum Soup
 
 ## Ingredients
 
@@ -43,3 +55,7 @@
 - 4 gr — Thai chili
 - 1 pepper — Serrano peppers
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

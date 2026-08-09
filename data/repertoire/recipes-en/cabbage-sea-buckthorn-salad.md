@@ -1,9 +1,21 @@
-# Cabbage Sea Buckthorn Salad
+---
+title: Cabbage Sea Buckthorn Salad
+source: parsley
+status: active
+parsley_id: 7143092
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7143092
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 25
+# Cabbage Sea Buckthorn Salad
 
 ## Ingredients
 
@@ -32,3 +44,7 @@
 - 51 ml — Freeze-dried sea buckthorn powder (zone orange)
 - 9 ml — Fine Sea Salt
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

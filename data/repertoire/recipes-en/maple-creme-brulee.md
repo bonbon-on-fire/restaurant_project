@@ -1,11 +1,27 @@
-# Maple Crème Brûlée
+---
+title: Maple Crème Brûlée
+source: parsley
+status: active
+parsley_id: 4507524
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4507524
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 2
+# Maple Crème Brûlée
 
 ## Ingredients
 
 - 660 gr — Vanilla crème brûlée
 - 30 ml — Maple Syrup
+
+## Instructions
+
+_Not recorded (Parsley export)._

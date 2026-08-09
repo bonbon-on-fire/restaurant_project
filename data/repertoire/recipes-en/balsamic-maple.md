@@ -2,28 +2,20 @@
 title: Balsamic maple
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 3
 tags:
-  protein: 
+  protein:
   temperature: room
-  weather: 
-  richness: 
+  weather:
+  richness:
   format: sauce-condiment
-  cuisine: 
-  spice_level: 
+  cuisine:
+  spice_level:
   diet: [vegan, dairy-free]
 ---
 
 # Balsamic maple
-
-- **Source:** menu-derived — observed on 3 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Format:** sauce-condiment
-- **Temperature:** room
-- **Diet:** vegan, dairy-free
 
 ## Ingredients
 

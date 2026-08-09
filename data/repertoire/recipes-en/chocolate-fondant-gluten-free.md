@@ -1,9 +1,21 @@
-# Chocolate Fondant Gluten-Free
+---
+title: Chocolate Fondant Gluten-Free
+source: parsley
+status: active
+parsley_id: 4514059
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4514059
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 7
+# Chocolate Fondant Gluten-Free
 
 ## Ingredients
 
@@ -14,3 +26,7 @@
 - 105 gr — Angélique Gluten-Free Flour
 - 1.875 ml — Fine Sea Salt
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -2,6 +2,7 @@
 title: Provençal
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 8
 tags:
   protein: vegetable
@@ -15,19 +16,6 @@ tags:
 ---
 
 # Provençal
-
-- **Source:** menu-derived — observed on 8 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** vegetable
-- **Format:** salad
-- **Cuisine:** provençal
-- **Temperature:** cold
-- **Weather:** warm
-- **Richness:** moderate
-- **Spice:** none
 
 ## Ingredients
 

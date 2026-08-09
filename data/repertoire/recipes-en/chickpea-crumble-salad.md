@@ -1,9 +1,21 @@
-# Chickpea Crumble Salad
+---
+title: Chickpea Crumble Salad
+source: parsley
+status: active
+parsley_id: 6200508
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6200508
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 19
+# Chickpea Crumble Salad
 
 ## Ingredients
 
@@ -26,3 +38,7 @@
 - 10 ml — Fine Sea Salt
 - 6 ml — Black pepper Organic Connections (ground)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

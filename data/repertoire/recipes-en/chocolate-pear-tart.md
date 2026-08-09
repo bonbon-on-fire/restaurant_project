@@ -1,9 +1,21 @@
-# Chocolate Pear Tart
+---
+title: Chocolate Pear Tart
+source: parsley
+status: active
+parsley_id: 6787428
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6787428
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Chocolate Pear Tart
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 2.182 liter — Cooking cream 15%
 - 0.524 liter — Maple Syrup
 - 1.5 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

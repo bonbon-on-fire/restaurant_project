@@ -1,9 +1,21 @@
-# Carrot, Celeriac, and Almond Salad
+---
+title: Carrot, Celeriac, and Almond Salad
+source: parsley
+status: active
+parsley_id: 6185359
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6185359
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Carrot, Celeriac, and Almond Salad
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 30 ml — Sumac
 - 2.5 ml — Cayenne pepper
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -2,6 +2,7 @@
 title: Carrot kale quinoa
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 8
 tags:
   protein: grain
@@ -9,25 +10,12 @@ tags:
   weather: warm
   richness: light
   format: salad
-  cuisine: 
+  cuisine:
   spice_level: none
   diet: [vegan, dairy-free]
 ---
 
 # Carrot kale quinoa
-
-- **Source:** menu-derived — observed on 8 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** grain
-- **Format:** salad
-- **Temperature:** cold
-- **Weather:** warm
-- **Richness:** light
-- **Spice:** none
-- **Diet:** vegan, dairy-free
 
 ## Ingredients
 

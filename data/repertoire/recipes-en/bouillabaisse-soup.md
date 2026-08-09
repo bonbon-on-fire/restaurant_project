@@ -1,9 +1,21 @@
-# Bouillabaisse Soup
+---
+title: Bouillabaisse Soup
+source: parsley
+status: active
+parsley_id: 5573110
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5573110
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 31
+# Bouillabaisse Soup
 
 ## Ingredients
 
@@ -38,3 +50,7 @@
 - 5 ml — Fine Sea Salt
 - 5 ml — Black pepper Organic Connections (ground)
 - 60 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

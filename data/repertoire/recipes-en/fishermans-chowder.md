@@ -1,9 +1,21 @@
-# Fisherman's Chowder
+---
+title: Fisherman's Chowder
+source: parsley
+status: active
+parsley_id: 5652416
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5652416
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 27
+# Fisherman's Chowder
 
 ## Ingredients
 
@@ -34,3 +46,7 @@
 - 3.75 ml — Fine Sea Salt
 - 5 ml — Black pepper Organic Connections (ground)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

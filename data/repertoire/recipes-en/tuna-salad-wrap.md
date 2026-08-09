@@ -1,9 +1,21 @@
-# Tuna Salad Wrap
+---
+title: Tuna Salad Wrap
+source: parsley
+status: active
+parsley_id: 5861726
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5861726
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Tuna Salad Wrap
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 1.25 ml — Fine Sea Salt
 - 1 ml — Black pepper Organic Connections (ground)
 - 25 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

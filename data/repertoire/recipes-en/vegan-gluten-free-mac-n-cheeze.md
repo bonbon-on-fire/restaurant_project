@@ -1,9 +1,21 @@
-# Vegan Gluten-Free Mac N' Cheeze
+---
+title: Vegan Gluten-Free Mac N' Cheeze
+source: parsley
+status: active
+parsley_id: 4489765
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4489765
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Vegan Gluten-Free Mac N' Cheeze
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 4 can — Macaroni (Elbows) Veneziane
 - 200 ml — Extra Virgin Olive Oil (Costco) Bluk by cho
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

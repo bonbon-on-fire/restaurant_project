@@ -1,9 +1,21 @@
-# Hibiscus Chia Pudding
+---
+title: Hibiscus Chia Pudding
+source: parsley
+status: active
+parsley_id: 6729677
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6729677
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# Hibiscus Chia Pudding
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 2.2 kg — Fruit Salad
 - 452 ml — Neutral glaze (concentrated)
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

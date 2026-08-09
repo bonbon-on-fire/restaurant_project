@@ -1,9 +1,21 @@
-# Mushroom Tarragon Soup
+---
+title: Mushroom Tarragon Soup
+source: parsley
+status: active
+parsley_id: 6262541
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6262541
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 19
+# Mushroom Tarragon Soup
 
 ## Ingredients
 
@@ -26,3 +38,7 @@
 - 2.5 ml — Fine Sea Salt
 - 60 ml — Fresh Tarragon
 - 50 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

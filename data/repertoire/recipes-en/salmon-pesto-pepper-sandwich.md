@@ -1,9 +1,21 @@
-# Salmon Pesto Pepper Sandwich
+---
+title: Salmon Pesto Pepper Sandwich
+source: parsley
+status: active
+parsley_id: 5537796
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5537796
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Salmon Pesto Pepper Sandwich
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 5 ml — Potato Starch (Bobs Redmil)
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

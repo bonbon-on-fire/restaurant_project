@@ -1,9 +1,21 @@
-# Savory Squash, Kale, Pecan and Feta Loaf
+---
+title: Savory Squash, Kale, Pecan and Feta Loaf
+source: parsley
+status: active
+parsley_id: 5650840
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5650840
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Savory Squash, Kale, Pecan and Feta Loaf
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 72 gr — Pecans
 - 256 gr — Feta Cheese
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

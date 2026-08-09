@@ -1,9 +1,21 @@
-# Tofu, Tomato, and Vegetable Sauce 1
+---
+title: Tofu, Tomato, and Vegetable Sauce 1
+source: parsley
+status: active
+parsley_id: 7179897
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7179897
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 24
+# Tofu, Tomato, and Vegetable Sauce 1
 
 ## Ingredients
 
@@ -31,3 +43,7 @@
 - 62.222 ml — Worcestershire Sauce, gluten-free, vegan
 - 3.889 ml — Black pepper Organic Connections (ground)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Haddock Curry with Mango and Coconut
+---
+title: Haddock Curry with Mango and Coconut
+source: parsley
+status: active
+parsley_id: 6654400
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6654400
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 31
+# Haddock Curry with Mango and Coconut
 
 ## Ingredients
 
@@ -38,3 +50,7 @@
 - 1.25 ml — Fine Sea Salt
 - 1 ml — Black pepper Organic Connections (ground)
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

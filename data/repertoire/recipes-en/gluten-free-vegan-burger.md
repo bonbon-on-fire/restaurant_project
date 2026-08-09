@@ -1,9 +1,21 @@
-# Gluten-Free Vegan Burger
+---
+title: Gluten-Free Vegan Burger
+source: parsley
+status: active
+parsley_id: 4594967
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4594967
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 34
+# Gluten-Free Vegan Burger
 
 ## Ingredients
 
@@ -41,3 +53,7 @@
 - 168 gr — Nutritional Yeast (powder)
 - 184 gr — Sticky Rice Flour (Bobs red mill)
 - 2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

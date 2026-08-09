@@ -1,9 +1,21 @@
-# Chocolate Apricot Hazelnut Easter Nest
+---
+title: Chocolate Apricot Hazelnut Easter Nest
+source: parsley
+status: active
+parsley_id: 5650826
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5650826
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Chocolate Apricot Hazelnut Easter Nest
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 1420 gr — Apricot jam (St Dalfour)
 - 565 gr — Hazelnuts
 - 2 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

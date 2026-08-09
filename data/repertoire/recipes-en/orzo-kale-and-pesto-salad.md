@@ -1,9 +1,21 @@
-# Orzo Kale and Pesto Salad
+---
+title: Orzo Kale and Pesto Salad
+source: parsley
+status: active
+parsley_id: 7138366
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7138366
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 20
+# Orzo Kale and Pesto Salad
 
 ## Ingredients
 
@@ -27,3 +39,7 @@
 - 5 ml — Black pepper Organic Connections (ground)
 - 740 gr — Gluten-free orzo (Délicia)
 - 200 gr — Organic kohlrabi
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Stuffed Mushrooms Take Two
+---
+title: Stuffed Mushrooms Take Two
+source: parsley
+status: active
+parsley_id: 7489021
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7489021
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 28
+# Stuffed Mushrooms Take Two
 
 ## Ingredients
 
@@ -35,3 +47,7 @@
 - 5 ml — Black pepper Organic Connections (ground)
 - 5 ml — Pink peppercorns
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

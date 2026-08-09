@@ -1,9 +1,21 @@
-# Banana Oat Cookies Gluten-Free
+---
+title: Banana Oat Cookies Gluten-Free
+source: parsley
+status: active
+parsley_id: 6833076
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6833076
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Banana Oat Cookies Gluten-Free
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 1020 gr — Quick-cooking Gluten-free Oat Flakes
 - 10 ea — Bananas
 - 25 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

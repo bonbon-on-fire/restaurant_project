@@ -1,9 +1,21 @@
-# Lentil Stew
+---
+title: Lentil Stew
+source: parsley
+status: active
+parsley_id: 5518114
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5518114
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 20
+# Lentil Stew
 
 ## Ingredients
 
@@ -27,3 +39,7 @@
 - 2 head — Fresh parsley
 - 100 gr — Smoked TVP
 - 30 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

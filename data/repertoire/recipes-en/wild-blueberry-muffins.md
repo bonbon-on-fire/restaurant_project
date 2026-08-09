@@ -1,9 +1,21 @@
-# Wild Blueberry Muffins
+---
+title: Wild Blueberry Muffins
+source: parsley
+status: active
+parsley_id: 7587613
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7587613
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Wild Blueberry Muffins
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 374 ml — Apple Juice
 - 500 ml — Deodorized Organic Sunflower Oil Terra (Costco)
 - 25 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

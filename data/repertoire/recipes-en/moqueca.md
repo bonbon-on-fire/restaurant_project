@@ -1,9 +1,21 @@
-# Moqueca
+---
+title: Moqueca
+source: parsley
+status: active
+parsley_id: 7510839
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7510839
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 36
+# Moqueca
 
 ## Ingredients
 
@@ -43,3 +55,7 @@
 - 33 ml — Vegan chicken broth gluten-free (homemade)
 - 1071 ml — Water
 - 85 gr — Fresh parsley
+
+## Instructions
+
+_Not recorded (Parsley export)._

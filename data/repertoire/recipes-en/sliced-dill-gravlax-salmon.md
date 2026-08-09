@@ -1,9 +1,21 @@
-# Sliced Dill Gravlax Salmon
+---
+title: Sliced Dill Gravlax Salmon
+source: parsley
+status: active
+parsley_id: 4828763
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4828763
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Sliced Dill Gravlax Salmon
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 5 ml — Cloves
 - 45 ml — Lime Juice
 - 1.5 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

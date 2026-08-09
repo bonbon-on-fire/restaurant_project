@@ -1,9 +1,21 @@
-# Strawberry Chia Pudding
+---
+title: Strawberry Chia Pudding
+source: parsley
+status: active
+parsley_id: 6822420
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6822420
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Strawberry Chia Pudding
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 270 gr — Black Chia Seeds
 - 570 gr — Strawberry (Frozen)
 - 10 ml — Lemon Juice
+
+## Instructions
+
+_Not recorded (Parsley export)._

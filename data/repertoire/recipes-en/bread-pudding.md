@@ -1,9 +1,21 @@
-# Bread Pudding
+---
+title: Bread Pudding
+source: parsley
+status: active
+parsley_id: 5341651
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5341651
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Bread Pudding
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 10 ml — Ground Jamaican Spices
 - 30 ml — Vanilla ( Pure Vanille Costco)
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

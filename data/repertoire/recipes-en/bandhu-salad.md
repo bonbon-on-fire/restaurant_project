@@ -1,9 +1,21 @@
-# Bandhu Salad
+---
+title: Bandhu Salad
+source: parsley
+status: active
+parsley_id: 6841260
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6841260
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 23
+# Bandhu Salad
 
 ## Ingredients
 
@@ -30,3 +42,7 @@
 - 50 gr — Deodorized Organic Sunflower Oil Terra (Costco)
 - 9 ml — Panch Phoron
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

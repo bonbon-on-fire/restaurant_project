@@ -1,9 +1,21 @@
-# Salt Cod Curry
+---
+title: Salt Cod Curry
+source: parsley
+status: active
+parsley_id: 5818035
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5818035
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 35
+# Salt Cod Curry
 
 ## Ingredients
 
@@ -42,3 +54,7 @@
 - 3 leaf — Dried Bay Leaves
 - 5 ml — Whole Jamaican Spices
 - 2.86 liter — Water
+
+## Instructions
+
+_Not recorded (Parsley export)._

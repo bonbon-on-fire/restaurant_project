@@ -1,9 +1,21 @@
-# Cream of Tomato Soup
+---
+title: Cream of Tomato Soup
+source: parsley
+status: active
+parsley_id: 7477550
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7477550
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Cream of Tomato Soup
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 4 can — Oat cream (Belsoy)
 - 20 gr — Fresh basil
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

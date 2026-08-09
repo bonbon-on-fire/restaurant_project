@@ -1,9 +1,21 @@
-# Ban-Oufti Rainbow
+---
+title: Ban-Oufti Rainbow
+source: parsley
+status: active
+parsley_id: 7242109
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7242109
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 5
+# Ban-Oufti Rainbow
 
 ## Ingredients
 
@@ -12,3 +24,7 @@
 - 60 stick — Popsicle stick (wood)
 - 30 mins — Pastry Labor Time
 - 240 gr — Rainbow sprinkles (Watkins)
+
+## Instructions
+
+_Not recorded (Parsley export)._

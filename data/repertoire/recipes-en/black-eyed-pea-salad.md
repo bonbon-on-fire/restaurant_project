@@ -1,9 +1,21 @@
-# Black-Eyed Pea Salad
+---
+title: Black-Eyed Pea Salad
+source: parsley
+status: active
+parsley_id: 8500556
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8500556
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 21
+# Black-Eyed Pea Salad
 
 ## Ingredients
 
@@ -28,3 +40,7 @@
 - 5 ml — Black pepper Organic Connections (ground)
 - 40 mins — Cook Labor Time
 - 832 gr — Roasted red bell peppers (Melis)
+
+## Instructions
+
+_Not recorded (Parsley export)._

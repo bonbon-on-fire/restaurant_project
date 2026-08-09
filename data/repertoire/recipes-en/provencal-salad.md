@@ -1,9 +1,21 @@
-# Provençal Salad
+---
+title: Provençal Salad
+source: parsley
+status: active
+parsley_id: 5878410
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5878410
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Provençal Salad
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 1.24 kg — Chickpeas (home cooked)
 - 2 unit — Naboulsi Cheese
 - 40 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

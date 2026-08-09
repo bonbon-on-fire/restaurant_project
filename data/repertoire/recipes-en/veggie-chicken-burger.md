@@ -1,9 +1,21 @@
-# Veggie Chicken Burger
+---
+title: Veggie Chicken Burger
+source: parsley
+status: active
+parsley_id: 4707518
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4707518
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 27
+# Veggie Chicken Burger
 
 ## Ingredients
 
@@ -34,3 +46,7 @@
 - 1.5 hour — Cook Labor Time
 - 6 liter — Water
 - 600 ml — Pure Olive Oil (Costco) Bluk by cho
+
+## Instructions
+
+_Not recorded (Parsley export)._

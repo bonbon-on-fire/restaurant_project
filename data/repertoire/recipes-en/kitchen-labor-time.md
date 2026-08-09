@@ -1,10 +1,26 @@
-# Kitchen Labor Time
+---
+title: Kitchen Labor Time
+source: parsley
+status: active
+parsley_id: 4472417
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4472417
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 1
+# Kitchen Labor Time
 
 ## Ingredients
 
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Forestière Quiche
+---
+title: Forestière Quiche
+source: parsley
+status: active
+parsley_id: 5353191
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5353191
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 21
+# Forestière Quiche
 
 ## Ingredients
 
@@ -28,3 +40,7 @@
 - 5 ml — Black pepper Organic Connections (ground)
 - 276 gr — Feta Cheese
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

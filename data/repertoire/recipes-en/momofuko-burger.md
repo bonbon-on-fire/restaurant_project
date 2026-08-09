@@ -1,9 +1,21 @@
-# MomoFuko Burger
+---
+title: MomoFuko Burger
+source: parsley
+status: active
+parsley_id: 6216131
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6216131
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 19
+# MomoFuko Burger
 
 ## Ingredients
 
@@ -26,3 +38,7 @@
 - 100 ml — Pumpkin Seeds (china)
 - 40 ml — Nori Flakes
 - 40 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

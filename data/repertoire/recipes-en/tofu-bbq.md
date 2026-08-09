@@ -2,6 +2,7 @@
 title: Tofu BBQ
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 6
 tags:
   protein: tofu
@@ -15,20 +16,6 @@ tags:
 ---
 
 # Tofu BBQ
-
-- **Source:** menu-derived — observed on 6 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Protein:** tofu
-- **Format:** plated-main
-- **Cuisine:** american
-- **Temperature:** hot
-- **Weather:** cool
-- **Richness:** moderate
-- **Spice:** mild
-- **Diet:** vegan, dairy-free
 
 ## Ingredients
 

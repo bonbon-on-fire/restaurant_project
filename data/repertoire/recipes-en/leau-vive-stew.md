@@ -1,9 +1,21 @@
-# L'eau Vive Stew
+---
+title: L'eau Vive Stew
+source: parsley
+status: active
+parsley_id: 5559644
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5559644
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# L'eau Vive Stew
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 1.25 ml — Black pepper Organic Connections (ground)
 - 50 gr — Potato Starch (Bobs Redmil)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

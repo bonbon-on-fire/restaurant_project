@@ -1,9 +1,21 @@
-# Vegan Pulled Oyster Mushroom Sandwich
+---
+title: Vegan Pulled Oyster Mushroom Sandwich
+source: parsley
+status: active
+parsley_id: 8580960
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 8580960
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Vegan Pulled Oyster Mushroom Sandwich
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 45 mins — Cook Labor Time
 - 800 gr — Yellow onions (Spanish)
 - 700 gr — Cremini mushroom
+
+## Instructions
+
+_Not recorded (Parsley export)._

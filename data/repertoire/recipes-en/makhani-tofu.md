@@ -1,9 +1,21 @@
-# Makhani Tofu
+---
+title: Makhani Tofu
+source: parsley
+status: active
+parsley_id: 6986501
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6986501
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 48
+# Makhani Tofu
 
 ## Ingredients
 
@@ -55,3 +67,7 @@
 - 6.25 ml — Dried chipotle peppers
 - 45 ml — Egg Substitute (Bobs Redmill)
 - 1.3 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

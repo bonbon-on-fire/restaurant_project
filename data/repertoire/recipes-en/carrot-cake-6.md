@@ -1,9 +1,21 @@
-# Carrot Cake 6"
+---
+title: Carrot Cake 6"
+source: parsley
+status: active
+parsley_id: 4516410
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4516410
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 19
+# Carrot Cake 6"
 
 ## Ingredients
 
@@ -26,3 +38,7 @@
 - 39 ml — Vanilla ( Pure Vanille Costco)
 - 1.69 kg — Icing Sugar
 - 1.2 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

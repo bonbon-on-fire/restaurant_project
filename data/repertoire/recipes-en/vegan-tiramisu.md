@@ -1,9 +1,21 @@
-# Vegan Tiramisu
+---
+title: Vegan Tiramisu
+source: parsley
+status: active
+parsley_id: 6729699
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6729699
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 24
+# Vegan Tiramisu
 
 ## Ingredients
 
@@ -31,3 +43,7 @@
 - 300 gr — Coconut cream (Bridge)
 - 400 gr — Cocoa powder
 - 2.5 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

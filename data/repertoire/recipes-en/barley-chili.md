@@ -1,9 +1,21 @@
-# Barley Chili
+---
+title: Barley Chili
+source: parsley
+status: active
+parsley_id: 4543075
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4543075
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 24
+# Barley Chili
 
 ## Ingredients
 
@@ -31,3 +43,7 @@
 - 84 oz — Tomatillos (La Costena 820 ml)
 - 30 ml — Cornstarch
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Farofa
+---
+title: Farofa
+source: parsley
+status: active
+parsley_id: 7521273
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7521273
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Farofa
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 0.75 liter — Water
 - 60 gr — Fresh parsley
 - 60 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

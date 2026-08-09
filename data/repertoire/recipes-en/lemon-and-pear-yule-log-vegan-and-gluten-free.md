@@ -1,9 +1,21 @@
-# Lemon and Pear Yule Log Vegan and Gluten-Free
+---
+title: Lemon and Pear Yule Log Vegan and Gluten-Free
+source: parsley
+status: active
+parsley_id: 6380392
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6380392
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 29
+# Lemon and Pear Yule Log Vegan and Gluten-Free
 
 ## Ingredients
 
@@ -36,3 +48,7 @@
 - 450 gr — Dried cranberries
 - 2 bag — Vegan white chocolate (Enjoylife)
 - 11.5 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Sesame Ginger Salmon
+---
+title: Sesame Ginger Salmon
+source: parsley
+status: active
+parsley_id: 6809777
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6809777
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 27
+# Sesame Ginger Salmon
 
 ## Ingredients
 
@@ -34,3 +46,7 @@
 - 199 ml — Hulled Sesame Seeds
 - 33 ml — Black Sesame
 - 60 fillet — Salmon 4oz Portion 113gr (highliner)
+
+## Instructions
+
+_Not recorded (Parsley export)._

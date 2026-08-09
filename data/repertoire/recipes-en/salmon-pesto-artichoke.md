@@ -1,9 +1,21 @@
-# Salmon Pesto Artichoke
+---
+title: Salmon Pesto Artichoke
+source: parsley
+status: active
+parsley_id: 4458271
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4458271
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Salmon Pesto Artichoke
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 2.5 ml — Fine Sea Salt
 - 2.5 ml — Black pepper Organic Connections (ground)
 - 70 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

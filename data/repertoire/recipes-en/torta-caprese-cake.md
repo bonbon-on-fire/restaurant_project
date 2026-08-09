@@ -1,9 +1,21 @@
-# Torta Caprese Cake
+---
+title: Torta Caprese Cake
+source: parsley
+status: active
+parsley_id: 5823232
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5823232
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 9
+# Torta Caprese Cake
 
 ## Ingredients
 
@@ -16,3 +28,7 @@
 - 75 ml — Baking powder
 - 45 mins — Pastry Labor Time
 - 4.3 kg — Ganache Torta
+
+## Instructions
+
+_Not recorded (Parsley export)._

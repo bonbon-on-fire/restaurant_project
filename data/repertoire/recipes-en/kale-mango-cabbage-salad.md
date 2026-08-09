@@ -1,9 +1,21 @@
-# Kale Mango Cabbage Salad
+---
+title: Kale Mango Cabbage Salad
+source: parsley
+status: active
+parsley_id: 6238431
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6238431
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Kale Mango Cabbage Salad
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 14 ml — Pink peppercorns
 - 18 ml — Fine Sea Salt
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

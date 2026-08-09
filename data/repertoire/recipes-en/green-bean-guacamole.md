@@ -1,9 +1,21 @@
-# Green Bean Guacamole
+---
+title: Green Bean Guacamole
+source: parsley
+status: active
+parsley_id: 7131066
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7131066
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Green Bean Guacamole
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 9 ml — Black pepper Organic Connections (ground)
 - 1 head — Coriander (leaves)
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

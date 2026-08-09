@@ -1,9 +1,21 @@
-# Apple Clafoutis
+---
+title: Apple Clafoutis
+source: parsley
+status: active
+parsley_id: 5215680
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5215680
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Apple Clafoutis
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 1455 gr — Cortland apples JG Rive Sud
 - 90 gr — Icing Sugar
 - 45 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

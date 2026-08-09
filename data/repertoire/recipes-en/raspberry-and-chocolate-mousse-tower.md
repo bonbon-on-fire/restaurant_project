@@ -1,9 +1,21 @@
-# Raspberry and Chocolate Mousse Tower
+---
+title: Raspberry and Chocolate Mousse Tower
+source: parsley
+status: active
+parsley_id: 5528302
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5528302
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Raspberry and Chocolate Mousse Tower
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 68 gr — Water
 - 2 hour — Pastry Labor Time
 - 360 gr — Chocolate 64% Barry Callebaut
+
+## Instructions
+
+_Not recorded (Parsley export)._

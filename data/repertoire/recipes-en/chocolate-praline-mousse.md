@@ -1,9 +1,21 @@
-# Chocolate Praline Mousse
+---
+title: Chocolate Praline Mousse
+source: parsley
+status: active
+parsley_id: 5218699
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5218699
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 8
+# Chocolate Praline Mousse
 
 ## Ingredients
 
@@ -15,3 +27,7 @@
 - 40 ml — Cocoa powder
 - 1 hour — Pastry Labor Time
 - 280 gr — Sweet and Salty Pecans Gluten-Free
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Veggie Chicken with Cardamom
+---
+title: Veggie Chicken with Cardamom
+source: parsley
+status: active
+parsley_id: 6673123
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6673123
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 28
+# Veggie Chicken with Cardamom
 
 ## Ingredients
 
@@ -35,3 +47,7 @@
 - 1 ml — Whole cardamom
 - 94.679 gr — Salted butter
 - 1.15 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Japanese-Style Gravlax Salmon Poke Bowl
+---
+title: Japanese-Style Gravlax Salmon Poke Bowl
+source: parsley
+status: active
+parsley_id: 4916877
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4916877
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 36
+# Japanese-Style Gravlax Salmon Poke Bowl
 
 ## Ingredients
 
@@ -43,3 +55,7 @@
 - 60 ml — Hulled Black Sesame Seeds
 - 40 ml — Nori Flakes
 - 1.2 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

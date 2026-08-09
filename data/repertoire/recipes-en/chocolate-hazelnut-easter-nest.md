@@ -1,9 +1,21 @@
-# Chocolate Hazelnut Easter Nest
+---
+title: Chocolate Hazelnut Easter Nest
+source: parsley
+status: active
+parsley_id: 6881178
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 6881178
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Chocolate Hazelnut Easter Nest
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 10 ml — Vanilla ( Pure Vanille Costco)
 - 2 ea — Oranges (Valencia) JG Rive Sud
 - 2 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

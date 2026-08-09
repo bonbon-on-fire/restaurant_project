@@ -1,9 +1,21 @@
-# Sesame Ginger Salmon Sandwich
+---
+title: Sesame Ginger Salmon Sandwich
+source: parsley
+status: active
+parsley_id: 7061051
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7061051
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 34
+# Sesame Ginger Salmon Sandwich
 
 ## Ingredients
 
@@ -41,3 +53,7 @@
 - 11 ml — Black Sesame
 - 18 fillet — Salmon 4oz Portion 113gr (highliner)
 - 1.4 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

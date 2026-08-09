@@ -1,9 +1,21 @@
-# Salmon Pesto Artichoke Sandwich
+---
+title: Salmon Pesto Artichoke Sandwich
+source: parsley
+status: active
+parsley_id: 5537775
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5537775
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 18
+# Salmon Pesto Artichoke Sandwich
 
 ## Ingredients
 
@@ -25,3 +37,7 @@
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
 - 576 gr — Artichoke pesto
 - 45 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

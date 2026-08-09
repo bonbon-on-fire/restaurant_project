@@ -1,9 +1,21 @@
-# Hummus, Apple, and Brie Wrap
+---
+title: Hummus, Apple, and Brie Wrap
+source: parsley
+status: active
+parsley_id: 5543380
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5543380
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 10
+# Hummus, Apple, and Brie Wrap
 
 ## Ingredients
 
@@ -17,3 +29,7 @@
 - 1080 gr — Classic Hummus
 - 30 mins — Cook Labor Time
 - 18 wraps — Organic Tilla Wrap
+
+## Instructions
+
+_Not recorded (Parsley export)._

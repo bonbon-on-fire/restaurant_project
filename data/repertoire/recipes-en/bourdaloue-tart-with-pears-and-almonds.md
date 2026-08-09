@@ -1,9 +1,21 @@
-# Bourdaloue Tart with Pears and Almonds
+---
+title: Bourdaloue Tart with Pears and Almonds
+source: parsley
+status: active
+parsley_id: 5263436
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5263436
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 17
+# Bourdaloue Tart with Pears and Almonds
 
 ## Ingredients
 
@@ -24,3 +36,7 @@
 - 5 ml — Ground Jamaican Spices
 - 410 gr — Brown slivered almonds
 - 1.3 hour — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

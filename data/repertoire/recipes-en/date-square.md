@@ -1,9 +1,21 @@
-# Date Square
+---
+title: Date Square
+source: parsley
+status: active
+parsley_id: 4359326
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4359326
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 12
+# Date Square
 
 ## Ingredients
 
@@ -19,3 +31,7 @@
 - 2.5 ml — Baking powder
 - 1.25 gr — Fine Sea Salt
 - 30 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

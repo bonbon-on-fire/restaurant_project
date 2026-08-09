@@ -1,9 +1,21 @@
-# Cassava Tabbouleh Salad
+---
+title: Cassava Tabbouleh Salad
+source: parsley
+status: active
+parsley_id: 5517536
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5517536
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 22
+# Cassava Tabbouleh Salad
 
 ## Ingredients
 
@@ -29,3 +41,7 @@
 - 5 ml — Fine Sea Salt
 - 30 mins — Cook Labor Time
 - 5 ml — Harissa
+
+## Instructions
+
+_Not recorded (Parsley export)._

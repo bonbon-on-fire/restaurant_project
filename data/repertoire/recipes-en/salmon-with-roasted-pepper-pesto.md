@@ -1,9 +1,21 @@
-# Salmon with Roasted Pepper Pesto
+---
+title: Salmon with Roasted Pepper Pesto
+source: parsley
+status: active
+parsley_id: 4568140
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4568140
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 11
+# Salmon with Roasted Pepper Pesto
 
 ## Ingredients
 
@@ -18,3 +30,7 @@
 - 40 mins — Cook Labor Time
 - 150 ml — Lemon Juice
 - 1 bunch — Fresh parsley
+
+## Instructions
+
+_Not recorded (Parsley export)._

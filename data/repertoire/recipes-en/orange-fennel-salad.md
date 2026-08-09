@@ -1,9 +1,21 @@
-# Orange Fennel Salad
+---
+title: Orange Fennel Salad
+source: parsley
+status: active
+parsley_id: 7231113
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7231113
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Orange Fennel Salad
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 11.25 ml — Fine Sea Salt
 - 10 ml — Black pepper Organic Connections (ground)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

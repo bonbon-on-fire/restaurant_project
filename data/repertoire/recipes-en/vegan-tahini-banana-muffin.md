@@ -1,9 +1,21 @@
-# Vegan Tahini Banana Muffin
+---
+title: Vegan Tahini Banana Muffin
+source: parsley
+status: active
+parsley_id: 4472413
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4472413
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 13
+# Vegan Tahini Banana Muffin
 
 ## Ingredients
 
@@ -20,3 +32,7 @@
 - 10 ml — Vanilla ( Pure Vanille Costco)
 - 30 ml — Hulled Sesame Seeds
 - 20 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

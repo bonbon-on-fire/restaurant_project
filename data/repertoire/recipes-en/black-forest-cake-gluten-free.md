@@ -1,9 +1,21 @@
-# Black Forest Cake Gluten-Free
+---
+title: Black Forest Cake Gluten-Free
+source: parsley
+status: active
+parsley_id: 5601290
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5601290
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 16
+# Black Forest Cake Gluten-Free
 
 ## Ingredients
 
@@ -23,3 +35,7 @@
 - 1.2 hour — Pastry Labor Time
 - 3.36 kg — Cherry jam
 - 4.6 kg — Whipped cream
+
+## Instructions
+
+_Not recorded (Parsley export)._

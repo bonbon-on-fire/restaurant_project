@@ -1,9 +1,21 @@
-# Tropical Veggie Chicken Sandwich
+---
+title: Tropical Veggie Chicken Sandwich
+source: parsley
+status: active
+parsley_id: 5537803
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5537803
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 38
+# Tropical Veggie Chicken Sandwich
 
 ## Ingredients
 
@@ -45,3 +57,7 @@
 - 1 ml — Black pepper Organic Connections (ground)
 - 45 mins — Cook Labor Time
 - 18 ciabatta — Ciabatta (Pain dans les voiles)
+
+## Instructions
+
+_Not recorded (Parsley export)._

@@ -1,9 +1,21 @@
-# Vegan Pho Soup
+---
+title: Vegan Pho Soup
+source: parsley
+status: active
+parsley_id: 7442865
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7442865
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 26
+# Vegan Pho Soup
 
 ## Ingredients
 
@@ -33,3 +45,7 @@
 - 56 ml — Coconut Sugar
 - 102 ml — Tamari Gluten-Free (San-J)
 - 1 hour — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

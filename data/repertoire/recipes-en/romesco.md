@@ -2,11 +2,12 @@
 title: Romesco
 source: menu-derived
 status: stub
+parsley_id:
 menu_appearances: 10
 tags:
-  protein: 
+  protein:
   temperature: room
-  weather: 
+  weather:
   richness: moderate
   format: sauce-condiment
   cuisine: spanish
@@ -15,18 +16,6 @@ tags:
 ---
 
 # Romesco
-
-- **Source:** menu-derived — observed on 10 weekly menus; no Parsley recipe exists.
-- **Status:** stub — dish tags captured from menu history; ingredients and method to be filled in.
-
-## Tags (inferred from menu appearances)
-
-- **Format:** sauce-condiment
-- **Cuisine:** spanish
-- **Temperature:** room
-- **Richness:** moderate
-- **Spice:** mild
-- **Diet:** vegan, dairy-free
 
 ## Ingredients
 

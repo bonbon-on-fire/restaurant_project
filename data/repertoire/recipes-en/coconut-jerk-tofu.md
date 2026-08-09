@@ -1,9 +1,21 @@
-# Coconut Jerk Tofu
+---
+title: Coconut Jerk Tofu
+source: parsley
+status: active
+parsley_id: 7802583
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 7802583
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 45
+# Coconut Jerk Tofu
 
 ## Ingredients
 
@@ -52,3 +64,7 @@
 - 32.5 ml — Vegan chicken broth gluten-free (homemade)
 - 1071 gr — Water
 - 85 gr — Fresh parsley
+
+## Instructions
+
+_Not recorded (Parsley export)._

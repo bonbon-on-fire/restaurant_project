@@ -1,9 +1,21 @@
-# Brownies Gluten-Free
+---
+title: Brownies Gluten-Free
+source: parsley
+status: active
+parsley_id: 5514362
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5514362
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 7
+# Brownies Gluten-Free
 
 ## Ingredients
 
@@ -14,3 +26,7 @@
 - 150 gr — Angélique Gluten-Free Flour
 - 2.5 ml — Fine Sea Salt
 - 25 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

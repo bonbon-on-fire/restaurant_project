@@ -1,9 +1,21 @@
-# Parsnip Hummus
+---
+title: Parsnip Hummus
+source: parsley
+status: active
+parsley_id: 5602230
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 5602230
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 14
+# Parsnip Hummus
 
 ## Ingredients
 
@@ -21,3 +33,7 @@
 - 160 ml — Lemon Juice
 - 20 ml — Fine Sea Salt
 - 35 mins — Cook Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._

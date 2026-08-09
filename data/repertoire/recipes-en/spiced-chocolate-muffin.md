@@ -1,9 +1,21 @@
-# Spiced Chocolate Muffin
+---
+title: Spiced Chocolate Muffin
+source: parsley
+status: active
+parsley_id: 4472307
+menu_appearances:
+tags:
+  protein:
+  temperature:
+  weather:
+  richness:
+  format:
+  cuisine:
+  spice_level:
+  diet: []
+---
 
-- **Parsley recipe ID:** 4472307
-- **Type:** Recipe
-- **Status:** active
-- **Ingredient count:** 15
+# Spiced Chocolate Muffin
 
 ## Ingredients
 
@@ -22,3 +34,7 @@
 - 60 gr — Brown slivered almonds
 - 9 gr — Pink peppercorns
 - 20 mins — Pastry Labor Time
+
+## Instructions
+
+_Not recorded (Parsley export)._
