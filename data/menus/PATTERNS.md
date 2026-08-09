@@ -148,10 +148,15 @@ menu_skeleton:
     source: inferred
 
 # ------------------------------------------------------------
-# 2. ROTATION — dish frequency across weeks (name+aka identity).
+# 2. ROTATION — how dishes recur and relate across weeks (name+aka identity).
 # 513 distinct dishes: 6 staple, 206 rotating (>=2 weeks), 301 one-off.
-# Listed: all staples + rotating dishes present in >=8 weeks.
-# The 301 one-off dishes and the long rotating tail are omitted here.
+# This list holds TWO entry shapes (discriminate on which key is present):
+#   (a) dish-frequency rows  -> keyed by `dish:` (+ weeks_present, role)
+#       Listed: all staples + rotating dishes present in >=8 weeks; the 301
+#       one-offs and the long rotating tail are omitted.
+#   (b) relational/behavioural rules -> keyed by `rule:` (no weeks_present)
+#       Chef-stated co-occurrence / alternation / discontinuation constraints
+#       that govern which dishes share or avoid a week. Grouped at the end.
 # ------------------------------------------------------------
 rotation:
   - {dish: "Ham", weeks_present: 47, role: staple, support: "47/47 [all weeks]", confidence: high, source: inferred}
@@ -444,7 +449,7 @@ stated_intent:
 
 # ------------------------------------------------------------
 # DEMAND-VOLUME THEMES — NOT modeled as patterns (no volume dimension yet).
-# Captured verbatim per chef notes 2026-07-24-production-themes + 2026-08-06.
+# Captured verbatim per chef notes 2026-07-24-production-themes + 2026-08-06 + 2026-08-09.
 # See body.
 # ------------------------------------------------------------
 demand_volume_notes:
@@ -467,6 +472,26 @@ demand_volume_notes:
 (`2026-08-06.md`, the recipe-behaviour / production pass), and **2026-08-09**
 (`2026-08-09.md`, the per-menu dish corrections on the five August mock menus).
 Chef-**stated** rules outrank inferred ones and are marked `stated`.
+
+## How to read this
+
+**Layout.** The YAML frontmatter at the top of this file is the machine-readable
+source of truth; everything below is a prose render of it. Every pattern carries
+three qualifiers, shown as `(support; confidence; source)`:
+
+- **support** — how many weeks (or which chef note) back it, e.g. `41/47` or `chef-stated 2026-07-24`.
+- **confidence** — `high` · `medium` · `low` · `speculative` (see the rubric note under each dimension).
+- **source** — `stated` (the chef said it — authoritative) or `inferred` (derived from tags/schedule). **Where the two conflict, `stated` wins** and the inferred pattern is dropped or annotated as superseded.
+
+**Sections.**
+
+1. [Menu skeleton](#menu-skeleton-per-week-count-per-pool-category) — how many of each category a week carries
+2. [Rotation](#rotation--dish-frequency--relational-rules) — which dishes recur, and which co-occur / alternate
+3. [Per-day balance](#per-day-balance) — what each service day should contain
+4. [Weather / temperature](#weather--temperature) — how weather moves the menu
+5. [Calendar](#calendar) — holidays, closures, seasonal items
+6. [Stated intent](#stated-intent-verbatim-chef-reasoning) — the chef's verbatim notes (never edited)
+7. [Demand-volume themes](#demand-volume-themes-captured-not-modeled) — production quantities, captured but not yet modelled as patterns
 
 > **Small-sample caveat.** The 47 weeks span 18 months but are **not contiguous**
 > — there are large gaps (nothing between 2025-07-14 and 2025-08-11, nothing
@@ -515,7 +540,12 @@ Wraps, burgers, and vinaigrettes are optional/seasonal add-ons.
 - **sauces** = made mainly Tuesdays; the lasagna marinara is the exception (made the day before lasagna). *(chef 2026-08-06)*
 - **burgers** = production is demand-driven (made when a variety runs low), NOT a seasonal schedule; the warm-month clustering is a demand effect. *(chef 2026-08-06)*
 
-## Rotation (dish frequency)
+## Rotation — dish frequency & relational rules
+
+Two views: a **frequency table** (how often each dish recurs) and a set of
+chef-stated **relational rules** (which dishes co-occur or alternate).
+
+### Dish frequency
 
 513 distinct dishes: **6 staple**, **206 rotating** (≥2 weeks), **301 one-off**.
 The menu is a small stable spine plus a wide single-appearance long tail. Table
@@ -583,13 +613,17 @@ Mole verde, discontinued).
 | Rutabaga pomme sirop d'érable (potage) | seasonal (cold; biweekly Mar–Apr) | rotating | high (stated) |
 | Mole verde (soupe) | — | **discontinued** | high (stated) |
 
-**Chef behaviour notes (stated 2026-08-06):**
+### Per-dish behaviour (stated 2026-08-06)
+
 - **Korean (Soupe Coréenne)** — all-year top seller, near-weekly; may run 3 weeks straight then pause a week, or appear twice in one week on demand/produce (bok choy, pineapple).
 - **Mushroom tarragon (Champignon estragon)** — consistent biweekly best seller, but laborious → at most once per week.
 - **Rutabaga pomme sirop d'érable** — cold-months potage; biweekly in maple season (Mar–Apr); poor summer seller.
 - **Mole verde** — discontinued; do not schedule.
 
-**Relational / behavioural rotation rules (stated 2026-08-09)** — which dishes co-occur or alternate:
+### Co-occurrence & alternation rules (stated 2026-08-09)
+
+Which dishes share, avoid, or alternate across a week:
+
 - **Ratatouille ↔ lasagna rarely share a week** — the two large-format tomato-sauce dishes alternate, end-of-summer through late spring.
 - **Mushroom risotto ↔ paella never share a week**; each biweekly, 2–3 weeks apart.
 - **Salmon ginger (60 portions) pairs with salmon pesto (~44 portions)** in the same week.
@@ -679,9 +713,9 @@ The highest-confidence signal — the chef's own words. Never edited by a correc
 ## Demand-volume themes (captured, not modeled)
 
 `PATTERNS.md` tracks **what dish goes where**, not **how much sells or is made**.
-These chef-stated themes (from `2026-07-24-production-themes.md` and the
-`2026-08-06.md` recipe-behaviour pass) are recorded until a demand/volume
-dimension exists:
+These chef-stated themes (from `2026-07-24-production-themes.md`, the
+`2026-08-06.md` recipe-behaviour pass, and `2026-08-09.md`) are recorded until a
+demand/volume dimension exists:
 
 - **Storms:** the day before a storm clients buy more and the restaurant is busier; the day of (and maybe after) clients stay home.
 - **Christmas:** very busy in the lead-up; on **Dec 22–23** a significant dip in clients and sales.

@@ -70,10 +70,15 @@ Every pattern entry (in every dimension except `meta`) carries:
 
 1. **menu_skeleton** — for each `pool` category, the per-week count distribution
    (`per_week_count: {min, median, max}`): the chef's structural template.
-2. **rotation** — dish-level frequency across weeks (same dish matched via
-   normalized `name` + `aka`), each with `weeks_present` and a `role` of
-   `staple` (recurs most weeks) / `rotating` (intermittent) / `one-off` (single
-   week).
+2. **rotation** — holds TWO entry shapes, discriminated by which key is present:
+   (a) **dish-frequency rows** keyed by `dish:` — frequency across weeks (same
+   dish matched via normalized `name` + `aka`), each with `weeks_present` and a
+   `role` of `staple` (recurs most weeks) / `rotating` (intermittent) / `one-off`
+   (single week); and (b) **relational rules** keyed by `rule:` (no
+   `weeks_present`) — chef-stated co-occurrence / alternation / discontinuation
+   constraints folded from chef-notes (which dishes share, avoid, or alternate
+   across a week). Emit the `dish:` rows first, then the `rule:` entries grouped
+   at the end.
 3. **per_day_balance** — recurring WITHIN-day composition rules across the
    protein/temperature/format/cuisine/diet tags (e.g. "every service day fields
    at least one fish main and one plant-substitute main").
@@ -134,12 +139,23 @@ stated_intent:
 
 ### Body render (regenerate from the frontmatter every run)
 
-- A `meta` summary line including the `sample_caveat`.
-- A rotation table sorted by `weeks_present` desc: Dish | Weeks | Role | Confidence.
+- A one-line intro (weeks analyzed, dates, which chef-notes were folded).
+- A **"How to read this"** block: a short legend defining the
+  `(support; confidence; source)` qualifiers and the `stated`-beats-`inferred`
+  rule, then a numbered **section map** linking to the six dimension headings
+  (plus demand-volume). This orients a first-time reader and makes the long file
+  navigable.
+- The `meta` `sample_caveat` (and any standing framing notes, e.g. the work week)
+  as blockquotes.
 - The menu skeleton as a category table: Category | Min | Median | Max | Confidence.
+- **Rotation** under one `##` heading with three `###` subsections: (1) the
+  **dish-frequency table** sorted by `weeks_present` desc — Dish | Weeks | Role |
+  Confidence; (2) **per-dish behaviour** notes; (3) **co-occurrence & alternation
+  rules** (the `rule:`-keyed relational entries).
 - per_day_balance, weather_temp, calendar as short bullet lists, each bullet
   ending with `(support; confidence; source)`.
 - The stated_intent log as a quoted list with week dates.
+- The demand-volume themes as a bullet list (captured, not modelled).
 
 The body is a derived view — always rebuild it from the frontmatter so the two
 cannot drift.
@@ -176,7 +192,10 @@ cannot drift.
    pattern in that dimension whose text matches it and **remove it** (or, if it
    carries independent evidence worth keeping, annotate its `evidence` with
    "superseded by chef note <date>"). **Never** delete or alter any
-   `stated_intent` verbatim quote — correct only the inference built on it.
+   `stated_intent` verbatim quote — correct only the inference built on it. For
+   `dimension: rotation` corrections, a per-dish frequency fact updates/annotates
+   the matching `dish:` row; a relational rule (dish co-occurrence, alternation,
+   discontinuation) becomes a `rule:`-keyed entry grouped after the `dish:` rows.
 6. **Score every pattern** — compute `support` (count + week list), assign
    `confidence` per the rubric, set `source`.
 7. **Write `PATTERNS.md` wholesale** — frontmatter + rendered body; overwrite.
