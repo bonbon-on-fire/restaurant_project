@@ -20,8 +20,8 @@ meta:
           2026-05-18, 2026-05-25, 2026-06-01, 2026-06-08, 2026-06-15]
   excluded_untagged: []
   archived_skipped: []
-  generated: 2026-08-06
-  chef_notes_folded: [2026-07-24, 2026-08-06]   # 2026-07-24.md + 2026-07-24-production-themes.md + 2026-08-06.md (recipe-behaviour pass)
+  generated: 2026-08-09
+  chef_notes_folded: [2026-07-24, 2026-08-06, 2026-08-09]   # 2026-07-24.md + 2026-07-24-production-themes.md + 2026-08-06.md (recipe-behaviour pass) + 2026-08-09.md (per-menu dish corrections)
   service_days: 188
   service_days_per_week: 4                 # chef-stated: Mon–Thu production; Fri is service-only (188/47 = 4)
   weeks_with_weather_or_temp: 36    # denominator for weather_temp patterns
@@ -213,6 +213,25 @@ rotation:
   - {dish: "Soupe Champignon estragon (Mushroom tarragon)", weeks_present: null, role: rotating, support: "chef-stated 2026-08-06", confidence: high, source: stated, evidence: "Consistent biweekly best seller; laborious to make, so at most once per week. Same dish as the inferred 'Mushroom tarragon' row above."}
   - {dish: "Rutabaga pomme sirop d'érable (potage)", weeks_present: null, role: rotating, support: "chef-stated 2026-08-06", confidence: high, source: stated, evidence: "Cold-months dish; biweekly during maple-syrup season (Mar–Apr); a poor summer seller. See calendar."}
   - {dish: "Mole verde (soupe)", weeks_present: null, role: discontinued, support: "chef-stated 2026-08-06", confidence: high, source: stated, evidence: "Discontinued — do not schedule."}
+  # --- Relational / behavioural rotation rules (chef-stated 2026-08-09). ---
+  # These constrain which dishes co-occur or alternate, rather than per-dish frequency.
+  - {rule: "Ratatouille and lasagna rarely share a week — the two large-format tomato-sauce dishes alternate, roughly end-of-summer through late spring", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Mushroom risotto and paella never share a week; each runs biweekly, 2–3 weeks apart", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Salmon ginger (large 60-portion recipe) is paired in the same week with salmon pesto (~44 portions)", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Haddock mango coconut ragout is added for variety; a plain/medium haddock is not added alongside it", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "The Asian/spicy soups (Coréenne, green tom yum, phõ, peanut Thai) are best sellers rotated for visual/flavour variety; savoury non-spicy soup options are always kept alongside them", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Orange fennel salad is made mainly as the accompaniment to codfish croquettes; it rarely appears as a standalone salad", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Only one poké bowl per week; three flavours rotate through that slot: salmon gravlax, poulet végé coréenne, salmon ginger", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Green lime hummus is discontinued, replaced by green bean hummus; hummus colours are varied week to week", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Gravlax is retired from the regular rotation — made only for key events (Mother's/Father's Day, Christmas, Easter, high summer); Moqueca takes its slot in normal weeks", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "The three fish soups (Chaudrée, Espagnol/Spanish, Bouillabaisse) are on hold until the economy recovers; when resumed, at most one per week and in colder months only", support: "chef-stated 2026-08-09", confidence: high, source: stated, evidence: "Consistent with the 2025-02-24 'no soupe de poisson before a vacation week' note."}
+  - {rule: "Crémé de tomate is produced to use up surplus store tomatoes", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Rémoulade à l'orange runs biweekly, alternating with Trio racine — but is left off any week when jerk chicken is on the menu", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Two composé salads alternate biweekly: tuna salad and végé chicken salad (végé chicken salad newly added to the composé rotation)", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "The ham quiche is replaced by a forestier (mushroom) quiche", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Chou-fleur Général Tao (a paella substitute) and Romesco sauce (a satay-sauce substitute) are put on the menu when cauliflower is priced well — price-driven appearances", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "Wraps sell well during the school year when sandwiches are sold out; wrap flavours: tuna salad, végé chicken salad, hummus pomme brie noix", support: "chef-stated 2026-08-09", confidence: high, source: stated}
+  - {rule: "The menu carries stand-by dishes that fill open slots as needed: ratatouille, a 7th salad, one salade composé, and one of croustade/medium fish", support: "chef-stated 2026-08-09", confidence: high, source: stated}
 rotation_summary:
   distinct_dishes: 513
   staples: 6
@@ -271,6 +290,22 @@ per_day_balance:
     support: "chef-stated 2026-08-06"
     confidence: high
     source: stated
+  - rule: "Each week aims for one chicken main and one végé-beef texture main (texture = shiitaké-based végé beef, e.g. Légumes braisées et texture shiitaké)"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
+  - rule: "At most two cabbage salads in a week — the salad staples (Kale mango, cabbage, beetroot) recur but are deliberately varied to avoid too many cabbage salads"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
+  - rule: "Each week includes exactly one carrot salad, chosen from Trio racine, carrot-celeriac-almond, or carrot-orange"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
+  - rule: "Conditional greens fill the salad lineup: a green taboulé salad only in a week with no falafels; a green-bean salad only when salmon ginger, its child sandwich, and green-bean hummus are all on the same week's menu (so a full case of green beans is used at quality)"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
 
 # ------------------------------------------------------------
 # 4. WEATHER / TEMP — temperature/weather buckets → dish tendencies.
@@ -307,6 +342,20 @@ weather_temp:
     confidence: medium
     source: inferred
     evidence: "Jan 2025 Friday notes: 'cold — reduce production, soups are selling', 'Cold — reduce production', 'Slow, cold, people not spending after Xmas'. This is a demand/volume effect as much as a dish-placement one (see stated_intent)."
+  - pattern: "Chilled cold soups appear only on a 2–3 consecutive-day hot streak — a single hot day is not enough (refines the ≥24°C rule)"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
+    evidence: "Sharpens the 2026-07-24 ≥24°C cold-soup rule: the threshold is a sustained hot streak, not one hot day."
+  - pattern: "Chipotle lentil soup is a cold-winter soup and not a big seller"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
+  - pattern: "Pico de Gallo's Thursday appearance is weather- and surplus-driven — made when the weather is warm or there is an excess of tomatoes to use up"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
+    evidence: "Adds the trigger to the 2026-07-24 placement rule 'Pico → Thursday, never Monday'."
 
 # ------------------------------------------------------------
 # 5. CALENDAR — holiday / event / seasonal behaviors.
@@ -341,6 +390,10 @@ calendar:
     support: "14/14 of its weeks fall May–Aug or late spring"
     confidence: medium
     source: inferred
+  - pattern: "Back-to-school weeks (late summer) run reduced production and favour staple dishes"
+    support: "chef-stated 2026-08-09"
+    confidence: high
+    source: stated
   - pattern: "Pre-Christmas weeks → clients buy heavily from desserts, ragoût, composed salads, and soups; scale these up"
     support: "chef-stated 2026-07-24"
     confidence: medium
@@ -403,15 +456,17 @@ demand_volume_notes:
   - "Sauces: lasagna marinara batch yields 2 lasagna batches (half frozen). Sold prêt-à-manger only: split into 15–17 pasta portions (4 oz over GF pasta) + 6–7 × 500 ml containers."
   - "Burgers: each recipe yields ~200 — ¼ reserved for the restaurant, the rest frozen sous-vide in 4-packs."
   - "Falafels: made to demand as the complete dish, or as sous-vide falafels in bags of 8."
+  - "Salmon ginger is a large recipe at 60 portions; its weekly partner salmon pesto runs ~44 portions (chef 2026-08-09)."
 ---
 
 # Menu patterns — living synthesis
 
 **47 weeks analyzed** (2024-12-16 .. 2026-06-15), 0 untagged, 0 archived,
-188 service days. Regenerated 2026-08-06, folding chef notes dated **2026-07-24**
-(`2026-07-24.md` + `2026-07-24-production-themes.md`) and **2026-08-06**
-(`2026-08-06.md`, the recipe-behaviour / production pass). Chef-**stated** rules
-outrank inferred ones and are marked `stated`.
+188 service days. Regenerated 2026-08-09, folding chef notes dated **2026-07-24**
+(`2026-07-24.md` + `2026-07-24-production-themes.md`), **2026-08-06**
+(`2026-08-06.md`, the recipe-behaviour / production pass), and **2026-08-09**
+(`2026-08-09.md`, the per-menu dish corrections on the five August mock menus).
+Chef-**stated** rules outrank inferred ones and are marked `stated`.
 
 > **Small-sample caveat.** The 47 weeks span 18 months but are **not contiguous**
 > — there are large gaps (nothing between 2025-07-14 and 2025-08-11, nothing
@@ -534,6 +589,25 @@ Mole verde, discontinued).
 - **Rutabaga pomme sirop d'érable** — cold-months potage; biweekly in maple season (Mar–Apr); poor summer seller.
 - **Mole verde** — discontinued; do not schedule.
 
+**Relational / behavioural rotation rules (stated 2026-08-09)** — which dishes co-occur or alternate:
+- **Ratatouille ↔ lasagna rarely share a week** — the two large-format tomato-sauce dishes alternate, end-of-summer through late spring.
+- **Mushroom risotto ↔ paella never share a week**; each biweekly, 2–3 weeks apart.
+- **Salmon ginger (60 portions) pairs with salmon pesto (~44 portions)** in the same week.
+- **Haddock mango coconut ragout for variety** — no plain/medium haddock added alongside.
+- **Asian/spicy soups (Coréenne, green tom yum, phõ, peanut Thai)** are the best sellers, rotated for variety; savoury non-spicy soup options are always kept too.
+- **Orange fennel salad** is mainly the accompaniment to codfish croquettes; rare as a standalone salad.
+- **One poké per week**; three flavours rotate: salmon gravlax, poulet végé coréenne, salmon ginger.
+- **Green lime hummus discontinued → green bean hummus**; hummus colours varied week to week.
+- **Gravlax retired to key events only** (Mother's/Father's Day, Christmas, Easter, high summer) → **Moqueca** takes its slot in normal weeks.
+- **Fish soups (Chaudrée, Espagnol, Bouillabaisse) on hold** until the economy recovers; when back, one/week in colder months only.
+- **Crémé de tomate** uses up surplus store tomatoes.
+- **Rémoulade à l'orange → biweekly, alternating with Trio racine**, but off in any week with jerk chicken on the menu.
+- **Two composé salads alternate biweekly: tuna salad ↔ végé chicken salad** (végé chicken salad newly added).
+- **Ham quiche → forestier (mushroom) quiche.**
+- **Chou-fleur Général Tao and Romesco appear when cauliflower is cheap** (price-driven).
+- **Wraps** sell well during the school year when sandwiches sell out — tuna salad, végé chicken salad, hummus pomme brie noix.
+- **Stand-by dishes** fill open slots: ratatouille, a 7th salad, one salade composé, one of croustade/medium fish.
+
 ## Per-day balance
 
 - **Four-day work week, Monday–Thursday**; Friday is service-only (no production — Thursday's late soups serve Friday). *(chef-stated 2026-08-06; stated — supersedes "five days")*
@@ -545,6 +619,10 @@ Mole verde, discontinued).
 - **Kale mango cabbage (KM) → Monday** (occasionally Thursday), not every day — recurs weekly but sits on Monday within the week. *(chef-stated 2026-07-24; stated)*
 - **Pico de Gallo → Thursday, never Monday.** *(chef-stated 2026-07-24; stated)*
 - **Sandwiches → one végé (hummus pomme brie noix) OR texture (banh-mi) + one fish** in a normal week. *(chef-stated 2026-08-06; stated)*
+- **One chicken + one végé-beef texture main per week** (texture = shiitaké-based végé beef). *(chef-stated 2026-08-09; stated)*
+- **At most two cabbage salads per week** — KM / cabbage / beetroot staples deliberately varied. *(chef-stated 2026-08-09; stated)*
+- **Exactly one carrot salad per week** — Trio racine, carrot-celeriac-almond, or carrot-orange. *(chef-stated 2026-08-09; stated)*
+- **Conditional greens:** green taboulé only in a no-falafel week; green-bean salad only when salmon ginger + its child sandwich + green-bean hummus are all present (uses a full case of green beans at quality). *(chef-stated 2026-08-09; stated)*
 
 ## Weather / temperature
 
@@ -555,6 +633,9 @@ Mole verde, discontinued).
 - **Cold-served "cold soups" only appear on days ≥ 24 °C** — a cold soup suits hot weather. *(chef-stated 2026-07-24; high; stated)* — **supersedes** the earlier inferred "cool/rainy → cold soups." Exceptions (both stated): *Potage Vert L'été* may appear any season on a broccoli/zucchini surplus (goes to the prêt-à-manger fridge, not the hot line — it browns if held hot all day and won't sell in the restaurant in cold months); *Mélonccio* runs ≤ once/week, 1–2 weeks apart, hottest summer only.
 - **Weather does NOT move sandwich production** — only the social calendar (holidays, school PD days, end of school in June) changes sandwich quantities. *(chef-stated 2026-08-06; high; stated)*
 - **Very cold winter days (≈ ≤ 0 °C) → chef cuts production; soups sell, salads/composed dishes slow.** Support 3/36 weeks [2025-01-13, 2025-01-20, 2025-01-27]; partly a demand-volume effect. *(medium; inferred)*
+- **Cold soup only on a 2–3 day hot streak** — one hot day is not enough (sharpens the ≥24 °C rule). *(chef-stated 2026-08-09; high; stated)*
+- **Chipotle lentil soup → cold-winter soup, not a big seller.** *(chef-stated 2026-08-09; high; stated)*
+- **Pico de Gallo's Thursday slot is weather-/surplus-driven** — warm weather or a tomato surplus (adds the trigger to "Thursday, never Monday"). *(chef-stated 2026-08-09; high; stated)*
 
 ## Calendar
 
@@ -565,6 +646,7 @@ Mole verde, discontinued).
 - **Chili d'Orge → October–April only.** *(chef-stated 2026-07-24; high; stated)*
 - **Rutabaga pomme sirop d'érable potage → cold months**; biweekly in maple season (Mar–Apr); poor summer seller. *(chef-stated 2026-08-06; high; stated)*
 - **Pico de gallo → warm season only** (all 14 of its weeks fall May–Aug/late spring). *(medium; inferred)*
+- **Back-to-school weeks (late summer) → reduced production, favour staples.** *(chef-stated 2026-08-09; high; stated)*
 - **Pre-Christmas → scale up desserts, ragoût, composed salads, soups.** *(chef-stated 2026-07-24; medium; stated — generality low because only one December week is tagged)*
 - **Easter dessert taper** — no chocolate desserts after Easter; slow desserts the week after. 2/47 [2025-04-14, 2025-04-21]. *(low; stated)*
 - **No fish soup immediately before a vacation week.** 1/47 [2025-02-24]. *(low; stated)*
@@ -609,3 +691,4 @@ dimension exists:
 - **Sauces (yields):** the lasagna **marinara** batch yields **2 lasagna batches** (half frozen). Sold prêt-à-manger only: split into **15–17 pasta portions** (4 oz over GF pasta) + **6–7 × 500 ml containers**.
 - **Burgers (yields):** each recipe yields **~200** — **¼ to the restaurant**, the rest **frozen sous-vide in 4-packs**.
 - **Falafels:** made to demand as the complete dish, or as **sous-vide falafels in bags of 8**.
+- **Salmon ginger / salmon pesto:** salmon ginger is a large recipe at **60 portions**; its weekly partner **salmon pesto** runs **~44 portions**. *(chef 2026-08-09)*
