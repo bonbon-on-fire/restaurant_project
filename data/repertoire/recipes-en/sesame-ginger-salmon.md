@@ -5,14 +5,14 @@ status: active
 parsley_id: 6809777
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: hot
+  weather: warm
+  richness: moderate
+  format: plated-main
+  cuisine: japanese
+  spice_level: mild
+  diet: [pescatarian, dairy-free]
 ---
 
 # Sesame Ginger Salmon

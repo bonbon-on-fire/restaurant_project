@@ -5,14 +5,14 @@ status: active
 parsley_id: 7477550
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: vegetable
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: soup
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Cream of Tomato Soup

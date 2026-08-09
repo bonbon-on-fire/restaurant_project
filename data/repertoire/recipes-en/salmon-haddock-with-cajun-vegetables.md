@@ -5,14 +5,14 @@ status: active
 parsley_id: 5147720
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: plated-main
+  cuisine: cajun-creole
+  spice_level: medium
+  diet: [pescatarian, dairy-free]
 ---
 
 # Salmon / Haddock with Cajun Vegetables

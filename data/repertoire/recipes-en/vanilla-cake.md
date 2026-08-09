@@ -5,14 +5,14 @@ status: active
 parsley_id: 5888452
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: indulgent
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Vanilla Cake

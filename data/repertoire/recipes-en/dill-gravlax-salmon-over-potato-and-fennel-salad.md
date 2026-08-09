@@ -5,14 +5,14 @@ status: active
 parsley_id: 4841348
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: salad
+  cuisine: scandinavian
+  spice_level: mild
+  diet: [pescatarian, gluten-free, dairy-free]
 ---
 
 # Dill Gravlax Salmon over Potato and Fennel Salad

@@ -5,14 +5,14 @@ status: active
 parsley_id: 7020948
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegan, vegetarian, dairy-free, gluten-free, egg-free]
 ---
 
 # L'Épous-tou-flan Tart

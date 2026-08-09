@@ -5,14 +5,14 @@ status: active
 parsley_id: 6216131
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: mushroom
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: handheld
+  cuisine: japanese
+  spice_level: mild
+  diet: [vegetarian, dairy-free, nut-free]
 ---
 
 # MomoFuko Burger

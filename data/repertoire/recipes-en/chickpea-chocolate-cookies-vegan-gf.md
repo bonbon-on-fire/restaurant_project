@@ -5,14 +5,14 @@ status: active
 parsley_id: 5827077
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: legume
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: rich
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Chickpea Chocolate Cookies Vegan GF

@@ -5,14 +5,14 @@ status: active
 parsley_id: 6656408
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: dip-spread
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Broccoli and Pistachio Hummus

@@ -5,14 +5,14 @@ status: active
 parsley_id: 7723572
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: handheld
+  cuisine: american
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Vegan Veggie Chicken Salad Sandwich

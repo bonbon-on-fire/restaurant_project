@@ -5,14 +5,14 @@ status: active
 parsley_id: 4591718
 menu_appearances:
 tags:
-  protein:
+  protein: none
   temperature:
   weather:
-  richness:
-  format:
+  richness: lean
+  format: sauce-condiment
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Apple and Pear Compote

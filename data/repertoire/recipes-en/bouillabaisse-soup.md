@@ -5,14 +5,14 @@ status: active
 parsley_id: 5573110
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mixed
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: soup
+  cuisine: french
+  spice_level: mild
+  diet: [pescatarian, dairy-free]
 ---
 
 # Bouillabaisse Soup

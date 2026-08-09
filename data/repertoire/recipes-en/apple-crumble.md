@@ -5,14 +5,14 @@ status: active
 parsley_id: 5263460
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: none
+  temperature: warm
+  weather: cool
+  richness: moderate
+  format: baked-good
+  cuisine: british
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Apple Crumble

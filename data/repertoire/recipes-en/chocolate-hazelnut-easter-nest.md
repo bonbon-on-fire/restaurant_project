@@ -5,14 +5,14 @@ status: active
 parsley_id: 6881178
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Chocolate Hazelnut Easter Nest

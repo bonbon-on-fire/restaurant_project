@@ -5,14 +5,14 @@ status: active
 parsley_id: 5431108
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: plated-main
+  cuisine: caribbean
+  spice_level: hot
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Veggie Jerk Chicken with Orange Remoulade

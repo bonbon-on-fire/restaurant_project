@@ -5,14 +5,14 @@ status: active
 parsley_id: 5737252
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: none
+  temperature: hot
+  weather: cool
+  richness: light
+  format: soup
+  cuisine: mexican
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free, nut-free]
 ---
 
 # Mole Verde Soup

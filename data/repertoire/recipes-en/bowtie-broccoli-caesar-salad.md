@@ -5,14 +5,14 @@ status: active
 parsley_id: 6216145
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: warm
+  richness: rich
+  format: salad
+  cuisine: american
+  spice_level: none
+  diet: [pescatarian]
 ---
 
 # Bowtie Broccoli Caesar Salad

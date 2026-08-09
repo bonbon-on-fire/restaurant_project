@@ -5,14 +5,14 @@ status: active
 parsley_id: 7802583
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: plated-main
+  cuisine: caribbean
+  spice_level: hot
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Coconut Jerk Tofu

@@ -5,14 +5,14 @@ status: active
 parsley_id: 6729699
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: baked-good
+  cuisine: italian
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Tiramisu

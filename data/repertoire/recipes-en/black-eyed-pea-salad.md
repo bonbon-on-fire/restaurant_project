@@ -5,14 +5,14 @@ status: active
 parsley_id: 8500556
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: salad
+  cuisine: southern-us
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Black-Eyed Pea Salad

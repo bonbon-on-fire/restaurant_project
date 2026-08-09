@@ -5,14 +5,14 @@ status: active
 parsley_id: 5652416
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mixed
+  temperature: hot
+  weather: cold
+  richness: rich
+  format: soup
+  cuisine: american
+  spice_level: mild
+  diet: [pescatarian]
 ---
 
 # Fisherman's Chowder

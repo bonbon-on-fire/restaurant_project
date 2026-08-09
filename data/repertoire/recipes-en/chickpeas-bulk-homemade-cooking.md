@@ -5,14 +5,14 @@ status: active
 parsley_id: 5388229
 menu_appearances:
 tags:
-  protein:
+  protein: legume
   temperature:
   weather:
-  richness:
+  richness: lean
   format:
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Chickpeas (bulk, homemade cooking)

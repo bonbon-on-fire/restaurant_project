@@ -5,14 +5,14 @@ status: active
 parsley_id: 4916877
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: bowl
+  cuisine: japanese
+  spice_level: medium
+  diet: [pescatarian, dairy-free]
 ---
 
 # Japanese-Style Gravlax Salmon Poke Bowl

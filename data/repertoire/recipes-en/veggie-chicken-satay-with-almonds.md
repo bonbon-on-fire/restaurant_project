@@ -5,14 +5,14 @@ status: active
 parsley_id: 5502681
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: plated-main
+  cuisine: thai
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Veggie Chicken Satay with Almonds

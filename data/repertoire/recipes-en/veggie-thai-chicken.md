@@ -5,14 +5,14 @@ status: active
 parsley_id: 6834802
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: curry
+  cuisine: thai
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Veggie Thai Chicken

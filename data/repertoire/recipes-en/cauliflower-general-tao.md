@@ -5,12 +5,12 @@ status: active
 parsley_id: 5805399
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: vegetable
+  temperature: hot
   weather:
   richness:
   format:
-  cuisine:
+  cuisine: chinese
   spice_level:
   diet: []
 ---

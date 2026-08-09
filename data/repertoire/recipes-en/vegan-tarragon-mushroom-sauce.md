@@ -5,14 +5,14 @@ status: active
 parsley_id: 8396134
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mushroom
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: sauce-condiment
+  cuisine: french
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Tarragon Mushroom Sauce

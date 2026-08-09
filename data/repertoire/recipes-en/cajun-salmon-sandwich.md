@@ -5,14 +5,14 @@ status: active
 parsley_id: 7098844
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: handheld
+  cuisine: cajun-creole
+  spice_level: medium
+  diet: [pescatarian]
 ---
 
 # Cajun Salmon Sandwich

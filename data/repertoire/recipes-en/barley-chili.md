@@ -5,14 +5,14 @@ status: active
 parsley_id: 4543075
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: stew
+  cuisine: tex-mex
+  spice_level: medium
+  diet: [vegetarian]
 ---
 
 # Barley Chili

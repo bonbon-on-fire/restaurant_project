@@ -5,14 +5,14 @@ status: active
 parsley_id: 7242109
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: none
+  temperature: frozen
+  weather: hot
+  richness: rich
+  format: handheld
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegetarian]
 ---
 
 # Ban-Oufti Rainbow

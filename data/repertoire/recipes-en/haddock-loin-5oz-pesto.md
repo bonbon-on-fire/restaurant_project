@@ -5,14 +5,14 @@ status: active
 parsley_id: 8578557
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: plated-main
+  cuisine: italian
+  spice_level: mild
+  diet: [pescatarian, gluten-free]
 ---
 
 # Haddock Loin 5oz Pesto

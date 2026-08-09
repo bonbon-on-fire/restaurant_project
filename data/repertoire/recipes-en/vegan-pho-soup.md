@@ -5,14 +5,14 @@ status: active
 parsley_id: 7442865
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: hot
+  weather: cold
+  richness: light
+  format: soup
+  cuisine: vietnamese
+  spice_level: medium
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Pho Soup

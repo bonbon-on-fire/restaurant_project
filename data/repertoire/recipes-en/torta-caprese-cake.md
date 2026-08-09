@@ -5,14 +5,14 @@ status: active
 parsley_id: 5823232
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: baked-good
+  cuisine: italian
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Torta Caprese Cake

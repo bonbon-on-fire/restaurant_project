@@ -5,14 +5,14 @@ status: active
 parsley_id: 6787431
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: rich
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Zucchini Doughnuts with Chocolate Glaze

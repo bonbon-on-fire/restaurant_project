@@ -5,14 +5,14 @@ status: active
 parsley_id: 4516410
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: baked-good
+  cuisine: american
+  spice_level: none
+  diet: [vegetarian]
 ---
 
 # Carrot Cake 6"

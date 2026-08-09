@@ -5,14 +5,14 @@ status: active
 parsley_id: 6654400
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: hot
+  weather: cold
+  richness: rich
+  format: curry
+  cuisine: indian
+  spice_level: medium
+  diet: [pescatarian]
 ---
 
 # Haddock Curry with Mango and Coconut

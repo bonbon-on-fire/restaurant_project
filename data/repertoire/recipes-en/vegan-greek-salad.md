@@ -5,14 +5,14 @@ status: active
 parsley_id: 6995566
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: cold
+  weather: hot
+  richness: light
+  format: salad
+  cuisine: greek
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Greek Salad

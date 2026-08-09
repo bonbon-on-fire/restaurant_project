@@ -5,14 +5,14 @@ status: active
 parsley_id: 7098810
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mixed
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: salad
+  cuisine: french
+  spice_level: mild
+  diet: [pescatarian, gluten-free, dairy-free, nut-free]
 ---
 
 # Hilairoise Salad

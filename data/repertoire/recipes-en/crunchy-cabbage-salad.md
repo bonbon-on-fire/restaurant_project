@@ -5,14 +5,14 @@ status: active
 parsley_id: 8142839
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: vegetable
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: salad
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian, gluten-free, dairy-free]
 ---
 
 # Crunchy Cabbage Salad

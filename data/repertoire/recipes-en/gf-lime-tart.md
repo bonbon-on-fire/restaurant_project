@@ -5,14 +5,14 @@ status: active
 parsley_id: 4907871
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # GF Lime Tart

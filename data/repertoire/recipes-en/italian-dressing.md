@@ -5,14 +5,14 @@ status: active
 parsley_id: 6995526
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: sauce-condiment
+  cuisine: italian
+  spice_level: mild
+  diet: [vegetarian, dairy-free, gluten-free, nut-free]
 ---
 
 # Italian Dressing

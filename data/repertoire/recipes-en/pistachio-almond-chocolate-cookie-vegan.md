@@ -5,14 +5,14 @@ status: active
 parsley_id: 4493808
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: indulgent
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Pistachio Almond Chocolate Cookie Vegan

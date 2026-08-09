@@ -5,14 +5,14 @@ status: active
 parsley_id: 8327864
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: light
+  format: salad
+  cuisine: korean
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Asian Cabbage Salad

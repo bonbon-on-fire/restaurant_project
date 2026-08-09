@@ -5,14 +5,14 @@ status: active
 parsley_id: 5263327
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: nut-seed
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: rich
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Date, Zest and Buckwheat Granola Bar

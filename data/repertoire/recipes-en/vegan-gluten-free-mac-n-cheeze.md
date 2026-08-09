@@ -5,14 +5,14 @@ status: active
 parsley_id: 4489765
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: pasta
+  cuisine: american
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Gluten-Free Mac N' Cheeze

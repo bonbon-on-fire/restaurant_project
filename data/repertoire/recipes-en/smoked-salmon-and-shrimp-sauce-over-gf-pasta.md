@@ -5,14 +5,14 @@ status: active
 parsley_id: 5501208
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: mixed
+  temperature: hot
   weather:
   richness:
-  format:
-  cuisine:
+  format: pasta
+  cuisine: italian
   spice_level:
-  diet: []
+  diet: [pescatarian]
 ---
 
 # Smoked Salmon and Shrimp Sauce over GF Pasta

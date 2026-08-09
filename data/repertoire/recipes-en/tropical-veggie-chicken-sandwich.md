@@ -5,14 +5,14 @@ status: active
 parsley_id: 5537803
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: handheld
+  cuisine: caribbean
+  spice_level: medium
+  diet: [vegetarian, dairy-free]
 ---
 
 # Tropical Veggie Chicken Sandwich

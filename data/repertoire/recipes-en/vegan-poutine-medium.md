@@ -5,14 +5,14 @@ status: active
 parsley_id: 5502679
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: hot
+  weather: cold
+  richness: rich
+  format: side
+  cuisine: canadian
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Poutine (Medium)

@@ -5,14 +5,14 @@ status: active
 parsley_id: 5601290
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: baked-good
+  cuisine: german
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Black Forest Cake Gluten-Free

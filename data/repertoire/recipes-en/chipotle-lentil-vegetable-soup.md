@@ -5,14 +5,14 @@ status: active
 parsley_id: 6689741
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: soup
+  cuisine: fusion
+  spice_level: medium
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Chipotle Lentil Vegetable Soup

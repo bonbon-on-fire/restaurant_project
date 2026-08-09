@@ -5,14 +5,14 @@ status: active
 parsley_id: 5357859
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: soup
+  cuisine: thai
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Green Tom Yum Soup

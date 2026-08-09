@@ -5,14 +5,14 @@ status: active
 parsley_id: 6238431
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: none
+  temperature: cold
+  weather: hot
+  richness: light
+  format: salad
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian, dairy-free, gluten-free, nut-free]
 ---
 
 # Kale Mango Cabbage Salad

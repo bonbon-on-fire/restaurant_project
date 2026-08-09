@@ -5,14 +5,14 @@ status: active
 parsley_id: 4458271
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: fish
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: plated-main
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [pescatarian, gluten-free]
 ---
 
 # Salmon Pesto Artichoke

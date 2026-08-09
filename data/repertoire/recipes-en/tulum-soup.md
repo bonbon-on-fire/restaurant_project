@@ -5,14 +5,14 @@ status: active
 parsley_id: 5391177
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: soup
+  cuisine: mexican
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Tulum Soup

@@ -5,14 +5,14 @@ status: active
 parsley_id: 7154869
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: light
+  format: soup
+  cuisine: spanish
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Cold Mélonccio Soup

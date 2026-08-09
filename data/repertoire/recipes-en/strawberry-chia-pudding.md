@@ -5,14 +5,14 @@ status: active
 parsley_id: 6822420
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
+  protein: none
+  temperature: cold
+  weather: warm
+  richness: moderate
   format:
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Strawberry Chia Pudding

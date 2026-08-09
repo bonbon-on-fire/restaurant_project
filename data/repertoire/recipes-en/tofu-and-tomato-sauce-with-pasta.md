@@ -5,14 +5,14 @@ status: active
 parsley_id: 7179896
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: pasta
+  cuisine: italian
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free, gluten-free]
 ---
 
 # Tofu and Tomato Sauce with Pasta

@@ -5,14 +5,14 @@ status: active
 parsley_id: 5483791
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: hot
+  weather: cool
+  richness: indulgent
+  format: casserole
+  cuisine: greek
+  spice_level: mild
+  diet: [vegetarian]
 ---
 
 # Veggie Moussaka

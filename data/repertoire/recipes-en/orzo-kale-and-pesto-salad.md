@@ -5,14 +5,14 @@ status: active
 parsley_id: 7138366
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mixed
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: salad
+  cuisine: italian
+  spice_level: mild
+  diet: [gluten-free]
 ---
 
 # Orzo Kale and Pesto Salad

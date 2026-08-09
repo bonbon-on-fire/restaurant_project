@@ -5,14 +5,14 @@ status: active
 parsley_id: 7135505
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: dip-spread
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Eggplant Caviar

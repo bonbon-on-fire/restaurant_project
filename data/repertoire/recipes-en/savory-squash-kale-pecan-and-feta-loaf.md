@@ -5,14 +5,14 @@ status: active
 parsley_id: 5650840
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: vegetable
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: moderate
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian, gluten-free]
 ---
 
 # Savory Squash, Kale, Pecan and Feta Loaf

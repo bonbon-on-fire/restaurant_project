@@ -5,14 +5,14 @@ status: active
 parsley_id: 6729677
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: none
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: bowl
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Hibiscus Chia Pudding

@@ -5,14 +5,14 @@ status: active
 parsley_id: 6841260
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: vegetable
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: salad
+  cuisine: indian
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Bandhu Salad

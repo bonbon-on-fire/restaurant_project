@@ -5,14 +5,14 @@ status: active
 parsley_id: 6986714
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: curry
+  cuisine: indian
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Copy of Veggie Chicken Makhani new

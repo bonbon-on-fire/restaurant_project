@@ -5,14 +5,14 @@ status: active
 parsley_id: 8217982
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: handheld
+  cuisine: fusion
+  spice_level: mild
+  diet: [pescatarian, dairy-free]
 ---
 
 # Tuna and Miso Salad Wraps

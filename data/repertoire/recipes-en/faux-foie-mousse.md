@@ -5,14 +5,14 @@ status: active
 parsley_id: 5357890
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: plant-substitute
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: dip-spread
+  cuisine: french
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Faux Foie Mousse

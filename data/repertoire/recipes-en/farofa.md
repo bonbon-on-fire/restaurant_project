@@ -5,14 +5,14 @@ status: active
 parsley_id: 7521273
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: light
+  format: side
+  cuisine: brazilian
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Farofa

@@ -5,14 +5,14 @@ status: active
 parsley_id: 3993089
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: legume
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: plated-main
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegetarian, gluten-free]
 ---
 
 # Falafels, Tabbouleh, Pickled Turnip, Tzatziki

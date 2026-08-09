@@ -5,14 +5,14 @@ status: active
 parsley_id: 5246576
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mixed
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: soup
+  cuisine: spanish
+  spice_level: medium
+  diet: [pescatarian, dairy-free]
 ---
 
 # Spanish Soup

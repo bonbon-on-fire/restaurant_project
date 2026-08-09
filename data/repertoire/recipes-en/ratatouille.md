@@ -5,14 +5,14 @@ status: active
 parsley_id: 8031882
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: stew
+  cuisine: french
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Ratatouille

@@ -5,14 +5,14 @@ status: active
 parsley_id: 4848372
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: plant-substitute
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: handheld
+  cuisine: american
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Copy of Gluten-Free Vegan Burger

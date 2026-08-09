@@ -5,14 +5,14 @@ status: active
 parsley_id: 4568157
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: fish
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: plated-main
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [pescatarian]
 ---
 
 # Salmon with Zucchini Pesto

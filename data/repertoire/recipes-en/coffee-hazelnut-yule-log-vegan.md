@@ -5,14 +5,14 @@ status: active
 parsley_id: 4386906
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: none
+  temperature: cold
+  weather: cold
+  richness: indulgent
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Coffee Hazelnut Yule Log Vegan

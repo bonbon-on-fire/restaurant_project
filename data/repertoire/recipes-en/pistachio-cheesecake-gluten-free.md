@@ -5,14 +5,14 @@ status: active
 parsley_id: 6634962
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
+  richness: indulgent
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Pistachio Cheesecake Gluten-Free

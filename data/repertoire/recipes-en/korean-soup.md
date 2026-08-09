@@ -5,14 +5,14 @@ status: active
 parsley_id: 5356026
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: none
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: soup
+  cuisine: korean
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Korean Soup

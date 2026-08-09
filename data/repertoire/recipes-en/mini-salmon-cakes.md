@@ -5,14 +5,14 @@ status: active
 parsley_id: 8541354
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: hot
   weather:
-  richness:
-  format:
+  richness: moderate
+  format: shareable
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [pescatarian, dairy-free, nut-free]
 ---
 
 # Mini Salmon Cakes

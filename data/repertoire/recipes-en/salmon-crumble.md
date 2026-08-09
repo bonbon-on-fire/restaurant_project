@@ -5,14 +5,14 @@ status: active
 parsley_id: 5683057
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: fish
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: casserole
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [pescatarian, gluten-free]
 ---
 
 # Salmon Crumble

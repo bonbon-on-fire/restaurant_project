@@ -5,14 +5,14 @@ status: active
 parsley_id: 4558542
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: grain
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: plated-main
+  cuisine: italian
+  spice_level: mild
+  diet: [gluten-free]
 ---
 
 # Mushroom Risotto

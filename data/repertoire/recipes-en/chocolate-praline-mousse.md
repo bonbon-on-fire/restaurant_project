@@ -5,14 +5,14 @@ status: active
 parsley_id: 5218699
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
+  richness: indulgent
   format:
-  cuisine:
-  spice_level:
-  diet: []
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian, gluten-free, dairy-free]
 ---
 
 # Chocolate Praline Mousse

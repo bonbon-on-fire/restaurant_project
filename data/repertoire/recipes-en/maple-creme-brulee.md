@@ -6,13 +6,13 @@ parsley_id: 4507524
 menu_appearances:
 tags:
   protein:
-  temperature:
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Maple Crème Brûlée

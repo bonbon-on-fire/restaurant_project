@@ -5,14 +5,14 @@ status: active
 parsley_id: 5559644
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: plant-substitute
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: stew
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # L'eau Vive Stew

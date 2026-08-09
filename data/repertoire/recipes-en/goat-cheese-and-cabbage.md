@@ -5,14 +5,14 @@ status: active
 parsley_id: 5499877
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: grain
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: salad
+  cuisine: fusion
+  spice_level: mild
+  diet: [vegetarian, gluten-free]
 ---
 
 # Goat Cheese and Cabbage

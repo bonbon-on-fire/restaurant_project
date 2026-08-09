@@ -5,14 +5,14 @@ status: active
 parsley_id: 5537796
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: fish
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: handheld
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [pescatarian, dairy-free]
 ---
 
 # Salmon Pesto Pepper Sandwich

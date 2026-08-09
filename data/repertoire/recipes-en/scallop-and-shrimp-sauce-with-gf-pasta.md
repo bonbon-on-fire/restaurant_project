@@ -5,14 +5,14 @@ status: active
 parsley_id: 5663880
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: shellfish
+  temperature: hot
   weather:
   richness:
-  format:
-  cuisine:
+  format: pasta
+  cuisine: italian
   spice_level:
-  diet: []
+  diet: [pescatarian]
 ---
 
 # Scallop and Shrimp Sauce with GF Pasta

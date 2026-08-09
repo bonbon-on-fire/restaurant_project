@@ -5,14 +5,14 @@ status: active
 parsley_id: 5602230
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: legume
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: dip-spread
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Parsnip Hummus

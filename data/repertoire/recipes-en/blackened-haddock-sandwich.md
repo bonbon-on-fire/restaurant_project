@@ -5,14 +5,14 @@ status: active
 parsley_id: 5528286
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: handheld
+  cuisine: fusion
+  spice_level: medium
+  diet: [pescatarian]
 ---
 
 # Blackened Haddock Sandwich

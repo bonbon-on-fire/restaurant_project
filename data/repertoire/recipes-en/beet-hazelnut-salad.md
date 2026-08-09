@@ -5,14 +5,14 @@ status: active
 parsley_id: 4854786
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: vegetable
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: salad
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Beet Hazelnut Salad

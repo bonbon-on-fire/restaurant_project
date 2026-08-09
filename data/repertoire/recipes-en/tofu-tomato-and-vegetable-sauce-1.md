@@ -5,14 +5,14 @@ status: active
 parsley_id: 7179897
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: tofu
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: sauce-condiment
+  cuisine: italian
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free, gluten-free]
 ---
 
 # Tofu, Tomato, and Vegetable Sauce 1

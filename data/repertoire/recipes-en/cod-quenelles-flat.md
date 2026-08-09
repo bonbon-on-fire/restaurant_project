@@ -5,14 +5,14 @@ status: active
 parsley_id: 7229148
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: plated-main
+  cuisine: portuguese
+  spice_level: mild
+  diet: [pescatarian]
 ---
 
 # Cod Quenelles (flat)

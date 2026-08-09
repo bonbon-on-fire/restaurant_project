@@ -5,14 +5,14 @@ status: active
 parsley_id: 4854962
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: plated-main
+  cuisine: mediterranean
+  spice_level: mild
+  diet: [pescatarian, gluten-free, nut-free]
 ---
 
 # Mediterranean-Style Haddock

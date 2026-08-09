@@ -5,14 +5,14 @@ status: active
 parsley_id: 6185359
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: salad
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegetarian, gluten-free]
 ---
 
 # Carrot, Celeriac, and Almond Salad

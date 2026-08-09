@@ -5,14 +5,14 @@ status: active
 parsley_id: 8580960
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mushroom
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: handheld
+  cuisine: american
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Vegan Pulled Oyster Mushroom Sandwich

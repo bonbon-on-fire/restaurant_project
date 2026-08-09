@@ -5,14 +5,14 @@ status: active
 parsley_id: 5818035
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: curry
+  cuisine: caribbean
+  spice_level: medium
+  diet: [pescatarian, dairy-free]
 ---
 
 # Salt Cod Curry

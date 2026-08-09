@@ -5,14 +5,14 @@ status: active
 parsley_id: 5542425
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: mixed
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: moderate
+  format: handheld
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian]
 ---
 
 # Hummus, Apple, and Brie Sandwich

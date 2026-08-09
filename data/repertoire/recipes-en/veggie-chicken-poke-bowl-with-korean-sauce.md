@@ -5,14 +5,14 @@ status: active
 parsley_id: 4963307
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: bowl
+  cuisine: fusion
+  spice_level: medium
+  diet: [vegetarian, dairy-free]
 ---
 
 # Veggie Chicken Poke Bowl with Korean Sauce

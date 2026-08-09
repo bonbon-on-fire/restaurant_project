@@ -5,14 +5,14 @@ status: active
 parsley_id: 6262971
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: plated-main
+  cuisine: french
+  spice_level: mild
+  diet: [pescatarian, gluten-free]
 ---
 
 # Garlic Scape Salmon with Zucchini Gratin

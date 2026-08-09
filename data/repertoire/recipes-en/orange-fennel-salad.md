@@ -5,13 +5,13 @@ status: active
 parsley_id: 7231113
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: light
+  format: salad
+  cuisine: mediterranean
+  spice_level: mild
   diet: []
 ---
 

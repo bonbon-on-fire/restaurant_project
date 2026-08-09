@@ -5,14 +5,14 @@ status: active
 parsley_id: 4707518
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: handheld
+  cuisine: american
+  spice_level: mild
+  diet: [vegetarian]
 ---
 
 # Veggie Chicken Burger

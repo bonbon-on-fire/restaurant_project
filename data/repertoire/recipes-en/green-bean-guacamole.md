@@ -5,14 +5,14 @@ status: active
 parsley_id: 7131066
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: dip-spread
+  cuisine: fusion
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Green Bean Guacamole

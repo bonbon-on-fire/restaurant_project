@@ -5,14 +5,14 @@ status: active
 parsley_id: 5400352
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: hot
+  weather: cold
+  richness: rich
+  format: casserole
+  cuisine: italian
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Gluten-Free Vegetable Lasagna

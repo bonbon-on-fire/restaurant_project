@@ -5,14 +5,14 @@ status: active
 parsley_id: 7511017
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: plant-substitute
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: handheld
+  cuisine: indian
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Makhani Veggie Chicken Wrap

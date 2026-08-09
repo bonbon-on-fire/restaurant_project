@@ -5,14 +5,14 @@ status: active
 parsley_id: 4965381
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: grain
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: baked-good
+  cuisine: american
+  spice_level: none
+  diet: [vegetarian, gluten-free, dairy-free, egg-free]
 ---
 
 # Healthy Chocolate Granola Bar

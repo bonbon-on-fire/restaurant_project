@@ -5,14 +5,14 @@ status: active
 parsley_id: 5663725
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: side
+  cuisine: greek
+  spice_level: mild
+  diet: [vegetarian]
 ---
 
 # Zucchini, Potato and Spinach Croquettes

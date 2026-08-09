@@ -5,14 +5,14 @@ status: active
 parsley_id: 6201457
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: vegetable
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: sauce-condiment
+  cuisine: french
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Provençal Sun-Dried Tomato Dressing

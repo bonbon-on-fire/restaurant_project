@@ -5,14 +5,14 @@ status: active
 parsley_id: 4803673
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: moderate
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Orange and Date Muffins (no added sugar)

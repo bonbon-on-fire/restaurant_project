@@ -5,14 +5,14 @@ status: active
 parsley_id: 5737291
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: salad
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian, gluten-free]
 ---
 
 # Potato Apple Fennel Salad

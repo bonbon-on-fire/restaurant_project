@@ -5,14 +5,14 @@ status: active
 parsley_id: 7510839
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: stew
+  cuisine: brazilian
+  spice_level: medium
+  diet: [pescatarian, dairy-free, gluten-free]
 ---
 
 # Moqueca

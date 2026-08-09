@@ -5,14 +5,14 @@ status: active
 parsley_id: 4715331
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: egg
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: casserole
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian]
 ---
 
 # Ham and Vegetable Quiche

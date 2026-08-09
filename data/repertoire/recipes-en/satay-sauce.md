@@ -5,14 +5,14 @@ status: active
 parsley_id: 6976532
 menu_appearances:
 tags:
-  protein:
+  protein: nut-seed
   temperature:
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: sauce-condiment
+  cuisine: thai
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Satay Sauce

@@ -5,14 +5,14 @@ status: active
 parsley_id: 8396190
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: tofu
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: sauce-condiment
+  cuisine: italian
+  spice_level: mild
+  diet: [gluten-free]
 ---
 
 # Mushroom Sauce with Tofu and Sun-Dried Tomatoes

@@ -5,14 +5,14 @@ status: active
 parsley_id: 5353191
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: egg
+  temperature: warm
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: casserole
+  cuisine: french
+  spice_level: mild
+  diet: [vegetarian]
 ---
 
 # Forestière Quiche

@@ -5,14 +5,14 @@ status: active
 parsley_id: 7735813
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: side
+  cuisine: american
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Baked Beans Without Bacon

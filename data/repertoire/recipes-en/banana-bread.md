@@ -5,14 +5,14 @@ status: active
 parsley_id: 4592755
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: baked-good
+  cuisine: american
+  spice_level: none
+  diet: [vegetarian]
 ---
 
 # Banana Bread

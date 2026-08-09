@@ -5,14 +5,14 @@ status: active
 parsley_id: 8383419
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: plant-substitute
+  temperature: cold
   weather:
-  richness:
-  format:
+  richness: rich
+  format: handheld
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian]
 ---
 
 # Croissant with Veggie Chicken Salad

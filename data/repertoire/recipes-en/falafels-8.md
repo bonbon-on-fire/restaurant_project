@@ -5,14 +5,14 @@ status: active
 parsley_id: 4828536
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: legume
+  temperature: hot
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: moderate
+  format: shareable
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegetarian, gluten-free, dairy-free]
 ---
 
 # Falafels (8)

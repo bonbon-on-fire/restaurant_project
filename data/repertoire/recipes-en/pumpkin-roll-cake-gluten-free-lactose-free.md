@@ -5,14 +5,14 @@ status: active
 parsley_id: 4516219
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
+  richness: indulgent
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegetarian, gluten-free]
 ---
 
 # Pumpkin Roll Cake Gluten-Free Lactose-Free

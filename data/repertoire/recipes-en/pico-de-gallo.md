@@ -5,14 +5,14 @@ status: active
 parsley_id: 7510849
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: lean
+  format: sauce-condiment
+  cuisine: mexican
+  spice_level: medium
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Pico de Gallo

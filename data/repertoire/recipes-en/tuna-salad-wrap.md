@@ -5,14 +5,14 @@ status: active
 parsley_id: 5861726
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: handheld
+  cuisine: american
+  spice_level: mild
+  diet: [pescatarian, dairy-free]
 ---
 
 # Tuna Salad Wrap

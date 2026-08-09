@@ -5,14 +5,14 @@ status: active
 parsley_id: 5878410
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: vegetable
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: salad
+  cuisine: french
+  spice_level: mild
+  diet: [gluten-free]
 ---
 
 # Provençal Salad

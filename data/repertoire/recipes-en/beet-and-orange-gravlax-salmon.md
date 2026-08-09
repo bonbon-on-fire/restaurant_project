@@ -5,14 +5,14 @@ status: active
 parsley_id: 8578580
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: shareable
+  cuisine: scandinavian
+  spice_level: none
+  diet: [pescatarian, gluten-free, dairy-free, high-protein]
 ---
 
 # Beet and Orange Gravlax Salmon

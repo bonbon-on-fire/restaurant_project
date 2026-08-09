@@ -5,14 +5,14 @@ status: active
 parsley_id: 4916848
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: shareable
+  cuisine: scandinavian
+  spice_level: mild
+  diet: [pescatarian, dairy-free, gluten-free]
 ---
 
 # Sliced Kuyashii Gravlax Salmon

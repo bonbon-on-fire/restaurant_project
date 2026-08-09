@@ -5,14 +5,14 @@ status: active
 parsley_id: 6674085
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
+  richness: moderate
+  format: sauce-condiment
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Dragon Sauce

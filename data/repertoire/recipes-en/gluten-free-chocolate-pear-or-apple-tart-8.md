@@ -5,14 +5,14 @@ status: active
 parsley_id: 4498993
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: indulgent
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Gluten-Free Chocolate Pear or Apple Tart 8"

@@ -5,14 +5,14 @@ status: active
 parsley_id: 7748028
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: room
   weather:
   richness:
-  format:
+  format: baked-good
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Pumpkin Muffin

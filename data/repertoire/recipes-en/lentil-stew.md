@@ -5,14 +5,14 @@ status: active
 parsley_id: 5518114
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: stew
+  cuisine: french
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Lentil Stew

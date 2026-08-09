@@ -5,14 +5,14 @@ status: active
 parsley_id: 5504945
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: mushroom
+  temperature: hot
   weather:
-  richness:
-  format:
+  richness: moderate
+  format: shareable
   cuisine:
-  spice_level:
-  diet: []
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Stuffed Mushrooms

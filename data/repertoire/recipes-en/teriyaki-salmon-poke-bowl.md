@@ -5,14 +5,14 @@ status: active
 parsley_id: 5737370
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: fish
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: bowl
+  cuisine: japanese
+  spice_level: medium
+  diet: [pescatarian, dairy-free]
 ---
 
 # Teriyaki Salmon Poke Bowl

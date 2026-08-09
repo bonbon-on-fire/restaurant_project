@@ -5,14 +5,14 @@ status: active
 parsley_id: 4384572
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: none
+  temperature: cold
+  weather: cold
+  richness: indulgent
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegetarian, gluten-free]
 ---
 
 # Cherry Velvet Yule Log

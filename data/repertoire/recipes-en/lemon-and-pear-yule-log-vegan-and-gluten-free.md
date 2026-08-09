@@ -5,14 +5,14 @@ status: active
 parsley_id: 6380392
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: none
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: baked-good
+  cuisine: french
+  spice_level: none
+  diet: [vegan, vegetarian, dairy-free, egg-free, gluten-free]
 ---
 
 # Lemon and Pear Yule Log Vegan and Gluten-Free

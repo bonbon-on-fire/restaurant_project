@@ -5,14 +5,14 @@ status: active
 parsley_id: 7483675
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: legume
+  temperature: cold
+  weather: hot
+  richness: moderate
+  format: dip-spread
+  cuisine: middle-eastern
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Dill Hummus

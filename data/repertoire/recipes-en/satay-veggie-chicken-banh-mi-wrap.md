@@ -5,14 +5,14 @@ status: active
 parsley_id: 7483853
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: cold
+  weather: warm
+  richness: moderate
+  format: handheld
+  cuisine: vietnamese
+  spice_level: medium
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Satay Veggie Chicken Banh-Mi Wrap

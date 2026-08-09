@@ -5,14 +5,14 @@ status: active
 parsley_id: 6262541
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mushroom
+  temperature: hot
+  weather: cold
+  richness: moderate
+  format: soup
+  cuisine: french
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Mushroom Tarragon Soup

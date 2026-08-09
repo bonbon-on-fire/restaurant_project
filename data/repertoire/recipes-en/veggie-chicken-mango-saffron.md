@@ -5,14 +5,14 @@ status: active
 parsley_id: 6725073
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cool
+  richness: moderate
+  format: plated-main
+  cuisine: moroccan
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free]
 ---
 
 # Veggie Chicken Mango Saffron

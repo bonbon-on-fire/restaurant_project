@@ -5,14 +5,14 @@ status: active
 parsley_id: 5418221
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: plant-substitute
+  temperature: hot
+  weather: cold
+  richness: rich
+  format: shareable
+  cuisine: american
+  spice_level: mild
+  diet: [vegan, vegetarian, dairy-free, gluten-free]
 ---
 
 # Festive Vegan Meatballs

@@ -5,14 +5,14 @@ status: active
 parsley_id: 8398114
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mushroom
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: pasta
+  cuisine: italian
+  spice_level: mild
+  diet: [vegan, vegetarian, gluten-free, dairy-free]
 ---
 
 # Vegan Tarragon Mushroom Sauce over Pasta

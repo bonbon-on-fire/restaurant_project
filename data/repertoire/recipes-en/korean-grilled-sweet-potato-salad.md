@@ -5,14 +5,14 @@ status: active
 parsley_id: 8332907
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: none
+  temperature: room
+  weather: warm
+  richness: moderate
+  format: salad
+  cuisine: korean
+  spice_level: medium
+  diet: [dairy-free, nut-free]
 ---
 
 # Korean Grilled Sweet Potato Salad

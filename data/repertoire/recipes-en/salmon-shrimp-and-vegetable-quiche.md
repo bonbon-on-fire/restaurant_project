@@ -5,14 +5,14 @@ status: active
 parsley_id: 4715010
 menu_appearances:
 tags:
-  protein:
-  temperature:
-  weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  protein: mixed
+  temperature: hot
+  weather: cool
+  richness: rich
+  format: casserole
+  cuisine: french
+  spice_level: mild
+  diet: [pescatarian]
 ---
 
 # Salmon, Shrimp and Vegetable Quiche

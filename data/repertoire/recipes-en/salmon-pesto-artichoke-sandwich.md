@@ -5,14 +5,14 @@ status: active
 parsley_id: 5537775
 menu_appearances:
 tags:
-  protein:
-  temperature:
+  protein: fish
+  temperature: cold
   weather:
-  richness:
-  format:
-  cuisine:
-  spice_level:
-  diet: []
+  richness: rich
+  format: handheld
+  cuisine: italian
+  spice_level: mild
+  diet: [pescatarian]
 ---
 
 # Salmon Pesto Artichoke Sandwich
