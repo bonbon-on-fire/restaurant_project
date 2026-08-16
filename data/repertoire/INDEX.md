@@ -1,353 +1,288 @@
-# Parsley Recipes — Ingredient Index
+# Repertoire — Recipe Index
 
-Collected 263 items from Parsley (read-only). 210 recipes, 53 sub-recipes.
+The browsable index of the **menu-generation pool** in [`recipes-en/`](recipes-en/). **280 recipes.**
 
-| Recipe | Type | # Ingredients | File |
-|---|---|---|---|
-| Aiglefin longe 5oz Pesto | Recipe | 4 | [recipes/Aiglefin longe 5oz Pesto.md](recipes/Aiglefin%20longe%205oz%20Pesto.md) |
-| Ban-Oufti | Recipe | 5 | [recipes/Ban-Oufti.md](recipes/Ban-Oufti.md) |
-| Ban-Oufti Arc-en-ciel | Recipe | 5 | [recipes/Ban-Oufti Arc-en-ciel.md](recipes/Ban-Oufti%20Arc-en-ciel.md) |
-| Barre tendre choco santé | Recipe | 10 | [recipes/Barre tendre choco santé.md](recipes/Barre%20tendre%20choco%20santé.md) |
-| Barre tendre dattes zeste sarrasin | Recipe | 8 | [recipes/Barre tendre dattes zeste sarrasin.md](recipes/Barre%20tendre%20dattes%20zeste%20sarrasin.md) |
-| Beignes Zucchinis Glaçage à l'Érable | Recipe | 16 | [recipes/Beignes Zucchinis Glaçage à l'Érable.md](recipes/Beignes%20Zucchinis%20Glaçage%20à%20l'Érable.md) |
-| Beignes Zucchinis Glaçage aux Chocolat | Recipe | 16 | [recipes/Beignes Zucchinis Glaçage aux Chocolat.md](recipes/Beignes%20Zucchinis%20Glaçage%20aux%20Chocolat.md) |
-| Biscuit Au Figues et Romarin Sans Gluten | Recipe | 10 | [recipes/Biscuit Au Figues et Romarin Sans Gluten.md](recipes/Biscuit%20Au%20Figues%20et%20Romarin%20Sans%20Gluten.md) |
-| Biscuit Le Bonheur Sans Gluten | Recipe | 10 | [recipes/Biscuit Le Bonheur Sans Gluten.md](recipes/Biscuit%20Le%20Bonheur%20Sans%20Gluten.md) |
-| Biscuit Pistache Amandes Chocolat Végane | Recipe | 12 | [recipes/Biscuit Pistache Amandes Chocolat Végane.md](recipes/Biscuit%20Pistache%20Amandes%20Chocolat%20Végane.md) |
-| Biscuit Sablés à la Confiture | Recipe | 5 | [recipes/Biscuit Sablés à la Confiture.md](recipes/Biscuit%20Sablés%20à%20la%20Confiture.md) |
-| Biscuits Banane Avoine Sans Gluten | Recipe | 12 | [recipes/Biscuits Banane Avoine Sans Gluten.md](recipes/Biscuits%20Banane%20Avoine%20Sans%20Gluten.md) |
-| Biscuits Coco Choco | Recipe | 12 | [recipes/Biscuits Coco Choco.md](recipes/Biscuits%20Coco%20Choco.md) |
-| Biscuits Cookie Coco | Recipe | 12 | [recipes/Biscuits Cookie Coco.md](recipes/Biscuits%20Cookie%20Coco.md) |
-| Biscuits dattes chocolat | Recipe | 14 | [recipes/Biscuits dattes chocolat.md](recipes/Biscuits%20dattes%20chocolat.md) |
-| Biscuits Matcha Sans Gluten | Recipe | 12 | [recipes/Biscuits Matcha Sans Gluten.md](recipes/Biscuits%20Matcha%20Sans%20Gluten.md) |
-| Biscuits Pois Chiches Chocolat végane SG | Recipe | 10 | [recipes/Biscuits Pois Chiches Chocolat végane SG.md](recipes/Biscuits%20Pois%20Chiches%20Chocolat%20végane%20SG.md) |
-| Boulettes Festive végane | Recipe | 23 | [recipes/Boulettes Festive végane.md](recipes/Boulettes%20Festive%20végane.md) |
-| Boulettes Festive Végane Plate | Recipe | 26 | [recipes/Boulettes Festive Végane Plate.md](recipes/Boulettes%20Festive%20Végane%20Plate.md) |
-| Brownies Sans Gluten | Recipe | 7 | [recipes/Brownies Sans Gluten.md](recipes/Brownies%20Sans%20Gluten.md) |
-| Bûche Aurore Boréal Végane, SG | Recipe | 23 | [recipes/Bûche Aurore Boréal Végane, SG.md](recipes/Bûche%20Aurore%20Boréal%20Végane,%20SG.md) |
-| Bûche Café Noisette Végane | Recipe | 30 | [recipes/Bûche Café Noisette Végane.md](recipes/Bûche%20Café%20Noisette%20Végane.md) |
-| Bûche Citron et poires Végane et sans gluten | Recipe | 29 | [recipes/Bûche Citron et poires Végane et sans gluten.md](recipes/Bûche%20Citron%20et%20poires%20Végane%20et%20sans%20gluten.md) |
-| Bûche Hivernal aux Bleuets | Recipe | 24 | [recipes/Bûche Hivernal aux Bleuets.md](recipes/Bûche%20Hivernal%20aux%20Bleuets.md) |
-| Bûche Velours aux Cerises | Recipe | 25 | [recipes/Bûche Velours aux Cerises.md](recipes/Bûche%20Velours%20aux%20Cerises.md) |
-| Burger de Boeuf Végé | Recipe | 26 | [recipes/Burger de Boeuf Végé.md](recipes/Burger%20de%20Boeuf%20Végé.md) |
-| Burger MomoFuko | Recipe | 19 | [recipes/Burger MomoFuko.md](recipes/Burger%20MomoFuko.md) |
-| Burger Poulet Végé | Recipe | 27 | [recipes/Burger Poulet Végé.md](recipes/Burger%20Poulet%20Végé.md) |
-| Burger Sans Gluten Végane | Recipe | 34 | [recipes/Burger Sans Gluten Végane.md](recipes/Burger%20Sans%20Gluten%20Végane.md) |
-| Cake Salé Courge Kale Pacane et Fêta | Recipe | 16 | [recipes/Cake Salé Courge Kale Pacane et Fêta.md](recipes/Cake%20Salé%20Courge%20Kale%20Pacane%20et%20Fêta.md) |
-| Carré aux Dattes | Recipe | 12 | [recipes/Carré aux Dattes.md](recipes/Carré%20aux%20Dattes.md) |
-| Caviar d'Aubergine | Recipe | 12 | [recipes/Caviar d'Aubergine.md](recipes/Caviar%20d'Aubergine.md) |
-| Champignon Farcis | Recipe | 31 | [recipes/Champignon Farcis.md](recipes/Champignon%20Farcis.md) |
-| Champignon Farcis prise deux | Recipe | 28 | [recipes/Champignon Farcis prise deux.md](recipes/Champignon%20Farcis%20prise%20deux.md) |
-| Chaudrée de Pêcheur | Recipe | 27 | [recipes/Chaudrée de Pêcheur.md](recipes/Chaudrée%20de%20Pêcheur.md) |
-| Chèvre et le Chou | Recipe | 33 | [recipes/Chèvre et le Chou.md](recipes/Chèvre%20et%20le%20Chou.md) |
-| Chili d'Orge | Recipe | 24 | [recipes/Chili d'Orge.md](recipes/Chili%20d'Orge.md) |
-| Clafoutis aux Pommes | Recipe | 13 | [recipes/Clafoutis aux Pommes.md](recipes/Clafoutis%20aux%20Pommes.md) |
-| Coco Choco Sucré Salée | Recipe | 11 | [recipes/Coco Choco Sucré Salée.md](recipes/Coco%20Choco%20Sucré%20Salée.md) |
-| Compot pomme et poire | Recipe | 5 | [recipes/Compot pomme et poire.md](recipes/Compot%20pomme%20et%20poire.md) |
-| Copy of Burger Sans Gluten Végane | Recipe | 34 | [recipes/Copy of Burger Sans Gluten Végane.md](recipes/Copy%20of%20Burger%20Sans%20Gluten%20Végane.md) |
-| Copy of Poulet Végé Makhani new | Recipe | 40 | [recipes/Copy of Poulet Végé Makhani new.md](recipes/Copy%20of%20Poulet%20Végé%20Makhani%20new.md) |
-| Crème brûlée à l'érable | Recipe | 2 | [recipes/Crème brûlée à l'érable.md](recipes/Crème%20brûlée%20à%20l'érable.md) |
-| Croissant aux salade de poulet végé | Recipe | 2 | [recipes/Croissant aux salade de poulet végé.md](recipes/Croissant%20aux%20salade%20de%20poulet%20végé.md) |
-| Croquettes de Courgette, Patate et Épinards | Recipe | 17 | [recipes/Croquettes de Courgette, Patate et Épinards.md](recipes/Croquettes%20de%20Courgette,%20Patate%20et%20Épinards.md) |
-| Croustade aux Pommes | Recipe | 13 | [recipes/Croustade aux Pommes.md](recipes/Croustade%20aux%20Pommes.md) |
-| Croustade de Saumon | Recipe | 31 | [recipes/Croustade de Saumon.md](recipes/Croustade%20de%20Saumon.md) |
-| Cupcake Bleuets Sauvage et glaçage patate sucrée mauve et hibiscus | Recipe | 16 | [recipes/Cupcake Bleuets Sauvage et glaçage patate sucrée mauve et hibiscus.md](recipes/Cupcake%20Bleuets%20Sauvage%20et%20glaçage%20patate%20sucrée%20mauve%20et%20hibiscus.md) |
-| Curry Aiglefin à la mange et noix de coco | Recipe | 31 | [recipes/Curry Aiglefin à la mange et noix de coco.md](recipes/Curry%20Aiglefin%20à%20la%20mange%20et%20noix%20de%20coco.md) |
-| Curry de Morue Salée | Recipe | 35 | [recipes/Curry de Morue Salée.md](recipes/Curry%20de%20Morue%20Salée.md) |
-| Dragonaise | Recipe | 8 | [recipes/Dragonaise.md](recipes/Dragonaise.md) |
-| Falafels (8) | Recipe | 16 | [recipes/Falafels (8).md](recipes/Falafels%20(8).md) |
-| Falafels, taboulé, navet mariné, tzatziki | Recipe | 37 | [recipes/Falafels, taboulé, navet mariné, tzatziki.md](recipes/Falafels,%20taboulé,%20navet%20mariné,%20tzatziki.md) |
-| Farofa | Recipe | 11 | [recipes/Farofa.md](recipes/Farofa.md) |
-| Fèves Au Lard Sans Lard | Recipe | 18 | [recipes/Fèves Au Lard Sans Lard.md](recipes/Fèves%20Au%20Lard%20Sans%20Lard.md) |
-| Fondant au chocolat Sans gluten | Recipe | 7 | [recipes/Fondant au chocolat Sans gluten.md](recipes/Fondant%20au%20chocolat%20Sans%20gluten.md) |
-| Gâteau à la citrouille | Recipe | 17 | [recipes/Gâteau à la citrouille.md](recipes/Gâteau%20à%20la%20citrouille.md) |
-| Gâteau Carottes 6" | Recipe | 19 | [recipes/Gâteau Carottes 6.md](recipes/Gâteau%20Carottes%206.md) |
-| Gâteau Choco Végane Sans Gluten | Recipe | 15 | [recipes/Gâteau Choco Végane Sans Gluten.md](recipes/Gâteau%20Choco%20Végane%20Sans%20Gluten.md) |
-| Gâteau Forêt Noire Sans Gluten | Recipe | 16 | [recipes/Gâteau Forêt Noire Sans Gluten.md](recipes/Gâteau%20Forêt%20Noire%20Sans%20Gluten.md) |
-| Gâteau Fromage Pistache sans gluten | Recipe | 15 | [recipes/Gâteau Fromage Pistache sans gluten.md](recipes/Gâteau%20Fromage%20Pistache%20sans%20gluten.md) |
-| Gâteau Fromage Pistache sirop d'érable | Recipe | 18 | [recipes/Gâteau Fromage Pistache sirop d'érable.md](recipes/Gâteau%20Fromage%20Pistache%20sirop%20d'érable.md) |
-| Gâteau Roulé à la Citrouille Sans Gluten sans lactose | Recipe | 19 | [recipes/Gâteau Roulé à la Citrouille Sans Gluten sans lactose.md](recipes/Gâteau%20Roulé%20à%20la%20Citrouille%20Sans%20Gluten%20sans%20lactose.md) |
-| Gâteau Torta Câprese | Recipe | 9 | [recipes/Gâteau Torta Câprese.md](recipes/Gâteau%20Torta%20Câprese.md) |
-| Gâteau Vanille | Recipe | 11 | [recipes/Gâteau Vanille.md](recipes/Gâteau%20Vanille.md) |
-| Général Tao au Chou-fleur | Recipe | 0 | [recipes/Général Tao au Chou-fleur.md](recipes/Général%20Tao%20au%20Chou-fleur.md) |
-| Guacamole aux haricots verts | Recipe | 13 | [recipes/Guacamole aux haricots verts.md](recipes/Guacamole%20aux%20haricots%20verts.md) |
-| Hummus à l'aneth | Recipe | 11 | [recipes/Hummus à l'aneth.md](recipes/Hummus%20à%20l'aneth.md) |
-| Hummus de Brocoli et Pistache | Recipe | 12 | [recipes/Hummus de Brocoli et Pistache.md](recipes/Hummus%20de%20Brocoli%20et%20Pistache.md) |
-| Hummus de Cajou | Recipe | 13 | [recipes/Hummus de Cajou.md](recipes/Hummus%20de%20Cajou.md) |
-| Hummus de Panais | Recipe | 14 | [recipes/Hummus de Panais.md](recipes/Hummus%20de%20Panais.md) |
-| Hummus Verts lime | Recipe | 10 | [recipes/Hummus Verts lime.md](recipes/Hummus%20Verts%20lime.md) |
-| L’Aiglefin en Méditerranée | Recipe | 26 | [recipes/L’Aiglefin en Méditerranée.md](recipes/L’Aiglefin%20en%20Méditerranée.md) |
-| Lasagna aux Légumes sans gluten | Recipe | 22 | [recipes/Lasagna aux Légumes sans gluten.md](recipes/Lasagna%20aux%20Légumes%20sans%20gluten.md) |
-| Mac N' Fauxmage Végane Sans Gltuen | Recipe | 16 | [recipes/Mac N' Fauxmage Végane Sans Gltuen.md](recipes/Mac%20N'%20Fauxmage%20Végane%20Sans%20Gltuen.md) |
-| Madeleine Marbré | Recipe | 8 | [recipes/Madeleine Marbré.md](recipes/Madeleine%20Marbré.md) |
-| Madeleines Sans Gluten | Recipe | 7 | [recipes/Madeleines Sans Gluten.md](recipes/Madeleines%20Sans%20Gluten.md) |
-| Mijoter L'eau Vive | Recipe | 29 | [recipes/Mijoter L'eau Vive.md](recipes/Mijoter%20L'eau%20Vive.md) |
-| Mini Galettes de Saumon | Recipe | 14 | [recipes/Mini Galettes de Saumon.md](recipes/Mini%20Galettes%20de%20Saumon.md) |
-| Moqueca | Recipe | 36 | [recipes/Moqueca.md](recipes/Moqueca.md) |
-| Mousakka Végé | Recipe | 29 | [recipes/Mousakka Végé.md](recipes/Mousakka%20Végé.md) |
-| Mousse Choco Praliné | Recipe | 8 | [recipes/Mousse Choco Praliné.md](recipes/Mousse%20Choco%20Praliné.md) |
-| Mousse D'autre Foie | Recipe | 13 | [recipes/Mousse D'autre Foie.md](recipes/Mousse%20D'autre%20Foie.md) |
-| Muffin Cardamome à l'Orange | Recipe | 13 | [recipes/Muffin Cardamome à l'Orange.md](recipes/Muffin%20Cardamome%20à%20l'Orange.md) |
-| Muffin Carottes | Recipe | 16 | [recipes/Muffin Carottes.md](recipes/Muffin%20Carottes.md) |
-| Muffin Choco Épices | Recipe | 15 | [recipes/Muffin Choco Épices.md](recipes/Muffin%20Choco%20Épices.md) |
-| Muffin Choco Framboises | Recipe | 4 | [recipes/Muffin Choco Framboises.md](recipes/Muffin%20Choco%20Framboises.md) |
-| Muffin Citrouille | Recipe | 4 | [recipes/Muffin Citrouille.md](recipes/Muffin%20Citrouille.md) |
-| Muffin Fraises Banane | Recipe | 4 | [recipes/Muffin Fraises Banane.md](recipes/Muffin%20Fraises%20Banane.md) |
-| Muffin Mangue Caju | Recipe | 4 | [recipes/Muffin Mangue Caju.md](recipes/Muffin%20Mangue%20Caju.md) |
-| muffin Pommes Cannelle | Recipe | 17 | [recipes/muffin Pommes Cannelle.md](recipes/muffin%20Pommes%20Cannelle.md) |
-| Muffin Tahini Banane Végane | Recipe | 13 | [recipes/Muffin Tahini Banane Végane.md](recipes/Muffin%20Tahini%20Banane%20Végane.md) |
-| Muffins Bleuets Sauvages | Recipe | 15 | [recipes/Muffins Bleuets Sauvages.md](recipes/Muffins%20Bleuets%20Sauvages.md) |
-| Muffins Orange et Dattes (sans sucre ajouter) | Recipe | 10 | [recipes/Muffins Orange et Dattes (sans sucre ajouter).md](recipes/Muffins%20Orange%20et%20Dattes%20(sans%20sucre%20ajouter).md) |
-| Nid de Pâques Chocolat  Abricot Noisettes | Recipe | 17 | [recipes/Nid de Pâques Chocolat Abricot Noisettes.md](recipes/Nid%20de%20Pâques%20Chocolat%20Abricot%20Noisettes.md) |
-| Nid de Pâques Chocolat Noisettes | Recipe | 22 | [recipes/Nid de Pâques Chocolat Noisettes.md](recipes/Nid%20de%20Pâques%20Chocolat%20Noisettes.md) |
-| Paëlla Végé | Recipe | 31 | [recipes/Paëlla Végé.md](recipes/Paëlla%20Végé.md) |
-| Pain aux Poires et au cheddar | Recipe | 15 | [recipes/Pain aux Poires et au cheddar.md](recipes/Pain%20aux%20Poires%20et%20au%20cheddar.md) |
-| Pain Banane | Recipe | 15 | [recipes/Pain Banane.md](recipes/Pain%20Banane.md) |
-| Pico de Gallo | Recipe | 12 | [recipes/Pico de Gallo.md](recipes/Pico%20de%20Gallo.md) |
-| Pois Chiches (vrac, cuisson maison) | Recipe | 4 | [recipes/Pois Chiches (vrac, cuisson maison).md](recipes/Pois%20Chiches%20(vrac,%20cuisson%20maison).md) |
-| Poké bol au poulet végé sauce coréenne | Recipe | 38 | [recipes/Poké bol au poulet végé sauce coréenne.md](recipes/Poké%20bol%20au%20poulet%20végé%20sauce%20coréenne.md) |
-| Poké bol au saumon gravlax à la Japonaise | Recipe | 36 | [recipes/Poké bol au saumon gravlax à la Japonaise.md](recipes/Poké%20bol%20au%20saumon%20gravlax%20à%20la%20Japonaise.md) |
-| Poké bol au saumon Teryiaki | Recipe | 47 | [recipes/Poké bol au saumon Teryiaki.md](recipes/Poké%20bol%20au%20saumon%20Teryiaki.md) |
-| Potage Crème de tomates | Recipe | 16 | [recipes/Potage Crème de tomates.md](recipes/Potage%20Crème%20de%20tomates.md) |
-| Potage Froid Mélonccio | Recipe | 11 | [recipes/Potage Froid Mélonccio.md](recipes/Potage%20Froid%20Mélonccio.md) |
-| Potage Panais Poires Pecan | Recipe | 20 | [recipes/Potage Panais Poires Pecan.md](recipes/Potage%20Panais%20Poires%20Pecan.md) |
-| Potage Rutabaga Pommes Érable | Recipe | 17 | [recipes/Potage Rutabaga Pommes Érable.md](recipes/Potage%20Rutabaga%20Pommes%20Érable.md) |
-| Potée de Lentilles | Recipe | 20 | [recipes/Potée de Lentilles.md](recipes/Potée%20de%20Lentilles.md) |
-| Pouding au pain | Recipe | 15 | [recipes/Pouding au pain.md](recipes/Pouding%20au%20pain.md) |
-| Poulet Végé à la Cardamome | Recipe | 28 | [recipes/Poulet Végé à la Cardamome.md](recipes/Poulet%20Végé%20à%20la%20Cardamome.md) |
-| Poulet Végé Jerk avec rémoulade à l'orange | Recipe | 30 | [recipes/Poulet Végé Jerk avec rémoulade à l'orange.md](recipes/Poulet%20Végé%20Jerk%20avec%20rémoulade%20à%20l'orange.md) |
-| Poulet Végé Makhani | Recipe | 34 | [recipes/Poulet Végé Makhani.md](recipes/Poulet%20Végé%20Makhani.md) |
-| Poulet Végé Mangue Safran | Recipe | 29 | [recipes/Poulet Végé Mangue Safran.md](recipes/Poulet%20Végé%20Mangue%20Safran.md) |
-| Poulet Végé Satay aux Amandes | Recipe | 29 | [recipes/Poulet Végé Satay aux Amandes.md](recipes/Poulet%20Végé%20Satay%20aux%20Amandes.md) |
-| Poulet Végé Thai | Recipe | 33 | [recipes/Poulet Végé Thai.md](recipes/Poulet%20Végé%20Thai.md) |
-| Poutine Végane (Medium) | Recipe | 25 | [recipes/Poutine Végane (Medium).md](recipes/Poutine%20Végane%20(Medium).md) |
-| Pudding Chia aux Fraises | Recipe | 11 | [recipes/Pudding Chia aux Fraises.md](recipes/Pudding%20Chia%20aux%20Fraises.md) |
-| Pudding Chia Hibiscus | Recipe | 9 | [recipes/Pudding Chia Hibiscus.md](recipes/Pudding%20Chia%20Hibiscus.md) |
-| Pudding Chia Hibiscus | Recipe | 8 | [recipes/Pudding Chia Hibiscus (6729677).md](recipes/Pudding%20Chia%20Hibiscus%20(6729677).md) |
-| Pudding Tapioca Hibiscus | Recipe | 8 | [recipes/Pudding Tapioca Hibiscus.md](recipes/Pudding%20Tapioca%20Hibiscus.md) |
-| Quenelles de Morue (plats) | Recipe | 40 | [recipes/Quenelles de Morue (plats).md](recipes/Quenelles%20de%20Morue%20(plats).md) |
-| Quiche de jambon et légumes | Recipe | 27 | [recipes/Quiche de jambon et légumes.md](recipes/Quiche%20de%20jambon%20et%20légumes.md) |
-| Quiche de saumom, crevette et légumes | Recipe | 25 | [recipes/Quiche de saumom, crevette et légumes.md](recipes/Quiche%20de%20saumom,%20crevette%20et%20légumes.md) |
-| Quiche Forestier | Recipe | 21 | [recipes/Quiche Forestier.md](recipes/Quiche%20Forestier.md) |
-| Ratatouille | Recipe | 25 | [recipes/Ratatouille.md](recipes/Ratatouille.md) |
-| Risotto aux Champignon | Recipe | 16 | [recipes/Risotto aux Champignon.md](recipes/Risotto%20aux%20Champignon.md) |
-| Salade Bandhu | Recipe | 23 | [recipes/Salade Bandhu.md](recipes/Salade%20Bandhu.md) |
-| Salade Betterave noissette | Recipe | 13 | [recipes/Salade Betterave noissette.md](recipes/Salade%20Betterave%20noissette.md) |
-| Salade Betterave Pommes Tofu | Recipe | 13 | [recipes/Salade Betterave Pommes Tofu.md](recipes/Salade%20Betterave%20Pommes%20Tofu.md) |
-| Salade Chou Argousier | Recipe | 25 | [recipes/Salade Chou Argousier.md](recipes/Salade%20Chou%20Argousier.md) |
-| Salade Chou Asiatique | Recipe | 22 | [recipes/Salade Chou Asiatique.md](recipes/Salade%20Chou%20Asiatique.md) |
-| Salade Chou poivrons à la menthe | Recipe | 15 | [recipes/Salade Chou poivrons à la menthe.md](recipes/Salade%20Chou%20poivrons%20à%20la%20menthe.md) |
-| Salade croquante aux chou | Recipe | 14 | [recipes/Salade croquante aux chou.md](recipes/Salade%20croquante%20aux%20chou.md) |
-| Salade Crumble Pois Chiches | Recipe | 19 | [recipes/Salade Crumble Pois Chiches.md](recipes/Salade%20Crumble%20Pois%20Chiches.md) |
-| Salade de Brocoli Crémeuse | Recipe | 17 | [recipes/Salade de Brocoli Crémeuse.md](recipes/Salade%20de%20Brocoli%20Crémeuse.md) |
-| Salade de Carottes Céleri-rave Amandes | Recipe | 15 | [recipes/Salade de Carottes Céleri-rave Amandes.md](recipes/Salade%20de%20Carottes%20Céleri-rave%20Amandes.md) |
-| Salade de Patates sucrées grillées Coréenne | Recipe | 26 | [recipes/Salade de Patates sucrées grillées Coréenne.md](recipes/Salade%20de%20Patates%20sucrées%20grillées%20Coréenne.md) |
-| Salade Dolique à l'oeil noir | Recipe | 21 | [recipes/Salade Dolique à l'oeil noir.md](recipes/Salade%20Dolique%20à%20l'oeil%20noir.md) |
-| Salade Grecque Végane | Recipe | 25 | [recipes/Salade Grecque Végane.md](recipes/Salade%20Grecque%20Végane.md) |
-| Salade Hilairoise | Recipe | 24 | [recipes/Salade Hilairoise.md](recipes/Salade%20Hilairoise.md) |
-| Salade Kale Mangue Chou | Recipe | 16 | [recipes/Salade Kale Mangue Chou.md](recipes/Salade%20Kale%20Mangue%20Chou.md) |
-| Salade Orange Fenouil | Recipe | 14 | [recipes/Salade Orange Fenouil.md](recipes/Salade%20Orange%20Fenouil.md) |
-| Salade Orzo Kale et Pesto | Recipe | 20 | [recipes/Salade Orzo Kale et Pesto.md](recipes/Salade%20Orzo%20Kale%20et%20Pesto.md) |
-| Salade Papillion Brocoli César | Recipe | 18 | [recipes/Salade Papillion Brocoli César.md](recipes/Salade%20Papillion%20Brocoli%20César.md) |
-| Salade Patates Pommes Fenouil | Recipe | 16 | [recipes/Salade Patates Pommes Fenouil.md](recipes/Salade%20Patates%20Pommes%20Fenouil.md) |
-| Salade Provencal | Recipe | 22 | [recipes/Salade Provencal.md](recipes/Salade%20Provencal.md) |
-| Salade Taboulé de Manioc | Recipe | 22 | [recipes/Salade Taboulé de Manioc.md](recipes/Salade%20Taboulé%20de%20Manioc.md) |
-| Sandwich à l'Aiglefin Noirci | Recipe | 26 | [recipes/Sandwich à l'Aiglefin Noirci.md](recipes/Sandwich%20à%20l'Aiglefin%20Noirci.md) |
-| Sandwich Banh Mi Poulet Végé Satay | Recipe | 5 | [recipes/Sandwich Banh Mi Poulet Végé Satay.md](recipes/Sandwich%20Banh%20Mi%20Poulet%20Végé%20Satay.md) |
-| Sandwich hummus, pommes, et brie | Recipe | 10 | [recipes/Sandwich hummus, pommes, et brie.md](recipes/Sandwich%20hummus,%20pommes,%20et%20brie.md) |
-| Sandwich Pleurotes Effiloché Végane | Recipe | 29 | [recipes/Sandwich Pleurotes Effiloché Végane.md](recipes/Sandwich%20Pleurotes%20Effiloché%20Végane.md) |
-| Sandwich Poulet Makhani | Recipe | 39 | [recipes/Sandwich Poulet Makhani.md](recipes/Sandwich%20Poulet%20Makhani.md) |
-| Sandwich Poulet végé Tropical | Recipe | 38 | [recipes/Sandwich Poulet végé Tropical.md](recipes/Sandwich%20Poulet%20végé%20Tropical.md) |
-| Sandwich Salade de Poulet Végé végane | Recipe | 3 | [recipes/Sandwich Salade de Poulet Végé végane.md](recipes/Sandwich%20Salade%20de%20Poulet%20Végé%20végane.md) |
-| Sandwich Saumon Cajun | Recipe | 29 | [recipes/Sandwich Saumon Cajun.md](recipes/Sandwich%20Saumon%20Cajun.md) |
-| Sandwich Saumon Pesto Artichaut | Recipe | 18 | [recipes/Sandwich Saumon Pesto Artichaut.md](recipes/Sandwich%20Saumon%20Pesto%20Artichaut.md) |
-| Sandwich Saumon Pesto Poivrons | Recipe | 12 | [recipes/Sandwich Saumon Pesto Poivrons.md](recipes/Sandwich%20Saumon%20Pesto%20Poivrons.md) |
-| Sandwich Saumon Pesto Zucchini | Recipe | 12 | [recipes/Sandwich Saumon Pesto Zucchini.md](recipes/Sandwich%20Saumon%20Pesto%20Zucchini.md) |
-| Sandwich Saumon Sésame Gingenbre | Recipe | 34 | [recipes/Sandwich Saumon Sésame Gingenbre.md](recipes/Sandwich%20Saumon%20Sésame%20Gingenbre.md) |
-| Sauce au Pétoncles et Crevettes avec Pâte SG | Recipe | 3 | [recipes/Sauce au Pétoncles et Crevettes avec Pâte SG.md](recipes/Sauce%20au%20Pétoncles%20et%20Crevettes%20avec%20Pâte%20SG.md) |
-| Sauce Aux Champignon à l'estragon Végane | Recipe | 24 | [recipes/Sauce Aux Champignon à l'estragon Végane.md](recipes/Sauce%20Aux%20Champignon%20à%20l'estragon%20Végane.md) |
-| Sauce Aux Champignon à l'estragon Végane sur pâte | Recipe | 2 | [recipes/Sauce Aux Champignon à l'estragon Végane sur pâte.md](recipes/Sauce%20Aux%20Champignon%20à%20l'estragon%20Végane%20sur%20pâte.md) |
-| Sauce Aux Champignon tofu tomates séchées | Recipe | 23 | [recipes/Sauce Aux Champignon tofu tomates séchées.md](recipes/Sauce%20Aux%20Champignon%20tofu%20tomates%20séchées.md) |
-| Sauce Champignon tofu tomates sur pâte SG | Recipe | 2 | [recipes/Sauce Champignon tofu tomates sur pâte SG.md](recipes/Sauce%20Champignon%20tofu%20tomates%20sur%20pâte%20SG.md) |
-| Sauce Satay | Recipe | 16 | [recipes/Sauce Satay.md](recipes/Sauce%20Satay.md) |
-| Sauce Saumon Fumé Crevette Sur Pâte SG | Recipe | 3 | [recipes/Sauce Saumon Fumé Crevette Sur Pâte SG.md](recipes/Sauce%20Saumon%20Fumé%20Crevette%20Sur%20Pâte%20SG.md) |
-| Sauce tofu tomates avec pâtes | Recipe | 2 | [recipes/Sauce tofu tomates avec pâtes.md](recipes/Sauce%20tofu%20tomates%20avec%20pâtes.md) |
-| Sauce Tofu Tomates Légumes1 | Recipe | 24 | [recipes/Sauce Tofu Tomates Légumes1.md](recipes/Sauce%20Tofu%20Tomates%20Légumes1.md) |
-| Saumon / Aiglefin Légumes Cajuns | Recipe | 23 | [recipes/Saumon Aiglefin Légumes Cajuns.md](recipes/Saumon%20Aiglefin%20Légumes%20Cajuns.md) |
-| Saumon au Pesto Poivrons rôtis | Recipe | 11 | [recipes/Saumon au Pesto Poivrons rôtis.md](recipes/Saumon%20au%20Pesto%20Poivrons%20rôtis.md) |
-| Saumon au Pesto Zucchini | Recipe | 10 | [recipes/Saumon au Pesto Zucchini.md](recipes/Saumon%20au%20Pesto%20Zucchini.md) |
-| Saumon Fleur d'Ail au Gratin Courgette | Recipe | 15 | [recipes/Saumon Fleur d'Ail au Gratin Courgette.md](recipes/Saumon%20Fleur%20d'Ail%20au%20Gratin%20Courgette.md) |
-| Saumon Gravlax à l'aneth sur salade de patate et fenouil | Recipe | 15 | [recipes/Saumon Gravlax à l'aneth sur salade de patate et fenouil.md](recipes/Saumon%20Gravlax%20à%20l'aneth%20sur%20salade%20de%20patate%20et%20fenouil.md) |
-| Saumon Gravlax aux Betterave et Orange | Recipe | 8 | [recipes/Saumon Gravlax aux Betterave et Orange.md](recipes/Saumon%20Gravlax%20aux%20Betterave%20et%20Orange.md) |
-| Saumon Gravlax Kuyashii Tranché | Recipe | 8 | [recipes/Saumon Gravlax Kuyashii Tranché.md](recipes/Saumon%20Gravlax%20Kuyashii%20Tranché.md) |
-| Saumon Gravlax Tranché à l'aneth | Recipe | 11 | [recipes/Saumon Gravlax Tranché à l'aneth.md](recipes/Saumon%20Gravlax%20Tranché%20à%20l'aneth.md) |
-| Saumon Pesto Artichaut | Recipe | 13 | [recipes/Saumon Pesto Artichaut.md](recipes/Saumon%20Pesto%20Artichaut.md) |
-| Saumon Sésame Gingembre | Recipe | 27 | [recipes/Saumon Sésame Gingembre.md](recipes/Saumon%20Sésame%20Gingembre.md) |
-| Soup Pho Végane | Recipe | 26 | [recipes/Soup Pho Végane.md](recipes/Soup%20Pho%20Végane.md) |
-| Soupe Bouillabaise | Recipe | 31 | [recipes/Soupe Bouillabaise.md](recipes/Soupe%20Bouillabaise.md) |
-| Soupe Champignon Estragon | Recipe | 19 | [recipes/Soupe Champignon Estragon.md](recipes/Soupe%20Champignon%20Estragon.md) |
-| Soupe Coréenne | Recipe | 27 | [recipes/Soupe Coréenne.md](recipes/Soupe%20Coréenne.md) |
-| Soupe Epangnol | Recipe | 29 | [recipes/Soupe Epangnol.md](recipes/Soupe%20Epangnol.md) |
-| Soupe Légumes Lentilles Chipotle | Recipe | 23 | [recipes/Soupe Légumes Lentilles Chipotle.md](recipes/Soupe%20Légumes%20Lentilles%20Chipotle.md) |
-| Soupe Mole Verde | Recipe | 20 | [recipes/Soupe Mole Verde.md](recipes/Soupe%20Mole%20Verde.md) |
-| Soupe Tom Mium Vert | Recipe | 36 | [recipes/Soupe Tom Mium Vert.md](recipes/Soupe%20Tom%20Mium%20Vert.md) |
-| Soupe Tulum | Recipe | 28 | [recipes/Soupe Tulum.md](recipes/Soupe%20Tulum.md) |
-| Tarte au Citron SG | Recipe | 7 | [recipes/Tarte au Citron SG.md](recipes/Tarte%20au%20Citron%20SG.md) |
-| Tarte au Lime SG | Recipe | 8 | [recipes/Tarte au Lime SG.md](recipes/Tarte%20au%20Lime%20SG.md) |
-| Tarte aux Bleuets sans gluten | Recipe | 10 | [recipes/Tarte aux Bleuets sans gluten.md](recipes/Tarte%20aux%20Bleuets%20sans%20gluten.md) |
-| Tarte Bourdaloue poires et amandes | Recipe | 17 | [recipes/Tarte Bourdaloue poires et amandes.md](recipes/Tarte%20Bourdaloue%20poires%20et%20amandes.md) |
-| Tarte Choco Poires | Recipe | 14 | [recipes/Tarte Choco Poires.md](recipes/Tarte%20Choco%20Poires.md) |
-| Tarte Choco Poires ou Pommes Sans Gluten 7" | Recipe | 14 | [recipes/Tarte Choco Poires ou Pommes Sans Gluten 7.md](recipes/Tarte%20Choco%20Poires%20ou%20Pommes%20Sans%20Gluten%207.md) |
-| Tarte Choco Poires ou Pommes Sans Gluten 8" | Recipe | 14 | [recipes/Tarte Choco Poires ou Pommes Sans Gluten 8.md](recipes/Tarte%20Choco%20Poires%20ou%20Pommes%20Sans%20Gluten%208.md) |
-| Tarte L'Épous -tou-flan | Recipe | 20 | [recipes/Tarte L'Épous -tou-flan.md](recipes/Tarte%20L'Épous%20-tou-flan.md) |
-| Tartelette Crue Aux bleuets | Recipe | 14 | [recipes/Tartelette Crue Aux bleuets.md](recipes/Tartelette%20Crue%20Aux%20bleuets.md) |
-| Temps de Travail Cuisine | Recipe | 1 | [recipes/Temps de Travail Cuisine.md](recipes/Temps%20de%20Travail%20Cuisine.md) |
-| Tiramisu Végane | Recipe | 24 | [recipes/Tiramisu Végane.md](recipes/Tiramisu%20Végane.md) |
-| Tofu Jerk à la noix de coco | Recipe | 45 | [recipes/Tofu Jerk à la noix de coco.md](recipes/Tofu%20Jerk%20à%20la%20noix%20de%20coco.md) |
-| Tofu Makhani | Recipe | 48 | [recipes/Tofu Makhani.md](recipes/Tofu%20Makhani.md) |
-| Tour de Mousse aux Fraise et Chocolat | Recipe | 22 | [recipes/Tour de Mousse aux Fraise et Chocolat.md](recipes/Tour%20de%20Mousse%20aux%20Fraise%20et%20Chocolat.md) |
-| Tour de Mousse aux Framboises et Chocolat | Recipe | 22 | [recipes/Tour de Mousse aux Framboises et Chocolat.md](recipes/Tour%20de%20Mousse%20aux%20Framboises%20et%20Chocolat.md) |
-| Vinaigrette Italienne | Recipe | 13 | [recipes/Vinaigrette Italienne.md](recipes/Vinaigrette%20Italienne.md) |
-| Vinaigrette Provençal à la tomate séché | Recipe | 12 | [recipes/Vinaigrette Provençal à la tomate séché.md](recipes/Vinaigrette%20Provençal%20à%20la%20tomate%20séché.md) |
-| Wrap aux Salade de Thon | Recipe | 11 | [recipes/Wrap aux Salade de Thon.md](recipes/Wrap%20aux%20Salade%20de%20Thon.md) |
-| Wrap Banh-Mi Poulet Végé Satay | Recipe | 6 | [recipes/Wrap Banh-Mi Poulet Végé Satay.md](recipes/Wrap%20Banh-Mi%20Poulet%20Végé%20Satay.md) |
-| Wrap de hummus, pommes, et brie | Recipe | 10 | [recipes/Wrap de hummus, pommes, et brie.md](recipes/Wrap%20de%20hummus,%20pommes,%20et%20brie.md) |
-| Wrap Poulet Végé Makhani | Recipe | 39 | [recipes/Wrap Poulet Végé Makhani.md](recipes/Wrap%20Poulet%20Végé%20Makhani.md) |
-| Wraps à la salade de thon et miso | Recipe | 4 | [recipes/Wraps à la salade de thon et miso.md](recipes/Wraps%20à%20la%20salade%20de%20thon%20et%20miso.md) |
-| 4 Épices | Sub-recipe | 5 | [sub-recipes/4 Épices.md](sub-recipes/4%20Épices.md) |
-| Bouillon de Légumes maison | Sub-recipe | 6 | [sub-recipes/Bouillon de Légumes maison.md](sub-recipes/Bouillon%20de%20Légumes%20maison.md) |
-| Bouillon de Poulet Végé (maison) sans gluten | Sub-recipe | 16 | [sub-recipes/Bouillon de Poulet Végé (maison) sans gluten.md](sub-recipes/Bouillon%20de%20Poulet%20Végé%20(maison)%20sans%20gluten.md) |
-| Chutney mangue et abricot | Sub-recipe | 9 | [sub-recipes/Chutney mangue et abricot.md](sub-recipes/Chutney%20mangue%20et%20abricot.md) |
-| Confiture de cerises | Sub-recipe | 5 | [sub-recipes/Confiture de cerises.md](sub-recipes/Confiture%20de%20cerises.md) |
-| Copy of Sauce Aux Champignon à l'estragon Végane | Sub-recipe | 24 | [sub-recipes/Copy of Sauce Aux Champignon à l'estragon Végane.md](sub-recipes/Copy%20of%20Sauce%20Aux%20Champignon%20à%20l'estragon%20Végane.md) |
-| Courge Butternut grillé épice de citrouille | Sub-recipe | 6 | [sub-recipes/Courge Butternut grillé épice de citrouille.md](sub-recipes/Courge%20Butternut%20grillé%20épice%20de%20citrouille.md) |
-| Crème Brûlée à la Vanille | Sub-recipe | 5 | [sub-recipes/Crème Brûlée à la Vanille.md](sub-recipes/Crème%20Brûlée%20à%20la%20Vanille.md) |
-| Crème Foutté | Sub-recipe | 4 | [sub-recipes/Crème Foutté.md](sub-recipes/Crème%20Foutté.md) |
-| Crème Pâtissière Végane | Sub-recipe | 8 | [sub-recipes/Crème Pâtissière Végane.md](sub-recipes/Crème%20Pâtissière%20Végane.md) |
-| Épice de citrouille | Sub-recipe | 6 | [sub-recipes/Épice de citrouille.md](sub-recipes/Épice%20de%20citrouille.md) |
-| Fish curry Massala | Sub-recipe | 7 | [sub-recipes/Fish curry Massala.md](sub-recipes/Fish%20curry%20Massala.md) |
-| Fond de tarte Mais sans gluten | Sub-recipe | 6 | [sub-recipes/Fond de tarte Mais sans gluten.md](sub-recipes/Fond%20de%20tarte%20Mais%20sans%20gluten.md) |
-| Fromage de Chèvre et Fleur D'ail | Sub-recipe | 5 | [sub-recipes/Fromage de Chèvre et Fleur D'ail.md](sub-recipes/Fromage%20de%20Chèvre%20et%20Fleur%20D'ail.md) |
-| Ganache Torta | Sub-recipe | 4 | [sub-recipes/Ganache Torta.md](sub-recipes/Ganache%20Torta.md) |
-| Garam Massala | Sub-recipe | 9 | [sub-recipes/Garam Massala.md](sub-recipes/Garam%20Massala.md) |
-| Glaçage Gâteau Carotte | Sub-recipe | 5 | [sub-recipes/Glaçage Gâteau Carotte.md](sub-recipes/Glaçage%20Gâteau%20Carotte.md) |
-| Glaçage Patate sucre mauve | Sub-recipe | 10 | [sub-recipes/Glaçage Patate sucre mauve.md](sub-recipes/Glaçage%20Patate%20sucre%20mauve.md) |
-| Glaçage Torta Caprese | Sub-recipe | 4 | [sub-recipes/Glaçage Torta Caprese.md](sub-recipes/Glaçage%20Torta%20Caprese.md) |
-| Hummus Classique | Sub-recipe | 10 | [sub-recipes/Hummus Classique.md](sub-recipes/Hummus%20Classique.md) |
-| Ludonnaise Maison | Sub-recipe | 7 | [sub-recipes/Ludonnaise Maison.md](sub-recipes/Ludonnaise%20Maison.md) |
-| marinade de Légumes Cajuns | Sub-recipe | 17 | [sub-recipes/marinade de Légumes Cajuns.md](sub-recipes/marinade%20de%20Légumes%20Cajuns.md) |
-| Marinade Fleur d'ail | Sub-recipe | 6 | [sub-recipes/Marinade Fleur d'ail.md](sub-recipes/Marinade%20Fleur%20d'ail.md) |
-| Muffin Sans Gluten (Le Base) | Sub-recipe | 12 | [sub-recipes/Muffin Sans Gluten (Le Base).md](sub-recipes/Muffin%20Sans%20Gluten%20(Le%20Base).md) |
-| Napage Neutre (concentrée) | Sub-recipe | 5 | [sub-recipes/Napage Neutre (concentrée).md](sub-recipes/Napage%20Neutre%20(concentrée).md) |
-| Panch Pharon | Sub-recipe | 6 | [sub-recipes/Panch Pharon.md](sub-recipes/Panch%20Pharon.md) |
-| Pesto d'Artichauts | Sub-recipe | 10 | [sub-recipes/Pesto d'Artichauts.md](sub-recipes/Pesto%20d'Artichauts.md) |
-| Pesto Poivrons Rôtis | Sub-recipe | 16 | [sub-recipes/Pesto Poivrons Rôtis.md](sub-recipes/Pesto%20Poivrons%20Rôtis.md) |
-| Pesto Zucchini | Sub-recipe | 13 | [sub-recipes/Pesto Zucchini.md](sub-recipes/Pesto%20Zucchini.md) |
-| Purée de Patate à l'Ail Confit | Sub-recipe | 8 | [sub-recipes/Purée de Patate à l'Ail Confit.md](sub-recipes/Purée%20de%20Patate%20à%20l'Ail%20Confit.md) |
-| PVT Fumée | Sub-recipe | 3 | [sub-recipes/PVT Fumée.md](sub-recipes/PVT%20Fumée.md) |
-| Quenelles de Morue | Sub-recipe | 20 | [sub-recipes/Quenelles de Morue.md](sub-recipes/Quenelles%20de%20Morue.md) |
-| Salade Asiatique | Sub-recipe | 15 | [sub-recipes/Salade Asiatique.md](sub-recipes/Salade%20Asiatique.md) |
-| Salade de Fruits | Sub-recipe | 10 | [sub-recipes/Salade de Fruits.md](sub-recipes/Salade%20de%20Fruits.md) |
-| Salade de Poulet Végé | Sub-recipe | 18 | [sub-recipes/Salade de Poulet Végé.md](sub-recipes/Salade%20de%20Poulet%20Végé.md) |
-| Salade de Thon | Sub-recipe | 18 | [sub-recipes/Salade de Thon.md](sub-recipes/Salade%20de%20Thon.md) |
-| Salade De Thon et Miso | Sub-recipe | 15 | [sub-recipes/Salade De Thon et Miso.md](sub-recipes/Salade%20De%20Thon%20et%20Miso.md) |
-| Sauce au Pétoncles et Crevettes | Sub-recipe | 26 | [sub-recipes/Sauce au Pétoncles et Crevettes.md](sub-recipes/Sauce%20au%20Pétoncles%20et%20Crevettes.md) |
-| Sauce Aux Champignon tofu tomates séchées KG | Sub-recipe | 23 | [sub-recipes/Sauce Aux Champignon tofu tomates séchées KG.md](sub-recipes/Sauce%20Aux%20Champignon%20tofu%20tomates%20séchées%20KG.md) |
-| Sauce BBQ Miso | Sub-recipe | 13 | [sub-recipes/Sauce BBQ Miso.md](sub-recipes/Sauce%20BBQ%20Miso.md) |
-| Sauce Bolinhos | Sub-recipe | 8 | [sub-recipes/Sauce Bolinhos.md](sub-recipes/Sauce%20Bolinhos.md) |
-| Sauce Canneberge à l'Orange | Sub-recipe | 11 | [sub-recipes/Sauce Canneberge à l'Orange.md](sub-recipes/Sauce%20Canneberge%20à%20l'Orange.md) |
-| Sauce Champignon Tamari Maison | Sub-recipe | 7 | [sub-recipes/Sauce Champignon Tamari Maison.md](sub-recipes/Sauce%20Champignon%20Tamari%20Maison.md) |
-| Sauce Forestière (Sauce Pountine) | Sub-recipe | 9 | [sub-recipes/Sauce Forestière (Sauce Pountine).md](sub-recipes/Sauce%20Forestière%20(Sauce%20Pountine).md) |
-| Sauce Gochujang Maison | Sub-recipe | 15 | [sub-recipes/Sauce Gochujang Maison.md](sub-recipes/Sauce%20Gochujang%20Maison.md) |
-| Sauce Marinara | Sub-recipe | 14 | [sub-recipes/Sauce Marinara.md](sub-recipes/Sauce%20Marinara.md) |
-| Sauce Rouleau Printemps Végane (maison) | Sub-recipe | 13 | [sub-recipes/Sauce Rouleau Printemps Végane (maison).md](sub-recipes/Sauce%20Rouleau%20Printemps%20Végane%20(maison).md) |
-| Sauce Satay aux Amandes | Sub-recipe | 16 | [sub-recipes/Sauce Satay aux Amandes.md](sub-recipes/Sauce%20Satay%20aux%20Amandes.md) |
-| Sauce Saumon Fumé Crevette et Mangue | Sub-recipe | 20 | [sub-recipes/Sauce Saumon Fumé Crevette et Mangue.md](sub-recipes/Sauce%20Saumon%20Fumé%20Crevette%20et%20Mangue.md) |
-| Sauce Tofu Tomates Légumes | Sub-recipe | 24 | [sub-recipes/Sauce Tofu Tomates Légumes.md](sub-recipes/Sauce%20Tofu%20Tomates%20Légumes.md) |
-| Sauce Tomate Ratatouille | Sub-recipe | 13 | [sub-recipes/Sauce Tomate Ratatouille.md](sub-recipes/Sauce%20Tomate%20Ratatouille.md) |
-| Sirop de Gingembre Maison | Sub-recipe | 4 | [sub-recipes/Sirop de Gingembre Maison.md](sub-recipes/Sirop%20de%20Gingembre%20Maison.md) |
-| Sucré Salée aux pécanes Sans Gluten | Sub-recipe | 13 | [sub-recipes/Sucré Salée aux pécanes Sans Gluten.md](sub-recipes/Sucré%20Salée%20aux%20pécanes%20Sans%20Gluten.md) |
+Each row's `recipe_id` is the exact filename (without `.md`) that `menus-recommend` uses when it places a dish. Tags are the unified-schema fields from each recipe's frontmatter; blank cells mean the tag was not recorded.
 
-
----
-
-## Digitized recipe additions (from photo pipeline)
-
-| Recipe | Source | File |
-|---|---|---|
-| Cardamom Chicken | transcribed-en | [recipes-en/cardamom-chicken.md](recipes-en/cardamom-chicken.md) |
-| Ribollita Soup | transcribed-en | [recipes-en/ribollita-soup.md](recipes-en/ribollita-soup.md) |
-| Scallop Shrimp Sauce | transcribed-en | [recipes-en/scallop-shrimp-sauce.md](recipes-en/scallop-shrimp-sauce.md) |
-| Vege Chicken Salad | transcribed-en | [recipes-en/vege-chicken-salad.md](recipes-en/vege-chicken-salad.md) |
-
-## Menu-derived additions (tag-only stubs, ingredients TBD)
-
-| Dish | Format | Menu appearances | File |
-|---|---|---|---|
-| Beet goat cheese | salad | 19 | [recipes-en/beet-goat-cheese.md](recipes-en/beet-goat-cheese.md) |
-| Mulligatawny | soup | 17 | [recipes-en/mulligatawny.md](recipes-en/mulligatawny.md) |
-| Veg almond coconut | soup | 16 | [recipes-en/veg-almond-coconut.md](recipes-en/veg-almond-coconut.md) |
-| Celeriac apple | salad | 14 | [recipes-en/celeriac-apple.md](recipes-en/celeriac-apple.md) |
-| Thai peanut | soup | 12 | [recipes-en/thai-peanut.md](recipes-en/thai-peanut.md) |
-| Harira | soup | 11 | [recipes-en/harira.md](recipes-en/harira.md) |
-| Root trio | salad | 10 | [recipes-en/root-trio.md](recipes-en/root-trio.md) |
-| Romesco | sauce-condiment | 10 | [recipes-en/romesco.md](recipes-en/romesco.md) |
-| Roasted peppers | dip-spread | 10 | [recipes-en/roasted-peppers.md](recipes-en/roasted-peppers.md) |
-| Moroccan | soup | 9 | [recipes-en/moroccan.md](recipes-en/moroccan.md) |
-| Old-fashioned potato | salad | 9 | [recipes-en/old-fashioned-potato.md](recipes-en/old-fashioned-potato.md) |
-| Cauliflower shiitake | soup | 8 | [recipes-en/cauliflower-shiitake.md](recipes-en/cauliflower-shiitake.md) |
-| Carrot kale quinoa | salad | 8 | [recipes-en/carrot-kale-quinoa.md](recipes-en/carrot-kale-quinoa.md) |
-| Indian lentils | soup | 8 | [recipes-en/indian-lentils.md](recipes-en/indian-lentils.md) |
-| Provençal | salad | 8 | [recipes-en/provencal.md](recipes-en/provencal.md) |
-| Rémoulade | salad | 8 | [recipes-en/remoulade.md](recipes-en/remoulade.md) |
-| Squash maple ginger | soup | 7 | [recipes-en/squash-maple-ginger.md](recipes-en/squash-maple-ginger.md) |
-| Squash spinach coconut | curry | 7 | [recipes-en/squash-spinach-coconut.md](recipes-en/squash-spinach-coconut.md) |
-| The Moroccan | soup | 7 | [recipes-en/the-moroccan.md](recipes-en/the-moroccan.md) |
-| Braised vegetables | stew | 7 | [recipes-en/braised-vegetables.md](recipes-en/braised-vegetables.md) |
-| Baked veg | soup | 7 | [recipes-en/baked-veg.md](recipes-en/baked-veg.md) |
-| Veg buckwheat | soup | 7 | [recipes-en/veg-buckwheat.md](recipes-en/veg-buckwheat.md) |
-| Veg apple ginger | soup | 7 | [recipes-en/veg-apple-ginger.md](recipes-en/veg-apple-ginger.md) |
-| Parsnip lentils | soup | 6 | [recipes-en/parsnip-lentils.md](recipes-en/parsnip-lentils.md) |
-| Grilled fennel | side | 6 | [recipes-en/grilled-fennel.md](recipes-en/grilled-fennel.md) |
-| Squash spinach | soup | 6 | [recipes-en/squash-spinach.md](recipes-en/squash-spinach.md) |
-| Tofu BBQ | plated-main | 6 | [recipes-en/tofu-bbq.md](recipes-en/tofu-bbq.md) |
-| Veg orange ginger | soup | 6 | [recipes-en/veg-orange-ginger.md](recipes-en/veg-orange-ginger.md) |
-| Tofu spread | dip-spread | 5 | [recipes-en/tofu-spread.md](recipes-en/tofu-spread.md) |
-| Delicata | salad | 5 | [recipes-en/delicata.md](recipes-en/delicata.md) |
-| Green peas | soup | 5 | [recipes-en/green-peas.md](recipes-en/green-peas.md) |
-| Tomato zucchini | soup | 5 | [recipes-en/tomato-zucchini.md](recipes-en/tomato-zucchini.md) |
-| Butternut squash | dip-spread | 5 | [recipes-en/butternut-squash.md](recipes-en/butternut-squash.md) |
-| Buckwheat veg | soup | 5 | [recipes-en/buckwheat-veg.md](recipes-en/buckwheat-veg.md) |
-| Summer green | salad | 5 | [recipes-en/summer-green.md](recipes-en/summer-green.md) |
-| Kravante | salad | 4 | [recipes-en/kravante.md](recipes-en/kravante.md) |
-| Squash lentils | salad | 4 | [recipes-en/squash-lentils.md](recipes-en/squash-lentils.md) |
-| Shrimp remoulade | sauce-condiment | 4 | [recipes-en/shrimp-remoulade.md](recipes-en/shrimp-remoulade.md) |
-| Yellow peas | soup | 4 | [recipes-en/yellow-peas.md](recipes-en/yellow-peas.md) |
-| Green beans | salad | 4 | [recipes-en/green-beans.md](recipes-en/green-beans.md) |
-| Carrot orange | salad | 4 | [recipes-en/carrot-orange.md](recipes-en/carrot-orange.md) |
-| Veg barley miso | soup | 4 | [recipes-en/veg-barley-miso.md](recipes-en/veg-barley-miso.md) |
-| Peppers ginger | dip-spread | 4 | [recipes-en/peppers-ginger.md](recipes-en/peppers-ginger.md) |
-| Squash apple swiss | soup | 4 | [recipes-en/squash-apple-swiss.md](recipes-en/squash-apple-swiss.md) |
-| Cabbage apple radish | salad | 4 | [recipes-en/cabbage-apple-radish.md](recipes-en/cabbage-apple-radish.md) |
-| Roasted vegetables | soup | 4 | [recipes-en/roasted-vegetables.md](recipes-en/roasted-vegetables.md) |
-| Carrot madras curry | soup | 4 | [recipes-en/carrot-madras-curry.md](recipes-en/carrot-madras-curry.md) |
-| Carrot apple curry | soup | 4 | [recipes-en/carrot-apple-curry.md](recipes-en/carrot-apple-curry.md) |
-| Mint tabbouleh | salad | 4 | [recipes-en/mint-tabbouleh.md](recipes-en/mint-tabbouleh.md) |
-| Ptd old-style | salad | 4 | [recipes-en/ptd-old-style.md](recipes-en/ptd-old-style.md) |
-| Split green peas | soup | 3 | [recipes-en/split-green-peas.md](recipes-en/split-green-peas.md) |
-| Vegetable barley miso | soup | 3 | [recipes-en/vegetable-barley-miso.md](recipes-en/vegetable-barley-miso.md) |
-| Stews | stew | 3 | [recipes-en/stews.md](recipes-en/stews.md) |
-| Yellow split peas | soup | 3 | [recipes-en/yellow-split-peas.md](recipes-en/yellow-split-peas.md) |
-| Balsamic maple | sauce-condiment | 3 | [recipes-en/balsamic-maple.md](recipes-en/balsamic-maple.md) |
-| Pepper ginger | dip-spread | 3 | [recipes-en/pepper-ginger.md](recipes-en/pepper-ginger.md) |
-| Cabbage peppers | salad | 3 | [recipes-en/cabbage-peppers.md](recipes-en/cabbage-peppers.md) |
-| Butternut beet | soup | 3 | [recipes-en/butternut-beet.md](recipes-en/butternut-beet.md) |
-| Tomato zucchini mint | soup | 3 | [recipes-en/tomato-zucchini-mint.md](recipes-en/tomato-zucchini-mint.md) |
-| Maple balsamic | sauce-condiment | 3 | [recipes-en/maple-balsamic.md](recipes-en/maple-balsamic.md) |
-| Pesto peppers | plated-main | 3 | [recipes-en/pesto-peppers.md](recipes-en/pesto-peppers.md) |
-| Sweet potato white wine | soup | 3 | [recipes-en/sweet-potato-white-wine.md](recipes-en/sweet-potato-white-wine.md) |
-| Carrot curry | soup | 3 | [recipes-en/carrot-curry.md](recipes-en/carrot-curry.md) |
-| Potato hummus | handheld | 3 | [recipes-en/potato-hummus.md](recipes-en/potato-hummus.md) |
-| Farro | salad | 3 | [recipes-en/farro.md](recipes-en/farro.md) |
-| Parsnip lentil | soup | 3 | [recipes-en/parsnip-lentil.md](recipes-en/parsnip-lentil.md) |
-| Orange rémoulade | salad | 3 | [recipes-en/orange-remoulade.md](recipes-en/orange-remoulade.md) |
+| Recipe | recipe_id | Protein | Temp | Format | Cuisine | Spice | Diet |
+|---|---|---|---|---|---|---|---|
+| [Apple and Pear Compote](recipes-en/apple-and-pear-compote.md) | `apple-and-pear-compote` | none |  | sauce-condiment |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Apple Cinnamon Muffin](recipes-en/apple-cinnamon-muffin.md) | `apple-cinnamon-muffin` | none | room | baked-good | american | none | vegetarian, gluten-free, dairy-free |
+| [Apple Clafoutis](recipes-en/apple-clafoutis.md) | `apple-clafoutis` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Apple Crumble](recipes-en/apple-crumble.md) | `apple-crumble` | none | warm | baked-good | british | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Asian Cabbage Salad](recipes-en/asian-cabbage-salad.md) | `asian-cabbage-salad` | vegetable | cold | salad | korean | mild | vegan, vegetarian, dairy-free |
+| [Baked Beans Without Bacon](recipes-en/baked-beans-without-bacon.md) | `baked-beans-without-bacon` | legume | hot | side | american | mild | vegan, vegetarian, dairy-free |
+| [Baked veg](recipes-en/baked-veg.md) | `baked-veg` | vegetable | hot | soup |  | none |  |
+| [Balsamic maple](recipes-en/balsamic-maple.md) | `balsamic-maple` |  | room | sauce-condiment |  |  | vegan, dairy-free |
+| [Ban-Oufti Rainbow](recipes-en/ban-oufti-rainbow.md) | `ban-oufti-rainbow` | none | frozen | handheld |  | none | vegetarian |
+| [Ban-Oufti](recipes-en/ban-oufti.md) | `ban-oufti` | none | frozen | handheld |  | none | vegetarian |
+| [Banana Bread](recipes-en/banana-bread.md) | `banana-bread` | none | room | baked-good | american | none | vegetarian |
+| [Banana Oat Cookies Gluten-Free](recipes-en/banana-oat-cookies-gluten-free.md) | `banana-oat-cookies-gluten-free` | none | room | baked-good | american | none | vegetarian, gluten-free |
+| [Bandhu Salad](recipes-en/bandhu-salad.md) | `bandhu-salad` | vegetable | room | salad | indian | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Barley Chili](recipes-en/barley-chili.md) | `barley-chili` | vegetable | hot | stew | tex-mex | medium | vegetarian |
+| [Beet and Orange Gravlax Salmon](recipes-en/beet-and-orange-gravlax-salmon.md) | `beet-and-orange-gravlax-salmon` | fish | cold | shareable | scandinavian | none | pescatarian, gluten-free, dairy-free, high-protein |
+| [Beet Apple Tofu Salad](recipes-en/beet-apple-tofu-salad.md) | `beet-apple-tofu-salad` | vegetable | cold | salad |  | mild |  |
+| [Beet goat cheese](recipes-en/beet-goat-cheese.md) | `beet-goat-cheese` | vegetable | cold | salad | french | none | vegetarian |
+| [Beet Hazelnut Salad](recipes-en/beet-hazelnut-salad.md) | `beet-hazelnut-salad` | vegetable | cold | salad |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Black-Eyed Pea Salad](recipes-en/black-eyed-pea-salad.md) | `black-eyed-pea-salad` | legume | cold | salad | southern-us | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Black Forest Cake Gluten-Free](recipes-en/black-forest-cake-gluten-free.md) | `black-forest-cake-gluten-free` | none | cold | baked-good | german | none | vegetarian, gluten-free |
+| [Blackened Haddock Sandwich](recipes-en/blackened-haddock-sandwich.md) | `blackened-haddock-sandwich` | fish | warm | handheld | fusion | medium | pescatarian |
+| [Bouillabaisse Soup](recipes-en/bouillabaisse-soup.md) | `bouillabaisse-soup` | mixed | hot | soup | french | mild | pescatarian, dairy-free |
+| [Bourdaloue Tart with Pears and Almonds](recipes-en/bourdaloue-tart-with-pears-and-almonds.md) | `bourdaloue-tart-with-pears-and-almonds` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Bowtie Broccoli Caesar Salad](recipes-en/bowtie-broccoli-caesar-salad.md) | `bowtie-broccoli-caesar-salad` | vegetable | cold | salad | american | none | pescatarian |
+| [Braised vegetables](recipes-en/braised-vegetables.md) | `braised-vegetables` | vegetable | hot | stew |  |  |  |
+| [Bread Pudding](recipes-en/bread-pudding.md) | `bread-pudding` | none | warm | baked-good | british | none | vegetarian |
+| [Broccoli and Pistachio Hummus](recipes-en/broccoli-and-pistachio-hummus.md) | `broccoli-and-pistachio-hummus` | legume | cold | dip-spread | middle-eastern | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Brownies Gluten-Free](recipes-en/brownies-gluten-free.md) | `brownies-gluten-free` | none | room | baked-good | american | none | vegetarian, gluten-free |
+| [Buckwheat veg](recipes-en/buckwheat-veg.md) | `buckwheat-veg` | grain | hot | soup |  | none |  |
+| [Butternut beet](recipes-en/butternut-beet.md) | `butternut-beet` | vegetable | hot | soup |  | mild |  |
+| [Butternut squash](recipes-en/butternut-squash.md) | `butternut-squash` | legume | cold | dip-spread | middle-eastern | mild | vegan, dairy-free |
+| [Cabbage apple radish](recipes-en/cabbage-apple-radish.md) | `cabbage-apple-radish` | vegetable | cold | salad |  | none |  |
+| [Cabbage Pepper Salad with Mint](recipes-en/cabbage-pepper-salad-with-mint.md) | `cabbage-pepper-salad-with-mint` | vegetable | cold | salad |  | mild | vegetarian, gluten-free, dairy-free |
+| [Cabbage peppers](recipes-en/cabbage-peppers.md) | `cabbage-peppers` | vegetable | cold | salad |  | none |  |
+| [Cabbage Sea Buckthorn Salad](recipes-en/cabbage-sea-buckthorn-salad.md) | `cabbage-sea-buckthorn-salad` | vegetable | cold | salad |  | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Cajun Salmon Sandwich](recipes-en/cajun-salmon-sandwich.md) | `cajun-salmon-sandwich` | fish | warm | handheld | cajun-creole | medium | pescatarian |
+| [Cardamom Chicken](recipes-en/cardamom-chicken.md) | `cardamom-chicken` | plant-substitute | hot | stew | indian | medium |  |
+| [Carrot apple curry](recipes-en/carrot-apple-curry.md) | `carrot-apple-curry` | vegetable | hot | soup | indian | medium |  |
+| [Carrot Cake 6"](recipes-en/carrot-cake-6.md) | `carrot-cake-6` | none | room | baked-good | american | none | vegetarian |
+| [Carrot, Celeriac, and Almond Salad](recipes-en/carrot-celeriac-and-almond-salad.md) | `carrot-celeriac-and-almond-salad` | vegetable | cold | salad | middle-eastern | mild | vegetarian, gluten-free |
+| [Carrot curry](recipes-en/carrot-curry.md) | `carrot-curry` | vegetable | hot | soup | indian | medium |  |
+| [Carrot kale quinoa](recipes-en/carrot-kale-quinoa.md) | `carrot-kale-quinoa` | grain | cold | salad |  | none | vegan, dairy-free |
+| [Carrot madras curry](recipes-en/carrot-madras-curry.md) | `carrot-madras-curry` | vegetable | hot | soup | indian | medium |  |
+| [Carrot Muffin](recipes-en/carrot-muffin.md) | `carrot-muffin` | none | room | baked-good | american | none | vegetarian, gluten-free, dairy-free |
+| [Carrot orange](recipes-en/carrot-orange.md) | `carrot-orange` | vegetable | cold | salad |  |  |  |
+| [Cashew Hummus](recipes-en/cashew-hummus.md) | `cashew-hummus` | legume | room | dip-spread | middle-eastern | mild | vegetarian, gluten-free, dairy-free |
+| [Cassava Tabbouleh Salad](recipes-en/cassava-tabbouleh-salad.md) | `cassava-tabbouleh-salad` | grain | cold | salad | middle-eastern | mild | vegetarian, gluten-free, dairy-free |
+| [Cauliflower General Tao](recipes-en/cauliflower-general-tao.md) | `cauliflower-general-tao` | vegetable | hot |  | chinese |  |  |
+| [Cauliflower shiitake](recipes-en/cauliflower-shiitake.md) | `cauliflower-shiitake` | vegetable | hot | soup |  | mild |  |
+| [Celeriac apple](recipes-en/celeriac-apple.md) | `celeriac-apple` | vegetable | cold | salad |  | none |  |
+| [Cherry Velvet Yule Log](recipes-en/cherry-velvet-yule-log.md) | `cherry-velvet-yule-log` | none | cold | baked-good | french | none | vegetarian, gluten-free |
+| [Chickpea Chocolate Cookies Vegan GF](recipes-en/chickpea-chocolate-cookies-vegan-gf.md) | `chickpea-chocolate-cookies-vegan-gf` | legume | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Chickpea Crumble Salad](recipes-en/chickpea-crumble-salad.md) | `chickpea-crumble-salad` | legume | cold | salad |  | mild | vegetarian, dairy-free |
+| [Chickpeas (bulk, homemade cooking)](recipes-en/chickpeas-bulk-homemade-cooking.md) | `chickpeas-bulk-homemade-cooking` | legume |  |  |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Chipotle Lentil Vegetable Soup](recipes-en/chipotle-lentil-vegetable-soup.md) | `chipotle-lentil-vegetable-soup` | legume | hot | soup | fusion | medium | vegan, vegetarian, gluten-free, dairy-free |
+| [Chocolate Apricot Hazelnut Easter Nest](recipes-en/chocolate-apricot-hazelnut-easter-nest.md) | `chocolate-apricot-hazelnut-easter-nest` | none | cold | baked-good | french | none | vegetarian, gluten-free |
+| [Chocolate Cake Vegan Gluten-Free](recipes-en/chocolate-cake-vegan-gluten-free.md) | `chocolate-cake-vegan-gluten-free` | none | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Chocolate Fondant Gluten-Free](recipes-en/chocolate-fondant-gluten-free.md) | `chocolate-fondant-gluten-free` | none | warm | baked-good | french | none | vegetarian, gluten-free |
+| [Chocolate Hazelnut Easter Nest](recipes-en/chocolate-hazelnut-easter-nest.md) | `chocolate-hazelnut-easter-nest` | none | cold | baked-good | french | none | vegetarian, gluten-free |
+| [Chocolate Pear Tart](recipes-en/chocolate-pear-tart.md) | `chocolate-pear-tart` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Chocolate Praline Mousse](recipes-en/chocolate-praline-mousse.md) | `chocolate-praline-mousse` | none | cold |  | french | none | vegetarian, gluten-free, dairy-free |
+| [Chocolate Raspberry Muffin](recipes-en/chocolate-raspberry-muffin.md) | `chocolate-raspberry-muffin` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Coconut Chocolate Cookies](recipes-en/coconut-chocolate-cookies.md) | `coconut-chocolate-cookies` | none | room | baked-good |  | none | vegetarian |
+| [Coconut Cookies](recipes-en/coconut-cookies.md) | `coconut-cookies` | none | room | baked-good |  | none | vegetarian |
+| [Coconut Jerk Tofu](recipes-en/coconut-jerk-tofu.md) | `coconut-jerk-tofu` | tofu | hot | plated-main | caribbean | hot | vegan, vegetarian, gluten-free, dairy-free |
+| [Cod Quenelles (flat)](recipes-en/cod-quenelles-flat.md) | `cod-quenelles-flat` | fish | hot | plated-main | portuguese | mild | pescatarian |
+| [Coffee Hazelnut Yule Log Vegan](recipes-en/coffee-hazelnut-yule-log-vegan.md) | `coffee-hazelnut-yule-log-vegan` | none | cold | baked-good | french | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Cold Mélonccio Soup](recipes-en/cold-melonccio-soup.md) | `cold-melonccio-soup` | vegetable | cold | soup | spanish | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Copy of Gluten-Free Vegan Burger](recipes-en/copy-of-gluten-free-vegan-burger.md) | `copy-of-gluten-free-vegan-burger` | plant-substitute | hot | handheld | american | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Copy of Veggie Chicken Makhani new](recipes-en/copy-of-veggie-chicken-makhani-new.md) | `copy-of-veggie-chicken-makhani-new` | plant-substitute | hot | curry | indian | medium | vegan, vegetarian, dairy-free |
+| [Cream of Tomato Soup](recipes-en/cream-of-tomato-soup.md) | `cream-of-tomato-soup` | vegetable | hot | soup |  | mild | vegan, vegetarian, dairy-free |
+| [Creamy Broccoli Salad](recipes-en/creamy-broccoli-salad.md) | `creamy-broccoli-salad` | vegetable | cold | salad |  | mild | vegetarian, dairy-free |
+| [Croissant with Veggie Chicken Salad](recipes-en/croissant-with-veggie-chicken-salad.md) | `croissant-with-veggie-chicken-salad` | plant-substitute | cold | handheld |  | mild | vegetarian |
+| [Crunchy Cabbage Salad](recipes-en/crunchy-cabbage-salad.md) | `crunchy-cabbage-salad` | vegetable | cold | salad |  | mild | vegetarian, gluten-free, dairy-free |
+| [Date Chocolate Cookies](recipes-en/date-chocolate-cookies.md) | `date-chocolate-cookies` | none | room | baked-good |  | none | vegetarian |
+| [Date Square](recipes-en/date-square.md) | `date-square` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Date, Zest and Buckwheat Granola Bar](recipes-en/date-zest-and-buckwheat-granola-bar.md) | `date-zest-and-buckwheat-granola-bar` | nut-seed | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Delicata](recipes-en/delicata.md) | `delicata` | vegetable | room | salad |  |  |  |
+| [Dill Gravlax Salmon over Potato and Fennel Salad](recipes-en/dill-gravlax-salmon-over-potato-and-fennel-salad.md) | `dill-gravlax-salmon-over-potato-and-fennel-salad` | fish | cold | salad | scandinavian | mild | pescatarian, gluten-free, dairy-free |
+| [Dill Hummus](recipes-en/dill-hummus.md) | `dill-hummus` | legume | cold | dip-spread | middle-eastern | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Dragon Sauce](recipes-en/dragon-sauce.md) | `dragon-sauce` | none | cold | sauce-condiment |  | mild | vegan, vegetarian, dairy-free |
+| [Eggplant Caviar](recipes-en/eggplant-caviar.md) | `eggplant-caviar` | vegetable | cold | dip-spread | middle-eastern | mild | vegan, vegetarian, dairy-free |
+| [Falafels (8)](recipes-en/falafels-8.md) | `falafels-8` | legume | hot | shareable | middle-eastern | mild | vegetarian, gluten-free, dairy-free |
+| [Falafels, Tabbouleh, Pickled Turnip, Tzatziki](recipes-en/falafels-tabbouleh-pickled-turnip-tzatziki.md) | `falafels-tabbouleh-pickled-turnip-tzatziki` | legume | warm | plated-main | middle-eastern | mild | vegetarian, gluten-free |
+| [Farofa](recipes-en/farofa.md) | `farofa` | none | warm | side | brazilian | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Farro](recipes-en/farro.md) | `farro` | grain | cold | salad |  |  |  |
+| [Faux Foie Mousse](recipes-en/faux-foie-mousse.md) | `faux-foie-mousse` | plant-substitute | cold | dip-spread | french | mild | vegan, vegetarian, dairy-free |
+| [Festive Vegan Meatballs Plain](recipes-en/festive-vegan-meatballs-plain.md) | `festive-vegan-meatballs-plain` | plant-substitute | hot | plated-main | american | mild | vegan, vegetarian, dairy-free |
+| [Festive Vegan Meatballs](recipes-en/festive-vegan-meatballs.md) | `festive-vegan-meatballs` | plant-substitute | hot | shareable | american | mild | vegan, vegetarian, dairy-free, gluten-free |
+| [Fig and Rosemary Cookie Gluten-Free](recipes-en/fig-and-rosemary-cookie-gluten-free.md) | `fig-and-rosemary-cookie-gluten-free` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Fisherman's Chowder](recipes-en/fishermans-chowder.md) | `fishermans-chowder` | mixed | hot | soup | american | mild | pescatarian |
+| [Forestière Quiche](recipes-en/forestiere-quiche.md) | `forestiere-quiche` | egg | warm | casserole | french | mild | vegetarian |
+| [Garlic Scape Salmon with Zucchini Gratin](recipes-en/garlic-scape-salmon-with-zucchini-gratin.md) | `garlic-scape-salmon-with-zucchini-gratin` | fish | hot | plated-main | french | mild | pescatarian, gluten-free |
+| [GF Lemon Tart](recipes-en/gf-lemon-tart.md) | `gf-lemon-tart` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [GF Lime Tart](recipes-en/gf-lime-tart.md) | `gf-lime-tart` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Gluten-Free Blueberry Tart](recipes-en/gluten-free-blueberry-tart.md) | `gluten-free-blueberry-tart` | none | room | baked-good | french | none | vegetarian, gluten-free, egg-free |
+| [Gluten-Free Chocolate Pear or Apple Tart 7"](recipes-en/gluten-free-chocolate-pear-or-apple-tart-7.md) | `gluten-free-chocolate-pear-or-apple-tart-7` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Gluten-Free Chocolate Pear or Apple Tart 8"](recipes-en/gluten-free-chocolate-pear-or-apple-tart-8.md) | `gluten-free-chocolate-pear-or-apple-tart-8` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Gluten-Free Madeleines](recipes-en/gluten-free-madeleines.md) | `gluten-free-madeleines` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Gluten-Free Vegan Burger](recipes-en/gluten-free-vegan-burger.md) | `gluten-free-vegan-burger` | plant-substitute | hot | handheld | american | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Gluten-Free Vegetable Lasagna](recipes-en/gluten-free-vegetable-lasagna.md) | `gluten-free-vegetable-lasagna` | vegetable | hot | casserole | italian | none | vegetarian, gluten-free |
+| [Goat Cheese and Cabbage](recipes-en/goat-cheese-and-cabbage.md) | `goat-cheese-and-cabbage` | grain | cold | salad | fusion | mild | vegetarian, gluten-free |
+| [Green Bean Guacamole](recipes-en/green-bean-guacamole.md) | `green-bean-guacamole` | legume | cold | dip-spread | fusion | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Green beans](recipes-en/green-beans.md) | `green-beans` | vegetable | cold | salad |  |  |  |
+| [Green Lime Hummus](recipes-en/green-lime-hummus.md) | `green-lime-hummus` | legume | cold | dip-spread | middle-eastern | none | vegetarian, gluten-free, dairy-free |
+| [Green peas](recipes-en/green-peas.md) | `green-peas` | legume | hot | soup |  | mild |  |
+| [Green Tom Yum Soup](recipes-en/green-tom-yum-soup.md) | `green-tom-yum-soup` | tofu | hot | soup | thai | medium | vegan, vegetarian, dairy-free |
+| [Grilled fennel](recipes-en/grilled-fennel.md) | `grilled-fennel` | vegetable | warm | side |  |  |  |
+| [Haddock Curry with Mango and Coconut](recipes-en/haddock-curry-with-mango-and-coconut.md) | `haddock-curry-with-mango-and-coconut` | fish | hot | curry | indian | medium | pescatarian |
+| [Haddock Loin 5oz Pesto](recipes-en/haddock-loin-5oz-pesto.md) | `haddock-loin-5oz-pesto` | fish | hot | plated-main | italian | mild | pescatarian, gluten-free |
+| [Ham and Vegetable Quiche](recipes-en/ham-and-vegetable-quiche.md) | `ham-and-vegetable-quiche` | egg | warm | casserole | french | none | vegetarian |
+| [Harira](recipes-en/harira.md) | `harira` | legume | hot | soup | moroccan | mild |  |
+| [Healthy Chocolate Granola Bar](recipes-en/healthy-chocolate-granola-bar.md) | `healthy-chocolate-granola-bar` | grain | room | baked-good | american | none | vegetarian, gluten-free, dairy-free, egg-free |
+| [Hibiscus Chia Pudding](recipes-en/hibiscus-chia-pudding-6729677.md) | `hibiscus-chia-pudding-6729677` | none | cold | bowl |  | none | vegan, vegetarian, dairy-free |
+| [Hibiscus Chia Pudding](recipes-en/hibiscus-chia-pudding.md) | `hibiscus-chia-pudding` | none | cold | bowl |  | none | vegan, vegetarian, dairy-free |
+| [Hibiscus Tapioca Pudding](recipes-en/hibiscus-tapioca-pudding.md) | `hibiscus-tapioca-pudding` | none | cold | bowl |  | none | vegan, vegetarian, dairy-free, nut-free |
+| [Hilairoise Salad](recipes-en/hilairoise-salad.md) | `hilairoise-salad` | mixed | cold | salad | french | mild | pescatarian, gluten-free, dairy-free, nut-free |
+| [Hummus, Apple, and Brie Sandwich](recipes-en/hummus-apple-and-brie-sandwich.md) | `hummus-apple-and-brie-sandwich` | mixed | room | handheld |  | mild | vegetarian |
+| [Hummus, Apple, and Brie Wrap](recipes-en/hummus-apple-and-brie-wrap.md) | `hummus-apple-and-brie-wrap` | mixed | room | handheld |  | mild | vegetarian |
+| [Indian lentils](recipes-en/indian-lentils.md) | `indian-lentils` | legume | hot | soup | indian | medium |  |
+| [Italian Dressing](recipes-en/italian-dressing.md) | `italian-dressing` | none | room | sauce-condiment | italian | mild | vegetarian, dairy-free, gluten-free, nut-free |
+| [Jam Shortbread Cookies](recipes-en/jam-shortbread-cookies.md) | `jam-shortbread-cookies` | none | room | baked-good | british | none | vegetarian, gluten-free, egg-free |
+| [Japanese-Style Gravlax Salmon Poke Bowl](recipes-en/japanese-style-gravlax-salmon-poke-bowl.md) | `japanese-style-gravlax-salmon-poke-bowl` | fish | cold | bowl | japanese | medium | pescatarian, dairy-free |
+| [Kale Mango Cabbage Salad](recipes-en/kale-mango-cabbage-salad.md) | `kale-mango-cabbage-salad` | none | cold | salad |  | mild | vegetarian, dairy-free, gluten-free, nut-free |
+| [Korean Grilled Sweet Potato Salad](recipes-en/korean-grilled-sweet-potato-salad.md) | `korean-grilled-sweet-potato-salad` | none | room | salad | korean | medium | dairy-free, nut-free |
+| [Korean Soup](recipes-en/korean-soup.md) | `korean-soup` | none | hot | soup | korean | medium | vegan, vegetarian, dairy-free |
+| [Kravante](recipes-en/kravante.md) | `kravante` | vegetable | cold | salad |  |  |  |
+| [Le Bonheur Cookie Gluten-Free](recipes-en/le-bonheur-cookie-gluten-free.md) | `le-bonheur-cookie-gluten-free` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [L'eau Vive Stew](recipes-en/leau-vive-stew.md) | `leau-vive-stew` | plant-substitute | hot | stew |  | mild | vegan, vegetarian, dairy-free |
+| [Lemon and Pear Yule Log Vegan and Gluten-Free](recipes-en/lemon-and-pear-yule-log-vegan-and-gluten-free.md) | `lemon-and-pear-yule-log-vegan-and-gluten-free` | none | cold | baked-good | french | none | vegan, vegetarian, dairy-free, egg-free, gluten-free |
+| [Lentil Stew](recipes-en/lentil-stew.md) | `lentil-stew` | legume | hot | stew | french | mild | vegan, vegetarian, dairy-free |
+| [L'Épous-tou-flan Tart](recipes-en/lepous-tou-flan-tart.md) | `lepous-tou-flan-tart` | none | cold | baked-good | french | none | vegan, vegetarian, dairy-free, gluten-free, egg-free |
+| [Makhani Chicken Sandwich](recipes-en/makhani-chicken-sandwich.md) | `makhani-chicken-sandwich` | plant-substitute | warm | handheld | indian | medium | vegetarian |
+| [Makhani Tofu](recipes-en/makhani-tofu.md) | `makhani-tofu` | tofu | hot | curry | indian | medium | vegan, vegetarian, dairy-free, egg-free |
+| [Makhani Veggie Chicken Wrap](recipes-en/makhani-veggie-chicken-wrap.md) | `makhani-veggie-chicken-wrap` | plant-substitute | warm | handheld | indian | medium | vegan, vegetarian, dairy-free |
+| [Mango Cashew Muffin](recipes-en/mango-cashew-muffin.md) | `mango-cashew-muffin` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Maple balsamic](recipes-en/maple-balsamic.md) | `maple-balsamic` |  |  | sauce-condiment |  |  | vegan, dairy-free |
+| [Maple Crème Brûlée](recipes-en/maple-creme-brulee.md) | `maple-creme-brulee` |  | cold | baked-good | french | none | vegetarian, gluten-free |
+| [Marbled Madeleine](recipes-en/marbled-madeleine.md) | `marbled-madeleine` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Matcha Cookies Gluten-Free](recipes-en/matcha-cookies-gluten-free.md) | `matcha-cookies-gluten-free` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Mediterranean-Style Haddock](recipes-en/mediterranean-style-haddock.md) | `mediterranean-style-haddock` | fish | hot | plated-main | mediterranean | mild | pescatarian, gluten-free, nut-free |
+| [Mini Salmon Cakes](recipes-en/mini-salmon-cakes.md) | `mini-salmon-cakes` | fish | hot | shareable |  | mild | pescatarian, dairy-free, nut-free |
+| [Mint tabbouleh](recipes-en/mint-tabbouleh.md) | `mint-tabbouleh` | grain | cold | salad | lebanese | none | vegan, dairy-free |
+| [Mole Verde Soup](recipes-en/mole-verde-soup.md) | `mole-verde-soup` | none | hot | soup | mexican | medium | vegan, vegetarian, dairy-free, nut-free |
+| [MomoFuko Burger](recipes-en/momofuko-burger.md) | `momofuko-burger` | mushroom | warm | handheld | japanese | mild | vegetarian, dairy-free, nut-free |
+| [Moqueca](recipes-en/moqueca.md) | `moqueca` | fish | hot | stew | brazilian | medium | pescatarian, dairy-free, gluten-free |
+| [Moroccan](recipes-en/moroccan.md) | `moroccan` | legume | hot | soup | moroccan | mild |  |
+| [Mulligatawny](recipes-en/mulligatawny.md) | `mulligatawny` | legume | hot | soup | indian | medium |  |
+| [Mushroom Risotto](recipes-en/mushroom-risotto.md) | `mushroom-risotto` | grain | hot | plated-main | italian | mild | gluten-free |
+| [Mushroom Sauce with Tofu and Sun-Dried Tomatoes](recipes-en/mushroom-sauce-with-tofu-and-sun-dried-tomatoes.md) | `mushroom-sauce-with-tofu-and-sun-dried-tomatoes` | tofu | hot | sauce-condiment | italian | mild | gluten-free |
+| [Mushroom Sauce with Tofu and Tomatoes over GF Pasta](recipes-en/mushroom-sauce-with-tofu-and-tomatoes-over-gf-pasta.md) | `mushroom-sauce-with-tofu-and-tomatoes-over-gf-pasta` | tofu | hot | pasta | italian | mild | gluten-free |
+| [Mushroom Tarragon Soup](recipes-en/mushroom-tarragon-soup.md) | `mushroom-tarragon-soup` | mushroom | hot | soup | french | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Northern Dawn Yule Log Vegan, GF](recipes-en/northern-dawn-yule-log-vegan-gf.md) | `northern-dawn-yule-log-vegan-gf` | none | room | baked-good | french | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Old-fashioned potato](recipes-en/old-fashioned-potato.md) | `old-fashioned-potato` | vegetable | cold | salad |  | none |  |
+| [Orange and Date Muffins (no added sugar)](recipes-en/orange-and-date-muffins-no-added-sugar.md) | `orange-and-date-muffins-no-added-sugar` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Orange Cardamom Muffin](recipes-en/orange-cardamom-muffin.md) | `orange-cardamom-muffin` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Orange Fennel Salad](recipes-en/orange-fennel-salad.md) | `orange-fennel-salad` | vegetable | cold | salad | mediterranean | mild |  |
+| [Orange rémoulade](recipes-en/orange-remoulade.md) | `orange-remoulade` | vegetable | cold | salad | french |  |  |
+| [Orzo Kale and Pesto Salad](recipes-en/orzo-kale-and-pesto-salad.md) | `orzo-kale-and-pesto-salad` | mixed | cold | salad | italian | mild | gluten-free |
+| [Parsnip Hummus](recipes-en/parsnip-hummus.md) | `parsnip-hummus` | legume | room | dip-spread | middle-eastern | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Parsnip lentil](recipes-en/parsnip-lentil.md) | `parsnip-lentil` | legume | hot | soup |  | mild |  |
+| [Parsnip lentils](recipes-en/parsnip-lentils.md) | `parsnip-lentils` | legume | hot | soup |  | mild |  |
+| [Parsnip Pear Pecan Soup](recipes-en/parsnip-pear-pecan-soup.md) | `parsnip-pear-pecan-soup` | vegetable | hot | soup |  | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Pear and Cheddar Bread](recipes-en/pear-and-cheddar-bread.md) | `pear-and-cheddar-bread` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Pepper ginger](recipes-en/pepper-ginger.md) | `pepper-ginger` | legume | cold | dip-spread | middle-eastern | mild | vegan, dairy-free |
+| [Peppers ginger](recipes-en/peppers-ginger.md) | `peppers-ginger` | legume | cold | dip-spread | middle-eastern | mild | vegan, dairy-free |
+| [Pesto peppers](recipes-en/pesto-peppers.md) | `pesto-peppers` | fish | hot | plated-main | mediterranean | none | pescatarian |
+| [Pico de Gallo](recipes-en/pico-de-gallo.md) | `pico-de-gallo` | vegetable | cold | sauce-condiment | mexican | medium | vegan, vegetarian, gluten-free, dairy-free |
+| [Pistachio Almond Chocolate Cookie Vegan](recipes-en/pistachio-almond-chocolate-cookie-vegan.md) | `pistachio-almond-chocolate-cookie-vegan` | none | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Pistachio Cheesecake Gluten-Free](recipes-en/pistachio-cheesecake-gluten-free.md) | `pistachio-cheesecake-gluten-free` | none | cold | baked-good |  | none | vegetarian, gluten-free |
+| [Pistachio Maple Syrup Cheesecake](recipes-en/pistachio-maple-syrup-cheesecake.md) | `pistachio-maple-syrup-cheesecake` | none | cold | baked-good |  | none | vegetarian, gluten-free |
+| [Potato Apple Fennel Salad](recipes-en/potato-apple-fennel-salad.md) | `potato-apple-fennel-salad` | vegetable | cold | salad |  | mild | vegetarian, gluten-free |
+| [Potato hummus](recipes-en/potato-hummus.md) | `potato-hummus` | legume | cold | handheld | middle-eastern | mild | vegetarian |
+| [Provençal Salad](recipes-en/provencal-salad.md) | `provencal-salad` | vegetable | cold | salad | french | mild | gluten-free |
+| [Provençal Sun-Dried Tomato Dressing](recipes-en/provencal-sun-dried-tomato-dressing.md) | `provencal-sun-dried-tomato-dressing` | vegetable | cold | sauce-condiment | french | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Provençal](recipes-en/provencal.md) | `provencal` | vegetable | cold | salad | provençal | none |  |
+| [Ptd old-style](recipes-en/ptd-old-style.md) | `ptd-old-style` | vegetable | cold | salad |  |  |  |
+| [Pumpkin Cake](recipes-en/pumpkin-cake.md) | `pumpkin-cake` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Pumpkin Muffin](recipes-en/pumpkin-muffin.md) | `pumpkin-muffin` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Pumpkin Roll Cake Gluten-Free Lactose-Free](recipes-en/pumpkin-roll-cake-gluten-free-lactose-free.md) | `pumpkin-roll-cake-gluten-free-lactose-free` | none | room | baked-good |  | mild | vegetarian, gluten-free |
+| [Raspberry and Chocolate Mousse Tower](recipes-en/raspberry-and-chocolate-mousse-tower.md) | `raspberry-and-chocolate-mousse-tower` | none | cold | baked-good | french | none | vegetarian, gluten-free |
+| [Ratatouille](recipes-en/ratatouille.md) | `ratatouille` | vegetable | hot | stew | french | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Raw Blueberry Tartlet](recipes-en/raw-blueberry-tartlet.md) | `raw-blueberry-tartlet` | none | cold | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Rémoulade](recipes-en/remoulade.md) | `remoulade` | vegetable | cold | salad | french |  | vegetarian |
+| ["SOUP: Ribollita"](recipes-en/ribollita-soup.md) | `ribollita-soup` | legume | hot | soup | italian | mild |  |
+| [Roasted peppers](recipes-en/roasted-peppers.md) | `roasted-peppers` | legume | cold | dip-spread | middle-eastern | mild | vegan, dairy-free |
+| [Roasted vegetables](recipes-en/roasted-vegetables.md) | `roasted-vegetables` | vegetable | hot | soup |  |  |  |
+| [Romesco](recipes-en/romesco.md) | `romesco` |  | room | sauce-condiment | spanish | mild | vegan, dairy-free |
+| [Root trio](recipes-en/root-trio.md) | `root-trio` | vegetable | cold | salad |  | none |  |
+| [Rutabaga Apple Maple Soup](recipes-en/rutabaga-apple-maple-soup.md) | `rutabaga-apple-maple-soup` | vegetable | hot | soup |  | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Salmon Crumble](recipes-en/salmon-crumble.md) | `salmon-crumble` | fish | hot | casserole |  | mild | pescatarian, gluten-free |
+| [Salmon / Haddock with Cajun Vegetables](recipes-en/salmon-haddock-with-cajun-vegetables.md) | `salmon-haddock-with-cajun-vegetables` | fish | hot | plated-main | cajun-creole | medium | pescatarian, dairy-free |
+| [Salmon Pesto Artichoke Sandwich](recipes-en/salmon-pesto-artichoke-sandwich.md) | `salmon-pesto-artichoke-sandwich` | fish | cold | handheld | italian | mild | pescatarian |
+| [Salmon Pesto Artichoke](recipes-en/salmon-pesto-artichoke.md) | `salmon-pesto-artichoke` | fish | hot | plated-main |  | mild | pescatarian, gluten-free |
+| [Salmon Pesto Pepper Sandwich](recipes-en/salmon-pesto-pepper-sandwich.md) | `salmon-pesto-pepper-sandwich` | fish | cold | handheld |  | mild | pescatarian, dairy-free |
+| [Salmon Pesto Zucchini Sandwich](recipes-en/salmon-pesto-zucchini-sandwich.md) | `salmon-pesto-zucchini-sandwich` | fish | cold | handheld |  | mild | pescatarian, dairy-free |
+| [Salmon, Shrimp and Vegetable Quiche](recipes-en/salmon-shrimp-and-vegetable-quiche.md) | `salmon-shrimp-and-vegetable-quiche` | mixed | hot | casserole | french | mild | pescatarian |
+| [Salmon with Roasted Pepper Pesto](recipes-en/salmon-with-roasted-pepper-pesto.md) | `salmon-with-roasted-pepper-pesto` | fish | hot | plated-main |  | mild | pescatarian |
+| [Salmon with Zucchini Pesto](recipes-en/salmon-with-zucchini-pesto.md) | `salmon-with-zucchini-pesto` | fish | hot | plated-main |  | mild | pescatarian |
+| [Salt Cod Curry](recipes-en/salt-cod-curry.md) | `salt-cod-curry` | fish | hot | curry | caribbean | medium | pescatarian, dairy-free |
+| [Satay Sauce](recipes-en/satay-sauce.md) | `satay-sauce` | nut-seed |  | sauce-condiment | thai | medium | vegan, vegetarian, dairy-free |
+| [Satay Veggie Chicken Banh Mi Sandwich](recipes-en/satay-veggie-chicken-banh-mi-sandwich.md) | `satay-veggie-chicken-banh-mi-sandwich` | plant-substitute | cold | handheld | vietnamese | medium | vegan, vegetarian, dairy-free |
+| [Satay Veggie Chicken Banh-Mi Wrap](recipes-en/satay-veggie-chicken-banh-mi-wrap.md) | `satay-veggie-chicken-banh-mi-wrap` | plant-substitute | cold | handheld | vietnamese | medium | vegan, vegetarian, dairy-free |
+| [Savory Squash, Kale, Pecan and Feta Loaf](recipes-en/savory-squash-kale-pecan-and-feta-loaf.md) | `savory-squash-kale-pecan-and-feta-loaf` | vegetable | room | baked-good |  | mild | vegetarian, gluten-free |
+| [Scallop and Shrimp Sauce with GF Pasta](recipes-en/scallop-and-shrimp-sauce-with-gf-pasta.md) | `scallop-and-shrimp-sauce-with-gf-pasta` | shellfish | hot | pasta | italian |  | pescatarian |
+| [Scallop and Shrimp Sauce](recipes-en/scallop-shrimp-sauce.md) | `scallop-shrimp-sauce` | mixed | hot | sauce-condiment | french | mild | pescatarian |
+| [Sesame Ginger Salmon Sandwich](recipes-en/sesame-ginger-salmon-sandwich.md) | `sesame-ginger-salmon-sandwich` | fish | cold | handheld | japanese | mild | pescatarian |
+| [Sesame Ginger Salmon](recipes-en/sesame-ginger-salmon.md) | `sesame-ginger-salmon` | fish | hot | plated-main | japanese | mild | pescatarian, dairy-free |
+| [Shrimp remoulade](recipes-en/shrimp-remoulade.md) | `shrimp-remoulade` | shellfish | cold | sauce-condiment | cajun-creole | mild | pescatarian |
+| [Sliced Dill Gravlax Salmon](recipes-en/sliced-dill-gravlax-salmon.md) | `sliced-dill-gravlax-salmon` | fish | cold | shareable | scandinavian | mild | pescatarian, dairy-free, gluten-free |
+| [Sliced Kuyashii Gravlax Salmon](recipes-en/sliced-kuyashii-gravlax-salmon.md) | `sliced-kuyashii-gravlax-salmon` | fish | cold | shareable | scandinavian | mild | pescatarian, dairy-free, gluten-free |
+| [Smoked Salmon and Shrimp Sauce over GF Pasta](recipes-en/smoked-salmon-and-shrimp-sauce-over-gf-pasta.md) | `smoked-salmon-and-shrimp-sauce-over-gf-pasta` | mixed | hot | pasta | italian |  | pescatarian |
+| [Spanish Soup](recipes-en/spanish-soup.md) | `spanish-soup` | mixed | hot | soup | spanish | medium | pescatarian, dairy-free |
+| [Spiced Chocolate Muffin](recipes-en/spiced-chocolate-muffin.md) | `spiced-chocolate-muffin` | none | room | baked-good |  | mild | vegetarian, gluten-free |
+| [Split green peas](recipes-en/split-green-peas.md) | `split-green-peas` | legume | hot | soup |  | mild |  |
+| [Squash apple swiss](recipes-en/squash-apple-swiss.md) | `squash-apple-swiss` | vegetable | hot | soup |  | mild |  |
+| [Squash lentils](recipes-en/squash-lentils.md) | `squash-lentils` | legume | cold | salad |  |  |  |
+| [Squash maple ginger](recipes-en/squash-maple-ginger.md) | `squash-maple-ginger` | vegetable | hot | soup |  | mild |  |
+| [Squash spinach coconut](recipes-en/squash-spinach-coconut.md) | `squash-spinach-coconut` | vegetable | hot | curry | indian | mild |  |
+| [Squash spinach](recipes-en/squash-spinach.md) | `squash-spinach` | vegetable | hot | soup |  | none |  |
+| [Stews](recipes-en/stews.md) | `stews` | plant-substitute | hot | stew |  | mild |  |
+| [Strawberry and Chocolate Mousse Tower](recipes-en/strawberry-and-chocolate-mousse-tower.md) | `strawberry-and-chocolate-mousse-tower` | none | cold | baked-good | french | none | vegetarian, gluten-free |
+| [Strawberry Banana Muffin](recipes-en/strawberry-banana-muffin.md) | `strawberry-banana-muffin` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Strawberry Chia Pudding](recipes-en/strawberry-chia-pudding.md) | `strawberry-chia-pudding` | none | cold |  |  | none | vegan, vegetarian, dairy-free |
+| [Stuffed Mushrooms Take Two](recipes-en/stuffed-mushrooms-take-two.md) | `stuffed-mushrooms-take-two` | mushroom | hot | shareable |  | mild | vegan, vegetarian, dairy-free |
+| [Stuffed Mushrooms](recipes-en/stuffed-mushrooms.md) | `stuffed-mushrooms` | mushroom | hot | shareable |  | mild | vegan, vegetarian, dairy-free |
+| [Summer green](recipes-en/summer-green.md) | `summer-green` | vegetable | cold | salad |  |  |  |
+| [Sweet and Salty Coconut Chocolate](recipes-en/sweet-and-salty-coconut-chocolate.md) | `sweet-and-salty-coconut-chocolate` | none | room | baked-good |  | none | vegan, vegetarian, dairy-free, gluten-free |
+| [Sweet potato white wine](recipes-en/sweet-potato-white-wine.md) | `sweet-potato-white-wine` | vegetable | hot | soup |  | none |  |
+| [Teriyaki Salmon Poke Bowl](recipes-en/teriyaki-salmon-poke-bowl.md) | `teriyaki-salmon-poke-bowl` | fish | cold | bowl | japanese | medium | pescatarian, dairy-free |
+| [Thai peanut](recipes-en/thai-peanut.md) | `thai-peanut` | vegetable | hot | soup | thai | medium |  |
+| [The Moroccan](recipes-en/the-moroccan.md) | `the-moroccan` | vegetable | hot | soup | moroccan | mild |  |
+| [Tofu and Tomato Sauce with Pasta](recipes-en/tofu-and-tomato-sauce-with-pasta.md) | `tofu-and-tomato-sauce-with-pasta` | tofu | hot | pasta | italian | mild | vegan, vegetarian, dairy-free, gluten-free |
+| [Tofu BBQ](recipes-en/tofu-bbq.md) | `tofu-bbq` | tofu | hot | plated-main | american | mild | vegan, dairy-free |
+| [Tofu spread](recipes-en/tofu-spread.md) | `tofu-spread` | tofu | cold | dip-spread |  |  | vegan, dairy-free |
+| [Tofu, Tomato, and Vegetable Sauce 1](recipes-en/tofu-tomato-and-vegetable-sauce-1.md) | `tofu-tomato-and-vegetable-sauce-1` | tofu | hot | sauce-condiment | italian | mild | vegan, vegetarian, dairy-free, gluten-free |
+| [Tomato zucchini mint](recipes-en/tomato-zucchini-mint.md) | `tomato-zucchini-mint` | vegetable | hot | soup |  | none |  |
+| [Tomato zucchini](recipes-en/tomato-zucchini.md) | `tomato-zucchini` | vegetable | hot | soup |  | mild |  |
+| [Torta Caprese Cake](recipes-en/torta-caprese-cake.md) | `torta-caprese-cake` | none | room | baked-good | italian | none | vegetarian, gluten-free |
+| [Tropical Veggie Chicken Sandwich](recipes-en/tropical-veggie-chicken-sandwich.md) | `tropical-veggie-chicken-sandwich` | plant-substitute | cold | handheld | caribbean | medium | vegetarian, dairy-free |
+| [Tulum Soup](recipes-en/tulum-soup.md) | `tulum-soup` | legume | hot | soup | mexican | medium | vegan, vegetarian, dairy-free |
+| [Tuna and Miso Salad Wraps](recipes-en/tuna-and-miso-salad-wraps.md) | `tuna-and-miso-salad-wraps` | fish | cold | handheld | fusion | mild | pescatarian, dairy-free |
+| [Tuna Salad Wrap](recipes-en/tuna-salad-wrap.md) | `tuna-salad-wrap` | fish | cold | handheld | american | mild | pescatarian, dairy-free |
+| [Vanilla Cake](recipes-en/vanilla-cake.md) | `vanilla-cake` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Veg almond coconut](recipes-en/veg-almond-coconut.md) | `veg-almond-coconut` | vegetable | hot | soup |  | mild |  |
+| [Veg apple ginger](recipes-en/veg-apple-ginger.md) | `veg-apple-ginger` | vegetable | hot | soup |  | mild |  |
+| [Veg barley miso](recipes-en/veg-barley-miso.md) | `veg-barley-miso` | vegetable | hot | soup | japanese |  |  |
+| [Veg buckwheat](recipes-en/veg-buckwheat.md) | `veg-buckwheat` | grain | hot | soup |  | mild |  |
+| [Veg orange ginger](recipes-en/veg-orange-ginger.md) | `veg-orange-ginger` | vegetable | hot | soup |  | mild |  |
+| [Vegan Gluten-Free Mac N' Cheeze](recipes-en/vegan-gluten-free-mac-n-cheeze.md) | `vegan-gluten-free-mac-n-cheeze` | plant-substitute | hot | pasta | american | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Greek Salad](recipes-en/vegan-greek-salad.md) | `vegan-greek-salad` | tofu | cold | salad | greek | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Pho Soup](recipes-en/vegan-pho-soup.md) | `vegan-pho-soup` | vegetable | hot | soup | vietnamese | medium | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Poutine (Medium)](recipes-en/vegan-poutine-medium.md) | `vegan-poutine-medium` | tofu | hot | side | canadian | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Pulled Oyster Mushroom Sandwich](recipes-en/vegan-pulled-oyster-mushroom-sandwich.md) | `vegan-pulled-oyster-mushroom-sandwich` | mushroom | hot | handheld | american | medium | vegan, vegetarian, dairy-free |
+| [Vegan Tahini Banana Muffin](recipes-en/vegan-tahini-banana-muffin.md) | `vegan-tahini-banana-muffin` | none | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Tarragon Mushroom Sauce over Pasta](recipes-en/vegan-tarragon-mushroom-sauce-over-pasta.md) | `vegan-tarragon-mushroom-sauce-over-pasta` | mushroom | hot | pasta | italian | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Tarragon Mushroom Sauce](recipes-en/vegan-tarragon-mushroom-sauce.md) | `vegan-tarragon-mushroom-sauce` | mushroom | hot | sauce-condiment | french | mild | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Tiramisu](recipes-en/vegan-tiramisu.md) | `vegan-tiramisu` | none | cold | baked-good | italian | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Vegan Veggie Chicken Salad Sandwich](recipes-en/vegan-veggie-chicken-salad-sandwich.md) | `vegan-veggie-chicken-salad-sandwich` | plant-substitute | cold | handheld | american | mild | vegan, vegetarian, dairy-free |
+| [Vege Chicken Salad](recipes-en/vege-chicken-salad.md) | `vege-chicken-salad` | plant-substitute | cold | salad | caribbean | medium |  |
+| [Vegetable barley miso](recipes-en/vegetable-barley-miso.md) | `vegetable-barley-miso` | grain | hot | soup |  | mild |  |
+| [Veggie Beef Burger](recipes-en/veggie-beef-burger.md) | `veggie-beef-burger` | plant-substitute | hot | handheld | american | mild | vegetarian |
+| [Veggie Chicken Burger](recipes-en/veggie-chicken-burger.md) | `veggie-chicken-burger` | plant-substitute | hot | handheld | american | mild | vegetarian |
+| [Veggie Chicken Makhani](recipes-en/veggie-chicken-makhani.md) | `veggie-chicken-makhani` | plant-substitute | hot | curry | indian | medium | vegan, vegetarian, dairy-free |
+| [Veggie Chicken Mango Saffron](recipes-en/veggie-chicken-mango-saffron.md) | `veggie-chicken-mango-saffron` | plant-substitute | hot | plated-main | moroccan | mild | vegan, vegetarian, dairy-free |
+| [Veggie Chicken Poke Bowl with Korean Sauce](recipes-en/veggie-chicken-poke-bowl-with-korean-sauce.md) | `veggie-chicken-poke-bowl-with-korean-sauce` | plant-substitute | cold | bowl | fusion | medium | vegetarian, dairy-free |
+| [Veggie Chicken Satay with Almonds](recipes-en/veggie-chicken-satay-with-almonds.md) | `veggie-chicken-satay-with-almonds` | plant-substitute | hot | plated-main | thai | mild | vegan, vegetarian, dairy-free |
+| [Veggie Chicken with Cardamom](recipes-en/veggie-chicken-with-cardamom.md) | `veggie-chicken-with-cardamom` | plant-substitute | hot | curry | indian | medium | vegetarian |
+| [Veggie Jerk Chicken with Orange Remoulade](recipes-en/veggie-jerk-chicken-with-orange-remoulade.md) | `veggie-jerk-chicken-with-orange-remoulade` | plant-substitute | hot | plated-main | caribbean | hot | vegan, vegetarian, dairy-free |
+| [Veggie Moussaka](recipes-en/veggie-moussaka.md) | `veggie-moussaka` | tofu | hot | casserole | greek | mild | vegetarian |
+| [Veggie Paella](recipes-en/veggie-paella.md) | `veggie-paella` | plant-substitute | hot | shareable | spanish | mild | vegan, vegetarian, dairy-free |
+| [Veggie Thai Chicken](recipes-en/veggie-thai-chicken.md) | `veggie-thai-chicken` | plant-substitute | hot | curry | thai | medium | vegan, vegetarian, dairy-free |
+| [Wild Blueberry Cupcake with Purple Sweet Potato and Hibiscus Frosting](recipes-en/wild-blueberry-cupcake-with-purple-sweet-potato-and-hibiscus-frosting.md) | `wild-blueberry-cupcake-with-purple-sweet-potato-and-hibiscus-frosting` | none | room | baked-good |  | none | vegetarian, gluten-free |
+| [Wild Blueberry Muffins](recipes-en/wild-blueberry-muffins.md) | `wild-blueberry-muffins` | none | room | baked-good |  | none | vegetarian, gluten-free, dairy-free |
+| [Winter Blueberry Yule Log](recipes-en/winter-blueberry-yule-log.md) | `winter-blueberry-yule-log` | none | room | baked-good | french | none | vegetarian, gluten-free |
+| [Yellow peas](recipes-en/yellow-peas.md) | `yellow-peas` | legume | hot | soup |  | mild |  |
+| [Yellow split peas](recipes-en/yellow-split-peas.md) | `yellow-split-peas` | legume | hot | soup |  | mild |  |
+| [Zucchini Doughnuts with Chocolate Glaze](recipes-en/zucchini-doughnuts-with-chocolate-glaze.md) | `zucchini-doughnuts-with-chocolate-glaze` | none | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Zucchini Doughnuts with Maple Glaze](recipes-en/zucchini-doughnuts-with-maple-glaze.md) | `zucchini-doughnuts-with-maple-glaze` | none | room | baked-good |  | none | vegan, vegetarian, gluten-free, dairy-free |
+| [Zucchini, Potato and Spinach Croquettes](recipes-en/zucchini-potato-and-spinach-croquettes.md) | `zucchini-potato-and-spinach-croquettes` | vegetable | hot | side | greek | mild | vegetarian |
